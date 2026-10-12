@@ -1,0 +1,41 @@
+{
+ "written": "2026-10-11T20:27:27Z",
+ "cells": {
+  "gpt61|groundcua": {
+   "logit": [
+    -0.106,
+    0.07
+   ],
+   "median_zoom": 1.0,
+   "truncation_factor": 0.407,
+   "recall_full_pred": 0.5382,
+   "recall_crops_pred": 0.5225,
+   "predicted_recall_change": -0.0157,
+   "predicted_sign": "-"
+  },
+  "sonnet55|groundcua": {
+   "logit": [
+    0.907,
+    0.006
+   ],
+   "median_zoom": 1.297,
+   "truncation_factor": 0.521,
+   "recall_full_pred": 0.7169,
+   "recall_crops_pred": 0.7002,
+   "predicted_recall_change": -0.0167,
+   "predicted_sign": "-"
+  },
+  "gem38|groundcua": {
+   "logit": [
+    -1.935,
+    0.265
+   ],
+   "median_zoom": 1.887,
+   "truncation_factor": 0.474,
+   "recall_full_pred": 0.2659,
+   "recall_crops_pred": 0.2902,
+   "predicted_recall_change": 0.0243,
+   "predicted_sign": "+"
+  }
+ }
+}

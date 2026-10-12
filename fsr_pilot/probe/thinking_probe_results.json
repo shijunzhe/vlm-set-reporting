@@ -1,0 +1,132 @@
+[
+ {
+  "config": "sonnet_omitted (paper-2/FSR baseline)",
+  "rep": 0,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 8.7,
+  "n_rows": 16
+ },
+ {
+  "config": "sonnet_omitted (paper-2/FSR baseline)",
+  "rep": 1,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 8.5,
+  "n_rows": 16
+ },
+ {
+  "config": "sonnet_adaptive_high (paper-2 sonnet55t)",
+  "rep": 0,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 8.5,
+  "n_rows": 16
+ },
+ {
+  "config": "sonnet_adaptive_high (paper-2 sonnet55t)",
+  "rep": 1,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 8.5,
+  "n_rows": 16
+ },
+ {
+  "config": "sonnet_between_tools",
+  "rep": 0,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 9.3,
+  "n_rows": 16
+ },
+ {
+  "config": "sonnet_between_tools",
+  "rep": 1,
+  "model": "claude-sonnet-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 9.4,
+  "n_rows": 16
+ },
+ {
+  "config": "opus_omitted (paper-2/FSR baseline)",
+  "rep": 0,
+  "model": "claude-opus-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 12.9,
+  "n_rows": 16
+ },
+ {
+  "config": "opus_omitted (paper-2/FSR baseline)",
+  "rep": 1,
+  "model": "claude-opus-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 12.6,
+  "n_rows": 16
+ },
+ {
+  "config": "opus_effort_low",
+  "rep": 0,
+  "model": "claude-opus-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 12.4,
+  "n_rows": 16
+ },
+ {
+  "config": "opus_effort_low",
+  "rep": 1,
+  "model": "claude-opus-5-5",
+  "block_types": {
+   "text": 1
+  },
+  "output_tokens": 1793,
+  "text_chars": 2911,
+  "stop": "end_turn",
+  "secs": 12.4,
+  "n_rows": 16
+ }
+]

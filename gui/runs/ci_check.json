@@ -1,0 +1,590 @@
+{
+ "click|gpt61|B4-B1": [
+  0.015,
+  [
+   -0.015,
+   0.045
+  ]
+ ],
+ "click|gpt61|B3-B1": [
+  -0.015,
+  [
+   -0.045,
+   0.015
+  ]
+ ],
+ "click|sonnet55|B4-B1": [
+  0.09,
+  [
+   0.05,
+   0.135
+  ]
+ ],
+ "click|sonnet55|B3-B1": [
+  0.045,
+  [
+   0.005,
+   0.09
+  ]
+ ],
+ "click|gem38|B4-B1": [
+  0.23,
+  [
+   0.165,
+   0.295
+  ]
+ ],
+ "click|gem38|B3-B1": [
+  0.205,
+  [
+   0.15,
+   0.26
+  ]
+ ],
+ "parse|groundcua|gpt61|A2i|relE": [
+  0.0157,
+  [
+   -0.0189,
+   0.0499
+  ]
+ ],
+ "parse|groundcua|gpt61|A2i|dF1": [
+  -0.0165,
+  [
+   -0.043,
+   0.0028
+  ]
+ ],
+ "parse|groundcua|gpt61|A2u|relE": [
+  -0.0497,
+  [
+   -0.0763,
+   -0.0245
+  ]
+ ],
+ "parse|groundcua|gpt61|A2u|dF1": [
+  -0.012,
+  [
+   -0.0222,
+   -0.002
+  ]
+ ],
+ "parse|groundcua|gpt61|A3|relE": [
+  -0.0139,
+  [
+   -0.0218,
+   -0.0069
+  ]
+ ],
+ "parse|groundcua|gpt61|A3|dF1": [
+  -0.0036,
+  [
+   -0.0068,
+   -0.0007
+  ]
+ ],
+ "parse|groundcua|gpt61|A5i|relE": [
+  0.1325,
+  [
+   0.0634,
+   0.201
+  ]
+ ],
+ "parse|groundcua|gpt61|A5i|dF1": [
+  0.0348,
+  [
+   0.0054,
+   0.0653
+  ]
+ ],
+ "parse|groundcua|sonnet55|A2i|relE": [
+  0.0076,
+  [
+   -0.0614,
+   0.0612
+  ]
+ ],
+ "parse|groundcua|sonnet55|A2i|dF1": [
+  -0.0035,
+  [
+   -0.0221,
+   0.0109
+  ]
+ ],
+ "parse|groundcua|sonnet55|A2u|relE": [
+  0.0219,
+  [
+   -0.0296,
+   0.0772
+  ]
+ ],
+ "parse|groundcua|sonnet55|A2u|dF1": [
+  0.015,
+  [
+   0.002,
+   0.0297
+  ]
+ ],
+ "parse|groundcua|sonnet55|A3|relE": [
+  -0.0298,
+  [
+   -0.0565,
+   -0.0079
+  ]
+ ],
+ "parse|groundcua|sonnet55|A3|dF1": [
+  -0.0036,
+  [
+   -0.0101,
+   0.0022
+  ]
+ ],
+ "parse|groundcua|sonnet55|A5i|relE": [
+  -0.7357,
+  [
+   -0.9791,
+   -0.5454
+  ]
+ ],
+ "parse|groundcua|sonnet55|A5i|dF1": [
+  -0.2257,
+  [
+   -0.2644,
+   -0.1889
+  ]
+ ],
+ "parse|groundcua|gem38|A2i|relE": [
+  0.1332,
+  [
+   0.0768,
+   0.1866
+  ]
+ ],
+ "parse|groundcua|gem38|A2i|dF1": [
+  -0.0439,
+  [
+   -0.0717,
+   -0.0178
+  ]
+ ],
+ "parse|groundcua|gem38|A2u|relE": [
+  -0.2104,
+  [
+   -0.2683,
+   -0.1545
+  ]
+ ],
+ "parse|groundcua|gem38|A2u|dF1": [
+  0.0155,
+  [
+   -0.0073,
+   0.0412
+  ]
+ ],
+ "parse|groundcua|gem38|A3|relE": [
+  -0.0007,
+  [
+   -0.0098,
+   0.008
+  ]
+ ],
+ "parse|groundcua|gem38|A3|dF1": [
+  0.0254,
+  [
+   0.0119,
+   0.0437
+  ]
+ ],
+ "parse|groundcua|gem38|A5i|relE": [
+  0.2152,
+  [
+   0.1578,
+   0.2706
+  ]
+ ],
+ "parse|groundcua|gem38|A5i|dF1": [
+  -0.1661,
+  [
+   -0.2176,
+   -0.1111
+  ]
+ ],
+ "parse|screenparse|gpt61|A2i|relE": [
+  0.0175,
+  [
+   0.003,
+   0.0337
+  ]
+ ],
+ "parse|screenparse|gpt61|A2i|dF1": [
+  0.0006,
+  [
+   -0.0061,
+   0.0064
+  ]
+ ],
+ "parse|screenparse|gpt61|A2u|relE": [
+  0.0,
+  [
+   -0.0102,
+   0.011
+  ]
+ ],
+ "parse|screenparse|gpt61|A2u|dF1": [
+  0.0017,
+  [
+   -0.0039,
+   0.0069
+  ]
+ ],
+ "parse|screenparse|gpt61|A3|relE": [
+  0.0175,
+  [
+   0.001,
+   0.0379
+  ]
+ ],
+ "parse|screenparse|gpt61|A3|dF1": [
+  0.0088,
+  [
+   0.0023,
+   0.0171
+  ]
+ ],
+ "parse|screenparse|gpt61|A5i|relE": [
+  -0.193,
+  [
+   -0.2815,
+   -0.1147
+  ]
+ ],
+ "parse|screenparse|gpt61|A5i|dF1": [
+  -0.0904,
+  [
+   -0.1205,
+   -0.0594
+  ]
+ ],
+ "parse|screenparse|sonnet55|A2i|relE": [
+  0.0151,
+  [
+   -0.0188,
+   0.0461
+  ]
+ ],
+ "parse|screenparse|sonnet55|A2i|dF1": [
+  -0.0007,
+  [
+   -0.0158,
+   0.0114
+  ]
+ ],
+ "parse|screenparse|sonnet55|A2u|relE": [
+  -0.0075,
+  [
+   -0.0262,
+   0.0164
+  ]
+ ],
+ "parse|screenparse|sonnet55|A2u|dF1": [
+  0.0017,
+  [
+   -0.0063,
+   0.0112
+  ]
+ ],
+ "parse|screenparse|sonnet55|A3|relE": [
+  -0.0465,
+  [
+   -0.0938,
+   -0.0074
+  ]
+ ],
+ "parse|screenparse|sonnet55|A3|dF1": [
+  -0.0038,
+  [
+   -0.0157,
+   0.0083
+  ]
+ ],
+ "parse|screenparse|sonnet55|A5i|relE": [
+  -0.348,
+  [
+   -0.4785,
+   -0.2471
+  ]
+ ],
+ "parse|screenparse|sonnet55|A5i|dF1": [
+  -0.1038,
+  [
+   -0.1418,
+   -0.0683
+  ]
+ ],
+ "parse|screenparse|gem38|A2i|relE": [
+  0.0125,
+  [
+   -0.0171,
+   0.042
+  ]
+ ],
+ "parse|screenparse|gem38|A2i|dF1": [
+  -0.0295,
+  [
+   -0.0503,
+   -0.0126
+  ]
+ ],
+ "parse|screenparse|gem38|A2u|relE": [
+  -0.0437,
+  [
+   -0.0829,
+   0.001
+  ]
+ ],
+ "parse|screenparse|gem38|A2u|dF1": [
+  0.0057,
+  [
+   -0.01,
+   0.0238
+  ]
+ ],
+ "parse|screenparse|gem38|A3|relE": [
+  0.0208,
+  [
+   -0.0147,
+   0.0558
+  ]
+ ],
+ "parse|screenparse|gem38|A3|dF1": [
+  0.0146,
+  [
+   0.0002,
+   0.0308
+  ]
+ ],
+ "parse|screenparse|gem38|A5i|relE": [
+  -0.1467,
+  [
+   -0.262,
+   -0.0405
+  ]
+ ],
+ "parse|screenparse|gem38|A5i|dF1": [
+  -0.3422,
+  [
+   -0.3983,
+   -0.2831
+  ]
+ ],
+ "e3direct|sku110k|gpt61|inter2|relE": [
+  0.1848,
+  [
+   0.1494,
+   0.2167
+  ]
+ ],
+ "e3direct|sku110k|gpt61|A3|relE": [
+  -0.0562,
+  [
+   -0.1064,
+   -0.0215
+  ]
+ ],
+ "e3direct|sku110k|sonnet55|inter2|relE": [
+  0.2672,
+  [
+   0.2103,
+   0.3243
+  ]
+ ],
+ "e3direct|sku110k|sonnet55|A3|relE": [
+  -0.0002,
+  [
+   -0.0364,
+   0.0388
+  ]
+ ],
+ "e3direct|sku110k|gem38|inter2|relE": [
+  0.0805,
+  [
+   0.0245,
+   0.1302
+  ]
+ ],
+ "e3direct|sku110k|gem38|A3|relE": [
+  0.0342,
+  [
+   0.0133,
+   0.06
+  ]
+ ],
+ "e3direct|dota|gpt61|inter2|relE": [
+  0.3008,
+  [
+   0.0704,
+   0.4503
+  ]
+ ],
+ "e3direct|dota|gpt61|A3|relE": [
+  -0.2,
+  [
+   -0.6256,
+   -0.0401
+  ]
+ ],
+ "e3direct|dota|sonnet55|inter2|relE": [
+  0.2079,
+  [
+   0.0902,
+   0.2907
+  ]
+ ],
+ "e3direct|dota|sonnet55|A3|relE": [
+  -0.0318,
+  [
+   -0.0945,
+   0.0149
+  ]
+ ],
+ "e3direct|dota|gem38|inter2|relE": [
+  0.1017,
+  [
+   -0.0556,
+   0.204
+  ]
+ ],
+ "e3direct|dota|gem38|A3|relE": [
+  0.067,
+  [
+   0.0024,
+   0.1827
+  ]
+ ],
+ "e3direct|fsc147|gpt61|inter2|relE": [
+  -0.0496,
+  [
+   -0.2012,
+   0.0114
+  ]
+ ],
+ "e3direct|fsc147|gpt61|A3|relE": [
+  0.0599,
+  [
+   -0.0102,
+   0.1882
+  ]
+ ],
+ "e3direct|fsc147|sonnet55|inter2|relE": [
+  -0.0189,
+  [
+   -0.0667,
+   0.0272
+  ]
+ ],
+ "e3direct|fsc147|sonnet55|A3|relE": [
+  0.1389,
+  [
+   0.0336,
+   0.3109
+  ]
+ ],
+ "e3direct|fsc147|gem38|inter2|relE": [
+  -0.0888,
+  [
+   -0.2734,
+   -0.0011
+  ]
+ ],
+ "e3direct|fsc147|gem38|A3|relE": [
+  0.1238,
+  [
+   0.0473,
+   0.2086
+  ]
+ ],
+ "e3zero|doclaynet|gem38|inter|relE": [
+  0.1191,
+  [
+   0.0439,
+   0.1837
+  ]
+ ],
+ "e3zero|doclaynet|gpt61|inter|relE": [
+  0.0,
+  [
+   -0.1398,
+   0.0845
+  ]
+ ],
+ "e3zero|doclaynet|sonnet55|inter|relE": [
+  0.1004,
+  [
+   0.0463,
+   0.1649
+  ]
+ ],
+ "e3zero|dota|gem38|inter|relE": [
+  0.1617,
+  [
+   0.0868,
+   0.2964
+  ]
+ ],
+ "e3zero|dota|gpt61|inter|relE": [
+  0.2699,
+  [
+   0.0739,
+   0.4975
+  ]
+ ],
+ "e3zero|dota|sonnet55|inter|relE": [
+  0.1429,
+  [
+   0.083,
+   0.1932
+  ]
+ ],
+ "e3zero|fsc147|gem38|inter|relE": [
+  -0.0079,
+  [
+   -0.0556,
+   0.032
+  ]
+ ],
+ "e3zero|fsc147|gpt61|inter|relE": [
+  0.0,
+  [
+   -0.0617,
+   0.0579
+  ]
+ ],
+ "e3zero|fsc147|sonnet55|inter|relE": [
+  -0.0582,
+  [
+   -0.117,
+   -0.013
+  ]
+ ],
+ "e3zero|sku110k|gem38|inter|relE": [
+  0.0904,
+  [
+   0.0363,
+   0.1366
+  ]
+ ],
+ "e3zero|sku110k|gpt61|inter|relE": [
+  0.2734,
+  [
+   0.2128,
+   0.3356
+  ]
+ ],
+ "e3zero|sku110k|sonnet55|inter|relE": [
+  0.1178,
+  [
+   0.0532,
+   0.171
+  ]
+ ]
+}

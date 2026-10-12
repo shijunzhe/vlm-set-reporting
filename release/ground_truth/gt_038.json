@@ -1,0 +1,202 @@
+{
+  "image_id": 38,
+  "image_file": "test_images/test_038.png",
+  "image_size": 1024,
+  "total_shapes": 23,
+  "n_clutter_lines": 60,
+  "n_vh_lines": 40,
+  "has_grid_clutter": false,
+  "counts_by_type": {
+    "star": 6,
+    "triangle": 7,
+    "square": 1,
+    "pentagon": 7,
+    "circle": 2
+  },
+  "shapes": [
+    {
+      "type": "star",
+      "cx": 656,
+      "cy": 585,
+      "radius": 17,
+      "color": "#2ECC71",
+      "rotation": 81.8
+    },
+    {
+      "type": "triangle",
+      "cx": 193,
+      "cy": 549,
+      "radius": 24,
+      "color": "#E67E22",
+      "rotation": 269.6
+    },
+    {
+      "type": "triangle",
+      "cx": 364,
+      "cy": 869,
+      "radius": 17,
+      "color": "#E67E22",
+      "rotation": 288.6
+    },
+    {
+      "type": "square",
+      "cx": 472,
+      "cy": 732,
+      "radius": 27,
+      "color": "#E74C3C",
+      "rotation": 266.1
+    },
+    {
+      "type": "triangle",
+      "cx": 902,
+      "cy": 506,
+      "radius": 18,
+      "color": "#1ABC9C",
+      "rotation": 322.3
+    },
+    {
+      "type": "pentagon",
+      "cx": 206,
+      "cy": 950,
+      "radius": 26,
+      "color": "#3498DB",
+      "rotation": 314.6
+    },
+    {
+      "type": "circle",
+      "cx": 704,
+      "cy": 894,
+      "radius": 17,
+      "color": "#E67E22",
+      "rotation": 266.8
+    },
+    {
+      "type": "star",
+      "cx": 612,
+      "cy": 352,
+      "radius": 21,
+      "color": "#3498DB",
+      "rotation": 232.0
+    },
+    {
+      "type": "pentagon",
+      "cx": 386,
+      "cy": 785,
+      "radius": 26,
+      "color": "#2ECC71",
+      "rotation": 48.3
+    },
+    {
+      "type": "circle",
+      "cx": 376,
+      "cy": 712,
+      "radius": 28,
+      "color": "#E67E22",
+      "rotation": 103.5
+    },
+    {
+      "type": "pentagon",
+      "cx": 564,
+      "cy": 614,
+      "radius": 21,
+      "color": "#E74C3C",
+      "rotation": 295.7
+    },
+    {
+      "type": "star",
+      "cx": 83,
+      "cy": 111,
+      "radius": 26,
+      "color": "#9B59B6",
+      "rotation": 112.4
+    },
+    {
+      "type": "pentagon",
+      "cx": 625,
+      "cy": 167,
+      "radius": 19,
+      "color": "#F39C12",
+      "rotation": 304.3
+    },
+    {
+      "type": "pentagon",
+      "cx": 497,
+      "cy": 871,
+      "radius": 16,
+      "color": "#E74C3C",
+      "rotation": 133.5
+    },
+    {
+      "type": "star",
+      "cx": 379,
+      "cy": 192,
+      "radius": 26,
+      "color": "#2C3E50",
+      "rotation": 166.3
+    },
+    {
+      "type": "star",
+      "cx": 757,
+      "cy": 671,
+      "radius": 16,
+      "color": "#E67E22",
+      "rotation": 62.3
+    },
+    {
+      "type": "pentagon",
+      "cx": 557,
+      "cy": 756,
+      "radius": 28,
+      "color": "#1ABC9C",
+      "rotation": 306.4
+    },
+    {
+      "type": "pentagon",
+      "cx": 549,
+      "cy": 428,
+      "radius": 22,
+      "color": "#F39C12",
+      "rotation": 119.8
+    },
+    {
+      "type": "triangle",
+      "cx": 600,
+      "cy": 468,
+      "radius": 20,
+      "color": "#E67E22",
+      "rotation": 54.1
+    },
+    {
+      "type": "triangle",
+      "cx": 159,
+      "cy": 317,
+      "radius": 17,
+      "color": "#3498DB",
+      "rotation": 180.0
+    },
+    {
+      "type": "star",
+      "cx": 387,
+      "cy": 476,
+      "radius": 22,
+      "color": "#9B59B6",
+      "rotation": 111.7
+    },
+    {
+      "type": "triangle",
+      "cx": 902,
+      "cy": 327,
+      "radius": 16,
+      "color": "#2ECC71",
+      "rotation": 254.8
+    },
+    {
+      "type": "triangle",
+      "cx": 444,
+      "cy": 524,
+      "radius": 24,
+      "color": "#E74C3C",
+      "rotation": 243.2
+    }
+  ]
+}

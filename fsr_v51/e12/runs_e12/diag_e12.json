@@ -1,0 +1,550 @@
+{
+ "gpt56": {
+  "tokens": {
+   "input": 1069236,
+   "output": 571391,
+   "calls_with_thinking_or_reasoning": 0,
+   "thinking_or_reasoning_tokens": 0,
+   "cost_usd_list_price": 15.7
+  },
+  "full_image": {
+   "J-global-rev": {
+    "n": 144.0,
+    "r": 142.944,
+    "E": 12.167,
+    "count": 5.222,
+    "place": 6.944,
+    "recall_top": 0.975,
+    "recall_bottom": 0.948,
+    "short": 0.0,
+    "regions_all_missed": 0.111,
+    "regions_placement_bad": 0.056,
+    "out_tokens": 2244.194,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 2.33,
+     "192": 22.0
+    }
+   },
+   "A-local": {
+    "n": 144.0,
+    "r": 143.556,
+    "E": 11.722,
+    "count": 1.0,
+    "place": 10.722,
+    "recall_top": 0.966,
+    "recall_bottom": 0.966,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.222,
+    "out_tokens": 2239.75,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 1.94,
+     "192": 21.5
+    }
+   },
+   "A-global": {
+    "n": 144.0,
+    "r": 144.139,
+    "E": 9.306,
+    "count": 5.25,
+    "place": 4.056,
+    "recall_top": 0.981,
+    "recall_bottom": 0.965,
+    "short": 0.0,
+    "regions_all_missed": 0.111,
+    "regions_placement_bad": 0.028,
+    "out_tokens": 2247.917,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 3.17,
+     "192": 15.44
+    }
+   },
+   "F-up": {
+    "n": 144.0,
+    "r": 129.75,
+    "E": 94.306,
+    "count": 27.194,
+    "place": 67.111,
+    "recall_top": 0.676,
+    "recall_bottom": 0.649,
+    "short": 0.139,
+    "regions_all_missed": 0.083,
+    "regions_placement_bad": 2.139,
+    "out_tokens": 1828.5,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 32.11,
+     "192": 156.5
+    }
+   },
+   "J-local": {
+    "n": 144.0,
+    "r": 143.583,
+    "E": 16.806,
+    "count": 1.361,
+    "place": 15.444,
+    "recall_top": 0.952,
+    "recall_bottom": 0.942,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.472,
+    "out_tokens": 2253.167,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 5.56,
+     "192": 28.06
+    }
+   },
+   "F-down": {
+    "n": 144.0,
+    "r": 142.556,
+    "E": 64.278,
+    "count": 18.0,
+    "place": 46.278,
+    "recall_top": 0.838,
+    "recall_bottom": 0.775,
+    "short": 0.0,
+    "regions_all_missed": 0.028,
+    "regions_placement_bad": 0.944,
+    "out_tokens": 2007.778,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 18.89,
+     "192": 109.67
+    }
+   },
+   "J-global": {
+    "n": 144.0,
+    "r": 143.417,
+    "E": 5.083,
+    "count": 1.528,
+    "place": 3.556,
+    "recall_top": 0.987,
+    "recall_bottom": 0.98,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.028,
+    "out_tokens": 2250.833,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 1.22,
+     "192": 8.94
+    }
+   }
+  }
+ },
+ "gpt61": {
+  "tokens": {
+   "input": 1069236,
+   "output": 788874,
+   "calls_with_thinking_or_reasoning": 465,
+   "thinking_or_reasoning_tokens": 224378,
+   "cost_usd_list_price": 10.03
+  },
+  "full_image": {
+   "A-global": {
+    "n": 144.0,
+    "r": 122.639,
+    "E": 22.361,
+    "count": 22.306,
+    "place": 0.056,
+    "recall_top": 0.889,
+    "recall_bottom": 0.884,
+    "short": 0.111,
+    "regions_all_missed": 1.778,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 3993.583,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 44.72
+    }
+   },
+   "J-global": {
+    "n": 144.0,
+    "r": 135.972,
+    "E": 14.417,
+    "count": 14.306,
+    "place": 0.111,
+    "recall_top": 0.944,
+    "recall_bottom": 0.939,
+    "short": 0.056,
+    "regions_all_missed": 0.889,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 3317.694,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 28.83
+    }
+   },
+   "J-local": {
+    "n": 144.0,
+    "r": 143.972,
+    "E": 0.083,
+    "count": 0.028,
+    "place": 0.056,
+    "recall_top": 1.0,
+    "recall_bottom": 1.0,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2608.944,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 0.17
+    }
+   },
+   "J-global-rev": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.667,
+    "count": 0.333,
+    "place": 0.333,
+    "recall_top": 1.0,
+    "recall_bottom": 0.997,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2508.889,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 1.33
+    }
+   },
+   "A-local": {
+    "n": 144.0,
+    "r": 143.972,
+    "E": 0.083,
+    "count": 0.028,
+    "place": 0.056,
+    "recall_top": 1.0,
+    "recall_bottom": 0.999,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2616.167,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 0.17
+    }
+   },
+   "F-down": {
+    "n": 144.0,
+    "r": 138.472,
+    "E": 7.806,
+    "count": 7.583,
+    "place": 0.222,
+    "recall_top": 0.972,
+    "recall_bottom": 0.958,
+    "short": 0.028,
+    "regions_all_missed": 0.444,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2758.028,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 15.61
+    }
+   },
+   "F-up": {
+    "n": 144.0,
+    "r": 143.917,
+    "E": 0.583,
+    "count": 0.417,
+    "place": 0.167,
+    "recall_top": 0.998,
+    "recall_bottom": 0.998,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2430.972,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 1.17
+    }
+   }
+  }
+ },
+ "opus55": {
+  "tokens": {
+   "input": 1270656,
+   "output": 661405,
+   "calls_with_thinking_or_reasoning": 2,
+   "thinking_or_reasoning_tokens": 1472,
+   "cost_usd_list_price": 18.31
+  },
+  "full_image": {
+   "F-down": {
+    "n": 144.0,
+    "r": 94.694,
+    "E": 62.917,
+    "count": 49.306,
+    "place": 13.611,
+    "recall_top": 0.747,
+    "recall_bottom": 0.583,
+    "short": 0.278,
+    "regions_all_missed": 4.111,
+    "regions_placement_bad": 1.111,
+    "out_tokens": 1628.278,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 27.5,
+     "192": 98.33
+    }
+   },
+   "F-up": {
+    "n": 144.0,
+    "r": 99.694,
+    "E": 45.639,
+    "count": 44.583,
+    "place": 1.056,
+    "recall_top": 0.726,
+    "recall_bottom": 0.813,
+    "short": 0.333,
+    "regions_all_missed": 3.639,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 1745.639,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.5,
+     "192": 90.78
+    }
+   },
+   "J-global": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.056,
+    "count": 0.0,
+    "place": 0.056,
+    "recall_top": 1.0,
+    "recall_bottom": 1.0,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2801.0,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 0.11
+    }
+   },
+   "A-local": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.389,
+    "count": 0.0,
+    "place": 0.389,
+    "recall_top": 0.999,
+    "recall_bottom": 0.996,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2787.556,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.67,
+     "192": 0.11
+    }
+   },
+   "J-local": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.389,
+    "count": 0.0,
+    "place": 0.389,
+    "recall_top": 0.999,
+    "recall_bottom": 0.999,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2801.0,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.11,
+     "192": 0.67
+    }
+   },
+   "A-global": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.0,
+    "count": 0.0,
+    "place": 0.0,
+    "recall_top": 1.0,
+    "recall_bottom": 1.0,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2788.0,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 0.0
+    }
+   },
+   "J-global-rev": {
+    "n": 144.0,
+    "r": 144.0,
+    "E": 0.167,
+    "count": 0.0,
+    "place": 0.167,
+    "recall_top": 1.0,
+    "recall_bottom": 0.999,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2801.0,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.0,
+     "192": 0.33
+    }
+   }
+  }
+ },
+ "sonnet55": {
+  "tokens": {
+   "input": 1270188,
+   "output": 610890,
+   "calls_with_thinking_or_reasoning": 0,
+   "thinking_or_reasoning_tokens": 0,
+   "cost_usd_list_price": 8.65
+  },
+  "full_image": {
+   "F-down": {
+    "n": 144.0,
+    "r": 87.944,
+    "E": 95.167,
+    "count": 67.444,
+    "place": 27.722,
+    "recall_top": 0.601,
+    "recall_bottom": 0.484,
+    "short": 0.444,
+    "regions_all_missed": 5.028,
+    "regions_placement_bad": 1.056,
+    "out_tokens": 1522.333,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 36.44,
+     "192": 153.89
+    }
+   },
+   "F-up": {
+    "n": 144.0,
+    "r": 25.306,
+    "E": 152.583,
+    "count": 127.417,
+    "place": 25.167,
+    "recall_top": 0.002,
+    "recall_bottom": 0.151,
+    "short": 1.0,
+    "regions_all_missed": 11.472,
+    "regions_placement_bad": 2.611,
+    "out_tokens": 459.0,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 105.22,
+     "192": 199.94
+    }
+   },
+   "J-local": {
+    "n": 144.0,
+    "r": 144.028,
+    "E": 46.972,
+    "count": 1.639,
+    "place": 45.333,
+    "recall_top": 0.926,
+    "recall_bottom": 0.811,
+    "short": 0.0,
+    "regions_all_missed": 0.028,
+    "regions_placement_bad": 1.056,
+    "out_tokens": 2807.111,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 6.17,
+     "192": 87.78
+    }
+   },
+   "A-local": {
+    "n": 144.0,
+    "r": 144.917,
+    "E": 50.25,
+    "count": 1.639,
+    "place": 48.611,
+    "recall_top": 0.919,
+    "recall_bottom": 0.797,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 1.528,
+    "out_tokens": 2803.583,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 8.67,
+     "192": 91.83
+    }
+   },
+   "J-global-rev": {
+    "n": 144.0,
+    "r": 122.472,
+    "E": 28.861,
+    "count": 23.417,
+    "place": 5.444,
+    "recall_top": 0.868,
+    "recall_bottom": 0.861,
+    "short": 0.111,
+    "regions_all_missed": 1.778,
+    "regions_placement_bad": 0.111,
+    "out_tokens": 2792.611,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 3.06,
+     "192": 54.67
+    }
+   },
+   "J-global": {
+    "n": 144.0,
+    "r": 143.944,
+    "E": 2.889,
+    "count": 0.333,
+    "place": 2.556,
+    "recall_top": 0.996,
+    "recall_bottom": 0.986,
+    "short": 0.0,
+    "regions_all_missed": 0.0,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2800.056,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.67,
+     "192": 5.11
+    }
+   },
+   "A-global": {
+    "n": 144.0,
+    "r": 143.528,
+    "E": 2.75,
+    "count": 0.583,
+    "place": 2.167,
+    "recall_top": 0.994,
+    "recall_bottom": 0.987,
+    "short": 0.0,
+    "regions_all_missed": 0.028,
+    "regions_placement_bad": 0.0,
+    "out_tokens": 2785.222,
+    "reports": 36,
+    "E_by_dose": {
+     "96": 0.67,
+     "192": 4.83
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "1_gemini_offset": {
+  "min": {
+   "n": 4533,
+   "mean_dx_dy": [
+    -0.17,
+    -0.18
+   ]
+  },
+  "default": {
+   "n": 2374,
+   "mean_dx_dy": [
+    -0.2,
+    -0.13
+   ]
+  }
+ },
+ "5_gemini_min_vs_default_same_images": {
+  "n": 50,
+  "min": 17.34,
+  "default": 0.58
+ },
+ "2_3_b1_scpd_decomposition": {
+  "gpt61|d": {
+   "E": 1.86,
+   "E_agn": 0.38,
+   "pos_miss": 0.2,
+   "extras_agn": 0.18,
+   "untyped": 0.0,
+   "n": 50
+  },
+  "gpt61|i": {
+   "E": 1.78,
+   "E_agn": 0.38,
+   "pos_miss": 0.22,
+   "extras_agn": 0.16,
+   "untyped": 0.0,
+   "n": 50
+  },
+  "gpt61|j": {
+   "E": 2.9,
+   "E_agn": 0.74,
+   "pos_miss": 0.52,
+   "extras_agn": 0.22,
+   "untyped": 0.0,
+   "n": 50
+  },
+  "gem38|a": {
+   "E": 132.96,
+   "E_agn": 247.68,
+   "pos_miss": 7.58,
+   "extras_agn": 240.1,
+   "untyped": 0.858,
+   "n": 50
+  },
+  "gem38|b": {
+   "E": 138.1,
+   "E_agn": 292.06,
+   "pos_miss": 11.02,
+   "extras_agn": 281.04,
+   "untyped": 0.879,
+   "n": 50
+  }
+ },
+ "4_sonnet_b7_countfirst": {
+  "calls": 30,
+  "thinking_calls": 5,
+  "short_lists": 5,
+  "short_in_thinking": 0,
+  "short_shortfall": [
+   97,
+   152,
+   135,
+   80,
+   144
+  ],
+  "short_written_over_true": [
+   0.76,
+   0.78,
+   0.76,
+   0.78,
+   0.81
+  ],
+  "short_flagged_by_length": 4,
+  "written_over_true_nonthinking_complete": 0.781
+ }
+}

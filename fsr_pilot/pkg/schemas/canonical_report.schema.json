@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FSR canonical completed system run",
+  "type": "object",
+  "required": ["sample_id", "source_id", "model_key", "condition", "repeat", "predictions", "unresolved_regions", "format_failure"],
+  "properties": {
+    "sample_id": {"type": "string"}, "source_id": {"type": "string"},
+    "model_key": {"type": "string"}, "condition": {"type": "string"},
+    "repeat": {"type": "integer", "minimum": 0},
+    "predictions": {"type": "array", "items": {"type": "object", "required": ["record_id", "owner", "label"], "properties": {
+      "record_id": {"type": "string"}, "owner": {"type": "string"},
+      "label": {"type": "string"}, "valid": {"type": "boolean"},
+      "point": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+      "box": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+      "text": {"type": "string"}
+    }, "anyOf": [{"required": ["point"]}, {"required": ["box"]}]}},
+    "unresolved_regions": {"type": "array", "items": {"type": "string"}},
+    "format_failure": {"type": "boolean"}, "usage": {"type": ["object", "null"]}
+  }
+}

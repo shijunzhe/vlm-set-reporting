@@ -1,0 +1,110 @@
+{
+ "gpt61": {
+  "default_minus_min_E": {
+   "mean": 18.65,
+   "ci": [
+    5.75,
+    34.25
+   ],
+   "n": 20
+  },
+  "same_setting_D2_minus_D1_E": {
+   "mean": 5.35,
+   "ci": [
+    0.5,
+    11.4
+   ],
+   "n": 20
+  },
+  "dFP": {
+   "mean": 16.25,
+   "ci": [
+    5.85,
+    30.56
+   ],
+   "n": 20
+  },
+  "dFN": {
+   "mean": 2.4,
+   "ci": [
+    -1.3,
+    6.55
+   ],
+   "n": 20
+  },
+  "thinking_share": 1.0,
+  "thinking_mean": 189
+ },
+ "sonnet55": {
+  "default_minus_min_E": {
+   "mean": 7.3,
+   "ci": [
+    1.2,
+    14.75
+   ],
+   "n": 20
+  },
+  "same_setting_D2_minus_D1_E": {
+   "mean": 2.5,
+   "ci": [
+    -2.0,
+    8.05
+   ],
+   "n": 20
+  },
+  "dFP": {
+   "mean": 0.35,
+   "ci": [
+    -1.8,
+    2.65
+   ],
+   "n": 20
+  },
+  "dFN": {
+   "mean": 6.95,
+   "ci": [
+    1.65,
+    14.75
+   ],
+   "n": 20
+  },
+  "thinking_share": 0.0,
+  "thinking_mean": 0
+ },
+ "gem38": {
+  "default_minus_min_E": {
+   "mean": 0.9,
+   "ci": [
+    -10.25,
+    12.1
+   ],
+   "n": 20
+  },
+  "same_setting_D2_minus_D1_E": {
+   "mean": 21.1,
+   "ci": [
+    6.05,
+    36.4
+   ],
+   "n": 20
+  },
+  "dFP": {
+   "mean": 4.8,
+   "ci": [
+    -2.9,
+    12.45
+   ],
+   "n": 20
+  },
+  "dFN": {
+   "mean": -3.9,
+   "ci": [
+    -13.3,
+    5.9
+   ],
+   "n": 20
+  },
+  "thinking_share": 0.6,
+  "thinking_mean": 818
+ }
+}

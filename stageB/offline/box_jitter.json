@@ -1,0 +1,32 @@
+{
+ "sku110k|gpt61": {
+  "pairs": 10852,
+  "median_iou": 0.861,
+  "share_ge_075": 0.719
+ },
+ "sku110k|sonnet55": {
+  "pairs": 3743,
+  "median_iou": 0.637,
+  "share_ge_075": 0.347
+ },
+ "sku110k|gem38": {
+  "pairs": 3901,
+  "median_iou": 0.881,
+  "share_ge_075": 0.813
+ },
+ "dota|gpt61": {
+  "pairs": 2468,
+  "median_iou": 0.833,
+  "share_ge_075": 0.718
+ },
+ "dota|sonnet55": {
+  "pairs": 1014,
+  "median_iou": 0.849,
+  "share_ge_075": 0.679
+ },
+ "dota|gem38": {
+  "pairs": 912,
+  "median_iou": 0.849,
+  "share_ge_075": 0.704
+ }
+}

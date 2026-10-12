@@ -1,0 +1,3 @@
+gpt61 C manifest 88 done 0 todo 88
+gpt61 C 50
+gpt61 C finished 88

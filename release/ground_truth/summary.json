@@ -1,0 +1,1401 @@
+[
+  {
+    "image_id": 0,
+    "total_shapes": 72,
+    "counts_by_type": {
+      "square": 17,
+      "pentagon": 15,
+      "star": 10,
+      "triangle": 15,
+      "circle": 15
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 1,
+    "total_shapes": 17,
+    "counts_by_type": {
+      "star": 6,
+      "square": 5,
+      "circle": 1,
+      "triangle": 2,
+      "pentagon": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 2,
+    "total_shapes": 47,
+    "counts_by_type": {
+      "pentagon": 12,
+      "triangle": 9,
+      "star": 8,
+      "square": 8,
+      "circle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 3,
+    "total_shapes": 18,
+    "counts_by_type": {
+      "circle": 5,
+      "pentagon": 4,
+      "square": 2,
+      "triangle": 4,
+      "star": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 4,
+    "total_shapes": 16,
+    "counts_by_type": {
+      "square": 3,
+      "star": 2,
+      "circle": 2,
+      "pentagon": 5,
+      "triangle": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 5,
+    "total_shapes": 45,
+    "counts_by_type": {
+      "square": 10,
+      "star": 12,
+      "triangle": 11,
+      "pentagon": 5,
+      "circle": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 6,
+    "total_shapes": 27,
+    "counts_by_type": {
+      "triangle": 8,
+      "square": 6,
+      "star": 4,
+      "circle": 4,
+      "pentagon": 5
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 7,
+    "total_shapes": 36,
+    "counts_by_type": {
+      "triangle": 9,
+      "square": 10,
+      "circle": 4,
+      "star": 4,
+      "pentagon": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 8,
+    "total_shapes": 76,
+    "counts_by_type": {
+      "triangle": 14,
+      "star": 19,
+      "circle": 18,
+      "pentagon": 15,
+      "square": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 9,
+    "total_shapes": 49,
+    "counts_by_type": {
+      "square": 12,
+      "triangle": 11,
+      "pentagon": 11,
+      "circle": 9,
+      "star": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 10,
+    "total_shapes": 44,
+    "counts_by_type": {
+      "circle": 10,
+      "triangle": 8,
+      "square": 10,
+      "pentagon": 7,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 11,
+    "total_shapes": 62,
+    "counts_by_type": {
+      "pentagon": 11,
+      "circle": 8,
+      "star": 11,
+      "square": 18,
+      "triangle": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 12,
+    "total_shapes": 26,
+    "counts_by_type": {
+      "triangle": 6,
+      "star": 6,
+      "pentagon": 6,
+      "circle": 3,
+      "square": 5
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 13,
+    "total_shapes": 71,
+    "counts_by_type": {
+      "triangle": 16,
+      "star": 13,
+      "square": 15,
+      "circle": 13,
+      "pentagon": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 14,
+    "total_shapes": 46,
+    "counts_by_type": {
+      "circle": 7,
+      "triangle": 17,
+      "star": 8,
+      "square": 5,
+      "pentagon": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 15,
+    "total_shapes": 23,
+    "counts_by_type": {
+      "star": 3,
+      "circle": 8,
+      "triangle": 5,
+      "square": 6,
+      "pentagon": 1
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 16,
+    "total_shapes": 29,
+    "counts_by_type": {
+      "circle": 8,
+      "square": 3,
+      "pentagon": 4,
+      "star": 5,
+      "triangle": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 17,
+    "total_shapes": 66,
+    "counts_by_type": {
+      "square": 19,
+      "pentagon": 17,
+      "triangle": 8,
+      "star": 12,
+      "circle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 18,
+    "total_shapes": 78,
+    "counts_by_type": {
+      "square": 15,
+      "circle": 21,
+      "pentagon": 14,
+      "star": 18,
+      "triangle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 19,
+    "total_shapes": 70,
+    "counts_by_type": {
+      "star": 13,
+      "square": 10,
+      "circle": 14,
+      "pentagon": 15,
+      "triangle": 18
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 20,
+    "total_shapes": 54,
+    "counts_by_type": {
+      "star": 13,
+      "square": 12,
+      "pentagon": 10,
+      "circle": 9,
+      "triangle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 21,
+    "total_shapes": 57,
+    "counts_by_type": {
+      "square": 10,
+      "triangle": 13,
+      "pentagon": 13,
+      "circle": 9,
+      "star": 12
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 22,
+    "total_shapes": 39,
+    "counts_by_type": {
+      "triangle": 10,
+      "circle": 5,
+      "square": 6,
+      "star": 11,
+      "pentagon": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 23,
+    "total_shapes": 62,
+    "counts_by_type": {
+      "square": 10,
+      "pentagon": 18,
+      "circle": 13,
+      "triangle": 8,
+      "star": 13
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 24,
+    "total_shapes": 76,
+    "counts_by_type": {
+      "pentagon": 11,
+      "triangle": 17,
+      "star": 18,
+      "circle": 16,
+      "square": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 25,
+    "total_shapes": 67,
+    "counts_by_type": {
+      "circle": 19,
+      "pentagon": 9,
+      "star": 11,
+      "triangle": 17,
+      "square": 11
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 26,
+    "total_shapes": 64,
+    "counts_by_type": {
+      "star": 14,
+      "triangle": 8,
+      "pentagon": 16,
+      "circle": 16,
+      "square": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 27,
+    "total_shapes": 22,
+    "counts_by_type": {
+      "circle": 6,
+      "star": 8,
+      "pentagon": 4,
+      "triangle": 3,
+      "square": 1
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 28,
+    "total_shapes": 53,
+    "counts_by_type": {
+      "circle": 11,
+      "square": 14,
+      "pentagon": 12,
+      "triangle": 7,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 29,
+    "total_shapes": 79,
+    "counts_by_type": {
+      "square": 18,
+      "pentagon": 12,
+      "triangle": 19,
+      "circle": 18,
+      "star": 12
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 30,
+    "total_shapes": 64,
+    "counts_by_type": {
+      "circle": 19,
+      "triangle": 16,
+      "pentagon": 11,
+      "square": 8,
+      "star": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 31,
+    "total_shapes": 31,
+    "counts_by_type": {
+      "square": 8,
+      "star": 9,
+      "pentagon": 8,
+      "triangle": 3,
+      "circle": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 32,
+    "total_shapes": 30,
+    "counts_by_type": {
+      "triangle": 9,
+      "star": 5,
+      "circle": 4,
+      "square": 6,
+      "pentagon": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 33,
+    "total_shapes": 79,
+    "counts_by_type": {
+      "star": 24,
+      "pentagon": 16,
+      "triangle": 14,
+      "square": 15,
+      "circle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 34,
+    "total_shapes": 50,
+    "counts_by_type": {
+      "pentagon": 14,
+      "triangle": 7,
+      "square": 9,
+      "star": 14,
+      "circle": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 35,
+    "total_shapes": 18,
+    "counts_by_type": {
+      "triangle": 5,
+      "circle": 6,
+      "square": 4,
+      "star": 2,
+      "pentagon": 1
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 36,
+    "total_shapes": 28,
+    "counts_by_type": {
+      "star": 7,
+      "triangle": 8,
+      "pentagon": 4,
+      "square": 5,
+      "circle": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 37,
+    "total_shapes": 80,
+    "counts_by_type": {
+      "circle": 13,
+      "triangle": 16,
+      "star": 17,
+      "square": 16,
+      "pentagon": 18
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 38,
+    "total_shapes": 23,
+    "counts_by_type": {
+      "star": 6,
+      "triangle": 7,
+      "square": 1,
+      "pentagon": 7,
+      "circle": 2
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 39,
+    "total_shapes": 56,
+    "counts_by_type": {
+      "square": 11,
+      "star": 10,
+      "circle": 9,
+      "pentagon": 16,
+      "triangle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 40,
+    "total_shapes": 57,
+    "counts_by_type": {
+      "square": 17,
+      "star": 7,
+      "triangle": 9,
+      "pentagon": 17,
+      "circle": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 41,
+    "total_shapes": 19,
+    "counts_by_type": {
+      "square": 3,
+      "triangle": 5,
+      "star": 4,
+      "pentagon": 4,
+      "circle": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 42,
+    "total_shapes": 51,
+    "counts_by_type": {
+      "square": 14,
+      "circle": 8,
+      "triangle": 10,
+      "pentagon": 15,
+      "star": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 43,
+    "total_shapes": 56,
+    "counts_by_type": {
+      "circle": 14,
+      "pentagon": 12,
+      "triangle": 9,
+      "square": 10,
+      "star": 11
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 44,
+    "total_shapes": 70,
+    "counts_by_type": {
+      "star": 12,
+      "triangle": 16,
+      "pentagon": 22,
+      "square": 8,
+      "circle": 12
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 45,
+    "total_shapes": 19,
+    "counts_by_type": {
+      "circle": 4,
+      "pentagon": 2,
+      "triangle": 7,
+      "star": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 46,
+    "total_shapes": 15,
+    "counts_by_type": {
+      "circle": 4,
+      "square": 2,
+      "triangle": 5,
+      "star": 2,
+      "pentagon": 2
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 47,
+    "total_shapes": 49,
+    "counts_by_type": {
+      "pentagon": 9,
+      "square": 10,
+      "star": 7,
+      "triangle": 13,
+      "circle": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 48,
+    "total_shapes": 70,
+    "counts_by_type": {
+      "pentagon": 15,
+      "circle": 13,
+      "square": 9,
+      "triangle": 19,
+      "star": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 49,
+    "total_shapes": 26,
+    "counts_by_type": {
+      "star": 7,
+      "square": 5,
+      "circle": 6,
+      "pentagon": 2,
+      "triangle": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 50,
+    "total_shapes": 32,
+    "counts_by_type": {
+      "circle": 6,
+      "triangle": 5,
+      "star": 7,
+      "square": 5,
+      "pentagon": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 51,
+    "total_shapes": 66,
+    "counts_by_type": {
+      "square": 20,
+      "triangle": 10,
+      "pentagon": 8,
+      "star": 8,
+      "circle": 20
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 52,
+    "total_shapes": 64,
+    "counts_by_type": {
+      "pentagon": 16,
+      "square": 14,
+      "star": 14,
+      "triangle": 6,
+      "circle": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 53,
+    "total_shapes": 74,
+    "counts_by_type": {
+      "circle": 17,
+      "star": 21,
+      "pentagon": 10,
+      "square": 11,
+      "triangle": 15
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 54,
+    "total_shapes": 36,
+    "counts_by_type": {
+      "triangle": 9,
+      "pentagon": 4,
+      "star": 10,
+      "circle": 9,
+      "square": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 55,
+    "total_shapes": 46,
+    "counts_by_type": {
+      "pentagon": 13,
+      "circle": 7,
+      "star": 8,
+      "square": 6,
+      "triangle": 12
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 56,
+    "total_shapes": 75,
+    "counts_by_type": {
+      "square": 16,
+      "circle": 18,
+      "triangle": 11,
+      "pentagon": 18,
+      "star": 12
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 57,
+    "total_shapes": 19,
+    "counts_by_type": {
+      "star": 5,
+      "pentagon": 5,
+      "triangle": 4,
+      "circle": 3,
+      "square": 2
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 58,
+    "total_shapes": 39,
+    "counts_by_type": {
+      "triangle": 11,
+      "circle": 9,
+      "square": 6,
+      "pentagon": 4,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 59,
+    "total_shapes": 57,
+    "counts_by_type": {
+      "triangle": 8,
+      "square": 12,
+      "pentagon": 7,
+      "circle": 17,
+      "star": 13
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 60,
+    "total_shapes": 30,
+    "counts_by_type": {
+      "pentagon": 9,
+      "star": 4,
+      "triangle": 5,
+      "circle": 5,
+      "square": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 61,
+    "total_shapes": 49,
+    "counts_by_type": {
+      "star": 10,
+      "triangle": 9,
+      "square": 7,
+      "pentagon": 12,
+      "circle": 11
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 62,
+    "total_shapes": 60,
+    "counts_by_type": {
+      "circle": 12,
+      "square": 14,
+      "star": 10,
+      "triangle": 7,
+      "pentagon": 17
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 63,
+    "total_shapes": 60,
+    "counts_by_type": {
+      "circle": 12,
+      "star": 12,
+      "square": 14,
+      "pentagon": 11,
+      "triangle": 11
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 64,
+    "total_shapes": 45,
+    "counts_by_type": {
+      "square": 7,
+      "pentagon": 7,
+      "triangle": 14,
+      "circle": 9,
+      "star": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 65,
+    "total_shapes": 18,
+    "counts_by_type": {
+      "star": 5,
+      "triangle": 4,
+      "square": 3,
+      "pentagon": 5,
+      "circle": 1
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 66,
+    "total_shapes": 27,
+    "counts_by_type": {
+      "star": 10,
+      "triangle": 4,
+      "circle": 6,
+      "square": 3,
+      "pentagon": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 67,
+    "total_shapes": 47,
+    "counts_by_type": {
+      "circle": 8,
+      "pentagon": 9,
+      "square": 13,
+      "triangle": 8,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 68,
+    "total_shapes": 51,
+    "counts_by_type": {
+      "star": 9,
+      "circle": 13,
+      "square": 9,
+      "triangle": 11,
+      "pentagon": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 69,
+    "total_shapes": 56,
+    "counts_by_type": {
+      "triangle": 11,
+      "pentagon": 14,
+      "square": 10,
+      "star": 12,
+      "circle": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 70,
+    "total_shapes": 67,
+    "counts_by_type": {
+      "square": 16,
+      "triangle": 21,
+      "star": 9,
+      "circle": 13,
+      "pentagon": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 71,
+    "total_shapes": 66,
+    "counts_by_type": {
+      "star": 6,
+      "square": 13,
+      "circle": 17,
+      "triangle": 13,
+      "pentagon": 17
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 72,
+    "total_shapes": 37,
+    "counts_by_type": {
+      "triangle": 11,
+      "square": 6,
+      "star": 9,
+      "pentagon": 4,
+      "circle": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 73,
+    "total_shapes": 31,
+    "counts_by_type": {
+      "square": 4,
+      "star": 7,
+      "circle": 4,
+      "triangle": 10,
+      "pentagon": 6
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 74,
+    "total_shapes": 62,
+    "counts_by_type": {
+      "star": 11,
+      "pentagon": 17,
+      "circle": 14,
+      "square": 12,
+      "triangle": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 75,
+    "total_shapes": 29,
+    "counts_by_type": {
+      "triangle": 7,
+      "circle": 8,
+      "square": 5,
+      "pentagon": 7,
+      "star": 2
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 76,
+    "total_shapes": 77,
+    "counts_by_type": {
+      "star": 17,
+      "square": 21,
+      "triangle": 12,
+      "circle": 10,
+      "pentagon": 17
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 77,
+    "total_shapes": 19,
+    "counts_by_type": {
+      "pentagon": 4,
+      "triangle": 3,
+      "square": 4,
+      "star": 4,
+      "circle": 4
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 78,
+    "total_shapes": 47,
+    "counts_by_type": {
+      "star": 12,
+      "circle": 7,
+      "pentagon": 8,
+      "square": 12,
+      "triangle": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 79,
+    "total_shapes": 40,
+    "counts_by_type": {
+      "circle": 7,
+      "pentagon": 7,
+      "star": 11,
+      "triangle": 5,
+      "square": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 80,
+    "total_shapes": 47,
+    "counts_by_type": {
+      "circle": 12,
+      "pentagon": 6,
+      "star": 12,
+      "triangle": 10,
+      "square": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 81,
+    "total_shapes": 42,
+    "counts_by_type": {
+      "star": 7,
+      "triangle": 11,
+      "pentagon": 8,
+      "square": 8,
+      "circle": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 82,
+    "total_shapes": 76,
+    "counts_by_type": {
+      "star": 10,
+      "triangle": 15,
+      "pentagon": 18,
+      "square": 18,
+      "circle": 15
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 83,
+    "total_shapes": 66,
+    "counts_by_type": {
+      "pentagon": 14,
+      "circle": 10,
+      "square": 16,
+      "star": 12,
+      "triangle": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 84,
+    "total_shapes": 36,
+    "counts_by_type": {
+      "circle": 7,
+      "square": 7,
+      "pentagon": 9,
+      "star": 8,
+      "triangle": 5
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 85,
+    "total_shapes": 75,
+    "counts_by_type": {
+      "triangle": 19,
+      "square": 17,
+      "star": 14,
+      "pentagon": 11,
+      "circle": 14
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 86,
+    "total_shapes": 54,
+    "counts_by_type": {
+      "pentagon": 13,
+      "star": 11,
+      "square": 8,
+      "triangle": 11,
+      "circle": 11
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 87,
+    "total_shapes": 58,
+    "counts_by_type": {
+      "triangle": 9,
+      "pentagon": 10,
+      "star": 12,
+      "square": 14,
+      "circle": 13
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 88,
+    "total_shapes": 15,
+    "counts_by_type": {
+      "pentagon": 2,
+      "circle": 4,
+      "star": 4,
+      "square": 3,
+      "triangle": 2
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 89,
+    "total_shapes": 73,
+    "counts_by_type": {
+      "triangle": 18,
+      "star": 21,
+      "circle": 9,
+      "square": 12,
+      "pentagon": 13
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 90,
+    "total_shapes": 27,
+    "counts_by_type": {
+      "star": 5,
+      "circle": 8,
+      "pentagon": 3,
+      "square": 6,
+      "triangle": 5
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 91,
+    "total_shapes": 30,
+    "counts_by_type": {
+      "square": 7,
+      "pentagon": 6,
+      "star": 7,
+      "circle": 2,
+      "triangle": 8
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 92,
+    "total_shapes": 36,
+    "counts_by_type": {
+      "circle": 8,
+      "square": 9,
+      "triangle": 7,
+      "pentagon": 3,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 93,
+    "total_shapes": 41,
+    "counts_by_type": {
+      "triangle": 7,
+      "square": 11,
+      "circle": 6,
+      "pentagon": 8,
+      "star": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 94,
+    "total_shapes": 35,
+    "counts_by_type": {
+      "star": 4,
+      "circle": 3,
+      "pentagon": 11,
+      "triangle": 10,
+      "square": 7
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 95,
+    "total_shapes": 34,
+    "counts_by_type": {
+      "star": 9,
+      "triangle": 8,
+      "circle": 3,
+      "square": 5,
+      "pentagon": 9
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 96,
+    "total_shapes": 37,
+    "counts_by_type": {
+      "circle": 11,
+      "triangle": 10,
+      "star": 8,
+      "pentagon": 5,
+      "square": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 97,
+    "total_shapes": 31,
+    "counts_by_type": {
+      "circle": 8,
+      "pentagon": 7,
+      "star": 8,
+      "square": 5,
+      "triangle": 3
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 98,
+    "total_shapes": 69,
+    "counts_by_type": {
+      "star": 12,
+      "pentagon": 12,
+      "triangle": 16,
+      "circle": 14,
+      "square": 15
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  },
+  {
+    "image_id": 99,
+    "total_shapes": 74,
+    "counts_by_type": {
+      "triangle": 14,
+      "pentagon": 17,
+      "circle": 20,
+      "star": 13,
+      "square": 10
+    },
+    "n_clutter_lines": 60,
+    "n_vh_lines": 40,
+    "has_grid_clutter": false
+  }
+]

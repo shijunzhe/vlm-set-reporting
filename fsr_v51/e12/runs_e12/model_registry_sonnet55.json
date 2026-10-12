@@ -1,0 +1,17 @@
+[
+ {
+  "provider": "anthropic",
+  "model": "claude-sonnet-5-5",
+  "thinking": "between_tools (no up-front thinking)",
+  "output_config.effort": "default (high)",
+  "max_tokens": 16384,
+  "sdk": {
+   "anthropic": "1.9.0",
+   "openai": "3.20.0"
+  },
+  "python": "3.11.15",
+  "started": "2026-10-09T18:15:38Z",
+  "manifest_sha256": "faa0bcebb6a4d105090ff7bae095a82201c12982f789e40f2dd2ce09d25eab65",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

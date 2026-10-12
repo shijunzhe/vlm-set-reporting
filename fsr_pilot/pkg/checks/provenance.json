@@ -1,0 +1,30 @@
+{
+  "version": "FSR-v3.0",
+  "created_utc": "2026-10-08T21:38:40.280274+00:00",
+  "role": "pre-experiment theory and execution materials",
+  "basis_files": [
+    {
+      "name": "arxiv(2).pdf",
+      "sha256": "fea6c3a68c549590387c4af2c29cc0daf29f98ac19a473595e549dfdc5f6f314",
+      "bytes": 804778
+    },
+    {
+      "name": "FSR_Theory_Note.pdf",
+      "sha256": "9e00681ff21d63275c85854fc0910a614a39718b69805fa203e39efeab801e2a",
+      "bytes": 344858
+    },
+    {
+      "name": "FSR_Set_Reporting_Addendum.pdf",
+      "sha256": "e2c7e4a1aed8e8e0b5ada48a7b5a95d5684e2cc562d9ddac10db7da0aae53b8e",
+      "bytes": 345310
+    }
+  ],
+  "check_environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "empirical_model_calls": 0,
+  "training_runs": 0,
+  "public_registration_created": false,
+  "source_publication_policy": "Source manuscript findings are not new FSR findings. Prior FSR notes are working derivations. Web research is cited in report; no literature-first claim."
+}

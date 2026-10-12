@@ -1,0 +1,152 @@
+{
+ "levels": {
+  "min16k": {
+   "readout": 52.8,
+   "code": 96.78,
+   "E": 103.46,
+   "E_retain": 288.22,
+   "n_unknown": 184.76,
+   "flagged": 0.9,
+   "strict_fail": 0.72,
+   "trunc": 0.04,
+   "untyped": 0.613,
+   "out_tok": 4795.56,
+   "think_tok": 0.0,
+   "written": 46.556,
+   "think_share": 0.0,
+   "branches": {
+    "declared": 40,
+    "code": 5,
+    "code_flagged_no_declared": 5
+   },
+   "cost_total": 0.952,
+   "n": 50
+  },
+  "default16k": {
+   "readout": 24.52,
+   "code": 25.9,
+   "E": 34.58,
+   "E_retain": 39.48,
+   "n_unknown": 4.9,
+   "flagged": 0.12,
+   "strict_fail": 0.7,
+   "trunc": 0.08,
+   "untyped": 0.024,
+   "out_tok": 8830.66,
+   "think_tok": 5490.14,
+   "written": 26.196,
+   "think_share": 1.0,
+   "branches": {
+    "code": 44,
+    "declared": 2,
+    "code_flagged_no_declared": 4
+   },
+   "cost_total": 1.709,
+   "n": 50
+  },
+  "default32k": {
+   "readout": 15.44,
+   "code": 20.14,
+   "E": 28.26,
+   "E_retain": 37.1,
+   "n_unknown": 8.84,
+   "flagged": 0.06,
+   "strict_fail": 0.78,
+   "trunc": 0.0,
+   "untyped": 0.04,
+   "out_tok": 9486.78,
+   "think_tok": 5916.86,
+   "written": 24.3,
+   "think_share": 0.98,
+   "branches": {
+    "code": 47,
+    "declared": 3
+   },
+   "cost_total": 1.832,
+   "n": 50
+  }
+ },
+ "contrasts": {
+  "readout: default16k vs min16k": {
+   "a": 52.8,
+   "b": 24.52,
+   "rel": -53.6,
+   "ci": [
+    -72.4,
+    -29.5
+   ]
+  },
+  "readout: default32k vs default16k": {
+   "a": 24.52,
+   "b": 15.44,
+   "rel": -37.0,
+   "ci": [
+    -62.4,
+    7.7
+   ]
+  },
+  "readout: default32k vs min16k": {
+   "a": 52.8,
+   "b": 15.44,
+   "rel": -70.8,
+   "ci": [
+    -79.5,
+    -57.9
+   ]
+  },
+  "code: default16k vs min16k": {
+   "a": 96.78,
+   "b": 25.9,
+   "rel": -73.2,
+   "ci": [
+    -83.6,
+    -60.3
+   ]
+  },
+  "code: default32k vs default16k": {
+   "a": 25.9,
+   "b": 20.14,
+   "rel": -22.2,
+   "ci": [
+    -58.1,
+    47.6
+   ]
+  },
+  "code: default32k vs min16k": {
+   "a": 96.78,
+   "b": 20.14,
+   "rel": -79.2,
+   "ci": [
+    -87.5,
+    -67.9
+   ]
+  },
+  "E: default16k vs min16k": {
+   "a": 103.46,
+   "b": 34.58,
+   "rel": -66.6,
+   "ci": [
+    -75.8,
+    -54.9
+   ]
+  },
+  "E: default32k vs default16k": {
+   "a": 34.58,
+   "b": 28.26,
+   "rel": -18.3,
+   "ci": [
+    -47.8,
+    28.2
+   ]
+  },
+  "E: default32k vs min16k": {
+   "a": 103.46,
+   "b": 28.26,
+   "rel": -72.7,
+   "ci": [
+    -81.0,
+    -62.5
+   ]
+  }
+ }
+}

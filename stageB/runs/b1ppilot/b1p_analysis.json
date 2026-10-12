@@ -1,0 +1,912 @@
+{
+ "summary": {
+  "cost": {
+   "gpt61": 0.14,
+   "sonnet55": 0.14,
+   "gem38": 0.08
+  },
+  "cells": {
+   "gpt61|all": {
+    "cf_list": {
+     "cnt": 9.67,
+     "F1": 0.947,
+     "n": 3
+    },
+    "cf_written": {
+     "cnt": 9.67,
+     "F1": null,
+     "n": 3
+    },
+    "lo": {
+     "cnt": 4.0,
+     "F1": 0.931,
+     "n": 3
+    },
+    "tl": {
+     "cnt": 13.67,
+     "F1": 0.881,
+     "n": 3
+    },
+    "comparisons": {
+     "tl_vs_lo": {
+      "a": 4.0,
+      "b": 13.67,
+      "rel": 241.7,
+      "ci": [
+       0.0,
+       500000000000.0
+      ],
+      "n": 3
+     },
+     "cf_list_vs_cf_written": {
+      "a": 9.67,
+      "b": 9.67,
+      "rel": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "n": 3
+     },
+     "F1_tl_minus_lo": -0.05
+    }
+   },
+   "gpt61|s0": {
+    "cf_list": {
+     "cnt": 13.5,
+     "F1": 0.932,
+     "n": 2
+    },
+    "cf_written": {
+     "cnt": 13.5,
+     "F1": null,
+     "n": 2
+    },
+    "lo": {
+     "cnt": 0.0,
+     "F1": 0.98,
+     "n": 2
+    },
+    "tl": {
+     "cnt": 2.5,
+     "F1": 0.988,
+     "n": 2
+    },
+    "comparisons": {}
+   },
+   "gpt61|s1": {
+    "cf_list": {
+     "cnt": 2.0,
+     "F1": 0.976,
+     "n": 1
+    },
+    "cf_written": {
+     "cnt": 2.0,
+     "F1": null,
+     "n": 1
+    },
+    "lo": {
+     "cnt": 12.0,
+     "F1": 0.833,
+     "n": 1
+    },
+    "tl": {
+     "cnt": 36.0,
+     "F1": 0.667,
+     "n": 1
+    },
+    "comparisons": {}
+   },
+   "sonnet55|all": {
+    "cf_list": {
+     "cnt": 2.0,
+     "F1": 0.958,
+     "n": 5
+    },
+    "cf_written": {
+     "cnt": 2.0,
+     "F1": null,
+     "n": 5
+    },
+    "lo": {
+     "cnt": 0.4,
+     "F1": 0.988,
+     "n": 5
+    },
+    "tl": {
+     "cnt": 4.6,
+     "F1": 0.929,
+     "n": 5
+    },
+    "comparisons": {
+     "lo_vs_cf_written": {
+      "a": 2.0,
+      "b": 0.4,
+      "rel": -80.0,
+      "ci": [
+       -100.0,
+       -57.1
+      ],
+      "n": 5
+     },
+     "lo_vs_cf_list": {
+      "a": 2.0,
+      "b": 0.4,
+      "rel": -80.0,
+      "ci": [
+       -100.0,
+       -57.1
+      ],
+      "n": 5
+     },
+     "tl_vs_cf_written": {
+      "a": 2.0,
+      "b": 4.6,
+      "rel": 130.0,
+      "ci": [
+       -73.3,
+       1500.0
+      ],
+      "n": 5
+     },
+     "tl_vs_lo": {
+      "a": 0.4,
+      "b": 4.6,
+      "rel": 1050.0,
+      "ci": [
+       100.0,
+       640000000000.0
+      ],
+      "n": 5
+     },
+     "cf_list_vs_cf_written": {
+      "a": 2.0,
+      "b": 2.0,
+      "rel": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "n": 5
+     },
+     "F1_tl_minus_lo": -0.06
+    }
+   },
+   "sonnet55|s0": {
+    "cf_list": {
+     "cnt": 4.0,
+     "F1": 0.929,
+     "n": 2
+    },
+    "cf_written": {
+     "cnt": 4.0,
+     "F1": null,
+     "n": 2
+    },
+    "lo": {
+     "cnt": 1.0,
+     "F1": 0.983,
+     "n": 2
+    },
+    "tl": {
+     "cnt": 3.5,
+     "F1": 0.976,
+     "n": 2
+    },
+    "comparisons": {}
+   },
+   "sonnet55|s1": {
+    "cf_list": {
+     "cnt": 0.5,
+     "F1": 0.98,
+     "n": 2
+    },
+    "cf_written": {
+     "cnt": 0.5,
+     "F1": null,
+     "n": 2
+    },
+    "lo": {
+     "cnt": 0.0,
+     "F1": 0.988,
+     "n": 2
+    },
+    "tl": {
+     "cnt": 8.0,
+     "F1": 0.872,
+     "n": 2
+    },
+    "comparisons": {}
+   },
+   "sonnet55|s2": {
+    "cf_list": {
+     "cnt": 1.0,
+     "F1": 0.973,
+     "n": 1
+    },
+    "cf_written": {
+     "cnt": 1.0,
+     "F1": null,
+     "n": 1
+    },
+    "lo": {
+     "cnt": 0.0,
+     "F1": 1.0,
+     "n": 1
+    },
+    "tl": {
+     "cnt": 0.0,
+     "F1": 0.947,
+     "n": 1
+    },
+    "comparisons": {}
+   },
+   "gem38|all": {
+    "cf_list": {
+     "cnt": 7.6,
+     "F1": 0.919,
+     "n": 5
+    },
+    "cf_written": {
+     "cnt": 3.6,
+     "F1": null,
+     "n": 5
+    },
+    "lo": {
+     "cnt": 9.2,
+     "F1": 0.902,
+     "n": 5
+    },
+    "tl": {
+     "cnt": 6.4,
+     "F1": 0.928,
+     "n": 5
+    },
+    "comparisons": {
+     "lo_vs_cf_written": {
+      "a": 3.6,
+      "b": 9.2,
+      "rel": 155.6,
+      "ci": [
+       -94.7,
+       1157.1
+      ],
+      "n": 5
+     },
+     "lo_vs_cf_list": {
+      "a": 7.6,
+      "b": 9.2,
+      "rel": 21.1,
+      "ci": [
+       -75.0,
+       40000000000.0
+      ],
+      "n": 5
+     },
+     "tl_vs_cf_written": {
+      "a": 3.6,
+      "b": 6.4,
+      "rel": 77.8,
+      "ci": [
+       -63.6,
+       442.9
+      ],
+      "n": 5
+     },
+     "tl_vs_lo": {
+      "a": 9.2,
+      "b": 6.4,
+      "rel": -30.4,
+      "ci": [
+       -57.3,
+       1200.0
+      ],
+      "n": 5
+     },
+     "cf_list_vs_cf_written": {
+      "a": 3.6,
+      "b": 7.6,
+      "rel": 111.1,
+      "ci": [
+       -100.0,
+       863.6
+      ],
+      "n": 5
+     },
+     "F1_tl_minus_lo": 0.026
+    }
+   },
+   "gem38|s0": {
+    "cf_list": {
+     "cnt": 0.0,
+     "F1": 1.0,
+     "n": 2
+    },
+    "cf_written": {
+     "cnt": 7.0,
+     "F1": null,
+     "n": 2
+    },
+    "lo": {
+     "cnt": 0.5,
+     "F1": 0.997,
+     "n": 2
+    },
+    "tl": {
+     "cnt": 6.0,
+     "F1": 0.964,
+     "n": 2
+    },
+    "comparisons": {}
+   },
+   "gem38|s1": {
+    "cf_list": {
+     "cnt": 19.0,
+     "F1": 0.798,
+     "n": 2
+    },
+    "cf_written": {
+     "cnt": 2.0,
+     "F1": null,
+     "n": 2
+    },
+    "lo": {
+     "cnt": 22.5,
+     "F1": 0.757,
+     "n": 2
+    },
+    "tl": {
+     "cnt": 10.0,
+     "F1": 0.854,
+     "n": 2
+    },
+    "comparisons": {}
+   },
+   "gem38|s2": {
+    "cf_list": {
+     "cnt": 0.0,
+     "F1": 1.0,
+     "n": 1
+    },
+    "cf_written": {
+     "cnt": 0.0,
+     "F1": null,
+     "n": 1
+    },
+    "lo": {
+     "cnt": 0.0,
+     "F1": 1.0,
+     "n": 1
+    },
+    "tl": {
+     "cnt": 0.0,
+     "F1": 1.0,
+     "n": 1
+    },
+    "comparisons": {}
+   }
+  }
+ },
+ "rows": [
+  {
+   "item": "7512.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 26,
+   "E": 26,
+   "F1": 0.8828828828828829,
+   "k": 124
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 26,
+   "E": null,
+   "F1": null,
+   "k": 124
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 8,
+   "F1": 0.9591836734693877,
+   "k": 98
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 5,
+   "E": 5,
+   "F1": 0.9751243781094527,
+   "k": 103
+  },
+  {
+   "item": "7512.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 2,
+   "E": 8,
+   "F1": 0.9587628865979382,
+   "k": 96
+  },
+  {
+   "item": "7512.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 2,
+   "E": null,
+   "F1": null,
+   "k": 96
+  },
+  {
+   "item": "7512.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 1,
+   "E": 3,
+   "F1": 0.9846153846153847,
+   "k": 97
+  },
+  {
+   "item": "7512.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 6,
+   "E": 6,
+   "F1": 0.9702970297029703,
+   "k": 104
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 98
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 9,
+   "E": null,
+   "F1": null,
+   "k": 89
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9949238578680203,
+   "k": 99
+  },
+  {
+   "item": "7512.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 11,
+   "E": 11,
+   "F1": 0.9468599033816425,
+   "k": 109
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9811320754716981,
+   "k": 26
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 1,
+   "E": null,
+   "F1": null,
+   "k": 26
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 27
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gpt61",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 27
+  },
+  {
+   "item": "6956.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 6,
+   "E": 6,
+   "F1": 0.9,
+   "k": 33
+  },
+  {
+   "item": "6956.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 6,
+   "E": null,
+   "F1": null,
+   "k": 33
+  },
+  {
+   "item": "6956.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9818181818181818,
+   "k": 28
+  },
+  {
+   "item": "6956.jpg",
+   "model": "sonnet55",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9818181818181818,
+   "k": 28
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "cf_list",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 27
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "cf_written",
+   "cnt": 5,
+   "E": null,
+   "F1": null,
+   "k": 22
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 27
+  },
+  {
+   "item": "6956.jpg",
+   "model": "gem38",
+   "stratum": 0,
+   "arm": "tl",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9818181818181818,
+   "k": 28
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gpt61",
+   "stratum": 1,
+   "arm": "lo",
+   "cnt": 12,
+   "E": 14,
+   "F1": 0.8333333333333334,
+   "k": 48
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gpt61",
+   "stratum": 1,
+   "arm": "tl",
+   "cnt": 36,
+   "E": 36,
+   "F1": 0.6666666666666666,
+   "k": 72
+  },
+  {
+   "item": "7586.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "cf_list",
+   "cnt": 0,
+   "E": 2,
+   "F1": 0.9722222222222222,
+   "k": 36
+  },
+  {
+   "item": "7586.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "cf_written",
+   "cnt": 0,
+   "E": null,
+   "F1": null,
+   "k": 36
+  },
+  {
+   "item": "7586.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 36
+  },
+  {
+   "item": "7586.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "tl",
+   "cnt": 14,
+   "E": 20,
+   "F1": 0.7674418604651163,
+   "k": 50
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "cf_list",
+   "cnt": 30,
+   "E": 32,
+   "F1": 0.6862745098039216,
+   "k": 66
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "cf_written",
+   "cnt": 3,
+   "E": null,
+   "F1": null,
+   "k": 39
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "lo",
+   "cnt": 43,
+   "E": 53,
+   "F1": 0.5391304347826087,
+   "k": 79
+  },
+  {
+   "item": "7586.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "tl",
+   "cnt": 18,
+   "E": 24,
+   "F1": 0.7333333333333333,
+   "k": 54
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gpt61",
+   "stratum": 1,
+   "arm": "cf_list",
+   "cnt": 2,
+   "E": 2,
+   "F1": 0.975609756097561,
+   "k": 42
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gpt61",
+   "stratum": 1,
+   "arm": "cf_written",
+   "cnt": 2,
+   "E": null,
+   "F1": null,
+   "k": 42
+  },
+  {
+   "item": "5373.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "cf_list",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.9876543209876543,
+   "k": 41
+  },
+  {
+   "item": "5373.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "cf_written",
+   "cnt": 1,
+   "E": null,
+   "F1": null,
+   "k": 41
+  },
+  {
+   "item": "5373.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 2,
+   "F1": 0.975,
+   "k": 40
+  },
+  {
+   "item": "5373.jpg",
+   "model": "sonnet55",
+   "stratum": 1,
+   "arm": "tl",
+   "cnt": 2,
+   "E": 2,
+   "F1": 0.975609756097561,
+   "k": 42
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "cf_list",
+   "cnt": 8,
+   "E": 8,
+   "F1": 0.9090909090909091,
+   "k": 48
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "cf_written",
+   "cnt": 1,
+   "E": null,
+   "F1": null,
+   "k": 39
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "lo",
+   "cnt": 2,
+   "E": 2,
+   "F1": 0.975609756097561,
+   "k": 42
+  },
+  {
+   "item": "5373.jpg",
+   "model": "gem38",
+   "stratum": 1,
+   "arm": "tl",
+   "cnt": 2,
+   "E": 2,
+   "F1": 0.975609756097561,
+   "k": 42
+  },
+  {
+   "item": "3270.jpg",
+   "model": "sonnet55",
+   "stratum": 2,
+   "arm": "cf_list",
+   "cnt": 1,
+   "E": 1,
+   "F1": 0.972972972972973,
+   "k": 18
+  },
+  {
+   "item": "3270.jpg",
+   "model": "sonnet55",
+   "stratum": 2,
+   "arm": "cf_written",
+   "cnt": 1,
+   "E": null,
+   "F1": null,
+   "k": 18
+  },
+  {
+   "item": "3270.jpg",
+   "model": "sonnet55",
+   "stratum": 2,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 19
+  },
+  {
+   "item": "3270.jpg",
+   "model": "sonnet55",
+   "stratum": 2,
+   "arm": "tl",
+   "cnt": 0,
+   "E": 2,
+   "F1": 0.9473684210526315,
+   "k": 19
+  },
+  {
+   "item": "3270.jpg",
+   "model": "gem38",
+   "stratum": 2,
+   "arm": "cf_list",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 19
+  },
+  {
+   "item": "3270.jpg",
+   "model": "gem38",
+   "stratum": 2,
+   "arm": "cf_written",
+   "cnt": 0,
+   "E": null,
+   "F1": null,
+   "k": 19
+  },
+  {
+   "item": "3270.jpg",
+   "model": "gem38",
+   "stratum": 2,
+   "arm": "lo",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 19
+  },
+  {
+   "item": "3270.jpg",
+   "model": "gem38",
+   "stratum": 2,
+   "arm": "tl",
+   "cnt": 0,
+   "E": 0,
+   "F1": 1.0,
+   "k": 19
+  }
+ ]
+}

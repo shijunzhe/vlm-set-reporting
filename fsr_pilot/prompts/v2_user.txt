@@ -1,0 +1,3 @@
+Inspect the attached scene for every instance of the attached reference. Use the responsibility registry and requested_regions in the following payload. Do not alter the coordinate contract. Report only the requested regions, including an explicit empty or unknown row when appropriate.
+
+{task_payload_json}

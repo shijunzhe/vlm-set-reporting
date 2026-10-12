@@ -1,0 +1,9 @@
+{
+ "dataset": "dota",
+ "n_items": 60,
+ "tertile_bounds": [
+  6,
+  22
+ ],
+ "source": "DOTA v1.0 official val split, original labels (Ultralytics DOTAv1.zip), academic use"
+}

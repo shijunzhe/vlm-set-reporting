@@ -1,0 +1,68 @@
+{
+ "gpt61": {
+  "onecall": {
+   "screens": 30,
+   "tp": 47.4,
+   "fp_near": 31.9,
+   "fp_far": 17.7,
+   "mean_offset_near": [
+    -0.5,
+    -1.2
+   ]
+  },
+  "separate": {
+   "screens": 30,
+   "tp": 57.7,
+   "fp_near": 25.0,
+   "fp_far": 27.3,
+   "mean_offset_near": [
+    1.9,
+    -0.6
+   ]
+  }
+ },
+ "sonnet55": {
+  "onecall": {
+   "screens": 30,
+   "tp": 44.5,
+   "fp_near": 23.2,
+   "fp_far": 11.0,
+   "mean_offset_near": [
+    -6.4,
+    -1.7
+   ]
+  },
+  "separate": {
+   "screens": 30,
+   "tp": 44.9,
+   "fp_near": 20.3,
+   "fp_far": 9.5,
+   "mean_offset_near": [
+    -4.1,
+    -0.3
+   ]
+  }
+ },
+ "gem38": {
+  "onecall": {
+   "screens": 30,
+   "tp": 12.7,
+   "fp_near": 25.0,
+   "fp_far": 14.8,
+   "mean_offset_near": [
+    -1.9,
+    -0.4
+   ]
+  },
+  "separate": {
+   "screens": 30,
+   "tp": 28.0,
+   "fp_near": 32.9,
+   "fp_far": 16.3,
+   "mean_offset_near": [
+    0.4,
+    -0.5
+   ]
+  }
+ }
+}

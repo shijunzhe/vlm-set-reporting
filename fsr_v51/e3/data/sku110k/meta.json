@@ -1,0 +1,9 @@
+{
+ "dataset": "sku110k",
+ "n_items": 60,
+ "tertile_bounds": [
+  128,
+  151
+ ],
+ "source": "SKU-110K test split, official tarball (academic use)"
+}

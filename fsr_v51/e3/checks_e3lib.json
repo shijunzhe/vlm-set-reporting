@@ -1,0 +1,8 @@
+{
+ "prompts": 480,
+ "perfect_ok": 480,
+ "drop_ok": 480,
+ "floor_viol": 0,
+ "floor_cases": 1800,
+ "ignore_ok": true
+}

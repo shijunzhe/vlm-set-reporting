@@ -1,0 +1,66 @@
+{
+ "scp|qwen3vl": {
+  "n": 100,
+  "diag_arm": "c",
+  "flagged_share": 0.05,
+  "flag_kinds": {
+   "length": 5
+  },
+  "naive_written": 3.85,
+  "code_only": 3.05,
+  "diagnosed": 1.86,
+  "diagnosed_vs_naive": {
+   "a": 3.85,
+   "b": 1.86,
+   "rel": -51.7,
+   "ci": [
+    -66.1,
+    -31.5
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 3.05,
+   "b": 1.86,
+   "rel": -39.0,
+   "ci": [
+    -60.5,
+    -10.1
+   ],
+   "n": 100
+  }
+ },
+ "scpd|qwen3vl": {
+  "n": 50,
+  "diag_arm": "a",
+  "flagged_share": 0.3,
+  "flag_kinds": {
+   "repeat": 4,
+   "length": 13,
+   "trunc": 6
+  },
+  "naive_written": 29.24,
+  "code_only": 94.72,
+  "diagnosed": 27.3,
+  "diagnosed_vs_naive": {
+   "a": 29.24,
+   "b": 27.3,
+   "rel": -6.6,
+   "ci": [
+    -12.9,
+    -0.6
+   ],
+   "n": 50
+  },
+  "diagnosed_vs_code": {
+   "a": 94.72,
+   "b": 27.3,
+   "rel": -71.2,
+   "ci": [
+    -81.8,
+    -50.5
+   ],
+   "n": 50
+  }
+ }
+}

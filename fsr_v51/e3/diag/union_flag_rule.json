@@ -1,0 +1,336 @@
+{
+ "doclaynet|gem38": {
+  "n": 60,
+  "single": 12.49,
+  "majority": 11.48,
+  "old": 11.72,
+  "new": 11.48,
+  "fire_old": 0.15,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.778,
+   0.056,
+   1.539,
+   60
+  ],
+  "gain_new": [
+   1.011,
+   0.306,
+   1.733,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "doclaynet|gpt61": {
+  "n": 60,
+  "single": 9.38,
+  "majority": 9.08,
+  "old": 9.08,
+  "new": 9.08,
+  "fire_old": 0.03,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.294,
+   -0.256,
+   0.878,
+   60
+  ],
+  "gain_new": [
+   0.294,
+   -0.344,
+   1.067,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "doclaynet|sonnet55": {
+  "n": 60,
+  "single": 13.91,
+  "majority": 13.3,
+  "old": 13.33,
+  "new": 13.3,
+  "fire_old": 0.02,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.572,
+   0.139,
+   1.006,
+   60
+  ],
+  "gain_new": [
+   0.606,
+   0.172,
+   1.044,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "dota|gem38": {
+  "n": 60,
+  "single": 39.57,
+  "majority": 36.47,
+  "old": 36.33,
+  "new": 36.47,
+  "fire_old": 0.08,
+  "fire_new": 0.0,
+  "gain_old": [
+   3.239,
+   1.456,
+   5.461,
+   60
+  ],
+  "gain_new": [
+   3.106,
+   1.244,
+   5.239,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "dota|gpt61": {
+  "n": 60,
+  "single": 48.17,
+  "majority": 43.45,
+  "old": 51.87,
+  "new": 48.62,
+  "fire_old": 0.3,
+  "fire_new": 0.02,
+  "gain_old": [
+   -3.694,
+   -11.656,
+   1.183,
+   60
+  ],
+  "gain_new": [
+   -0.444,
+   -8.233,
+   4.244,
+   60
+  ],
+  "new_minus_majority": [
+   5.167,
+   0.0,
+   15.5,
+   60
+  ]
+ },
+ "dota|sonnet55": {
+  "n": 60,
+  "single": 38.29,
+  "majority": 36.43,
+  "old": 36.97,
+  "new": 36.43,
+  "fire_old": 0.15,
+  "fire_new": 0.0,
+  "gain_old": [
+   1.328,
+   0.178,
+   2.678,
+   60
+  ],
+  "gain_new": [
+   1.861,
+   0.761,
+   3.111,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "fsc147|gem38": {
+  "n": 60,
+  "single": 52.54,
+  "majority": 52.82,
+  "old": 52.27,
+  "new": 52.82,
+  "fire_old": 0.05,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.272,
+   -0.956,
+   1.472,
+   60
+  ],
+  "gain_new": [
+   -0.278,
+   -1.411,
+   0.639,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "fsc147|gpt61": {
+  "n": 60,
+  "single": 30.28,
+  "majority": 30.1,
+  "old": 29.82,
+  "new": 30.1,
+  "fire_old": 0.13,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.467,
+   -0.083,
+   1.139,
+   60
+  ],
+  "gain_new": [
+   0.183,
+   -0.272,
+   0.706,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "fsc147|sonnet55": {
+  "n": 60,
+  "single": 49.25,
+  "majority": 49.0,
+  "old": 48.52,
+  "new": 49.0,
+  "fire_old": 0.1,
+  "fire_new": 0.0,
+  "gain_old": [
+   0.733,
+   0.0,
+   1.483,
+   60
+  ],
+  "gain_new": [
+   0.25,
+   -0.383,
+   0.906,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "sku110k|gem38": {
+  "n": 60,
+  "single": 152.33,
+  "majority": 147.55,
+  "old": 148.02,
+  "new": 147.55,
+  "fire_old": 0.2,
+  "fire_new": 0.0,
+  "gain_old": [
+   4.311,
+   1.311,
+   7.289,
+   60
+  ],
+  "gain_new": [
+   4.778,
+   2.211,
+   7.156,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "sku110k|gpt61": {
+  "n": 60,
+  "single": 199.81,
+  "majority": 188.53,
+  "old": 205.52,
+  "new": 190.37,
+  "fire_old": 0.33,
+  "fire_new": 0.02,
+  "gain_old": [
+   -5.706,
+   -12.794,
+   0.789,
+   60
+  ],
+  "gain_new": [
+   9.444,
+   5.122,
+   12.278,
+   60
+  ],
+  "new_minus_majority": [
+   1.833,
+   0.0,
+   5.5,
+   60
+  ]
+ },
+ "sku110k|sonnet55": {
+  "n": 60,
+  "single": 207.9,
+  "majority": 179.02,
+  "old": 179.02,
+  "new": 179.02,
+  "fire_old": 0.0,
+  "fire_new": 0.0,
+  "gain_old": [
+   28.883,
+   24.961,
+   33.239,
+   60
+  ],
+  "gain_new": [
+   28.883,
+   24.961,
+   33.239,
+   60
+  ],
+  "new_minus_majority": [
+   0.0,
+   0.0,
+   0.0,
+   60
+  ]
+ },
+ "extra_precision": {
+  "unflagged": {
+   "n": 91,
+   "mean": 0.245
+  },
+  "flagged": {
+   "n": 2,
+   "mean": 0.044
+  }
+ }
+}

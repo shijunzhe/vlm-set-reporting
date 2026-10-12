@@ -1,0 +1,5 @@
+Find every instance of the attached reference in the attached full scene. Return one JSON object with status and objects. status is found, empty, or unknown. objects is a list of centers, with x and y in 0-1000 scene coordinates (x = 1000*native_x/image_width, y = 1000*native_y/image_height). Each entry is {"x":...,"y":...}. Return no total count and no narrative. Include all recovered points even if the result is incomplete, and set status to unknown when you cannot complete it. Do not count the reference image itself. Do not invent objects to meet a number.
+
+The identical complete region registry is provided as public coordinate metadata; it does not indicate true objects. This arm reports a single global list rather than separate region rows.
+
+{registry_json}

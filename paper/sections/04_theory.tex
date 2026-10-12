@@ -1,0 +1,134 @@
+\section{Theory}\label{sec:theory}
+
+The results fall into four groups. Section~\ref{sec:theory:identities} gives exact relations that hold for any outputs and any fixed scorer: what deleting records, averaging their coordinates, or reading a different field does to the loss. Section~\ref{sec:theory:behaviour} states a behavioural model of how models report objects across repeated calls, views and models, and the conditions it implies; unlike the relations, it is an assumption to be checked. Section~\ref{sec:theory:select} compares constructions and selectors over a declared family of candidate sets. Section~\ref{sec:theory:cert} states what outputs alone cannot certify. Proofs are in Appendix~\ref{app:proofs}.
+
+\subsection{Exact relations between operations and losses}\label{sec:theory:identities}
+
+\begin{lemma}[Matching size]\label{lem:rank}
+Fix the targets, a ground set of candidate records and the compatibility graph between them. Then $S\mapsto r(S)$ is the rank function of a transversal matroid \citep{edmonds1965transversals}: it never decreases when records are added, increases by 0 or 1 when one record is added, and is submodular (adding a record helps a smaller set at least as much as a larger one).
+\end{lemma}
+
+\begin{proposition}[Deletion and addition]\label{prop:identity}
+Let $S\subseteq A$, let $\Delta c=c(A)-c(S)$ be the number of scored records removed and $\Delta r=r(A)-r(S)$ the number of matches lost. Then exactly
+\[
+E_w(A)-E_w(S)=\cfp\,\Delta c-(\cfp+\cfn)\,\Delta r,
+\]
+and in particular $E(A)-E(S)=\Delta c-2\Delta r$. Addition is the same relation read in reverse.
+\end{proposition}
+
+\begin{proposition}[Intersection threshold]\label{thm:intersect}
+Deleting $A\setminus S$ lowers weighted set error if and only if $\cfp\,\Delta c>(\cfp+\cfn)\,\Delta r$, that is, for $\Delta c>0$, iff $\Delta r/\Delta c<\cfp/(\cfp+\cfn)$. Adding a non-empty set lowers weighted set error iff $(\cfp+\cfn)$ times the matches gained exceeds $\cfp$ times the scored records added.
+\end{proposition}
+
+In words: deleting records helps when few enough of them were matched. Over a population of images, the expected change has the sign of $\cfp/(\cfp+\cfn)-p_1$, where $p_1:=\mathbb{E}[\Delta r]/\mathbb{E}[\Delta c]$ is the ratio of expected matches lost to expected records removed. We call $p_1$ the \emph{marginal matching rate} of the deleted records; it is not the average of per-image precisions, and it equals the precision of the deleted records only when no remaining record can take over a deleted record's match. For $E$ the threshold is $1/2$. This is the cost-sensitive decision threshold \citep{elkan2001costsensitive} applied to the records a partner does not confirm; what is specific to record sets is that $\Delta r$ can be smaller than the number of matched records deleted, so the relevant rate is $p_1$ and not their precision. The proposition does not assume that the confirming report comes from the same model, the same view, or any probability model. It concerns deletion only: the retained records keep their coordinates.
+
+\begin{corollary}[F1 under deletion]\label{cor:f1}
+If $n+c(A)>0$ and $n+c(S)>0$, then
+\[
+\mathrm{F1}(S)-\mathrm{F1}(A)=\frac{2\{r(A)\Delta c-[n+c(A)]\Delta r\}}{[n+c(A)][n+c(S)]},
+\]
+so for $\Delta c>0$ deletion raises F1 on that image iff $\Delta r/\Delta c<\mathrm{F1}(A)/2$. If $n=0$ and every scored record is deleted, F1 rises from 0 to 1.
+\end{corollary}
+This is the per-image form of the known result that the F1-optimal threshold of a calibrated classifier is half its optimal F1 \citep{lipton2014f1}. Because $\mathrm{F1}(A)/2\le1/2$, a deletion that raises F1 on an image also lowers $E$ there, but not conversely. The threshold is per image; a mean F1 over images changes by the mean of the displayed differences, not by comparing a pooled rate with an average threshold. In 22 of our 54 base/partner pairs, the pooled marginal matching rate lies between half the base call's mean F1 and $1/2$; since the exact condition is per image, this count indicates a direction, consistent with deletion helping $E$ more often than F1 (Section~\ref{sec:res:transfer}); which F1 policy to ship is an empirical choice among all constructions, not a consequence of this corollary. In the deletion case, the threshold is the same exchange rate as the price of a false output in the companion analysis of decomposition \citep{shi2026zoomin}.
+
+\begin{proposition}[Geometry term]\label{prop:geometry}
+Let $S_0\subseteq A$ be the confirmed records with their original coordinates and $S_f$ the same clusters with fused coordinates. Then
+\begin{align*}
+E(A)-E(S_f)=\ &\underbrace{[E(A)-E(S_0)]}_{\text{selection (Prop.~\ref{prop:identity})}}\\
+&+\underbrace{[E(S_0)-E(S_f)]}_{\text{geometry}},
+\end{align*}
+and the geometry term equals $[c(S_0)-c(S_f)]-2[r(S_0)-r(S_f)]$.
+\end{proposition}
+By convexity, the mean of a cluster's members is no farther, in mean squared distance, from any fixed target than the members are on average. That does not make every fused record closer than its best member, and matching uses a threshold, so the geometry term can have either sign. On DocLayNet with GPT-6.1 confirmed by Sonnet 5.5 (60 images), $E(A)=8.567$, $E(S_0)=7.767$ and $E(S_f)=8.867$: selection gains $0.800$, geometry loses $1.100$, and the fused intersection is worse than the single call although deletion alone is better.
+
+\begin{proposition}[Two readouts of one response]\label{prop:readout}
+Let a decoded response have delivered records $Z$ and stated counts $d$, and let $\mathrm{lc}(Z)_c=\#\{z\in Z:\mathrm{class}(z)=c\}$ be the list count. Both readouts come from the same response, so the difference between their errors $\|d-n\|_1$ and $\|\mathrm{lc}(Z)-n\|_1$ isolates the readout and holds generation fixed. The gap $\|d-\mathrm{lc}(Z)\|_1$ is observable without labels, and
+\[
+\max\{\|d-n\|_1,\|\mathrm{lc}(Z)-n\|_1\}\ \ge\ \tfrac12\|d-\mathrm{lc}(Z)\|_1,
+\]
+\[
+\big|\,\|d-n\|_1-\|\mathrm{lc}(Z)-n\|_1\big|\ \le\ \|d-\mathrm{lc}(Z)\|_1 .
+\]
+\end{proposition}
+A positive gap shows that at least one readout is wrong; it does not show which. A small gap shows that no choice between the two readouts can change the error by more than the gap, whatever the truth: choosing a readout can never gain more than the gap, and errors that both readouts share, such as objects missing from the list and from the statement alike, are beyond its reach. With a list count of 9 and a stated count of 10, the gap is 1 whether the truth is 9 or 10. Which readout to use is therefore an empirical question per model and task family; the method's rule (list count unless the list is degenerate) is supported by the measurements of Section~\ref{sec:res:readout}, not by this proposition.
+
+\subsection{Behaviour under repetition, changed views and changed models}\label{sec:theory:behaviour}
+
+\paragraph{Joint reporting law.} Fix a complete interface $\eta$: model, prompt, schema, setting, cap and view. A call with interface $\eta$ reports a true object $o$ with probability $q_{o,\eta}$, and a candidate false object $f$ (a location where false records tend to appear) with probability $q_{f,\eta}$. Given these propensities, repeated calls with the same $\eta$ are independent. This joint law, with $q$ free to depend on every part of $\eta$, is the behavioural model; the consequences below use only it, together with conditional independence given the propensities for calls with different interfaces wherever that is stated. To describe how propensities vary with the model and the view when the rest of the interface is held fixed, that is, for calls that share the prompt, schema, setting and cap, we use the explanatory parametrization
+\[
+\mathrm{logit}\,q_{o,\eta}=a_o+b_{o,m(\eta)}+\gamma_{v(\eta)}(o),\]
+\[\textstyle\sum_m b_{o,m}=0,\qquad \gamma_{v_0}(o)=0,
+\]
+where $v_0$ is the whole image, $a_o$ is common to all models (how hard the object is), $b_{o,m}$ is specific to model $m$, and $\gamma_v(o)$ is the change from the whole image to view $v$, which depends on the apparent size of $o$ in $v$. All three terms may differ between prompts, schemas, settings and caps; a comparison that changes one of these compares two such parametrizations, not two terms of one. The form is related to item-response and labeler-expertise models, in which an item's difficulty and a rater's ability combine on the logit scale \citep{whitehill2009glad} (there as a product, here additively, as in Rasch-type models); here the items are objects and the raters are models and views. The two constraints are conventions that make the parts well defined: centering separates the shared part from the model-specific one, and the reference view separates both from the view effect. We do not estimate the parts; the parametrization motivates the predictions below, each of which is tested directly. A reported record contributes to the loss only through the matching: emitting a record near $o$, producing a match, and adding a match that no other record already provides are different events.
+
+Three consequences are used in the paper.
+\emph{Persistence}: for fixed $\eta$, the probability of missing $o$ in all $K$ calls is $\mathbb{E}[(1-q_{o,\eta})^K]$. It tends to 0 for every object with $q>0$, but slowly when $q$ is small for some objects, so at a fixed budget many misses repeat.
+\emph{Diminishing coverage}: for calls that are exchangeable given the image, the expected number of targets matched by the union of $K$ calls is concave in $K$; this follows from the submodularity of coverage \citep{nemhauser1978submodular} and of matching rank (Lemma~\ref{lem:rank}). The statement concerns raw coverage, not the loss of a constructed set: repeated calls can still remove false records that do not repeat. For example, with 20 true records that are always reported and 80 candidate false records reported independently with probability 0.2, one call has expected $E=16$ and three-call unanimity has expected $E=0.64$.
+\emph{Confirmation rates}: if the records of two calls refer to the same candidate objects and the two calls are conditionally independent given the propensities, a partner call $B$ confirms a record of call $A$ with probability
+\[
+h_\pm=\frac{\mathbb{E}[q_Aq_B\mid\text{true / false}]}{\mathbb{E}[q_A\mid\text{true / false}]},
+\]
+with $h_+$ for true records and $h_-$ for false ones. For a second call with the same interface $q_B=q_A$, so $h=\mathbb{E}[q_A^2]/\mathbb{E}[q_A]$. A review call that receives the first answer has a different interface and is not covered by this formula.
+
+\begin{proposition}[When a different partner is better]\label{prop:partner}
+Assume deletion-only confirmation, no match takeover (so $\Delta r$ equals the number of true records deleted), no ignore region or all of $A$'s false records outside it, and expected counts $T$ (true) and $F$ (false) among $A$'s records, with $h^B_\pm$ averaged over these records. Then the expected gain of $A\cap B$ over $A$ is
+\[
+G(B)=F\,(1-h_-^B)-T\,(1-h_+^B),
+\]
+and a partner $B$ beats a same-interface partner $A'$ iff $F\,(h_-^{A'}-h_-^{B})>T\,(h_+^{A'}-h_+^{B})$.
+\end{proposition}
+The partner must reject more of $A$'s false records than it loses of $A$'s true ones, weighted by their counts. Neither similar overall quality nor a larger separation $h_+-h_-$ is necessary or sufficient: with $T=100$ and $F=10$, the pair $(h_+,h_-)=(0.95,0.85)$ gives $G=-3.5$, while the more separated pair $(0.5,0)$ gives $G=-40$; and a weaker partner whose errors avoid $A$'s false records can satisfy the inequality. Without the assumptions, the exact relation of Proposition~\ref{prop:identity} replaces these expectations.
+
+\paragraph{Reports from several views.} Nothing in the chain assumes that a report comes from one call on the whole image. A view is part of the interface $\eta$, so a view planner (tiling, the safe decomposition of the companion paper, zoom) produces calls like any other, and their records, mapped to image coordinates, enter the same constructions and losses. Merging the reports of several views is itself a construction: the union of their records, with duplicates in the overlaps removed by the association rule. Confirmation across views is covered by Proposition~\ref{thm:intersect} and Proposition~\ref{prop:partner} with one change. A view can report only objects that it contains, so for a record lying wholly inside no partner view, $h_+^B=h_-^B=0$: deleting it is a decision about that record's own $p_1$, on which the partner carries no information. A view should therefore confirm or reject only the records it contains. A different view changes the propensities, but it need not share less of the persistent component: a view can raise how often objects are reported while the misses of the two calls stay as correlated, or become more so. For a true object drawn at random from the image, let $A$ and $A'$ indicate that two calls with the same interface report it and $B$ that a call on another view does, with means $\mu_A=\mu_{A'}$ and $\mu_B$, the calls being conditionally independent given the propensities. Then
+\[
+\begin{aligned}
+&P(A=0,B=1)-P(A=0,A'=1)\\
+&\quad=(1-\mu_A)(\mu_B-\mu_A)\\
+&\qquad+\mathrm{Cov}(A,A')-\mathrm{Cov}(A,B):
+\end{aligned}
+\]
+the first term is the gain in how often objects are reported, the second the gain in complementarity. For example, with two equally likely kinds of object reported with probability 0.2 and 0.4 on the whole image, a view that adds $\log 2$ to every logit gives $1/3$ and $4/7$: the mean rises from 0.30 to 0.45 and the covariance with the first call rises from 0.0100 to 0.0119, yet the probability that the first call misses an object and the second reports it is 0.305 for the new view against 0.200 for a repeated call: the gain in how often objects are reported (0.107) more than offsets a small loss of complementarity (0.002). Whether a view helps as a partner is again the inequality of Proposition~\ref{prop:partner}, which also counts its false records.
+
+\begin{proposition}[Alarm from disagreement]\label{prop:alarm}
+Let $U_{2\tau}(A,B)=|A|+|B|-2\,m_{2\tau}(A,B)$, where $m_{2\tau}$ is the matching size between two reports at doubled point tolerance. For point tasks with no ignore region,
+\[
+E_\tau(A)+E_\tau(B)\ \ge\ U_{2\tau}(A,B),
+\]
+hence $\max\{E_\tau(A),E_\tau(B)\}\ge\tfrac12\,U_{2\tau}(A,B)$.
+\end{proposition}
+The bound needs no labels: when $U>0$, at least one of the two reports is wrong, although the bound does not say which. Constructed instances attain it, and it can be loose: two identical wrong reports give $U=0$. For boxes the analogous bound uses IoU $\ge 2t-1$; at $t=0.5$ the overlap threshold becomes 0, so the bound keeps differences in the number of records per class but loses all geometric information. The click alarm in our experiments (distance above a share of the longer image side) is an empirical alarm for the hit-in-box loss, evaluated by risk-coverage curves.
+
+\subsection{Construction, selection and approximation}\label{sec:theory:select}
+
+Fix a feasible family $\SA$ and a loss. Define the oracle risk $R_{\mathrm{or}}=\mathbb{E}[\min_{S\in\SA}\ell(S,Y)]$, which uses the truth to pick the best set; the best risk $R^*_\Phi=\inf_g\mathbb{E}[\ell(g(\Phi),Y)]$ of a rule that maps features $\Phi$ computed from outputs alone into $\SA$; and the risk $R_{\hat g}$ of a fitted rule.
+
+\begin{proposition}[Risk ordering]\label{prop:order}
+$R_{\mathrm{or}}\le R^*_\Phi\le R_{\hat g}$, and
+\begin{align*}
+R_{\hat g}-R_{\mathrm{or}}=\ &\underbrace{(R^*_\Phi-R_{\mathrm{or}})}_{\text{information not in }\Phi}\\
+&+\underbrace{(R_{\hat g}-R^*_\Phi)}_{\text{selector and estimation}}.
+\end{align*}
+\end{proposition}
+An observed gap between a selector and the oracle bounds the sum but does not apportion it. A rule whose fitting uses labels is a \emph{label-fitted output-feature selector}: it reads no labels at inference, but its fitting does. The gap concerns a fixed library of calls; it says nothing about what additional calls or a different library would add.
+
+\begin{proposition}[Constrained oracle]\label{prop:oracle}
+For $\SA$ with at most one representative per cluster, including the option of choosing none, $\min_{S\in\SA}E(S)=n-|M|$, where $M$ is a maximum matching in the bipartite graph between clusters and targets that has an edge whenever some $a\in A(Q)$ is compatible with the target. It is attained by selecting one compatible representative for each matched cluster and nothing for the others.
+\end{proposition}
+Unrestricted matching over all records can exceed $|M|$ when two members of one cluster match two targets; that value is not attainable within $\SA$ (Table~\ref{tab:select} reports both).
+
+\begin{proposition}[Approximate-model guarantee]\label{prop:approx}
+If a decision rule is optimal under a reporting law $\tilde K$, and the true law $K$ satisfies $\sup_\pi|\mathcal{R}_K(\pi)-\mathcal{R}_{\tilde K}(\pi)|\le\varepsilon$, then its regret under $K$ is at most $2\varepsilon$.
+\end{proposition}
+This is the basis for choosing a configuration on source data and carrying it to a new source within a task family. A rule that is only approximately optimal under $\tilde K$, for example one estimated from finite data, adds its own suboptimality to the bound.
+
+\subsection{What outputs alone can and cannot certify}\label{sec:theory:cert}
+
+\begin{proposition}[No output-only certificate]\label{prop:nocert}
+Fix a reported set $S$, a loss $L$ and a tolerance $\epsilon$. Suppose two admissible worlds induce the same law $P$ of the observable output history $H$, while $L(S,Y_0)\le\epsilon$ in the first and $L(S,Y_1)>\epsilon$ in the second. Then every output-only acceptance rule $a(H)\in[0,1]$, possibly randomized, accepts with the same probability in both worlds, so no such rule can accept with probability at least $1-\beta$ in the first world and at most $\alpha$ in the second if $\alpha+\beta<1$. More generally, $P_1(\text{accept})\ge P_0(\text{accept})-\mathrm{TV}(P_0,P_1)$.
+\end{proposition}
+The argument is the two-point method of minimax lower bounds \citep{tsybakov2009nonparametric}; methods that estimate accuracy from the agreement of several classifiers without labels \citep{platanios2014unlabeled} rely on assumptions, such as weakly dependent errors, that rule such pairs out. Such pairs arise from objects that a model rarely reports. If the bad world adds one target that each of $K$ calls reports with probability at most $\eta$, and the target does not change the rest of the output, then $\mathrm{TV}(P_0,P_1)\le K\eta$. Finite calls can distinguish the two worlds with probability up to $K\eta$, but no test is reliable uniformly over admissible classes in which $\eta$ can be arbitrarily small. The practical reading: agreement alone does not certify correctness. This does not prevent running a default procedure, ordering interfaces under explicit assumptions tested on other data, as the companion paper does for decomposition \citep{shi2026zoomin}, or operating a configuration chosen on source data without new labels.
+
+\begin{corollary}[Sign of a count gap]\label{cor:nonid}
+Under the conditions of Proposition~\ref{prop:nocert}, the sign of $|S|-n$ for a given report is not determined by the outputs: a world in which the report over-counts can have the same output law as one in which it under-counts. (This differs from the sign of a recall gain between two interfaces, which assumptions such as monotonicity in tokens per object can fix.)
+\end{corollary}
+Without further information, neither deleting unconfirmed records nor keeping them dominates for a count objective. Our count procedure keeps them, a conservative choice whose quality we evaluate empirically.

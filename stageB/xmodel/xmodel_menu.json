@@ -1,0 +1,118 @@
+{
+ "doclaynet": {
+  "L3": {
+   "menuB_vs_menuA_median": 0.0,
+   "menuB_vs_menuA_mean": -5.81,
+   "worse_share": 0.08,
+   "cross_picked_share": 0.365
+  },
+  "L5": {
+   "menuB_vs_menuA_median": 0.0,
+   "menuB_vs_menuA_mean": -8.58,
+   "worse_share": 0.07,
+   "cross_picked_share": 0.455
+  },
+  "L10": {
+   "menuB_vs_menuA_median": -6.71,
+   "menuB_vs_menuA_mean": -10.64,
+   "worse_share": 0.11,
+   "cross_picked_share": 0.64
+  },
+  "best_fixed_A": [
+   "single|gpt61",
+   8.57
+  ],
+  "best_fixed_B": [
+   "cross3_maj",
+   7.42
+  ],
+  "best_fixed_B_vs_A": -13.42
+ },
+ "dota": {
+  "L3": {
+   "menuB_vs_menuA_median": -5.63,
+   "menuB_vs_menuA_mean": -7.34,
+   "worse_share": 0.155,
+   "cross_picked_share": 0.785
+  },
+  "L5": {
+   "menuB_vs_menuA_median": -5.69,
+   "menuB_vs_menuA_mean": -6.16,
+   "worse_share": 0.15,
+   "cross_picked_share": 0.79
+  },
+  "L10": {
+   "menuB_vs_menuA_median": -5.72,
+   "menuB_vs_menuA_mean": -5.44,
+   "worse_share": 0.15,
+   "cross_picked_share": 0.835
+  },
+  "best_fixed_A": [
+   "same3_unan|gem38",
+   30.8
+  ],
+  "best_fixed_B": [
+   "cross3_unan",
+   29.02
+  ],
+  "best_fixed_B_vs_A": -5.79
+ },
+ "fsc147": {
+  "L3": {
+   "menuB_vs_menuA_median": 0.0,
+   "menuB_vs_menuA_mean": -0.52,
+   "worse_share": 0.09,
+   "cross_picked_share": 0.115
+  },
+  "L5": {
+   "menuB_vs_menuA_median": 0.0,
+   "menuB_vs_menuA_mean": 0.11,
+   "worse_share": 0.13,
+   "cross_picked_share": 0.16
+  },
+  "L10": {
+   "menuB_vs_menuA_median": 0.0,
+   "menuB_vs_menuA_mean": 0.61,
+   "worse_share": 0.13,
+   "cross_picked_share": 0.14
+  },
+  "best_fixed_A": [
+   "same3_maj|gpt61",
+   30.02
+  ],
+  "best_fixed_B": [
+   "same3_maj|gpt61",
+   30.02
+  ],
+  "best_fixed_B_vs_A": 0.0
+ },
+ "sku110k": {
+  "L3": {
+   "menuB_vs_menuA_median": -5.45,
+   "menuB_vs_menuA_mean": -5.95,
+   "worse_share": 0.075,
+   "cross_picked_share": 0.7
+  },
+  "L5": {
+   "menuB_vs_menuA_median": -5.67,
+   "menuB_vs_menuA_mean": -6.08,
+   "worse_share": 0.065,
+   "cross_picked_share": 0.775
+  },
+  "L10": {
+   "menuB_vs_menuA_median": -6.02,
+   "menuB_vs_menuA_mean": -5.77,
+   "worse_share": 0.07,
+   "cross_picked_share": 0.82
+  },
+  "best_fixed_A": [
+   "same3_unan|gem38",
+   136.48
+  ],
+  "best_fixed_B": [
+   "cross2_inter|gpt61|gem38",
+   129.03
+  ],
+  "best_fixed_B_vs_A": -5.46
+ }
+}

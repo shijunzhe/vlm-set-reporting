@@ -1,0 +1,110 @@
+{
+ "doclaynet|gem38": {
+  "omega_share": 0.738,
+  "support1_share": 0.37192536827693345,
+  "support3_share": 0.3938447202388205,
+  "unconfirmed_share": 0.38886612960626116,
+  "count_spread": 0.3997332897811697,
+  "median_record_rel_size": NaN,
+  "records_per_image": 9.233333333333333
+ },
+ "doclaynet|gpt61": {
+  "omega_share": 0.481,
+  "support1_share": 0.037816244341446814,
+  "support3_share": 0.9191268029513979,
+  "unconfirmed_share": 0.03741612622308789,
+  "count_spread": 0.0149555974346425,
+  "median_record_rel_size": 0.11147327841079839,
+  "records_per_image": 15.2
+ },
+ "doclaynet|sonnet55": {
+  "omega_share": 0.473,
+  "support1_share": 0.11443069155039713,
+  "support3_share": 0.7930758477587686,
+  "unconfirmed_share": 0.08976639795623134,
+  "count_spread": 0.03113349654177072,
+  "median_record_rel_size": 0.11492046438980005,
+  "records_per_image": 15.6
+ },
+ "dota|gem38": {
+  "omega_share": 0.599,
+  "support1_share": 0.4055937789426242,
+  "support3_share": 0.43949589813453954,
+  "unconfirmed_share": 0.32976151658309666,
+  "count_spread": 0.2267192952575752,
+  "median_record_rel_size": 0.11660005850046548,
+  "records_per_image": 24.666666666666668
+ },
+ "dota|gpt61": {
+  "omega_share": 0.373,
+  "support1_share": 0.19761805158579668,
+  "support3_share": 0.6867793877444345,
+  "unconfirmed_share": 0.18221615688313156,
+  "count_spread": 0.07777606617002239,
+  "median_record_rel_size": NaN,
+  "records_per_image": 44.8
+ },
+ "dota|sonnet55": {
+  "omega_share": 0.655,
+  "support1_share": 0.30372924299510834,
+  "support3_share": 0.557416456966148,
+  "unconfirmed_share": 0.2536231225996942,
+  "count_spread": 0.10282704866937749,
+  "median_record_rel_size": NaN,
+  "records_per_image": 21.2
+ },
+ "fsc147|gem38": {
+  "omega_share": 0.988,
+  "support1_share": 0.22305802719870088,
+  "support3_share": 0.6460245043332563,
+  "unconfirmed_share": 0.2400391622900144,
+  "count_spread": 0.16459417727626105,
+  "median_record_rel_size": 0.11542817001686795,
+  "records_per_image": 7.55
+ },
+ "fsc147|gpt61": {
+  "omega_share": 0.903,
+  "support1_share": 0.12014627283150496,
+  "support3_share": 0.8035642676314533,
+  "unconfirmed_share": 0.10247929485623898,
+  "count_spread": 0.07523319307019181,
+  "median_record_rel_size": 0.11542817001686796,
+  "records_per_image": 34.016666666666666
+ },
+ "fsc147|sonnet55": {
+  "omega_share": 0.938,
+  "support1_share": 0.3553828062147066,
+  "support3_share": 0.4993462379533989,
+  "unconfirmed_share": 0.33754473428394854,
+  "count_spread": 0.18082420606081437,
+  "median_record_rel_size": 0.11542817001686795,
+  "records_per_image": 15.95
+ },
+ "sku110k|gem38": {
+  "omega_share": 0.659,
+  "support1_share": 0.36197457622563295,
+  "support3_share": 0.3399265845196487,
+  "unconfirmed_share": 0.44528558788642536,
+  "count_spread": 0.430079625267776,
+  "median_record_rel_size": NaN,
+  "records_per_image": 97.01666666666667
+ },
+ "sku110k|gpt61": {
+  "omega_share": 0.367,
+  "support1_share": 0.2707436447957219,
+  "support3_share": 0.6215329408356937,
+  "unconfirmed_share": 0.15778396071638442,
+  "count_spread": 0.04374176445268859,
+  "median_record_rel_size": 0.05032384638294732,
+  "records_per_image": 197.76666666666668
+ },
+ "sku110k|sonnet55": {
+  "omega_share": 0.596,
+  "support1_share": 0.6717906824912506,
+  "support3_share": 0.13986730748056045,
+  "unconfirmed_share": 0.5721591798455072,
+  "count_spread": 0.2551716040641758,
+  "median_record_rel_size": 0.06491519358736487,
+  "records_per_image": 103.18333333333334
+ }
+}

@@ -1,0 +1,69 @@
+gem38 A manifest 1120 done 0 todo 1120
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 A 50
+gem38 A 100
+gem38 A 150
+gem38 A 200
+gem38 A manifest 1120 done 235 todo 885
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 A 50
+gem38 A 100
+gem38 A 150
+gem38 A 200
+gem38 A 250
+gem38 A 300
+gem38 A 350
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/PIL/ImageFile.py", line 392, in load
+    s = read(read_bytes)
+        ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/PIL/PngImagePlugin.py", line 999, in load_read
+    cid, pos, length = self.png.read()
+                       ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/PIL/PngImagePlugin.py", line 179, in read
+    length = i32(s)
+             ^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/PIL/_binary.py", line 96, in i32be
+    return unpack_from(">I", c, o)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+struct.error: unpack_from requires a buffer of at least 4 bytes for unpacking 4 bytes at offset 0 (actual buffer size is 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/claude/gui/code/run_gui.py", line 56, in <module>
+    main()
+  File "/home/claude/gui/code/run_gui.py", line 48, in main
+    r = fut.result()
+        ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/gui/code/run_gui.py", line 14, in execute
+    ims = [Image.open(os.path.join(ROOT, p)).convert('RGB') for p in q['images']]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/gui/code/run_gui.py", line 14, in <listcomp>
+    ims = [Image.open(os.path.join(ROOT, p)).convert('RGB') for p in q['images']]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/PIL/Image.py", line 1070, in convert
+    self.load()
+  File "/usr/local/lib/python3.11/dist-packages/PIL/ImageFile.py", line 399, in load
+    raise OSError(msg) from e
+OSError: image file is truncated
+gem38 A manifest 1120 done 621 todo 499
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 A 50
+gem38 A 100
+gem38 A 150
+gem38 A 200
+gem38 A 250
+gem38 A 300
+gem38 A 350
+gem38 A 400
+gem38 A 450
+gem38 A finished 499

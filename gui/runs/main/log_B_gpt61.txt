@@ -1,0 +1,17 @@
+gpt61 B manifest 758 done 0 todo 758
+gpt61 B 50
+gpt61 B 100
+gpt61 B 150
+gpt61 B 200
+gpt61 B 250
+gpt61 B 300
+gpt61 B 350
+gpt61 B 400
+gpt61 B 450
+gpt61 B 500
+gpt61 B 550
+gpt61 B 600
+gpt61 B 650
+gpt61 B 700
+gpt61 B 750
+gpt61 B finished 758

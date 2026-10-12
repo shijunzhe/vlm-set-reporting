@@ -1,0 +1,43 @@
+{
+ "gui|gpt61": {
+  "record_ratio": 1.053,
+  "tp_full": 46.0,
+  "tp_crops": 57.6,
+  "tp_gain": 11.6
+ },
+ "gui|sonnet55": {
+  "record_ratio": 0.912,
+  "tp_full": 58.5,
+  "tp_crops": 44.7,
+  "tp_gain": -13.9
+ },
+ "gui|gem38": {
+  "record_ratio": 0.943,
+  "tp_full": 24.8,
+  "tp_crops": 27.7,
+  "tp_gain": 2.9
+ },
+ "sku|gpt61": {
+  "record_ratio": 0.935,
+  "tp_full": 131.1,
+  "tp_crops": 130.7,
+  "tp_gain": -0.4
+ },
+ "sku|sonnet55": {
+  "record_ratio": 1.555,
+  "tp_full": 39.9,
+  "tp_crops": 128.1,
+  "tp_gain": 88.2
+ },
+ "sku|gem38": {
+  "record_ratio": 0.798,
+  "tp_full": 86.4,
+  "tp_crops": 66.1,
+  "tp_gain": -20.3
+ },
+ "_spearman": {
+  "rho": 1.0,
+  "p": 0.0,
+  "n": 6
+ }
+}

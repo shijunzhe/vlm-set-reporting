@@ -1,0 +1,11 @@
+\begin{table*}[tp]\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Confirmation by a partner call, split into selection and geometry (Propositions~\ref{prop:identity} and \ref{prop:geometry}). Each source has 9 base/partner pairs (3 base models $\times$ same-model or one of two other models), 60 images, one call each; values are per-image reductions of $E$ (positive is better). Both identities hold exactly on every image of every pair. \emph{Sign from 5 labels}: $p_1$ is estimated on 5 labelled images and Proposition~\ref{thm:intersect} is used to predict whether deletion lowers $E$ on the other 55; the share of correct predictions over 200 draws per pair, averaged over the pairs (Section~\ref{sec:res:set}). Sign flips: pairs in which the fused total has the opposite sign of the deletion-only selection term. Full per-pair values are in Appendix~\ref{app:tables}.}\label{tab:intersect}
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}lcccccccc@{}}\toprule
+Source & Pairs & Sign from 5 labels & Deletion helps & $p_1$ range & Selection range & Geometry $+$ / $-$ & Geometry range & Sign flips \\\midrule
+DocLayNet & 9 & 74\% & 6 & 0.11 to 0.64 & $-$2.2 to 2.1 & 6 / 2 & $-$1.1 to 3.1 & 1 \\
+DOTA & 9 & 98\% & 9 & 0.05 to 0.22 & 4.4 to 16.3 & 7 / 2 & $-$1.5 to 3.9 & 0 \\
+FSC-147 & 9 & 81\% & 2 & 0.39 to 0.90 & $-$21.8 to 0.3 & 8 / 0 & 0.0 to 0.4 & 0 \\
+SKU-110K & 9 & 96\% & 9 & 0.00 to 0.39 & 10.8 to 68.2 & 7 / 2 & $-$14.1 to 13.8 & 0 \\
+GroundCUA & 9 & 86\% & 6 & 0.06 to 0.72 & $-$16.8 to 37.7 & 4 / 5 & $-$7.7 to 15.4 & 1 \\
+ScreenParse & 9 & 63\% & 8 & 0.19 to 0.50 & 0.0 to 2.1 & 5 / 2 & $-$0.5 to 0.9 & 0 \\
+\bottomrule\end{tabular}}\end{table*}

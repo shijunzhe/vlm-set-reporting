@@ -1,0 +1,26 @@
+[
+ {
+  "provider": "anthropic",
+  "model": "claude-opus-5-5",
+  "min": {
+   "output_config.effort": "low",
+   "thinking": "adaptive (cannot be disabled)"
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768,
+   "default16k": 16384
+  },
+  "python": "3.11.15",
+  "sdk": {
+   "anthropic": "1.9.0",
+   "openai": "3.20.0",
+   "google-genai": "2.25.0"
+  },
+  "started": "2026-10-10T01:02:28Z",
+  "manifest": "requests.jsonl",
+  "manifest_sha256": "09f206561bd12a6debf0aaf807589685a115980f968add5c970491b7aa240d2d",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

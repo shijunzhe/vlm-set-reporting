@@ -1,0 +1,112 @@
+{
+  "version": "FSR-v3",
+  "seed": 20261008,
+  "checks": {
+    "matching_vs_bruteforce": 1000,
+    "central_identity_boundary_and_contract_checks": 6000,
+    "subset_with_pathwise_Q": 3308,
+    "boundary_counterexample": 1,
+    "F1_counterexample": 1,
+    "edit_sensitivity_checks": 3000,
+    "margin_witness_checks": 10000,
+    "softmax_mass_bound_checks": 1000,
+    "controller_scenarios": 8
+  },
+  "all_assertions_passed": true,
+  "status": "finite algebra and implementation tests only; no model inference, no training, no data replication",
+  "counterexamples": {
+    "cross_region": {
+      "joint": {
+        "n": 2,
+        "r": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "set_error": 0,
+        "f1": 1.0,
+        "recall": 1.0,
+        "exact_set": true,
+        "empty_false_alarm": false,
+        "B": 4,
+        "chi": 2,
+        "cross_matching_cap": 2,
+        "normalized_set_error": 0.0,
+        "f1_upper_surrogate": 1.0,
+        "local": {
+          "a": {
+            "n": 1,
+            "r": 1,
+            "tp": 0,
+            "fp": 1,
+            "fn": 1,
+            "d": 2,
+            "ell": 1
+          },
+          "b": {
+            "n": 1,
+            "r": 1,
+            "tp": 0,
+            "fp": 1,
+            "fn": 1,
+            "d": 2,
+            "ell": 1
+          }
+        },
+        "matched_pairs": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      "split": {
+        "n": 2,
+        "r": 2,
+        "tp": 0,
+        "fp": 2,
+        "fn": 2,
+        "set_error": 4,
+        "f1": 0.0,
+        "recall": 0.0,
+        "exact_set": false,
+        "empty_false_alarm": false,
+        "B": 4,
+        "chi": 0,
+        "cross_matching_cap": 0,
+        "normalized_set_error": 2.0,
+        "f1_upper_surrogate": 1.0,
+        "local": {
+          "a": {
+            "n": 1,
+            "r": 1,
+            "tp": 0,
+            "fp": 1,
+            "fn": 1,
+            "d": 2,
+            "ell": 1
+          },
+          "b": {
+            "n": 1,
+            "r": 1,
+            "tp": 0,
+            "fp": 1,
+            "fn": 1,
+            "d": 2,
+            "ell": 1
+          }
+        },
+        "matched_pairs": []
+      }
+    },
+    "set_error_not_F1": {
+      "joint_F1": 0.7142857142857143,
+      "alternative_F1": 0.5714285714285714,
+      "joint_set_error": 8,
+      "alternative_set_error": 6
+    }
+  }
+}

@@ -1,0 +1,14 @@
+gpt61 main manifest 600 done 0 todo 600
+gpt61 main 50
+gpt61 main 100
+gpt61 main 150
+gpt61 main 200
+gpt61 main 250
+gpt61 main 300
+gpt61 main 350
+gpt61 main 400
+gpt61 main 450
+gpt61 main 500
+gpt61 main 550
+gpt61 main 600
+gpt61 main finished 600

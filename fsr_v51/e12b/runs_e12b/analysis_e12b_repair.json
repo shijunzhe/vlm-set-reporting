@@ -1,0 +1,587 @@
+{
+ "groups": {
+  "E12|A-global|gpt56": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 9.306,
+   "E_step0": 9.306,
+   "E_final": 9.306,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|A-global|gpt61": {
+   "reports": 36,
+   "flagged": 4,
+   "fallbacks": 0,
+   "E_strict": 22.361,
+   "E_step0": 22.361,
+   "E_final": 1.472,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    -20.889,
+    -52.333,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.147,
+   "extra_calls_per_report": 0.111
+  },
+  "E12|A-global|opus55": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 0.0,
+   "E_step0": 0.0,
+   "E_final": 0.0,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|A-global|sonnet55": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 2.75,
+   "E_step0": 2.472,
+   "E_final": 2.472,
+   "step0_minus_strict": [
+    -0.278,
+    -0.833,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|F-down|gpt56": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 64.278,
+   "E_step0": 64.278,
+   "E_final": 64.278,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|F-down|gpt61": {
+   "reports": 36,
+   "flagged": 1,
+   "fallbacks": 1,
+   "E_strict": 7.806,
+   "E_step0": 7.806,
+   "E_final": 7.806,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.168,
+   "extra_calls_per_report": 0.028
+  },
+  "E12|F-down|opus55": {
+   "reports": 36,
+   "flagged": 15,
+   "fallbacks": 1,
+   "E_strict": 62.917,
+   "E_step0": 62.917,
+   "E_final": 23.361,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    -39.556,
+    -78.222,
+    -7.389,
+    12
+   ],
+   "repair_cost_usd": 1.057,
+   "extra_calls_per_report": 0.417
+  },
+  "E12|F-down|sonnet55": {
+   "reports": 36,
+   "flagged": 1,
+   "fallbacks": 0,
+   "E_strict": 95.167,
+   "E_step0": 95.333,
+   "E_final": 95.333,
+   "step0_minus_strict": [
+    0.167,
+    0.0,
+    0.5,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.01,
+   "extra_calls_per_report": 0.028
+  },
+  "E12|J-global|gpt56": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 5.083,
+   "E_step0": 5.083,
+   "E_final": 5.083,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|J-global|gpt61": {
+   "reports": 36,
+   "flagged": 2,
+   "fallbacks": 0,
+   "E_strict": 14.417,
+   "E_step0": 14.417,
+   "E_final": 4.556,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    -9.861,
+    -24.583,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.069,
+   "extra_calls_per_report": 0.056
+  },
+  "E12|J-global|opus55": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 0.056,
+   "E_step0": 0.056,
+   "E_final": 0.056,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12|J-global|sonnet55": {
+   "reports": 36,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 2.889,
+   "E_step0": 2.889,
+   "E_final": 2.889,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    12
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A2|gem38": {
+   "reports": 24,
+   "flagged": 2,
+   "fallbacks": 0,
+   "E_strict": 49.125,
+   "E_step0": 49.208,
+   "E_final": 43.375,
+   "step0_minus_strict": [
+    0.083,
+    0.0,
+    0.25,
+    24
+   ],
+   "final_minus_step0": [
+    -5.833,
+    -16.958,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.02,
+   "extra_calls_per_report": 0.083
+  },
+  "E12b|A2|gpt56": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 9.75,
+   "E_step0": 9.75,
+   "E_final": 9.75,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A2|gpt61": {
+   "reports": 24,
+   "flagged": 1,
+   "fallbacks": 0,
+   "E_strict": 12.458,
+   "E_step0": 12.458,
+   "E_final": 4.5,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    -7.958,
+    -23.875,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.041,
+   "extra_calls_per_report": 0.042
+  },
+  "E12b|A2|opus55": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 0.0,
+   "E_step0": 0.0,
+   "E_final": 0.0,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A2|sonnet55": {
+   "reports": 24,
+   "flagged": 1,
+   "fallbacks": 0,
+   "E_strict": 19.583,
+   "E_step0": 19.583,
+   "E_final": 13.292,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    -6.292,
+    -18.875,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.039,
+   "extra_calls_per_report": 0.042
+  },
+  "E12b|A3|gem38": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 57.125,
+   "E_step0": 57.167,
+   "E_final": 57.167,
+   "step0_minus_strict": [
+    0.042,
+    -0.083,
+    0.208,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A3|gpt56": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 7.583,
+   "E_step0": 7.583,
+   "E_final": 7.583,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A3|gpt61": {
+   "reports": 24,
+   "flagged": 1,
+   "fallbacks": 0,
+   "E_strict": 14.0,
+   "E_step0": 14.0,
+   "E_final": 6.0,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    -8.0,
+    -24.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.032,
+   "extra_calls_per_report": 0.042
+  },
+  "E12b|A3|opus55": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 0.0,
+   "E_step0": 0.0,
+   "E_final": 0.0,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  },
+  "E12b|A3|sonnet55": {
+   "reports": 24,
+   "flagged": 0,
+   "fallbacks": 0,
+   "E_strict": 8.542,
+   "E_step0": 8.542,
+   "E_final": 8.542,
+   "step0_minus_strict": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "final_minus_step0": [
+    0.0,
+    0.0,
+    0.0,
+    24
+   ],
+   "repair_cost_usd": 0.0,
+   "extra_calls_per_report": 0.0
+  }
+ },
+ "C_P1": {
+  "a_count": [
+   0.795,
+   0.633,
+   0.93
+  ],
+  "b_placement": [
+   0.001,
+   -0.464,
+   0.112
+  ],
+  "n_reports": 28,
+  "verdict": "supported"
+ },
+ "per_model_gain": {
+  "gpt61": {
+   "repaired": 9,
+   "mean_gain": 165.556,
+   "mean_cnt": 192.0,
+   "mean_plc": 0.0
+  },
+  "opus55": {
+   "repaired": 15,
+   "mean_gain": 94.933,
+   "mean_cnt": 118.2,
+   "mean_plc": 14.0
+  },
+  "sonnet55": {
+   "repaired": 2,
+   "mean_gain": 75.5,
+   "mean_cnt": 172.5,
+   "mean_plc": 0.0
+  },
+  "gem38": {
+   "repaired": 2,
+   "mean_gain": 70.0,
+   "mean_cnt": 94.5,
+   "mean_plc": 14.0
+  }
+ },
+ "D4 C-P1 fails -> drop repair routing from S-route": {
+  "triggered": false
+ },
+ "H3_preview": {
+  "E12b|gpt56|A2+repair - A3+followup": [
+   2.167,
+   -2.583,
+   7.875,
+   24
+  ],
+  "E12|gpt56|J-global+repair - F-down+followup": [
+   -59.194,
+   -84.389,
+   -34.944,
+   12
+  ],
+  "E12b|gpt61|A2+repair - A3+followup": [
+   -1.5,
+   -10.5,
+   4.292,
+   24
+  ],
+  "E12|gpt61|J-global+repair - F-down+followup": [
+   -3.25,
+   -17.167,
+   6.556,
+   12
+  ],
+  "E12b|opus55|A2+repair - A3+followup": [
+   0.0,
+   0.0,
+   0.0,
+   24
+  ],
+  "E12|opus55|J-global+repair - F-down+followup": [
+   -23.306,
+   -45.833,
+   -4.972,
+   12
+  ],
+  "E12b|sonnet55|A2+repair - A3+followup": [
+   4.75,
+   -2.375,
+   12.542,
+   24
+  ],
+  "E12|sonnet55|J-global+repair - F-down+followup": [
+   -92.444,
+   -127.528,
+   -58.972,
+   12
+  ],
+  "E12b|gem38|A2+repair - A3+followup": [
+   -13.792,
+   -31.292,
+   1.667,
+   24
+  ]
+ }
+}

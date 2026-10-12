@@ -1,0 +1,2660 @@
+{
+ "tag": "sim",
+ "tau": 11.0,
+ "delta": 6.0,
+ "grid": [
+  2.0,
+  4.0,
+  6.0,
+  8.0
+ ],
+ "reconciliation": {
+  "sim_perfect": {
+   "planned": 468,
+   "completed": 468,
+   "failed": 0,
+   "missing_response": 0,
+   "unplanned_records": 0
+  },
+  "sim_seq": {
+   "planned": 468,
+   "completed": 468,
+   "failed": 0,
+   "missing_response": 0,
+   "unplanned_records": 0
+  },
+  "sim_spatial": {
+   "planned": 468,
+   "completed": 468,
+   "failed": 0,
+   "missing_response": 0,
+   "unplanned_records": 0
+  },
+  "sim_stop": {
+   "planned": 468,
+   "completed": 468,
+   "failed": 0,
+   "missing_response": 0,
+   "unplanned_records": 0
+  }
+ },
+ "complete": true,
+ "models": {
+  "sim_perfect": {
+   "A_full_error": {
+    "F-down": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "F-up": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global-rev": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-global": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ]
+   },
+   "A_full_error_by_dose": {
+    "F-down": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "F-up": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global-rev": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-global": {
+     "96": 0.0,
+     "192": 0.0
+    }
+   },
+   "A_row_ownership_accounting_mean_per_report": {
+    "J-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global-rev": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-global": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    }
+   },
+   "P2_frame_global_minus_local": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_format_array_minus_ndjson": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_interaction": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_order_Jglobal_rev_minus_nat": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_order_F_up_minus_down": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P1_subset_execution": {
+    "local": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    }
+   },
+   "P3_theorem1_on_direct_vs_projection": {
+    "local": {
+     "actual_gap": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "slack_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "harmful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "helpful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ]
+    },
+    "global": {
+     "actual_gap": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "slack_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "harmful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "helpful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ]
+    }
+   },
+   "secondary": {
+    "local": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      -0.028,
+      -0.083,
+      0.0,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "S3_evidence_control_M_minus_D_local": {
+     "estimate_ci95": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "ci90": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "margin": 1.0,
+     "category": "equivalent within +-1.0"
+    },
+    "S4_delta_rule": {
+     "p90_candidate_reference_displacement": 3.0954375782196446,
+     "p90_reference_truth_displacement": 2.1969653991565994,
+     "delta_star": 4.0,
+     "usable_bound": true,
+     "outcome": "delta = 4.0"
+    }
+   },
+   "S5_mechanism": {
+    "F-down/F-up": {
+     "F-down": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 1.0,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.05,
+       -0.06,
+       0.17
+      ]
+     },
+     "F-up": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -1.0,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       -0.02,
+       -0.1,
+       0.05
+      ]
+     },
+     "flip_test_verdict": "none (no practically nonzero position slope)"
+    },
+    "J-global/J-global-rev": {
+     "J-global": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 0.949,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.02,
+       -0.08,
+       0.1
+      ]
+     },
+     "J-global-rev": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -0.913,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.05,
+       -0.03,
+       0.14
+      ]
+     },
+     "flip_test_verdict": "none (no practically nonzero position slope)"
+    },
+    "covariance_kernel_descriptive": {
+     "F-down": {
+      "product_kernel_R2": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     },
+     "J-global": {
+      "product_kernel_R2": [
+       0.001,
+       0.0,
+       0.001,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.0,
+       0.0,
+       0.001,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     }
+    }
+   },
+   "S6_failure_events": {
+    "A-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-up": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "M-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global-rev": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-global": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-down": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    }
+   }
+  },
+  "sim_seq": {
+   "A_full_error": {
+    "F-down": [
+     88.0,
+     61.556,
+     114.056,
+     12
+    ],
+    "F-up": [
+     83.278,
+     56.111,
+     115.722,
+     12
+    ],
+    "J-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global": [
+     81.722,
+     54.944,
+     111.444,
+     12
+    ],
+    "J-global-rev": [
+     74.389,
+     50.667,
+     101.056,
+     12
+    ],
+    "A-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-global": [
+     68.944,
+     43.5,
+     96.167,
+     12
+    ]
+   },
+   "A_full_error_by_dose": {
+    "F-down": {
+     "96": 46.22222222222223,
+     "192": 129.77777777777777
+    },
+    "F-up": {
+     "96": 47.666666666666664,
+     "192": 118.88888888888887
+    },
+    "J-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global": {
+     "96": 52.00000000000001,
+     "192": 111.44444444444444
+    },
+    "J-global-rev": {
+     "96": 52.111111111111114,
+     "192": 96.66666666666667
+    },
+    "A-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-global": {
+     "96": 48.22222222222222,
+     "192": 89.66666666666667
+    }
+   },
+   "A_row_ownership_accounting_mean_per_report": {
+    "J-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global": {
+     "B": 81.722,
+     "count_part": 0.0,
+     "placement_part": 81.722,
+     "chi_match": 0.0,
+     "o": 0.028
+    },
+    "J-global-rev": {
+     "B": 74.389,
+     "count_part": 0.0,
+     "placement_part": 74.389,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-global": {
+     "B": 68.944,
+     "count_part": 0.0,
+     "placement_part": 68.944,
+     "chi_match": 0.0,
+     "o": 0.0
+    }
+   },
+   "P2_frame_global_minus_local": {
+    "estimate_ci95": [
+     75.333,
+     51.944,
+     101.111,
+     12
+    ],
+    "ci90": [
+     75.333,
+     54.75,
+     96.583,
+     12
+    ],
+    "margin": 2.0,
+    "category": "positive (first worse)"
+   },
+   "P2_format_array_minus_ndjson": {
+    "estimate_ci95": [
+     -6.389,
+     -18.694,
+     4.694,
+     12
+    ],
+    "ci90": [
+     -6.389,
+     -16.528,
+     2.806,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_interaction": {
+    "estimate_ci95": [
+     -12.778,
+     -37.389,
+     9.389,
+     12
+    ],
+    "ci90": [
+     -12.778,
+     -33.056,
+     5.611,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_order_Jglobal_rev_minus_nat": {
+    "estimate_ci95": [
+     -7.333,
+     -37.778,
+     17.667,
+     12
+    ],
+    "ci90": [
+     -7.333,
+     -32.111,
+     14.389,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_order_F_up_minus_down": {
+    "estimate_ci95": [
+     -4.722,
+     -27.333,
+     21.556,
+     12
+    ],
+    "ci90": [
+     -4.722,
+     -24.056,
+     16.5,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P1_subset_execution": {
+    "local": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       -0.889,
+       -3.75,
+       1.611,
+       12
+      ],
+      "ci90": [
+       -0.889,
+       -3.222,
+       1.306,
+       12
+      ],
+      "margin": 1.0,
+      "category": "inconclusive"
+     }
+    }
+   },
+   "P3_theorem1_on_direct_vs_projection": {
+    "local": {
+     "actual_gap": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "slack_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "harmful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "helpful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ]
+    },
+    "global": {
+     "actual_gap": [
+      5.889,
+      3.889,
+      8.417,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      14.917,
+      11.056,
+      18.917,
+      12
+     ],
+     "slack_delta6": [
+      9.028,
+      6.667,
+      11.556,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      11.0,
+      6.806,
+      16.139,
+      12
+     ],
+     "harmful_mass": [
+      3.458,
+      2.583,
+      4.431,
+      12
+     ],
+     "helpful_mass": [
+      4.319,
+      2.264,
+      6.861,
+      12
+     ]
+    }
+   },
+   "secondary": {
+    "local": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      2.713,
+      1.884,
+      3.56,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       -0.889,
+       -3.75,
+       1.611,
+       12
+      ],
+      "ci90": [
+       -0.889,
+       -3.222,
+       1.306,
+       12
+      ],
+      "margin": 1.0,
+      "category": "inconclusive"
+     }
+    },
+    "S3_evidence_control_M_minus_D_local": {
+     "estimate_ci95": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "ci90": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "margin": 1.0,
+     "category": "equivalent within +-1.0"
+    },
+    "S4_delta_rule": {
+     "p90_candidate_reference_displacement": 9.841592703680274,
+     "p90_reference_truth_displacement": 11.638980470192385,
+     "delta_star": null,
+     "usable_bound": false,
+     "outcome": "no usable bound at tau = 11"
+    }
+   },
+   "S5_mechanism": {
+    "F-down/F-up": {
+     "F-down": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 1.0,
+      "mean_fraction_targets_in_residual_analysis": 0.952,
+      "position_slope_dy_px_per_image_ci95": [
+       13.67,
+       11.84,
+       15.46
+      ]
+     },
+     "F-up": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -1.0,
+      "mean_fraction_targets_in_residual_analysis": 0.946,
+      "position_slope_dy_px_per_image_ci95": [
+       -12.52,
+       -13.85,
+       -11.07
+      ]
+     },
+     "flip_test_verdict": "sequential (slope sign flips with order)"
+    },
+    "J-global/J-global-rev": {
+     "J-global": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 0.946,
+      "mean_fraction_targets_in_residual_analysis": 0.924,
+      "position_slope_dy_px_per_image_ci95": [
+       11.48,
+       9.76,
+       13.23
+      ]
+     },
+     "J-global-rev": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -0.91,
+      "mean_fraction_targets_in_residual_analysis": 0.954,
+      "position_slope_dy_px_per_image_ci95": [
+       -12.48,
+       -14.6,
+       -10.32
+      ]
+     },
+     "flip_test_verdict": "sequential (slope sign flips with order)"
+    },
+    "covariance_kernel_descriptive": {
+     "F-down": {
+      "product_kernel_R2": [
+       0.253,
+       0.143,
+       0.378,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.314,
+       0.196,
+       0.444,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     },
+     "J-global": {
+      "product_kernel_R2": [
+       0.22,
+       0.112,
+       0.337,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.335,
+       0.175,
+       0.493,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     }
+    }
+   },
+   "S6_failure_events": {
+    "J-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global-rev": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "M-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-down": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-global": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-up": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    }
+   }
+  },
+  "sim_spatial": {
+   "A_full_error": {
+    "F-down": [
+     62.5,
+     42.778,
+     82.722,
+     12
+    ],
+    "F-up": [
+     73.667,
+     48.056,
+     103.222,
+     12
+    ],
+    "J-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global": [
+     68.944,
+     42.722,
+     96.278,
+     12
+    ],
+    "J-global-rev": [
+     69.278,
+     39.5,
+     104.056,
+     12
+    ],
+    "A-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-global": [
+     74.167,
+     53.5,
+     99.222,
+     12
+    ]
+   },
+   "A_full_error_by_dose": {
+    "F-down": {
+     "96": 52.99999999999999,
+     "192": 72.0
+    },
+    "F-up": {
+     "96": 39.11111111111111,
+     "192": 108.22222222222223
+    },
+    "J-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global": {
+     "96": 32.77777777777778,
+     "192": 105.11111111111113
+    },
+    "J-global-rev": {
+     "96": 36.333333333333336,
+     "192": 102.22222222222223
+    },
+    "A-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-global": {
+     "96": 49.22222222222222,
+     "192": 99.11111111111113
+    }
+   },
+   "A_row_ownership_accounting_mean_per_report": {
+    "J-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global": {
+     "B": 68.944,
+     "count_part": 0.0,
+     "placement_part": 68.944,
+     "chi_match": 0.0,
+     "o": 0.056
+    },
+    "J-global-rev": {
+     "B": 69.278,
+     "count_part": 0.0,
+     "placement_part": 69.278,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-global": {
+     "B": 74.167,
+     "count_part": 0.0,
+     "placement_part": 74.167,
+     "chi_match": 0.0,
+     "o": 0.0
+    }
+   },
+   "P2_frame_global_minus_local": {
+    "estimate_ci95": [
+     71.556,
+     52.389,
+     89.583,
+     12
+    ],
+    "ci90": [
+     71.556,
+     55.444,
+     86.667,
+     12
+    ],
+    "margin": 2.0,
+    "category": "positive (first worse)"
+   },
+   "P2_format_array_minus_ndjson": {
+    "estimate_ci95": [
+     2.611,
+     -12.972,
+     21.222,
+     12
+    ],
+    "ci90": [
+     2.611,
+     -10.75,
+     17.583,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_interaction": {
+    "estimate_ci95": [
+     5.222,
+     -25.944,
+     42.444,
+     12
+    ],
+    "ci90": [
+     5.222,
+     -21.5,
+     35.167,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_order_Jglobal_rev_minus_nat": {
+    "estimate_ci95": [
+     0.333,
+     -30.0,
+     30.611,
+     12
+    ],
+    "ci90": [
+     0.333,
+     -24.889,
+     26.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P2_order_F_up_minus_down": {
+    "estimate_ci95": [
+     11.167,
+     -15.444,
+     44.556,
+     12
+    ],
+    "ci90": [
+     11.167,
+     -12.167,
+     38.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "inconclusive"
+   },
+   "P1_subset_execution": {
+    "local": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       -0.403,
+       -2.375,
+       1.431,
+       12
+      ],
+      "ci90": [
+       -0.403,
+       -2.042,
+       1.167,
+       12
+      ],
+      "margin": 1.0,
+      "category": "inconclusive"
+     }
+    }
+   },
+   "P3_theorem1_on_direct_vs_projection": {
+    "local": {
+     "actual_gap": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      1.139,
+      0.5,
+      1.917,
+      12
+     ],
+     "slack_delta6": [
+      1.139,
+      0.5,
+      1.917,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.639,
+      0.25,
+      1.083,
+      12
+     ],
+     "harmful_mass": [
+      0.056,
+      0.0,
+      0.125,
+      12
+     ],
+     "helpful_mass": [
+      0.056,
+      0.0,
+      0.125,
+      12
+     ]
+    },
+    "global": {
+     "actual_gap": [
+      3.514,
+      1.5,
+      5.694,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      11.542,
+      6.528,
+      16.944,
+      12
+     ],
+     "slack_delta6": [
+      8.028,
+      4.778,
+      11.75,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      6.417,
+      2.917,
+      10.583,
+      12
+     ],
+     "harmful_mass": [
+      1.361,
+      0.611,
+      2.264,
+      12
+     ],
+     "helpful_mass": [
+      2.014,
+      0.764,
+      3.486,
+      12
+     ]
+    }
+   },
+   "secondary": {
+    "local": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      0.051,
+      -0.005,
+      0.116,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "ci90": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "margin": 1.0,
+      "category": "equivalent within +-1.0"
+     }
+    },
+    "global": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      -0.421,
+      -1.259,
+      0.366,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       -0.417,
+       -2.389,
+       1.417,
+       12
+      ],
+      "ci90": [
+       -0.417,
+       -2.083,
+       1.167,
+       12
+      ],
+      "margin": 1.0,
+      "category": "inconclusive"
+     }
+    },
+    "S3_evidence_control_M_minus_D_local": {
+     "estimate_ci95": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "ci90": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "margin": 1.0,
+     "category": "equivalent within +-1.0"
+    },
+    "S4_delta_rule": {
+     "p90_candidate_reference_displacement": 6.121531527744489,
+     "p90_reference_truth_displacement": 10.60911766202263,
+     "delta_star": 8.0,
+     "usable_bound": false,
+     "outcome": "no usable bound at tau = 11"
+    }
+   },
+   "S5_mechanism": {
+    "F-down/F-up": {
+     "F-down": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 1.0,
+      "mean_fraction_targets_in_residual_analysis": 0.969,
+      "position_slope_dy_px_per_image_ci95": [
+       12.78,
+       10.84,
+       14.92
+      ]
+     },
+     "F-up": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -1.0,
+      "mean_fraction_targets_in_residual_analysis": 0.95,
+      "position_slope_dy_px_per_image_ci95": [
+       12.49,
+       10.82,
+       14.1
+      ]
+     },
+     "flip_test_verdict": "spatial (same-sign slopes under both orders)"
+    },
+    "J-global/J-global-rev": {
+     "J-global": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 0.947,
+      "mean_fraction_targets_in_residual_analysis": 0.955,
+      "position_slope_dy_px_per_image_ci95": [
+       12.39,
+       10.86,
+       13.97
+      ]
+     },
+     "J-global-rev": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -0.909,
+      "mean_fraction_targets_in_residual_analysis": 0.95,
+      "position_slope_dy_px_per_image_ci95": [
+       12.06,
+       10.1,
+       14.2
+      ]
+     },
+     "flip_test_verdict": "spatial (same-sign slopes under both orders)"
+    },
+    "covariance_kernel_descriptive": {
+     "F-down": {
+      "product_kernel_R2": [
+       0.498,
+       0.343,
+       0.654,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.457,
+       0.315,
+       0.599,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     },
+     "J-global": {
+      "product_kernel_R2": [
+       0.518,
+       0.323,
+       0.714,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.409,
+       0.256,
+       0.564,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     }
+    }
+   },
+   "S6_failure_events": {
+    "J-global-rev": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-global": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "M-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-down": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-up": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    }
+   }
+  },
+  "sim_stop": {
+   "A_full_error": {
+    "F-down": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "F-up": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "J-global-rev": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-local": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "A-global": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ]
+   },
+   "A_full_error_by_dose": {
+    "F-down": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "F-up": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "J-global-rev": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-local": {
+     "96": 0.0,
+     "192": 0.0
+    },
+    "A-global": {
+     "96": 0.0,
+     "192": 0.0
+    }
+   },
+   "A_row_ownership_accounting_mean_per_report": {
+    "J-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "J-global-rev": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-local": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    },
+    "A-global": {
+     "B": 0.0,
+     "count_part": 0.0,
+     "placement_part": 0.0,
+     "chi_match": 0.0,
+     "o": 0.0
+    }
+   },
+   "P2_frame_global_minus_local": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_format_array_minus_ndjson": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_interaction": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_order_Jglobal_rev_minus_nat": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P2_order_F_up_minus_down": {
+    "estimate_ci95": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "ci90": [
+     0.0,
+     0.0,
+     0.0,
+     12
+    ],
+    "margin": 2.0,
+    "category": "equivalent within +-2.0"
+   },
+   "P1_subset_execution": {
+    "local": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       7.25,
+       5.542,
+       9.083,
+       12
+      ],
+      "ci90": [
+       7.25,
+       5.792,
+       8.75,
+       12
+      ],
+      "margin": 1.0,
+      "category": "positive (first worse)"
+     }
+    },
+    "global": {
+     "dE_direct_minus_geometric_projection": {
+      "estimate_ci95": [
+       7.25,
+       5.542,
+       9.083,
+       12
+      ],
+      "ci90": [
+       7.25,
+       5.792,
+       8.75,
+       12
+      ],
+      "margin": 1.0,
+      "category": "positive (first worse)"
+     }
+    }
+   },
+   "P3_theorem1_on_direct_vs_projection": {
+    "local": {
+     "actual_gap": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "slack_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "harmful_mass": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "helpful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ]
+    },
+    "global": {
+     "actual_gap": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "bound_U_plus_Omega_delta6": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "slack_delta6": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "upper_slack_min_over_grid": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ],
+     "harmful_mass": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "helpful_mass": [
+      0.0,
+      0.0,
+      0.0,
+      12
+     ]
+    }
+   },
+   "secondary": {
+    "local": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      7.208,
+      5.5,
+      9.0,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       7.25,
+       5.542,
+       9.083,
+       12
+      ],
+      "ci90": [
+       7.25,
+       5.792,
+       8.75,
+       12
+      ],
+      "margin": 1.0,
+      "category": "positive (first worse)"
+     }
+    },
+    "global": {
+     "S1_compatibility_excess_signed_diagnostic": [
+      7.25,
+      5.542,
+      9.083,
+      12
+     ],
+     "S2_dE_direct_minus_row_projection": {
+      "estimate_ci95": [
+       7.25,
+       5.542,
+       9.083,
+       12
+      ],
+      "ci90": [
+       7.25,
+       5.792,
+       8.75,
+       12
+      ],
+      "margin": 1.0,
+      "category": "positive (first worse)"
+     }
+    },
+    "S3_evidence_control_M_minus_D_local": {
+     "estimate_ci95": [
+      -7.25,
+      -9.083,
+      -5.542,
+      12
+     ],
+     "ci90": [
+      -7.25,
+      -8.75,
+      -5.792,
+      12
+     ],
+     "margin": 1.0,
+     "category": "negative (first better)"
+    },
+    "S4_delta_rule": {
+     "p90_candidate_reference_displacement": 3.159167153874514,
+     "p90_reference_truth_displacement": 2.1076227859253103,
+     "delta_star": 4.0,
+     "usable_bound": true,
+     "outcome": "delta = 4.0"
+    }
+   },
+   "S5_mechanism": {
+    "F-down/F-up": {
+     "F-down": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 1.0,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.08,
+       0.04,
+       0.14
+      ]
+     },
+     "F-up": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -1.0,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.04,
+       -0.03,
+       0.12
+      ]
+     },
+     "flip_test_verdict": "none (no practically nonzero position slope)"
+    },
+    "J-global/J-global-rev": {
+     "J-global": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": 0.949,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       0.1,
+       -0.01,
+       0.21
+      ]
+     },
+     "J-global-rev": {
+      "order_adherence_fraction": 1.0,
+      "median_spearman_index_vs_y": -0.913,
+      "mean_fraction_targets_in_residual_analysis": 1.0,
+      "position_slope_dy_px_per_image_ci95": [
+       -0.01,
+       -0.08,
+       0.06
+      ]
+     },
+     "flip_test_verdict": "none (no practically nonzero position slope)"
+    },
+    "covariance_kernel_descriptive": {
+     "F-down": {
+      "product_kernel_R2": [
+       0.001,
+       0.0,
+       0.002,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.001,
+       0.0,
+       0.001,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     },
+     "J-global": {
+      "product_kernel_R2": [
+       0.0,
+       0.0,
+       0.001,
+       12
+      ],
+      "brownian_kernel_R2": [
+       0.0,
+       0.0,
+       0.0,
+       12
+      ],
+      "note": "descriptive only; with 3 repetitions the sample covariance has rank at most 2"
+     }
+    }
+   },
+   "S6_failure_events": {
+    "M-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-local": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 66,
+     "catastrophic_marked_found": 66
+    },
+    "A-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "D-global": {
+     "calls": 72,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 66,
+     "catastrophic_underreport": 66,
+     "catastrophic_marked_found": 66
+    },
+    "F-down": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "A-local": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "F-up": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    },
+    "J-global-rev": {
+     "calls": 36,
+     "failed_or_missing": 0,
+     "missing_response": 0,
+     "truncated": 0,
+     "salvaged": 0,
+     "malformed_rows": 0,
+     "invalid_objects": 0,
+     "missing_rows": 0,
+     "unknown_rows": 0,
+     "contradictory_rows": 0,
+     "dup_rows": 0,
+     "unrequested_rows": 0,
+     "repeats": 0,
+     "calls_with_thinking": 0,
+     "regions_k_ge_4": 522,
+     "catastrophic_underreport": 0,
+     "catastrophic_marked_found": 0
+    }
+   }
+  }
+ }
+}

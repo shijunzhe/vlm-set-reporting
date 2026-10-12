@@ -1,0 +1,24 @@
+[
+ {
+  "provider": "anthropic",
+  "model": "claude-sonnet-5-5",
+  "min": {
+   "thinking": "between_tools"
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768
+  },
+  "python": "3.11.15",
+  "sdk": {
+   "anthropic": "1.9.0",
+   "openai": "3.20.0",
+   "google-genai": "2.25.0"
+  },
+  "started": "2026-10-09T22:57:48Z",
+  "manifest": "requests.jsonl",
+  "manifest_sha256": "ab2224ff811f08cb8a0d23fce4015b5bc8b28e744e0d5f29cc9c908d138e4e3d",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

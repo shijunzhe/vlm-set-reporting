@@ -1,0 +1,12567 @@
+[
+ {
+  "id": "sp_www-02arch-it-408814c5a67379ea",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-02arch-it-408814c5a67379ea.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.02arch.it",
+  "targets": [
+   {
+    "box": [
+     270,
+     20,
+     1170,
+     41
+    ],
+    "label": "Text",
+    "text": "Informativa",
+    "interactable": false
+   },
+   {
+    "box": [
+     1153,
+     20,
+     1170,
+     49
+    ],
+    "label": "Button",
+    "text": "\u00d7",
+    "interactable": true
+   },
+   {
+    "box": [
+     270,
+     49,
+     1170,
+     133
+    ],
+    "label": "Text",
+    "text": "Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie ne",
+    "interactable": false
+   },
+   {
+    "box": [
+     1044,
+     72,
+     1133,
+     88
+    ],
+    "label": "Link",
+    "text": "cookie policy",
+    "interactable": true
+   },
+   {
+    "box": [
+     354,
+     10,
+     727,
+     61
+    ],
+    "label": "Text",
+    "text": "HOME PROJECTS TEACHING PRESS STUDIO",
+    "interactable": false
+   },
+   {
+    "box": [
+     245,
+     120,
+     548,
+     423
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     568,
+     120,
+     871,
+     423
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     892,
+     120,
+     1195,
+     423
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     245,
+     423,
+     1195,
+     454
+    ],
+    "label": "Heading",
+    "text": "SELECTED PROJECTS",
+    "interactable": false
+   },
+   {
+    "box": [
+     245,
+     479,
+     419,
+     653
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     439,
+     479,
+     613,
+     653
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     633,
+     479,
+     807,
+     653
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     827,
+     479,
+     1001,
+     653
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1021,
+     479,
+     1195,
+     653
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     245,
+     653,
+     1195,
+     684
+    ],
+    "label": "Heading",
+    "text": "LAST PROJECTS",
+    "interactable": false
+   },
+   {
+    "box": [
+     388,
+     717,
+     412,
+     741
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     244,
+     678,
+     420,
+     913
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     582,
+     717,
+     606,
+     741
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     438,
+     678,
+     614,
+     913
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     776,
+     717,
+     800,
+     741
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     632,
+     678,
+     808,
+     912
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     717,
+     994,
+     741
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     826,
+     685,
+     1002,
+     905
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1164,
+     717,
+     1188,
+     741
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1020,
+     685,
+     1196,
+     905
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1165,
+     765,
+     1225,
+     825
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     245,
+     881,
+     1195,
+     912
+    ],
+    "label": "Heading",
+    "text": "#02ARCH",
+    "interactable": false
+   }
+  ],
+  "n": 27
+ },
+ {
+  "id": "sp_www-1001ventures-com-f1ea363426bc75bb",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1001ventures-com-f1ea363426bc75bb.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.1001ventures.com",
+  "targets": [
+   {
+    "box": [
+     8,
+     8,
+     1432,
+     46
+    ],
+    "label": "Heading",
+    "text": "Index of /",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     67,
+     1432,
+     377
+    ],
+    "label": "List",
+    "text": "Name Last modified Size Description wp-content/ 2020-09-08 10:07 - wp-cron.php 2",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     67,
+     28,
+     89
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     223,
+     76,
+     324,
+     93
+    ],
+    "label": "Link",
+    "text": "Last modified",
+    "interactable": true
+   },
+   {
+    "box": [
+     418,
+     76,
+     504,
+     93
+    ],
+    "label": "Link",
+    "text": "Description",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     76,
+     67,
+     93
+    ],
+    "label": "Link",
+    "text": "Name",
+    "interactable": true
+   },
+   {
+    "box": [
+     371,
+     76,
+     402,
+     93
+    ],
+    "label": "Link",
+    "text": "Size",
+    "interactable": true
+   },
+   {
+    "box": [
+     8,
+     100,
+     1432,
+     102
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     108,
+     28,
+     130
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     134,
+     28,
+     156
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     160,
+     28,
+     182
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     186,
+     28,
+     208
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     212,
+     28,
+     234
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     238,
+     28,
+     260
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     264,
+     28,
+     286
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     290,
+     28,
+     312
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     316,
+     28,
+     338
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     8,
+     342,
+     28,
+     364
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     36,
+     117,
+     122,
+     134
+    ],
+    "label": "Link",
+    "text": "wp-content/",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     143,
+     122,
+     160
+    ],
+    "label": "Link",
+    "text": "wp-cron.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     169,
+     169,
+     186
+    ],
+    "label": "Link",
+    "text": "wp-links-opml.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     195,
+     122,
+     212
+    ],
+    "label": "Link",
+    "text": "wp-load.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     221,
+     130,
+     238
+    ],
+    "label": "Link",
+    "text": "wp-login.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     247,
+     122,
+     264
+    ],
+    "label": "Link",
+    "text": "wp-mail.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     273,
+     153,
+     290
+    ],
+    "label": "Link",
+    "text": "wp-settings.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     299,
+     137,
+     316
+    ],
+    "label": "Link",
+    "text": "wp-signup.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     325,
+     161,
+     342
+    ],
+    "label": "Link",
+    "text": "wp-trackback.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     36,
+     351,
+     114,
+     368
+    ],
+    "label": "Link",
+    "text": "xmlrpc.php",
+    "interactable": true
+   },
+   {
+    "box": [
+     8,
+     375,
+     1432,
+     377
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 29
+ },
+ {
+  "id": "sp_www-127media-com-d27248e41372e5e6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-127media-com-d27248e41372e5e6.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.127media.com",
+  "targets": [
+   {
+    "box": [
+     72,
+     12,
+     215,
+     97
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     469,
+     44,
+     516,
+     66
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     569,
+     44,
+     618,
+     66
+    ],
+    "label": "Link",
+    "text": "About",
+    "interactable": true
+   },
+   {
+    "box": [
+     736,
+     37,
+     756,
+     73
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     808,
+     44,
+     850,
+     66
+    ],
+    "label": "Link",
+    "text": "News",
+    "interactable": true
+   },
+   {
+    "box": [
+     902,
+     44,
+     970,
+     66
+    ],
+    "label": "Link",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     1256,
+     39,
+     1335,
+     71
+    ],
+    "label": "Button",
+    "text": "Contact Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     266,
+     180,
+     1173,
+     480
+    ],
+    "label": "Heading",
+    "text": "Powering Digital Growth With Secure, Scalable Solutions",
+    "interactable": false
+   },
+   {
+    "box": [
+     272,
+     548,
+     1168,
+     604
+    ],
+    "label": "Text",
+    "text": "Hosting, Web, Cloud & IT Solutions for Business",
+    "interactable": false
+   },
+   {
+    "box": [
+     72,
+     679,
+     1368,
+     780
+    ],
+    "label": "Text",
+    "text": "As a Microsoft AI Cloud Partner, 127 Media helps businesses unlock growth throug",
+    "interactable": false
+   },
+   {
+    "box": [
+     1237,
+     885,
+     1400,
+     935
+    ],
+    "label": "Button",
+    "text": "Manage consent",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-110offroad-it-a3ec0b599e3e6b2d",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-110offroad-it-a3ec0b599e3e6b2d.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.110offroad.it",
+  "targets": [
+   {
+    "box": [
+     24,
+     55,
+     276,
+     95
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     116,
+     253,
+     183,
+     277
+    ],
+    "label": "Link",
+    "text": "Contatti",
+    "interactable": true
+   },
+   {
+    "box": [
+     101,
+     301,
+     199,
+     325
+    ],
+    "label": "Link",
+    "text": "Dove siamo",
+    "interactable": true
+   },
+   {
+    "box": [
+     89,
+     349,
+     210,
+     373
+    ],
+    "label": "Link",
+    "text": "Privacy policy",
+    "interactable": true
+   },
+   {
+    "box": [
+     93,
+     397,
+     206,
+     421
+    ],
+    "label": "Link",
+    "text": "Cookie policy",
+    "interactable": true
+   },
+   {
+    "box": [
+     54,
+     445,
+     246,
+     469
+    ],
+    "label": "Link",
+    "text": "Le nostre preparazioni",
+    "interactable": true
+   },
+   {
+    "box": [
+     72,
+     737,
+     228,
+     761
+    ],
+    "label": "Link",
+    "text": "+390376263279",
+    "interactable": true
+   },
+   {
+    "box": [
+     165,
+     803,
+     1276,
+     841
+    ],
+    "label": "Text",
+    "text": "Questo sito o gli strumenti di terze parti in esso integrati trattano dati perso",
+    "interactable": false
+   },
+   {
+    "box": [
+     152,
+     846,
+     1287,
+     884
+    ],
+    "label": "Text",
+    "text": "Dichiari di accettare l\u2019utilizzo di cookie o altri identificatori chiudendo o na",
+    "interactable": false
+   },
+   {
+    "box": [
+     912,
+     111,
+     1375,
+     243
+    ],
+    "label": "Heading",
+    "text": "LA NOSTRA PASSIONE",
+    "interactable": false
+   },
+   {
+    "box": [
+     912,
+     243,
+     1375,
+     315
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1421,
+     791,
+     1430,
+     811
+    ],
+    "label": "Utility Button",
+    "text": "x",
+    "interactable": true
+   },
+   {
+    "box": [
+     300,
+     0,
+     1440,
+     861
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 13
+ },
+ {
+  "id": "sp_www-113-nl-c769de7fc3ee58e8",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-113-nl-c769de7fc3ee58e8.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.113.nl",
+  "targets": [
+   {
+    "box": [
+     206,
+     11,
+     290,
+     66
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     648,
+     15,
+     868,
+     65
+    ],
+    "label": "Button",
+    "text": "Bel gratis 113",
+    "interactable": true
+   },
+   {
+    "box": [
+     888,
+     15,
+     1102,
+     65
+    ],
+    "label": "Button",
+    "text": "Chat met ons",
+    "interactable": true
+   },
+   {
+    "box": [
+     1122,
+     44,
+     1164,
+     59
+    ],
+    "label": "Utility Button",
+    "text": "Zoeken",
+    "interactable": true
+   },
+   {
+    "box": [
+     1184,
+     44,
+     1234,
+     59
+    ],
+    "label": "Link",
+    "text": "Inloggen",
+    "interactable": true
+   },
+   {
+    "box": [
+     206,
+     96,
+     411,
+     125
+    ],
+    "label": "Button",
+    "text": "Heb je nu hulp nodig?",
+    "interactable": true
+   },
+   {
+    "box": [
+     501,
+     96,
+     782,
+     125
+    ],
+    "label": "Button",
+    "text": "Maak je je zorgen om iemand?",
+    "interactable": true
+   },
+   {
+    "box": [
+     873,
+     96,
+     1029,
+     125
+    ],
+    "label": "Button",
+    "text": "Wat kan ik doen?",
+    "interactable": true
+   },
+   {
+    "box": [
+     1119,
+     96,
+     1205,
+     125
+    ],
+    "label": "Link",
+    "text": "Over 113",
+    "interactable": true
+   },
+   {
+    "box": [
+     209,
+     225,
+     1231,
+     269
+    ],
+    "label": "Heading",
+    "text": "Denk je aan zelfdoding?",
+    "interactable": false
+   },
+   {
+    "box": [
+     209,
+     298,
+     995,
+     376
+    ],
+    "label": "Text",
+    "text": "We zijn er voor je. Je kunt met ons geheel anoniem bellen of chatten.",
+    "interactable": false
+   },
+   {
+    "box": [
+     209,
+     427,
+     433,
+     481
+    ],
+    "label": "Button",
+    "text": "Bel gratis 113",
+    "interactable": true
+   },
+   {
+    "box": [
+     453,
+     427,
+     671,
+     481
+    ],
+    "label": "Button",
+    "text": "Chat met ons",
+    "interactable": true
+   },
+   {
+    "box": [
+     691,
+     427,
+     852,
+     481
+    ],
+    "label": "Button",
+    "text": "Teletolk",
+    "interactable": true
+   },
+   {
+    "box": [
+     209,
+     640,
+     640,
+     684
+    ],
+    "label": "Heading",
+    "text": "Lessen voor het leven",
+    "interactable": false
+   },
+   {
+    "box": [
+     209,
+     842,
+     478,
+     896
+    ],
+    "label": "Button",
+    "text": "Help levens redden",
+    "interactable": true
+   },
+   {
+    "box": [
+     800,
+     640,
+     1231,
+     684
+    ],
+    "label": "Heading",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     800,
+     842,
+     1088,
+     896
+    ],
+    "label": "Button",
+    "text": "Over chatten met ons",
+    "interactable": true
+   }
+  ],
+  "n": 18
+ },
+ {
+  "id": "sp_www-100blackmensf-org-e76dfea739af28a6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-100blackmensf-org-e76dfea739af28a6.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.100blackmensf.org",
+  "targets": [
+   {
+    "box": [
+     30,
+     -10,
+     180,
+     140
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     228,
+     29,
+     315,
+     81
+    ],
+    "label": "Link",
+    "text": "HOME PAGE",
+    "interactable": true
+   },
+   {
+    "box": [
+     440,
+     49,
+     448,
+     61
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     549,
+     49,
+     557,
+     61
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     577,
+     29,
+     638,
+     81
+    ],
+    "label": "Link",
+    "text": "EVENTS",
+    "interactable": true
+   },
+   {
+    "box": [
+     783,
+     49,
+     791,
+     61
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     863,
+     49,
+     871,
+     61
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     891,
+     29,
+     987,
+     81
+    ],
+    "label": "Link",
+    "text": "CONTACT US",
+    "interactable": true
+   },
+   {
+    "box": [
+     1016,
+     608,
+     1033,
+     628
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1036,
+     40,
+     1194,
+     67
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1043,
+     608,
+     1060,
+     628
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1070,
+     608,
+     1089,
+     628
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1101,
+     608,
+     1118,
+     628
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1204,
+     38,
+     1234,
+     68
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1260,
+     49,
+     1274,
+     63
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 15
+ },
+ {
+  "id": "sp_www-11shotsmedia-com-46404ecbee7f5ca1",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-11shotsmedia-com-46404ecbee7f5ca1.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.11shotsmedia.com",
+  "targets": [
+   {
+    "box": [
+     305,
+     44,
+     702,
+     267
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1054,
+     44,
+     1451,
+     267
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     679,
+     425,
+     1076,
+     648
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     679,
+     39,
+     1076,
+     436
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     305,
+     479,
+     702,
+     702
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     305,
+     261,
+     702,
+     484
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1054,
+     261,
+     1451,
+     484
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     679,
+     642,
+     1076,
+     863
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1054,
+     696,
+     1451,
+     919
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1054,
+     479,
+     1451,
+     702
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     679,
+     858,
+     1076,
+     1081
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     305,
+     696,
+     702,
+     918
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     44,
+     50,
+     255,
+     201
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     35,
+     236,
+     265,
+     281
+    ],
+    "label": "List Item",
+    "text": "HOME",
+    "interactable": true
+   },
+   {
+    "box": [
+     35,
+     281,
+     265,
+     326
+    ],
+    "label": "List Item",
+    "text": "11 SHOTS MEDIA",
+    "interactable": true
+   },
+   {
+    "box": [
+     35,
+     326,
+     265,
+     371
+    ],
+    "label": "List Item",
+    "text": "PORTFOLIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     35,
+     371,
+     265,
+     416
+    ],
+    "label": "List Item",
+    "text": "REFERENTIES",
+    "interactable": true
+   },
+   {
+    "box": [
+     35,
+     416,
+     265,
+     461
+    ],
+    "label": "List Item",
+    "text": "CONTACT",
+    "interactable": true
+   },
+   {
+    "box": [
+     43,
+     526,
+     61,
+     554
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     76,
+     526,
+     104,
+     554
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     114,
+     526,
+     142,
+     554
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     152,
+     526,
+     180,
+     554
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     190,
+     526,
+     218,
+     554
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 23
+ },
+ {
+  "id": "sp_www-1000friends-es-63f6b4441af528e3",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1000friends-es-63f6b4441af528e3.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.1000friends.es",
+  "targets": [
+   {
+    "box": [
+     60,
+     27,
+     288,
+     69
+    ],
+    "label": "Logo",
+    "text": "1000friends.es",
+    "interactable": false
+   },
+   {
+    "box": [
+     884,
+     33,
+     1006,
+     63
+    ],
+    "label": "Link",
+    "text": "Qui\u00e9nes Somos",
+    "interactable": true
+   },
+   {
+    "box": [
+     1026,
+     33,
+     1103,
+     63
+    ],
+    "label": "Link",
+    "text": "Contactar",
+    "interactable": true
+   },
+   {
+    "box": [
+     1123,
+     33,
+     1245,
+     63
+    ],
+    "label": "Link",
+    "text": "P\u00e1gina principal",
+    "interactable": true
+   },
+   {
+    "box": [
+     1265,
+     33,
+     1390,
+     63
+    ],
+    "label": "Link",
+    "text": "Buscar art\u00edculos",
+    "interactable": true
+   },
+   {
+    "box": [
+     113,
+     122,
+     653,
+     141
+    ],
+    "label": "Link",
+    "text": "Compensaci\u00f3n de Emisiones de Viaje: M\u00e9todos, Herramientas e Impacto",
+    "interactable": true
+   },
+   {
+    "box": [
+     113,
+     141,
+     653,
+     155
+    ],
+    "label": "Text",
+    "text": "01/12/2025",
+    "interactable": false
+   },
+   {
+    "box": [
+     51,
+     116,
+     193,
+     161
+    ],
+    "label": "Text",
+    "text": "Top Stories",
+    "interactable": false
+   },
+   {
+    "box": [
+     675,
+     121,
+     711,
+     157
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     721,
+     122,
+     1309,
+     141
+    ],
+    "label": "Link",
+    "text": "Productos de Limpieza Ecol\u00f3gicos: Seguridad Familiar, Eficacia e Ingredientes",
+    "interactable": true
+   },
+   {
+    "box": [
+     721,
+     141,
+     800,
+     155
+    ],
+    "label": "Text",
+    "text": "01/12/2025",
+    "interactable": false
+   },
+   {
+    "box": [
+     1331,
+     121,
+     1367,
+     157
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1363,
+     127,
+     1377,
+     149
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     64,
+     360,
+     104,
+     400
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     51,
+     211,
+     665,
+     533
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     695,
+     223,
+     922,
+     251
+    ],
+    "label": "Link",
+    "text": "Opciones de Transporte Verde",
+    "interactable": true
+   },
+   {
+    "box": [
+     695,
+     266,
+     1280,
+     330
+    ],
+    "label": "Link",
+    "text": "Opciones de Transporte P\u00fablico: Buses, Trains y Accesibilidad",
+    "interactable": true
+   },
+   {
+    "box": [
+     695,
+     342,
+     1339,
+     431
+    ],
+    "label": "Text",
+    "text": "El transporte p\u00fablico en Espa\u00f1a ofrece diversas opciones como autobuses y trenes",
+    "interactable": false
+   },
+   {
+    "box": [
+     695,
+     452,
+     827,
+     471
+    ],
+    "label": "Link",
+    "text": "Continue Reading",
+    "interactable": true
+   },
+   {
+    "box": [
+     695,
+     493,
+     725,
+     523
+    ],
+    "label": "Avatar",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     733,
+     499,
+     842,
+     515
+    ],
+    "label": "Link",
+    "text": "Ignacio Serrano",
+    "interactable": true
+   },
+   {
+    "box": [
+     866,
+     498,
+     969,
+     519
+    ],
+    "label": "Text",
+    "text": "01/12/2025",
+    "interactable": false
+   },
+   {
+    "box": [
+     38,
+     622,
+     970,
+     823
+    ],
+    "label": "Text",
+    "text": "Los productos sostenibles son esenciales para promover un estilo de vida eco-ami",
+    "interactable": false
+   },
+   {
+    "box": [
+     489,
+     898,
+     927,
+     933
+    ],
+    "label": "Text",
+    "text": "Posted in Opciones de Transporte Verde",
+    "interactable": false
+   },
+   {
+    "box": [
+     1336,
+     360,
+     1376,
+     400
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1019,
+     662,
+     1359,
+     696
+    ],
+    "label": "Heading",
+    "text": "Enlaces R\u00e1pidos",
+    "interactable": false
+   },
+   {
+    "box": [
+     1019,
+     721,
+     1155,
+     743
+    ],
+    "label": "Link",
+    "text": "Buscar art\u00edculos",
+    "interactable": true
+   },
+   {
+    "box": [
+     1019,
+     768,
+     1106,
+     790
+    ],
+    "label": "Link",
+    "text": "Contactar",
+    "interactable": true
+   },
+   {
+    "box": [
+     1019,
+     814,
+     1147,
+     836
+    ],
+    "label": "Link",
+    "text": "Qui\u00e9nes Somos",
+    "interactable": true
+   }
+  ],
+  "n": 29
+ },
+ {
+  "id": "sp_www-12amdesign-com-e4a54109780aa225",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12amdesign-com-e4a54109780aa225.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.12amdesign.com",
+  "targets": [
+   {
+    "box": [
+     235,
+     14,
+     518,
+     89
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     807,
+     27,
+     824,
+     51
+    ],
+    "label": "Utility Button",
+    "text": "\u229d",
+    "interactable": true
+   },
+   {
+    "box": [
+     914,
+     27,
+     931,
+     51
+    ],
+    "label": "Utility Button",
+    "text": "\u229b",
+    "interactable": true
+   },
+   {
+    "box": [
+     1015,
+     27,
+     1032,
+     51
+    ],
+    "label": "Utility Button",
+    "text": "\u229a",
+    "interactable": true
+   },
+   {
+    "box": [
+     1104,
+     27,
+     1121,
+     51
+    ],
+    "label": "Utility Button",
+    "text": "\u2295",
+    "interactable": true
+   },
+   {
+    "box": [
+     316,
+     289,
+     598,
+     339
+    ],
+    "label": "Text",
+    "text": "Plan from the beginning = Design from the beginning",
+    "interactable": false
+   },
+   {
+    "box": [
+     1140,
+     113,
+     1180,
+     153
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     250,
+     103,
+     1190,
+     385
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     653,
+     396,
+     666,
+     408
+    ],
+    "label": "Page control",
+    "text": "1",
+    "interactable": false
+   },
+   {
+    "box": [
+     671,
+     396,
+     684,
+     408
+    ],
+    "label": "Page control",
+    "text": "2",
+    "interactable": false
+   },
+   {
+    "box": [
+     689,
+     396,
+     702,
+     408
+    ],
+    "label": "Page control",
+    "text": "3",
+    "interactable": false
+   },
+   {
+    "box": [
+     707,
+     396,
+     720,
+     408
+    ],
+    "label": "Page control",
+    "text": "4",
+    "interactable": false
+   },
+   {
+    "box": [
+     725,
+     396,
+     738,
+     408
+    ],
+    "label": "Page control",
+    "text": "5",
+    "interactable": false
+   },
+   {
+    "box": [
+     743,
+     396,
+     756,
+     408
+    ],
+    "label": "Page control",
+    "text": "6",
+    "interactable": false
+   },
+   {
+    "box": [
+     761,
+     396,
+     774,
+     408
+    ],
+    "label": "Page control",
+    "text": "7",
+    "interactable": false
+   },
+   {
+    "box": [
+     779,
+     396,
+     792,
+     408
+    ],
+    "label": "Page control",
+    "text": "8",
+    "interactable": false
+   },
+   {
+    "box": [
+     235,
+     439,
+     538,
+     666
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     235,
+     680,
+     275,
+     740
+    ],
+    "label": "Button",
+    "text": "\u229b",
+    "interactable": true
+   },
+   {
+    "box": [
+     235,
+     781,
+     538,
+     835
+    ],
+    "label": "Text",
+    "text": "Samples from our design service portfolio.",
+    "interactable": false
+   },
+   {
+    "box": [
+     568,
+     439,
+     871,
+     666
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     568,
+     680,
+     608,
+     740
+    ],
+    "label": "Button",
+    "text": "\u229a",
+    "interactable": true
+   },
+   {
+    "box": [
+     568,
+     781,
+     871,
+     835
+    ],
+    "label": "Text",
+    "text": "Design prototyping and experimentation.",
+    "interactable": false
+   },
+   {
+    "box": [
+     902,
+     439,
+     1205,
+     666
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     902,
+     680,
+     942,
+     740
+    ],
+    "label": "Utility Button",
+    "text": "\u229c",
+    "interactable": true
+   },
+   {
+    "box": [
+     902,
+     781,
+     1205,
+     808
+    ],
+    "label": "Text",
+    "text": "Our family of brands.",
+    "interactable": false
+   },
+   {
+    "box": [
+     220,
+     880,
+     1220,
+     1223
+    ],
+    "label": "Text",
+    "text": "Get What You Need. 12 AM Design is creative services hub. When you need graphic ",
+    "interactable": false
+   },
+   {
+    "box": [
+     235,
+     894,
+     1205,
+     986
+    ],
+    "label": "Heading",
+    "text": "Get What You Need.",
+    "interactable": false
+   },
+   {
+    "box": [
+     1326,
+     804,
+     1340,
+     825
+    ],
+    "label": "Utility Button",
+    "text": "\u25b2",
+    "interactable": true
+   }
+  ],
+  "n": 28
+ },
+ {
+  "id": "sp_www-10pm-com-c9f24d0704adca7c",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10pm-com-c9f24d0704adca7c.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.10pm.com",
+  "targets": [
+   {
+    "box": [
+     91,
+     30,
+     223,
+     57
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1129,
+     31,
+     1194,
+     55
+    ],
+    "label": "Text",
+    "text": "Excellent",
+    "interactable": false
+   },
+   {
+    "box": [
+     1202,
+     33,
+     1273,
+     54
+    ],
+    "label": "Rating Indicator",
+    "text": "4.6 out of 5",
+    "interactable": false
+   },
+   {
+    "box": [
+     1302,
+     37,
+     1361,
+     50
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     375,
+     191,
+     1065,
+     239
+    ],
+    "label": "Heading",
+    "text": "www.10pm.com",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     255,
+     1065,
+     279
+    ],
+    "label": "Text",
+    "text": "This domain is registered, but may still be available.",
+    "interactable": false
+   },
+   {
+    "box": [
+     664,
+     316,
+     777,
+     338
+    ],
+    "label": "Button",
+    "text": "Get this domain",
+    "interactable": true
+   },
+   {
+    "box": [
+     88,
+     546,
+     157,
+     566
+    ],
+    "label": "Text",
+    "text": "Powered By",
+    "interactable": false
+   },
+   {
+    "box": [
+     159,
+     531,
+     359,
+     581
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1062,
+     551,
+     1267,
+     568
+    ],
+    "label": "Link",
+    "text": "Do not share my personal information",
+    "interactable": true
+   },
+   {
+    "box": [
+     1272,
+     551,
+     1368,
+     568
+    ],
+    "label": "Link",
+    "text": "Privacy Settings",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-12d-com-1aa7836ae33242ea",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12d-com-1aa7836ae33242ea.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.12d.com",
+  "targets": [
+   {
+    "box": [
+     1050,
+     6,
+     1075,
+     31
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1085,
+     6,
+     1110,
+     31
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1120,
+     6,
+     1145,
+     31
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1155,
+     6,
+     1180,
+     31
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     235,
+     50,
+     1205,
+     55
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     250,
+     55,
+     505,
+     132
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     593,
+     65,
+     652,
+     105
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     652,
+     65,
+     725,
+     105
+    ],
+    "label": "Link",
+    "text": "Product",
+    "interactable": true
+   },
+   {
+    "box": [
+     593,
+     105,
+     665,
+     145
+    ],
+    "label": "Button",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     725,
+     65,
+     781,
+     105
+    ],
+    "label": "Link",
+    "text": "Sales",
+    "interactable": true
+   },
+   {
+    "box": [
+     781,
+     65,
+     856,
+     105
+    ],
+    "label": "Link",
+    "text": "Training",
+    "interactable": true
+   },
+   {
+    "box": [
+     856,
+     65,
+     930,
+     105
+    ],
+    "label": "Link",
+    "text": "Support",
+    "interactable": true
+   },
+   {
+    "box": [
+     930,
+     65,
+     1006,
+     105
+    ],
+    "label": "Link",
+    "text": "Updates",
+    "interactable": true
+   },
+   {
+    "box": [
+     1006,
+     65,
+     1184,
+     105
+    ],
+    "label": "Link",
+    "text": "Community & Company",
+    "interactable": true
+   },
+   {
+    "box": [
+     266,
+     196,
+     1174,
+     275
+    ],
+    "label": "Heading",
+    "text": "World Leading Software for Surveying, Civil and Water Engineering",
+    "interactable": false
+   },
+   {
+    "box": [
+     266,
+     342,
+     470,
+     573
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     266,
+     609,
+     470,
+     785
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     292,
+     810,
+     366,
+     895
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     500,
+     342,
+     939,
+     589
+    ],
+    "label": "Video",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     496,
+     609,
+     700,
+     790
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     443,
+     810,
+     507,
+     910
+    ],
+    "label": "File Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     579,
+     810,
+     720,
+     919
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     735,
+     609,
+     939,
+     790
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     720,
+     810,
+     861,
+     920
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     342,
+     1174,
+     573
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     609,
+     1174,
+     785
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     930,
+     810,
+     994,
+     910
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1071,
+     810,
+     1135,
+     910
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1059,
+     731,
+     1405,
+     809
+    ],
+    "label": "Text",
+    "text": "This website uses cookies to ensure you get the best experience on our website L",
+    "interactable": false
+   },
+   {
+    "box": [
+     1059,
+     779,
+     1155,
+     809
+    ],
+    "label": "Link",
+    "text": "Learn More",
+    "interactable": true
+   },
+   {
+    "box": [
+     1162,
+     825,
+     1302,
+     865
+    ],
+    "label": "Button",
+    "text": "Got it!",
+    "interactable": true
+   }
+  ],
+  "n": 31
+ },
+ {
+  "id": "sp_www-110recruiting-com-18f0903bf3947dfc",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-110recruiting-com-18f0903bf3947dfc.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.110recruiting.com",
+  "targets": [
+   {
+    "box": [
+     230,
+     37,
+     715,
+     182
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1039,
+     108,
+     1192,
+     145
+    ],
+    "label": "Link",
+    "text": "(706)260-8713",
+    "interactable": true
+   },
+   {
+    "box": [
+     584,
+     193,
+     631,
+     213
+    ],
+    "label": "Tab",
+    "text": "About",
+    "interactable": true
+   },
+   {
+    "box": [
+     798,
+     193,
+     869,
+     213
+    ],
+    "label": "Button",
+    "text": "Expertise",
+    "interactable": true
+   },
+   {
+    "box": [
+     1036,
+     193,
+     1126,
+     213
+    ],
+    "label": "Button",
+    "text": "Job Seekers",
+    "interactable": true
+   },
+   {
+    "box": [
+     -111,
+     490,
+     223,
+     841
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1162,
+     491,
+     1172,
+     508
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     238,
+     235,
+     1210,
+     763
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     247,
+     781,
+     337,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     355,
+     781,
+     445,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     463,
+     781,
+     553,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     571,
+     781,
+     661,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     679,
+     781,
+     769,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     787,
+     781,
+     877,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     895,
+     781,
+     985,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1003,
+     781,
+     1093,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1111,
+     781,
+     1201,
+     871
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 17
+ },
+ {
+  "id": "sp_www-100tb-com-b3ef86c027e2a07b",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-100tb-com-b3ef86c027e2a07b.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.100tb.com",
+  "targets": [
+   {
+    "box": [
+     925,
+     15,
+     994,
+     29
+    ],
+    "label": "Link",
+    "text": "Contact Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     1051,
+     14,
+     1065,
+     28
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1161,
+     9,
+     1250,
+     34
+    ],
+    "label": "Button",
+    "text": "Sign Up",
+    "interactable": true
+   },
+   {
+    "box": [
+     180,
+     75,
+     431,
+     121
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     618,
+     45,
+     724,
+     158
+    ],
+    "label": "Link",
+    "text": "Products",
+    "interactable": true
+   },
+   {
+    "box": [
+     724,
+     45,
+     832,
+     158
+    ],
+    "label": "Link",
+    "text": "Solutions",
+    "interactable": true
+   },
+   {
+    "box": [
+     832,
+     45,
+     984,
+     158
+    ],
+    "label": "Link",
+    "text": "Partner Program",
+    "interactable": true
+   },
+   {
+    "box": [
+     984,
+     45,
+     1093,
+     158
+    ],
+    "label": "Link",
+    "text": "About Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     1093,
+     45,
+     1183,
+     158
+    ],
+    "label": "Link",
+    "text": "Status",
+    "interactable": true
+   },
+   {
+    "box": [
+     1183,
+     45,
+     1260,
+     158
+    ],
+    "label": "Link",
+    "text": "Blog",
+    "interactable": true
+   },
+   {
+    "box": [
+     165,
+     270,
+     1085,
+     437
+    ],
+    "label": "Heading",
+    "text": "Market leading infrastructure",
+    "interactable": false
+   },
+   {
+    "box": [
+     165,
+     457,
+     1085,
+     505
+    ],
+    "label": "Text",
+    "text": "Achieve maximum potential with reliable, high speed cloud infrastructure",
+    "interactable": false
+   },
+   {
+    "box": [
+     165,
+     535,
+     317,
+     568
+    ],
+    "label": "Button",
+    "text": "Explore our services",
+    "interactable": true
+   },
+   {
+    "box": [
+     158,
+     691,
+     427,
+     882
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     443,
+     691,
+     712,
+     882
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     728,
+     691,
+     997,
+     882
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1013,
+     691,
+     1282,
+     882
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 17
+ },
+ {
+  "id": "sp_www-01technologies-com-7cdb8ea8140313fa",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-01technologies-com-7cdb8ea8140313fa.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.01technologies.com",
+  "targets": [
+   {
+    "box": [
+     91,
+     30,
+     223,
+     57
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1129,
+     31,
+     1194,
+     55
+    ],
+    "label": "Text",
+    "text": "Excellent",
+    "interactable": false
+   },
+   {
+    "box": [
+     1202,
+     33,
+     1273,
+     54
+    ],
+    "label": "Rating Indicator",
+    "text": "4.6 out of 5",
+    "interactable": false
+   },
+   {
+    "box": [
+     1302,
+     37,
+     1361,
+     50
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     375,
+     191,
+     1065,
+     239
+    ],
+    "label": "Heading",
+    "text": "www.01technologies.com",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     255,
+     1065,
+     279
+    ],
+    "label": "Text",
+    "text": "This domain is registered, but may still be available.",
+    "interactable": false
+   },
+   {
+    "box": [
+     664,
+     316,
+     777,
+     338
+    ],
+    "label": "Button",
+    "text": "Get this domain",
+    "interactable": true
+   },
+   {
+    "box": [
+     88,
+     546,
+     157,
+     566
+    ],
+    "label": "Text",
+    "text": "Powered By",
+    "interactable": false
+   },
+   {
+    "box": [
+     159,
+     531,
+     359,
+     581
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1062,
+     551,
+     1267,
+     568
+    ],
+    "label": "Link",
+    "text": "Do not share my personal information",
+    "interactable": true
+   },
+   {
+    "box": [
+     1272,
+     551,
+     1368,
+     568
+    ],
+    "label": "Link",
+    "text": "Privacy Settings",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-105-net-b91ef629ad299aa3",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-105-net-b91ef629ad299aa3.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.105.net",
+  "targets": [
+   {
+    "box": [
+     150,
+     16,
+     373,
+     58
+    ],
+    "label": "Button",
+    "text": "ACCEDI | REGISTRATI",
+    "interactable": true
+   },
+   {
+    "box": [
+     401,
+     27,
+     422,
+     48
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     198,
+     94,
+     224,
+     120
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     287,
+     86,
+     311,
+     128
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     655,
+     16,
+     785,
+     150
+    ],
+    "label": "Logo",
+    "text": "Radio 105",
+    "interactable": false
+   },
+   {
+    "box": [
+     1125,
+     24,
+     1235,
+     134
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1000,
+     24,
+     1100,
+     66
+    ],
+    "label": "Button",
+    "text": "ON AIR",
+    "interactable": true
+   },
+   {
+    "box": [
+     910,
+     70,
+     1100,
+     98
+    ],
+    "label": "Link",
+    "text": "105 FRIENDS",
+    "interactable": true
+   },
+   {
+    "box": [
+     970,
+     106,
+     1046,
+     138
+    ],
+    "label": "Link",
+    "text": "RADIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     1050,
+     106,
+     1100,
+     138
+    ],
+    "label": "Link",
+    "text": "TV",
+    "interactable": true
+   },
+   {
+    "box": [
+     292,
+     189,
+     371,
+     215
+    ],
+    "label": "Link",
+    "text": "HOME",
+    "interactable": true
+   },
+   {
+    "box": [
+     376,
+     189,
+     519,
+     215
+    ],
+    "label": "Link",
+    "text": "PROGRAMMI",
+    "interactable": true
+   },
+   {
+    "box": [
+     524,
+     189,
+     610,
+     215
+    ],
+    "label": "Link",
+    "text": "RADIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     616,
+     189,
+     698,
+     215
+    ],
+    "label": "Link",
+    "text": "NEWS",
+    "interactable": true
+   },
+   {
+    "box": [
+     702,
+     189,
+     832,
+     215
+    ],
+    "label": "Link",
+    "text": "WEBRADIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     838,
+     189,
+     922,
+     215
+    ],
+    "label": "Link",
+    "text": "VIDEO",
+    "interactable": true
+   },
+   {
+    "box": [
+     926,
+     189,
+     1002,
+     215
+    ],
+    "label": "Link",
+    "text": "FOTO",
+    "interactable": true
+   },
+   {
+    "box": [
+     1022,
+     189,
+     1132,
+     215
+    ],
+    "label": "Link",
+    "text": "ZOO 105",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     233,
+     1440,
+     833
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     832,
+     767,
+     1290,
+     883
+    ],
+    "label": "Text",
+    "text": "EXTRAFESTIVAL 2026",
+    "interactable": false
+   }
+  ],
+  "n": 20
+ },
+ {
+  "id": "sp_www-101limited-com-95fe82f1b5ef7c89",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-101limited-com-95fe82f1b5ef7c89.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.101limited.com",
+  "targets": [
+   {
+    "box": [
+     142,
+     16,
+     239,
+     76
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1010,
+     0,
+     1318,
+     90
+    ],
+    "label": "Navigation Bar",
+    "text": "101 YES NO ENTER",
+    "interactable": true
+   },
+   {
+    "box": [
+     1010,
+     15,
+     1085,
+     75
+    ],
+    "label": "Text",
+    "text": "101",
+    "interactable": false
+   },
+   {
+    "box": [
+     1085,
+     15,
+     1157,
+     75
+    ],
+    "label": "Link",
+    "text": "YES",
+    "interactable": true
+   },
+   {
+    "box": [
+     1157,
+     15,
+     1224,
+     75
+    ],
+    "label": "Text",
+    "text": "NO",
+    "interactable": false
+   },
+   {
+    "box": [
+     1224,
+     15,
+     1318,
+     75
+    ],
+    "label": "Button",
+    "text": "ENTER",
+    "interactable": true
+   },
+   {
+    "box": [
+     387,
+     193,
+     407,
+     240
+    ],
+    "label": "Text",
+    "text": "1",
+    "interactable": false
+   },
+   {
+    "box": [
+     407,
+     193,
+     432,
+     240
+    ],
+    "label": "Text",
+    "text": "0",
+    "interactable": false
+   },
+   {
+    "box": [
+     432,
+     193,
+     452,
+     240
+    ],
+    "label": "Text",
+    "text": "1",
+    "interactable": false
+   },
+   {
+    "box": [
+     462,
+     193,
+     1053,
+     240
+    ],
+    "label": "Text",
+    "text": ": The world\u2019s first data engine. *",
+    "interactable": false
+   },
+   {
+    "box": [
+     1039,
+     193,
+     1053,
+     240
+    ],
+    "label": "Text",
+    "text": "*",
+    "interactable": false
+   },
+   {
+    "box": [
+     122,
+     277,
+     1318,
+     319
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     122,
+     354,
+     1318,
+     1032
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1370,
+     826,
+     1626,
+     895
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 14
+ },
+ {
+  "id": "sp_www-11dollarbill-com-0f7d8acfd3215405",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-11dollarbill-com-0f7d8acfd3215405.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.11dollarbill.com",
+  "targets": [
+   {
+    "box": [
+     28,
+     20,
+     113,
+     105
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1096,
+     53,
+     1172,
+     72
+    ],
+    "label": "Link",
+    "text": "PORTFOLIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     1259,
+     53,
+     1324,
+     72
+    ],
+    "label": "Link",
+    "text": "CONTACT",
+    "interactable": true
+   },
+   {
+    "box": [
+     1334,
+     0,
+     1412,
+     125
+    ],
+    "label": "Menu",
+    "text": "TEAM EDITORS Christian Robins Wayde Samuel Dave Mehrman Travis Mitchell Grace Wi",
+    "interactable": true
+   },
+   {
+    "box": [
+     1344,
+     53,
+     1382,
+     72
+    ],
+    "label": "Link",
+    "text": "TEAM",
+    "interactable": true
+   },
+   {
+    "box": [
+     1390,
+     53,
+     1400,
+     63
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1192,
+     53,
+     1239,
+     72
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     98,
+     618,
+     1343,
+     698
+    ],
+    "label": "Heading",
+    "text": "11 DOLLAR BILL",
+    "interactable": false
+   },
+   {
+    "box": [
+     607,
+     709,
+     834,
+     739
+    ],
+    "label": "Text",
+    "text": "POST & DESIGN",
+    "interactable": false
+   },
+   {
+    "box": [
+     625,
+     781,
+     709,
+     820
+    ],
+    "label": "Button",
+    "text": "WORK",
+    "interactable": true
+   },
+   {
+    "box": [
+     725,
+     781,
+     815,
+     820
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     690,
+     811,
+     750,
+     871
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 12
+ },
+ {
+  "id": "sp_www-10-8retrofit-com-39738f5dd40da0ed",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10-8retrofit-com-39738f5dd40da0ed.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.10-8retrofit.com",
+  "targets": [
+   {
+    "box": [
+     58,
+     56,
+     706,
+     142
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     828,
+     82,
+     877,
+     116
+    ],
+    "label": "Link",
+    "text": "HOME",
+    "interactable": true
+   },
+   {
+    "box": [
+     899,
+     84,
+     967,
+     115
+    ],
+    "label": "Link",
+    "text": "GALLERY",
+    "interactable": true
+   },
+   {
+    "box": [
+     989,
+     82,
+     1070,
+     116
+    ],
+    "label": "Link",
+    "text": "ABOUT US",
+    "interactable": true
+   },
+   {
+    "box": [
+     1091,
+     82,
+     1170,
+     116
+    ],
+    "label": "Link",
+    "text": "VENDORS",
+    "interactable": true
+   },
+   {
+    "box": [
+     1192,
+     82,
+     1278,
+     116
+    ],
+    "label": "Link",
+    "text": "LOCATION",
+    "interactable": true
+   },
+   {
+    "box": [
+     1299,
+     82,
+     1382,
+     116
+    ],
+    "label": "Link",
+    "text": "CONTACT",
+    "interactable": true
+   },
+   {
+    "box": [
+     378,
+     532,
+     1061,
+     566
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-10xstudio-co-53a61ee2db4e25e2",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10xstudio-co-53a61ee2db4e25e2.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.10xstudio.co",
+  "targets": [
+   {
+    "box": [
+     184,
+     18,
+     247,
+     61
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     624,
+     33,
+     663,
+     80
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     689,
+     33,
+     828,
+     80
+    ],
+    "label": "Link",
+    "text": "Dienstleistungen",
+    "interactable": true
+   },
+   {
+    "box": [
+     854,
+     33,
+     937,
+     80
+    ],
+    "label": "Link",
+    "text": "\u00dcber Uns",
+    "interactable": true
+   },
+   {
+    "box": [
+     963,
+     33,
+     1043,
+     80
+    ],
+    "label": "Link",
+    "text": "Referenzen",
+    "interactable": true
+   },
+   {
+    "box": [
+     1069,
+     33,
+     1100,
+     80
+    ],
+    "label": "Link",
+    "text": "Blog",
+    "interactable": true
+   },
+   {
+    "box": [
+     1138,
+     33,
+     1248,
+     80
+    ],
+    "label": "Button",
+    "text": "Anfrage starten",
+    "interactable": true
+   },
+   {
+    "box": [
+     515,
+     374,
+     925,
+     405
+    ],
+    "label": "Heading",
+    "text": "Cookie Hinweis",
+    "interactable": false
+   },
+   {
+    "box": [
+     515,
+     409,
+     925,
+     481
+    ],
+    "label": "Text",
+    "text": "Wir verwenden Cookies, um Ihnen ein optimales Website-Erlebnis zu erm\u00f6glichen. D",
+    "interactable": false
+   },
+   {
+    "box": [
+     520,
+     501,
+     615,
+     519
+    ],
+    "label": "Link",
+    "text": "Einstellungen",
+    "interactable": true
+   },
+   {
+    "box": [
+     630,
+     494,
+     759,
+     525
+    ],
+    "label": "Button",
+    "text": "Alle akzeptieren",
+    "interactable": true
+   },
+   {
+    "box": [
+     180,
+     780,
+     1260,
+     840
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     410,
+     877,
+     650,
+     997
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     790,
+     877,
+     1030,
+     997
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 14
+ },
+ {
+  "id": "sp_www-1000skiesinc-com-5306e1dee2bf41c6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1000skiesinc-com-5306e1dee2bf41c6.png",
+  "width": 1440,
+  "height": 900,
+  "viewport": [
+   1440,
+   900
+  ],
+  "group": "1440",
+  "url": "https://www.1000skiesinc.com",
+  "targets": [
+   {
+    "box": [
+     190,
+     10,
+     311,
+     43
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     190,
+     187,
+     790,
+     267
+    ],
+    "label": "Heading",
+    "text": "Looks like this domain isn't connected to a website yet",
+    "interactable": false
+   },
+   {
+    "box": [
+     190,
+     297,
+     790,
+     349
+    ],
+    "label": "Text",
+    "text": "Is this your domain? Connect it to your Wix website in just a few easy steps:",
+    "interactable": false
+   },
+   {
+    "box": [
+     190,
+     369,
+     790,
+     395
+    ],
+    "label": "List Item",
+    "text": "Go to Wix.com > Subscriptions > Domains",
+    "interactable": false
+   },
+   {
+    "box": [
+     273,
+     369,
+     361,
+     395
+    ],
+    "label": "Link",
+    "text": "Wix.com",
+    "interactable": true
+   },
+   {
+    "box": [
+     190,
+     395,
+     790,
+     421
+    ],
+    "label": "Text",
+    "text": "Click Use a Domain You Already Own",
+    "interactable": false
+   },
+   {
+    "box": [
+     190,
+     421,
+     790,
+     447
+    ],
+    "label": "Text",
+    "text": "Follow the steps to connect your domain to your website",
+    "interactable": false
+   },
+   {
+    "box": [
+     190,
+     534,
+     790,
+     559
+    ],
+    "label": "Text",
+    "text": "Need more help?",
+    "interactable": false
+   },
+   {
+    "box": [
+     338,
+     560,
+     455,
+     582
+    ],
+    "label": "Link",
+    "text": "Support Team",
+    "interactable": true
+   },
+   {
+    "box": [
+     1046,
+     -1,
+     1151,
+     40
+    ],
+    "label": "Link",
+    "text": "Templates",
+    "interactable": true
+   },
+   {
+    "box": [
+     1156,
+     -1,
+     1250,
+     40
+    ],
+    "label": "Link",
+    "text": "Wix.com",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-124shoes-com-au-29565f5338152806",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-124shoes-com-au-29565f5338152806.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.124shoes.com.au",
+  "targets": [
+   {
+    "box": [
+     -385,
+     14,
+     114,
+     27
+    ],
+    "label": "Text",
+    "text": "ARTISAN WORLD | $124 OFF YOUR FIRST PURCHASE | USE CODE: ITALIANMADE",
+    "interactable": false
+   },
+   {
+    "box": [
+     153,
+     14,
+     652,
+     27
+    ],
+    "label": "Text",
+    "text": "ARTISAN WORLD | $124 OFF YOUR FIRST PURCHASE | USE CODE: ITALIANMADE",
+    "interactable": false
+   },
+   {
+    "box": [
+     692,
+     14,
+     1191,
+     27
+    ],
+    "label": "Text",
+    "text": "ARTISAN WORLD | $124 OFF YOUR FIRST PURCHASE | USE CODE: ITALIANMADE",
+    "interactable": false
+   },
+   {
+    "box": [
+     50,
+     68,
+     109,
+     95
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     732,
+     78,
+     740,
+     84
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     806,
+     78,
+     814,
+     84
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     901,
+     78,
+     909,
+     84
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1052,
+     78,
+     1060,
+     84
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1129,
+     78,
+     1137,
+     84
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1658,
+     41,
+     1728,
+     121
+    ],
+    "label": "Link",
+    "text": "STORES",
+    "interactable": true
+   },
+   {
+    "box": [
+     1728,
+     75,
+     1757,
+     87
+    ],
+    "label": "Select",
+    "text": "AUD",
+    "interactable": true
+   },
+   {
+    "box": [
+     1761,
+     78,
+     1769,
+     84
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1794,
+     71,
+     1806,
+     91
+    ],
+    "label": "Search Field",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1826,
+     70,
+     1838,
+     91
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1868,
+     68,
+     1880,
+     80
+    ],
+    "label": "Badge",
+    "text": "0",
+    "interactable": false
+   },
+   {
+    "box": [
+     802,
+     961,
+     907,
+     983
+    ],
+    "label": "Button",
+    "text": "SHOP WOMEN'S",
+    "interactable": true
+   },
+   {
+    "box": [
+     1019,
+     961,
+     1102,
+     983
+    ],
+    "label": "Button",
+    "text": "SHOP MEN'S",
+    "interactable": true
+   }
+  ],
+  "n": 17
+ },
+ {
+  "id": "sp_www-10e-fi-2188d458c66ac6ae",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10e-fi-2188d458c66ac6ae.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.10e.fi",
+  "targets": [
+   {
+    "box": [
+     1190,
+     15,
+     1290,
+     48
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1616,
+     29,
+     1638,
+     51
+    ],
+    "label": "Utility Button",
+    "text": "Search",
+    "interactable": true
+   },
+   {
+    "box": [
+     290,
+     8,
+     464,
+     73
+    ],
+    "label": "Logo",
+    "text": "Kymsol",
+    "interactable": false
+   },
+   {
+    "box": [
+     486,
+     0,
+     545,
+     80
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     545,
+     0,
+     677,
+     80
+    ],
+    "label": "Link",
+    "text": "Service Package",
+    "interactable": true
+   },
+   {
+    "box": [
+     677,
+     0,
+     765,
+     80
+    ],
+    "label": "Link",
+    "text": "Insulation",
+    "interactable": true
+   },
+   {
+    "box": [
+     765,
+     0,
+     1014,
+     80
+    ],
+    "label": "Link",
+    "text": "Scaffolding & Weather Protection",
+    "interactable": true
+   },
+   {
+    "box": [
+     1014,
+     0,
+     1099,
+     80
+    ],
+    "label": "Link",
+    "text": "Company",
+    "interactable": true
+   },
+   {
+    "box": [
+     1099,
+     0,
+     1181,
+     80
+    ],
+    "label": "Link",
+    "text": "Contacts",
+    "interactable": true
+   },
+   {
+    "box": [
+     1500,
+     0,
+     1570,
+     80
+    ],
+    "label": "Link",
+    "text": "EN",
+    "interactable": true
+   },
+   {
+    "box": [
+     1295,
+     135,
+     1480,
+     185
+    ],
+    "label": "Button",
+    "text": "Play video",
+    "interactable": true
+   },
+   {
+    "box": [
+     760,
+     880,
+     1425,
+     976
+    ],
+    "label": "Heading",
+    "text": "Industrial insulation and scaffolding",
+    "interactable": false
+   },
+   {
+    "box": [
+     760,
+     994,
+     1425,
+     1084
+    ],
+    "label": "Text",
+    "text": "Kymsol is an expert in industrial insulation and scaffolding solutions and part ",
+    "interactable": false
+   },
+   {
+    "box": [
+     22,
+     1028,
+     52,
+     1058
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     1075,
+     1920,
+     1575
+    ],
+    "label": "Image",
+    "text": "Service Package We offer comprehensive insulation and scaffolding solutions, des",
+    "interactable": false
+   },
+   {
+    "box": [
+     370,
+     470,
+     630,
+     962
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 16
+ },
+ {
+  "id": "sp_www-1111studio-com-d80bd7aeb7bd2806",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1111studio-com-d80bd7aeb7bd2806.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.1111studio.com",
+  "targets": [
+   {
+    "box": [
+     117,
+     30,
+     249,
+     57
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1582,
+     31,
+     1647,
+     55
+    ],
+    "label": "Text",
+    "text": "Excellent",
+    "interactable": false
+   },
+   {
+    "box": [
+     1655,
+     33,
+     1726,
+     54
+    ],
+    "label": "Rating Indicator",
+    "text": "4.6 out of 5",
+    "interactable": false
+   },
+   {
+    "box": [
+     1755,
+     37,
+     1814,
+     50
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     615,
+     191,
+     1305,
+     239
+    ],
+    "label": "Text",
+    "text": "www.1111studio.com",
+    "interactable": false
+   },
+   {
+    "box": [
+     615,
+     255,
+     1305,
+     279
+    ],
+    "label": "Text",
+    "text": "This domain is registered, but may still be available.",
+    "interactable": false
+   },
+   {
+    "box": [
+     904,
+     316,
+     1017,
+     338
+    ],
+    "label": "Button",
+    "text": "Get this domain",
+    "interactable": true
+   },
+   {
+    "box": [
+     112,
+     546,
+     181,
+     566
+    ],
+    "label": "Text",
+    "text": "Powered By",
+    "interactable": false
+   },
+   {
+    "box": [
+     183,
+     531,
+     383,
+     581
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1518,
+     551,
+     1723,
+     568
+    ],
+    "label": "Link",
+    "text": "Do not share my personal information",
+    "interactable": true
+   },
+   {
+    "box": [
+     1728,
+     551,
+     1824,
+     568
+    ],
+    "label": "Link",
+    "text": "Privacy Settings",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-10a10kala-com-c29286ad0b2176ce",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10a10kala-com-c29286ad0b2176ce.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.10a10kala.com",
+  "targets": [
+   {
+    "box": [
+     288,
+     16,
+     762,
+     163
+    ],
+    "label": "Heading",
+    "text": "SORRY!",
+    "interactable": false
+   },
+   {
+    "box": [
+     288,
+     180,
+     1632,
+     206
+    ],
+    "label": "Link",
+    "text": "If you are the owner of this website, please contact your hosting provider: webm",
+    "interactable": true
+   },
+   {
+    "box": [
+     961,
+     182,
+     1218,
+     203
+    ],
+    "label": "Link",
+    "text": "webmaster@10a10kala.com",
+    "interactable": true
+   },
+   {
+    "box": [
+     288,
+     226,
+     1632,
+     252
+    ],
+    "label": "Text",
+    "text": "It is possible you have reached this page because:",
+    "interactable": false
+   },
+   {
+    "box": [
+     427,
+     321,
+     555,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     328,
+     464,
+     654,
+     484
+    ],
+    "label": "Text",
+    "text": "The IP address has changed.",
+    "interactable": false
+   },
+   {
+    "box": [
+     328,
+     586,
+     586,
+     622
+    ],
+    "label": "Link",
+    "text": "following these instructions",
+    "interactable": true
+   },
+   {
+    "box": [
+     793,
+     321,
+     921,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     694,
+     464,
+     1020,
+     504
+    ],
+    "label": "Text",
+    "text": "There has been a server misconfiguration.",
+    "interactable": false
+   },
+   {
+    "box": [
+     694,
+     504,
+     1020,
+     604
+    ],
+    "label": "Text",
+    "text": "You must verify that your hosting provider has the correct IP address configured",
+    "interactable": false
+   },
+   {
+    "box": [
+     1159,
+     321,
+     1287,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1060,
+     464,
+     1386,
+     504
+    ],
+    "label": "Text",
+    "text": "The site may have moved to a different server.",
+    "interactable": false
+   },
+   {
+    "box": [
+     1060,
+     504,
+     1386,
+     564
+    ],
+    "label": "Text",
+    "text": "The URL for this domain may have changed or the hosting provider may have moved ",
+    "interactable": false
+   },
+   {
+    "box": [
+     913,
+     729,
+     1008,
+     749
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     288,
+     754,
+     1632,
+     768
+    ],
+    "label": "Text",
+    "text": "Copyright \u00a9 2026 cPanel, L.L.C.",
+    "interactable": false
+   }
+  ],
+  "n": 15
+ },
+ {
+  "id": "sp_www-10poundgorilla-com-f8b6b1b3a13ea238",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10poundgorilla-com-f8b6b1b3a13ea238.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.10poundgorilla.com",
+  "targets": [
+   {
+    "box": [
+     312,
+     54,
+     400,
+     74
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     403,
+     43,
+     535,
+     83
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1440,
+     47,
+     1544,
+     79
+    ],
+    "label": "Button",
+    "text": "Contact us",
+    "interactable": true
+   },
+   {
+    "box": [
+     1576,
+     54,
+     1600,
+     56
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1576,
+     62,
+     1600,
+     64
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1576,
+     70,
+     1600,
+     72
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     823,
+     471,
+     892,
+     530
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     737,
+     404,
+     952,
+     613
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     886,
+     472,
+     1233,
+     846
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     746,
+     182,
+     1388,
+     310
+    ],
+    "label": "Text",
+    "text": "websites",
+    "interactable": false
+   },
+   {
+    "box": [
+     933,
+     983,
+     987,
+     1063
+    ],
+    "label": "Text",
+    "text": "we",
+    "interactable": false
+   },
+   {
+    "box": [
+     42,
+     1019,
+     78,
+     1055
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 12
+ },
+ {
+  "id": "sp_www-10minschool-com-89b87982dcde9a41",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10minschool-com-89b87982dcde9a41.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.10minschool.com",
+  "targets": [
+   {
+    "box": [
+     375,
+     16,
+     571,
+     45
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1312,
+     15,
+     1400,
+     45
+    ],
+    "label": "Text",
+    "text": "Questions?",
+    "interactable": false
+   },
+   {
+    "box": [
+     1411,
+     19,
+     1534,
+     39
+    ],
+    "label": "Text",
+    "text": "+1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     94,
+     588,
+     121
+    ],
+    "label": "Text",
+    "text": "Captcha security check",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     375,
+     1163,
+     411
+    ],
+    "label": "Heading",
+    "text": "10minschool.com is for sale",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     411,
+     1163,
+     447
+    ],
+    "label": "Text",
+    "text": "Please prove you're not a robot",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     453,
+     1061,
+     531
+    ],
+    "label": "Checkbox",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     757,
+     549,
+     957,
+     599
+    ],
+    "label": "Button",
+    "text": "View Price",
+    "interactable": true
+   },
+   {
+    "box": [
+     448,
+     949,
+     494,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     504,
+     954,
+     624,
+     990
+    ],
+    "label": "Text",
+    "text": "Dedicated to customer care",
+    "interactable": false
+   },
+   {
+    "box": [
+     722,
+     949,
+     759,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     770,
+     954,
+     890,
+     990
+    ],
+    "label": "Text",
+    "text": "30-day money back guarantee",
+    "interactable": false
+   },
+   {
+    "box": [
+     998,
+     949,
+     1194,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1272,
+     954,
+     1438,
+     990
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     1041,
+     1545,
+     1072
+    ],
+    "label": "Text",
+    "text": "Talk to a domain expert: +1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     1002,
+     1040,
+     1194,
+     1073
+    ],
+    "label": "Link",
+    "text": "+1-303-893-0552",
+    "interactable": true
+   }
+  ],
+  "n": 16
+ },
+ {
+  "id": "sp_www-12cdm-fr-5412a792ed771a77",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12cdm-fr-5412a792ed771a77.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.12cdm.fr",
+  "targets": [
+   {
+    "box": [
+     405,
+     8,
+     605,
+     62
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     0,
+     1038,
+     70
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     1038,
+     0,
+     1122,
+     70
+    ],
+    "label": "Link",
+    "text": "Services",
+    "interactable": true
+   },
+   {
+    "box": [
+     1122,
+     0,
+     1244,
+     70
+    ],
+    "label": "Link",
+    "text": "Sucess stories",
+    "interactable": true
+   },
+   {
+    "box": [
+     1244,
+     0,
+     1330,
+     70
+    ],
+    "label": "Link",
+    "text": "About us",
+    "interactable": true
+   },
+   {
+    "box": [
+     1330,
+     0,
+     1389,
+     70
+    ],
+    "label": "Link",
+    "text": "Blog",
+    "interactable": true
+   },
+   {
+    "box": [
+     1389,
+     0,
+     1469,
+     70
+    ],
+    "label": "Link",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     1484,
+     31,
+     1500,
+     42
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     642,
+     495,
+     1277,
+     629
+    ],
+    "label": "Heading",
+    "text": "Innovation strategies and training agency",
+    "interactable": false
+   },
+   {
+    "box": [
+     866,
+     663,
+     1054,
+     710
+    ],
+    "label": "Button",
+    "text": "Discover our agency",
+    "interactable": true
+   }
+  ],
+  "n": 10
+ },
+ {
+  "id": "sp_www-100blackmenkc-com-7f8779264636abfb",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-100blackmenkc-com-7f8779264636abfb.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.100blackmenkc.com",
+  "targets": [
+   {
+    "box": [
+     512,
+     128,
+     1094,
+     178
+    ],
+    "label": "Heading",
+    "text": "www.100blackmenkc.com",
+    "interactable": false
+   },
+   {
+    "box": [
+     512,
+     186,
+     1408,
+     216
+    ],
+    "label": "Heading",
+    "text": "Performing security verification",
+    "interactable": false
+   },
+   {
+    "box": [
+     512,
+     224,
+     1408,
+     272
+    ],
+    "label": "Text",
+    "text": "This website uses a security service to protect against malicious bots. This pag",
+    "interactable": false
+   },
+   {
+    "box": [
+     512,
+     304,
+     1408,
+     373
+    ],
+    "label": "Checkbox",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     926,
+     1029,
+     1041,
+     1044
+    ],
+    "label": "Text",
+    "text": "9dc1ad1a1f2f657f",
+    "interactable": false
+   },
+   {
+    "box": [
+     988,
+     1046,
+     1049,
+     1064
+    ],
+    "label": "Link",
+    "text": "Cloudflare",
+    "interactable": true
+   },
+   {
+    "box": [
+     1057,
+     1049,
+     1059,
+     1061
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1067,
+     1046,
+     1110,
+     1064
+    ],
+    "label": "Link",
+    "text": "Privacy",
+    "interactable": true
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-1226studios-com-defccf06a6448cd8",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1226studios-com-defccf06a6448cd8.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.1226studios.com",
+  "targets": [
+   {
+    "box": [
+     375,
+     16,
+     571,
+     45
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1312,
+     15,
+     1400,
+     45
+    ],
+    "label": "Text",
+    "text": "Questions?",
+    "interactable": false
+   },
+   {
+    "box": [
+     1411,
+     19,
+     1534,
+     39
+    ],
+    "label": "Text",
+    "text": "+1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     94,
+     588,
+     121
+    ],
+    "label": "Text",
+    "text": "Captcha security check",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     375,
+     1163,
+     411
+    ],
+    "label": "Heading",
+    "text": "1226studios.com is for sale",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     411,
+     1163,
+     447
+    ],
+    "label": "Text",
+    "text": "Please prove you're not a robot",
+    "interactable": false
+   },
+   {
+    "box": [
+     757,
+     453,
+     1061,
+     531
+    ],
+    "label": "Checkbox",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     757,
+     549,
+     957,
+     599
+    ],
+    "label": "Button",
+    "text": "View Price",
+    "interactable": true
+   },
+   {
+    "box": [
+     448,
+     949,
+     494,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     504,
+     954,
+     624,
+     990
+    ],
+    "label": "Text",
+    "text": "Dedicated to customer care",
+    "interactable": false
+   },
+   {
+    "box": [
+     722,
+     949,
+     759,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     770,
+     954,
+     890,
+     990
+    ],
+    "label": "Text",
+    "text": "30-day money back guarantee",
+    "interactable": false
+   },
+   {
+    "box": [
+     998,
+     949,
+     1194,
+     996
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1272,
+     954,
+     1438,
+     990
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     1041,
+     1545,
+     1072
+    ],
+    "label": "Text",
+    "text": "Talk to a domain expert: +1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     1002,
+     1040,
+     1194,
+     1073
+    ],
+    "label": "Link",
+    "text": "+1-303-893-0552",
+    "interactable": true
+   }
+  ],
+  "n": 16
+ },
+ {
+  "id": "sp_www-123plywamy-pl-feab19650161390c",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-123plywamy-pl-feab19650161390c.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.123plywamy.pl",
+  "targets": [
+   {
+    "box": [
+     64,
+     5,
+     89,
+     30
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     104,
+     9,
+     192,
+     27
+    ],
+    "label": "Text",
+    "text": "+48 511 444 123",
+    "interactable": false
+   },
+   {
+    "box": [
+     64,
+     45,
+     144,
+     103
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     224,
+     5,
+     249,
+     30
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     264,
+     9,
+     409,
+     27
+    ],
+    "label": "Link",
+    "text": "kontakt@123plywamy.pl",
+    "interactable": true
+   },
+   {
+    "box": [
+     176,
+     64,
+     339,
+     82
+    ],
+    "label": "Text",
+    "text": "Dzia\u0142amy od 2014 r.",
+    "interactable": false
+   },
+   {
+    "box": [
+     1554,
+     5,
+     1630,
+     31
+    ],
+    "label": "Link",
+    "text": "LOGOWANIE",
+    "interactable": true
+   },
+   {
+    "box": [
+     441,
+     5,
+     466,
+     30
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     481,
+     9,
+     641,
+     27
+    ],
+    "label": "Text",
+    "text": "Biuro pon-pi\u0105: 10:00 - 19:00",
+    "interactable": false
+   },
+   {
+    "box": [
+     1662,
+     6,
+     1686,
+     30
+    ],
+    "label": "App Icon",
+    "text": "Instagram",
+    "interactable": false
+   },
+   {
+    "box": [
+     1696,
+     6,
+     1720,
+     30
+    ],
+    "label": "Link",
+    "text": "Facebook",
+    "interactable": true
+   },
+   {
+    "box": [
+     1730,
+     6,
+     1754,
+     30
+    ],
+    "label": "App Icon",
+    "text": "Youtube",
+    "interactable": false
+   },
+   {
+    "box": [
+     1764,
+     6,
+     1788,
+     30
+    ],
+    "label": "App Icon",
+    "text": "Spotify",
+    "interactable": false
+   },
+   {
+    "box": [
+     1798,
+     6,
+     1822,
+     30
+    ],
+    "label": "App Icon",
+    "text": "Tiktok",
+    "interactable": false
+   },
+   {
+    "box": [
+     1832,
+     6,
+     1856,
+     30
+    ],
+    "label": "Link",
+    "text": "Linkedin",
+    "interactable": true
+   },
+   {
+    "box": [
+     1005,
+     48,
+     1113,
+     98
+    ],
+    "label": "Link",
+    "text": "Wakacje",
+    "interactable": true
+   },
+   {
+    "box": [
+     1186,
+     55,
+     1212,
+     91
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1232,
+     48,
+     1326,
+     98
+    ],
+    "label": "Link",
+    "text": "Cennik",
+    "interactable": true
+   },
+   {
+    "box": [
+     1326,
+     48,
+     1411,
+     98
+    ],
+    "label": "Link",
+    "text": "O nas",
+    "interactable": true
+   },
+   {
+    "box": [
+     1411,
+     48,
+     1514,
+     98
+    ],
+    "label": "Link",
+    "text": "Kontakt",
+    "interactable": true
+   },
+   {
+    "box": [
+     1514,
+     48,
+     1588,
+     98
+    ],
+    "label": "Link",
+    "text": "Blog",
+    "interactable": true
+   },
+   {
+    "box": [
+     1588,
+     48,
+     1671,
+     98
+    ],
+    "label": "Link",
+    "text": "Sklep",
+    "interactable": true
+   },
+   {
+    "box": [
+     1717,
+     66,
+     1790,
+     80
+    ],
+    "label": "Button",
+    "text": "ZAPISZ SI\u0118",
+    "interactable": true
+   },
+   {
+    "box": [
+     1836,
+     63,
+     1856,
+     83
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1858,
+     1016,
+     1885,
+     1044
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     64,
+     306,
+     602,
+     440
+    ],
+    "label": "Heading",
+    "text": "Najwy\u017cej oceniana szko\u0142a p\u0142ywania w Warszawie i w Polsce!",
+    "interactable": false
+   },
+   {
+    "box": [
+     80,
+     477,
+     120,
+     517
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     132,
+     473,
+     267,
+     492
+    ],
+    "label": "Text",
+    "text": "\u015arednia ocen",
+    "interactable": false
+   },
+   {
+    "box": [
+     164,
+     495,
+     180,
+     511
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     180,
+     495,
+     196,
+     511
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     196,
+     495,
+     212,
+     511
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     212,
+     495,
+     228,
+     511
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     228,
+     495,
+     244,
+     511
+    ],
+    "label": "Rating Indicator",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     132,
+     511,
+     267,
+     528
+    ],
+    "label": "Text",
+    "text": "Na podstawie 520 opinii",
+    "interactable": false
+   },
+   {
+    "box": [
+     64,
+     592,
+     691,
+     664
+    ],
+    "label": "Text",
+    "text": "Czy my\u015bla\u0142e\u015b kiedy\u015b o tym, by nauczy\u0107 si\u0119 p\u0142ywa\u0107? Pewnie ju\u017c nie raz i mo\u017ce nawe",
+    "interactable": false
+   },
+   {
+    "box": [
+     64,
+     684,
+     228,
+     719
+    ],
+    "label": "Text",
+    "text": "NOWA OFERTA",
+    "interactable": false
+   },
+   {
+    "box": [
+     410,
+     690,
+     489,
+     714
+    ],
+    "label": "Button",
+    "text": "SPRAWD\u017b",
+    "interactable": true
+   },
+   {
+    "box": [
+     228,
+     684,
+     360,
+     719
+    ],
+    "label": "Text",
+    "text": "BEZ LIMITU!",
+    "interactable": false
+   },
+   {
+    "box": [
+     -961,
+     874,
+     2880,
+     921
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     400,
+     1016,
+     1520,
+     1072
+    ],
+    "label": "Heading",
+    "text": "Nasza oferta zaj\u0119\u0107",
+    "interactable": false
+   },
+   {
+    "box": [
+     1718,
+     1065,
+     1880,
+     1115
+    ],
+    "label": "Button",
+    "text": "Zarz\u0105dzaj zgod\u0105",
+    "interactable": true
+   }
+  ],
+  "n": 41
+ },
+ {
+  "id": "sp_www-11thhourproject-org-e3d10e5b78614c23",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-11thhourproject-org-e3d10e5b78614c23.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.11thhourproject.org",
+  "targets": [
+   {
+    "box": [
+     629,
+     20,
+     792,
+     42
+    ],
+    "label": "Link",
+    "text": "A NOTE FROM US",
+    "interactable": true
+   },
+   {
+    "box": [
+     802,
+     25,
+     808,
+     35
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     629,
+     42,
+     1291,
+     74
+    ],
+    "label": "Text",
+    "text": "Read our statement on our unwavering commitment to community and democracy.",
+    "interactable": false
+   },
+   {
+    "box": [
+     360,
+     118,
+     750,
+     197
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1253,
+     151,
+     1312,
+     172
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     1322,
+     151,
+     1336,
+     173
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1391,
+     151,
+     1484,
+     172
+    ],
+    "label": "Link",
+    "text": "PROGRAMS",
+    "interactable": true
+   },
+   {
+    "box": [
+     1494,
+     151,
+     1508,
+     173
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1532,
+     156,
+     1547,
+     170
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1464,
+     818,
+     1472,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1483,
+     818,
+     1491,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1502,
+     818,
+     1510,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1521,
+     818,
+     1529,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1540,
+     818,
+     1548,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1559,
+     818,
+     1567,
+     826
+    ],
+    "label": "Page control",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     252,
+     263,
+     1668,
+     898
+    ],
+    "label": "Heading",
+    "text": "Land Return Movement Reclaims Ancestral Land in California Congolese President a",
+    "interactable": false
+   },
+   {
+    "box": [
+     544,
+     982,
+     1377,
+     1060
+    ],
+    "label": "Text",
+    "text": "Supporting resilient systems for food, energy, water, human health and climate.",
+    "interactable": false
+   }
+  ],
+  "n": 17
+ },
+ {
+  "id": "sp_www-113partners-com-5bfef11576636c74",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-113partners-com-5bfef11576636c74.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.113partners.com",
+  "targets": [
+   {
+    "box": [
+     670,
+     5,
+     735,
+     35
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     744,
+     0,
+     807,
+     41
+    ],
+    "label": "Tab",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     807,
+     0,
+     922,
+     41
+    ],
+    "label": "Link",
+    "text": "How we work",
+    "interactable": true
+   },
+   {
+    "box": [
+     922,
+     0,
+     1029,
+     41
+    ],
+    "label": "Link",
+    "text": "Our Services",
+    "interactable": true
+   },
+   {
+    "box": [
+     1029,
+     0,
+     1154,
+     41
+    ],
+    "label": "Link",
+    "text": "Meet the Team",
+    "interactable": true
+   },
+   {
+    "box": [
+     1154,
+     0,
+     1250,
+     41
+    ],
+    "label": "Link",
+    "text": "Contact Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     853,
+     403,
+     1067,
+     501
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     428,
+     531,
+     1492,
+     563
+    ],
+    "label": "Text",
+    "text": "Helping you grow your creative business",
+    "interactable": false
+   },
+   {
+    "box": [
+     876,
+     637,
+     1044,
+     677
+    ],
+    "label": "Button",
+    "text": "BOOK A SESSION",
+    "interactable": true
+   },
+   {
+    "box": [
+     1870,
+     994,
+     1900,
+     1024
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1870,
+     1030,
+     1900,
+     1060
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 11
+ },
+ {
+  "id": "sp_www-12quailfarm-com-49985dfcd42143e0",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12quailfarm-com-49985dfcd42143e0.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.12quailfarm.com",
+  "targets": [
+   {
+    "box": [
+     35,
+     16,
+     185,
+     166
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     333,
+     88,
+     342,
+     97
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     520,
+     88,
+     529,
+     97
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     638,
+     88,
+     647,
+     97
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     661,
+     56,
+     752,
+     127
+    ],
+    "label": "Link",
+    "text": "REVIEWS",
+    "interactable": true
+   },
+   {
+    "box": [
+     1619,
+     56,
+     1689,
+     127
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     1689,
+     56,
+     1777,
+     127
+    ],
+    "label": "Link",
+    "text": "CONTACT",
+    "interactable": true
+   },
+   {
+    "box": [
+     1806,
+     81,
+     1815,
+     100
+    ],
+    "label": "Text",
+    "text": "\u20ac",
+    "interactable": false
+   },
+   {
+    "box": [
+     1860,
+     84,
+     1879,
+     99
+    ],
+    "label": "Badge",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     376,
+     1920,
+     450
+    ],
+    "label": "Heading",
+    "text": "Natural Ingredients",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     502,
+     1920,
+     544
+    ],
+    "label": "Text",
+    "text": "Made In Small Batches",
+    "interactable": false
+   },
+   {
+    "box": [
+     813,
+     746,
+     916,
+     782
+    ],
+    "label": "Button",
+    "text": "SEARCH",
+    "interactable": true
+   },
+   {
+    "box": [
+     407,
+     881,
+     580,
+     897
+    ],
+    "label": "Text",
+    "text": "Showing all 128 products",
+    "interactable": false
+   },
+   {
+    "box": [
+     407,
+     940,
+     669,
+     1403
+    ],
+    "label": "List Item",
+    "text": "Scrub Soap (Beige) \u20ac8.50 inc.VAT ADD TO CART",
+    "interactable": false
+   },
+   {
+    "box": [
+     407,
+     940,
+     669,
+     1202
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     960,
+     746,
+     1178,
+     784
+    ],
+    "label": "Select",
+    "text": "FILTER BY ESSENTIAL OIL",
+    "interactable": true
+   },
+   {
+    "box": [
+     998,
+     812,
+     1108,
+     826
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1186,
+     746,
+     1418,
+     784
+    ],
+    "label": "Select",
+    "text": "FILTER BY COSMETIC CLAY",
+    "interactable": true
+   },
+   {
+    "box": [
+     1328,
+     865,
+     1513,
+     900
+    ],
+    "label": "Select",
+    "text": "Default sorting Sort by popularity Sort by average rating Sort by latest Sort by",
+    "interactable": true
+   },
+   {
+    "box": [
+     1252,
+     940,
+     1514,
+     1403
+    ],
+    "label": "List Item",
+    "text": "Natural Lip Balm \u20ac6.00 inc.VAT No Peppermint Peppermint SELECT OPTIONS This prod",
+    "interactable": false
+   },
+   {
+    "box": [
+     1252,
+     940,
+     1514,
+     1202
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     688,
+     940,
+     950,
+     1403
+    ],
+    "label": "List Item",
+    "text": "Velvet Scrub \u20ac10.00 inc.VAT ADD TO CART",
+    "interactable": false
+   },
+   {
+    "box": [
+     688,
+     940,
+     950,
+     1202
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     940,
+     1232,
+     1403
+    ],
+    "label": "List Item",
+    "text": "Coconut Deodorant \u20ac6.00 inc.VAT Fragrance Free Lavender Essential Oil Pine Essen",
+    "interactable": false
+   },
+   {
+    "box": [
+     970,
+     940,
+     1232,
+     1202
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 25
+ },
+ {
+  "id": "sp_www-1030-be-74f32354f6ca0fe4",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1030-be-74f32354f6ca0fe4.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.1030.be",
+  "targets": [
+   {
+    "box": [
+     95,
+     24,
+     215,
+     114
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     330,
+     14,
+     1397,
+     50
+    ],
+    "label": "Search Field",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1461,
+     21,
+     1480,
+     43
+    ],
+    "label": "Link",
+    "text": "FR",
+    "interactable": true
+   },
+   {
+    "box": [
+     1497,
+     21,
+     1519,
+     43
+    ],
+    "label": "Link",
+    "text": "NL",
+    "interactable": true
+   },
+   {
+    "box": [
+     1536,
+     21,
+     1644,
+     43
+    ],
+    "label": "Link",
+    "text": "Langage facile",
+    "interactable": true
+   },
+   {
+    "box": [
+     1661,
+     21,
+     1691,
+     43
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1343,
+     9,
+     1389,
+     55
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     330,
+     80,
+     523,
+     128
+    ],
+    "label": "Link",
+    "text": "Cadre de vie & Environnement",
+    "interactable": true
+   },
+   {
+    "box": [
+     577,
+     92,
+     703,
+     116
+    ],
+    "label": "Link",
+    "text": "Culture & Loisirs",
+    "interactable": true
+   },
+   {
+    "box": [
+     775,
+     92,
+     932,
+     116
+    ],
+    "label": "Link",
+    "text": "Enfance & Education",
+    "interactable": true
+   },
+   {
+    "box": [
+     970,
+     80,
+     1163,
+     128
+    ],
+    "label": "Link",
+    "text": "Vivre ensemble & Solidarit\u00e9",
+    "interactable": true
+   },
+   {
+    "box": [
+     1198,
+     92,
+     1361,
+     116
+    ],
+    "label": "Link",
+    "text": "Commerces & Emploi",
+    "interactable": true
+   },
+   {
+    "box": [
+     1397,
+     80,
+     1590,
+     128
+    ],
+    "label": "Link",
+    "text": "Administration & Politique",
+    "interactable": true
+   },
+   {
+    "box": [
+     1724,
+     20,
+     1846,
+     44
+    ],
+    "label": "Link",
+    "text": "Mon espace",
+    "interactable": true
+   },
+   {
+    "box": [
+     330,
+     363,
+     1590,
+     405
+    ],
+    "label": "Search Field",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1536,
+     361,
+     1582,
+     407
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     415,
+     576,
+     456,
+     617
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     346,
+     628,
+     524,
+     676
+    ],
+    "label": "Link",
+    "text": "Contact et heures d'ouverture",
+    "interactable": true
+   },
+   {
+    "box": [
+     627,
+     588,
+     664,
+     629
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     596,
+     640,
+     693,
+     664
+    ],
+    "label": "Link",
+    "text": "Rendez-vous",
+    "interactable": true
+   },
+   {
+    "box": [
+     837,
+     590,
+     874,
+     627
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     812,
+     640,
+     899,
+     664
+    ],
+    "label": "Text",
+    "text": "D\u00e9marches",
+    "interactable": false
+   },
+   {
+    "box": [
+     1047,
+     594,
+     1084,
+     627
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1008,
+     640,
+     1121,
+     664
+    ],
+    "label": "Text",
+    "text": "Stationnement",
+    "interactable": false
+   },
+   {
+    "box": [
+     1258,
+     589,
+     1291,
+     626
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1198,
+     640,
+     1353,
+     664
+    ],
+    "label": "Text",
+    "text": "Collecte des d\u00e9chets",
+    "interactable": false
+   },
+   {
+    "box": [
+     1463,
+     592,
+     1508,
+     623
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1432,
+     640,
+     1537,
+     664
+    ],
+    "label": "Link",
+    "text": "Transparence",
+    "interactable": true
+   },
+   {
+    "box": [
+     300,
+     784,
+     1620,
+     856
+    ],
+    "label": "Heading",
+    "text": "Nos actualit\u00e9s",
+    "interactable": false
+   },
+   {
+    "box": [
+     360,
+     1013,
+     1560,
+     1056
+    ],
+    "label": "Button",
+    "text": "Accepter les cookies optionnels Refuser les cookies optionnels Changer mes pr\u00e9f\u00e9",
+    "interactable": true
+   },
+   {
+    "box": [
+     332,
+     1076,
+     608,
+     1228
+    ],
+    "label": "Text",
+    "text": "La commune r\u00e9affirme que la s\u00e9curit\u00e9, la tranquillit\u00e9 publique et le bien-\u00eatre d",
+    "interactable": false
+   },
+   {
+    "box": [
+     660,
+     920,
+     1000,
+     1260
+    ],
+    "label": "Link",
+    "text": "Une nouvelle plateforme pour simplifier les d\u00e9marches des horecas Accessible en ",
+    "interactable": true
+   },
+   {
+    "box": [
+     1020,
+     920,
+     1360,
+     1260
+    ],
+    "label": "Link",
+    "text": "Avis aux 60 ans et plus : rejoignez le Conseil Consultatif des A\u00een\u00e9s Cette insta",
+    "interactable": true
+   },
+   {
+    "box": [
+     1380,
+     920,
+     1720,
+     1260
+    ],
+    "label": "Link",
+    "text": "Vous feriez quoi avec 2 millions \u20ac ? R\u00e9duire les d\u00e9chets clandestins, c\u2019est remp",
+    "interactable": true
+   }
+  ],
+  "n": 34
+ },
+ {
+  "id": "sp_www-100store-co-uk-41da194f6767a8c5",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-100store-co-uk-41da194f6767a8c5.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.100store.co.uk",
+  "targets": [
+   {
+    "box": [
+     430,
+     10,
+     551,
+     43
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     187,
+     1030,
+     267
+    ],
+    "label": "Heading",
+    "text": "Looks like this domain isn't connected to a website yet",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     297,
+     1030,
+     349
+    ],
+    "label": "Text",
+    "text": "Is this your domain? Connect it to your Wix website in just a few easy steps:",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     369,
+     1030,
+     395
+    ],
+    "label": "List Item",
+    "text": "Go to Wix.com > Subscriptions > Domains",
+    "interactable": false
+   },
+   {
+    "box": [
+     513,
+     369,
+     601,
+     395
+    ],
+    "label": "Link",
+    "text": "Wix.com",
+    "interactable": true
+   },
+   {
+    "box": [
+     430,
+     395,
+     1030,
+     421
+    ],
+    "label": "Text",
+    "text": "Click Use a Domain You Already Own",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     421,
+     1030,
+     447
+    ],
+    "label": "Text",
+    "text": "Follow the steps to connect your domain to your website",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     534,
+     1030,
+     559
+    ],
+    "label": "Text",
+    "text": "Need more help?",
+    "interactable": false
+   },
+   {
+    "box": [
+     578,
+     560,
+     695,
+     582
+    ],
+    "label": "Link",
+    "text": "Support Team",
+    "interactable": true
+   },
+   {
+    "box": [
+     850,
+     60,
+     1988,
+     836
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1286,
+     -1,
+     1391,
+     40
+    ],
+    "label": "Link",
+    "text": "Templates",
+    "interactable": true
+   },
+   {
+    "box": [
+     1396,
+     -1,
+     1490,
+     40
+    ],
+    "label": "Link",
+    "text": "Wix.com",
+    "interactable": true
+   }
+  ],
+  "n": 12
+ },
+ {
+  "id": "sp_www-1-cyber-com-894a11b76029ee43",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1-cyber-com-894a11b76029ee43.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.1-cyber.com",
+  "targets": [
+   {
+    "box": [
+     15,
+     1055,
+     107,
+     1093
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     355,
+     37,
+     374,
+     51
+    ],
+    "label": "Menu",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     830,
+     27,
+     1090,
+     62
+    ],
+    "label": "Heading",
+    "text": "Amaxven Healthcare",
+    "interactable": false
+   },
+   {
+    "box": [
+     1520,
+     795,
+     1872,
+     838
+    ],
+    "label": "Text",
+    "text": "This website uses cookies.",
+    "interactable": false
+   },
+   {
+    "box": [
+     1520,
+     838,
+     1872,
+     964
+    ],
+    "label": "Text",
+    "text": "We use cookies to analyze website traffic and optimize your website experience. ",
+    "interactable": false
+   },
+   {
+    "box": [
+     320,
+     277,
+     832,
+     347
+    ],
+    "label": "Text",
+    "text": "Transforming Healthcare with Tech & Expertise",
+    "interactable": false
+   },
+   {
+    "box": [
+     320,
+     358,
+     832,
+     631
+    ],
+    "label": "Heading",
+    "text": "Innovative Healthcare Solutions",
+    "interactable": false
+   },
+   {
+    "box": [
+     320,
+     643,
+     583,
+     699
+    ],
+    "label": "Button",
+    "text": "LEARN MORE ABOUT US",
+    "interactable": true
+   },
+   {
+    "box": [
+     878,
+     816,
+     1041,
+     844
+    ],
+    "label": "Text",
+    "text": "+1.7722002535",
+    "interactable": false
+   },
+   {
+    "box": [
+     1520,
+     988,
+     1872,
+     1028
+    ],
+    "label": "Button",
+    "text": "ACCEPT",
+    "interactable": true
+   },
+   {
+    "box": [
+     725,
+     988,
+     1195,
+     1032
+    ],
+    "label": "Heading",
+    "text": "Who We Are At Amaxven",
+    "interactable": false
+   },
+   {
+    "box": [
+     934,
+     87,
+     987,
+     111
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 12
+ },
+ {
+  "id": "sp_www-100natural-com-7c5a49c7c67baac7",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-100natural-com-7c5a49c7c67baac7.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.100natural.com",
+  "targets": [
+   {
+    "box": [
+     394,
+     0,
+     486,
+     149
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     714,
+     0,
+     802,
+     100
+    ],
+    "label": "Link",
+    "text": "INICIO",
+    "interactable": true
+   },
+   {
+    "box": [
+     805,
+     0,
+     957,
+     100
+    ],
+    "label": "Link",
+    "text": "UBICA TU 100",
+    "interactable": true
+   },
+   {
+    "box": [
+     962,
+     0,
+     1123,
+     100
+    ],
+    "label": "Link",
+    "text": "PROMOCIONES",
+    "interactable": true
+   },
+   {
+    "box": [
+     1126,
+     0,
+     1261,
+     100
+    ],
+    "label": "Link",
+    "text": "PUNTOS100",
+    "interactable": true
+   },
+   {
+    "box": [
+     1265,
+     0,
+     1416,
+     100
+    ],
+    "label": "Link",
+    "text": "FRANQUICIAS",
+    "interactable": true
+   },
+   {
+    "box": [
+     1420,
+     0,
+     1545,
+     100
+    ],
+    "label": "Link",
+    "text": "CONTACTO",
+    "interactable": true
+   },
+   {
+    "box": [
+     1357,
+     100,
+     1457,
+     147
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1467,
+     110,
+     1535,
+     134
+    ],
+    "label": "Button",
+    "text": "ORDENA",
+    "interactable": true
+   },
+   {
+    "box": [
+     1457,
+     151,
+     1545,
+     156
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     20,
+     315,
+     90,
+     385
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     821,
+     89,
+     1360,
+     432
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     328,
+     299,
+     919,
+     501
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1830,
+     315,
+     1900,
+     385
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     632,
+     1920,
+     700
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1139,
+     318,
+     1666,
+     663
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     101,
+     714,
+     172,
+     774
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     11,
+     774,
+     262,
+     809
+    ],
+    "label": "Text",
+    "text": "Huevo Libre de Jaula",
+    "interactable": false
+   },
+   {
+    "box": [
+     379,
+     714,
+     439,
+     774
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     284,
+     774,
+     535,
+     809
+    ],
+    "label": "Text",
+    "text": "Haciendo Comunidad",
+    "interactable": false
+   },
+   {
+    "box": [
+     652,
+     714,
+     712,
+     774
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     556,
+     774,
+     807,
+     809
+    ],
+    "label": "Text",
+    "text": "Biodegradables",
+    "interactable": false
+   },
+   {
+    "box": [
+     924,
+     714,
+     984,
+     774
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     829,
+     774,
+     1080,
+     809
+    ],
+    "label": "Text",
+    "text": "Comercio Justo",
+    "interactable": false
+   },
+   {
+    "box": [
+     1204,
+     714,
+     1249,
+     774
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1102,
+     774,
+     1353,
+     792
+    ],
+    "label": "Text",
+    "text": "Fundaci\u00f3n",
+    "interactable": false
+   },
+   {
+    "box": [
+     1469,
+     714,
+     1529,
+     774
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1374,
+     774,
+     1625,
+     809
+    ],
+    "label": "Text",
+    "text": "Nuestra Historia",
+    "interactable": false
+   },
+   {
+    "box": [
+     1728,
+     719,
+     1816,
+     779
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1647,
+     784,
+     1898,
+     819
+    ],
+    "label": "Text",
+    "text": "Comunidad de bienestar",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     848,
+     937,
+     1487
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1006,
+     918,
+     1537,
+     970
+    ],
+    "label": "Heading",
+    "text": "\u00bfQui\u00e9nes somos?",
+    "interactable": false
+   },
+   {
+    "box": [
+     1006,
+     918,
+     1537,
+     1106
+    ],
+    "label": "Text",
+    "text": "Los primeros clientes utilizaban la palabra 100% natural para describir la princ",
+    "interactable": false
+   }
+  ],
+  "n": 33
+ },
+ {
+  "id": "sp_www-120designstudio-com-ceecef6730731530",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-120designstudio-com-ceecef6730731530.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.120designstudio.com",
+  "targets": [
+   {
+    "box": [
+     21,
+     20,
+     82,
+     57
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     979,
+     28,
+     1092,
+     50
+    ],
+    "label": "Link",
+    "text": "How it Works",
+    "interactable": true
+   },
+   {
+    "box": [
+     1151,
+     28,
+     1223,
+     50
+    ],
+    "label": "Link",
+    "text": "Benefits",
+    "interactable": true
+   },
+   {
+    "box": [
+     1282,
+     28,
+     1357,
+     50
+    ],
+    "label": "Link",
+    "text": "Portfolio",
+    "interactable": true
+   },
+   {
+    "box": [
+     1416,
+     28,
+     1475,
+     50
+    ],
+    "label": "Link",
+    "text": "Pricing",
+    "interactable": true
+   },
+   {
+    "box": [
+     1533,
+     28,
+     1575,
+     50
+    ],
+    "label": "Link",
+    "text": "FAQs",
+    "interactable": true
+   },
+   {
+    "box": [
+     1634,
+     28,
+     1704,
+     50
+    ],
+    "label": "Link",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     1781,
+     24,
+     1857,
+     47
+    ],
+    "label": "Button",
+    "text": "See Plans",
+    "interactable": true
+   },
+   {
+    "box": [
+     1860,
+     28,
+     1869,
+     43
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     838,
+     131,
+     1082,
+     224
+    ],
+    "label": "Heading",
+    "text": "Design.",
+    "interactable": false
+   },
+   {
+    "box": [
+     780,
+     205,
+     1141,
+     298
+    ],
+    "label": "Text",
+    "text": "Redefined.",
+    "interactable": false
+   },
+   {
+    "box": [
+     746,
+     299,
+     1173,
+     355
+    ],
+    "label": "Text",
+    "text": "The Design Team You've Been Waiting For. We\u2019ve Got You Covered.",
+    "interactable": false
+   },
+   {
+    "box": [
+     914,
+     396,
+     990,
+     419
+    ],
+    "label": "Button",
+    "text": "See Plans",
+    "interactable": true
+   },
+   {
+    "box": [
+     993,
+     400,
+     1002,
+     415
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     903,
+     468,
+     911,
+     476
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     923,
+     463,
+     1015,
+     480
+    ],
+    "label": "Text",
+    "text": "Available Now",
+    "interactable": false
+   },
+   {
+    "box": [
+     -39,
+     558,
+     339,
+     936
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     354,
+     558,
+     732,
+     936
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     747,
+     558,
+     1125,
+     936
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1140,
+     558,
+     1518,
+     936
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1533,
+     558,
+     1911,
+     936
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     598,
+     1037,
+     1322,
+     1087
+    ],
+    "label": "Text",
+    "text": "Consistent, Reliable, High-Quality Design",
+    "interactable": false
+   },
+   {
+    "box": [
+     20,
+     478,
+     42,
+     500
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     20,
+     512,
+     42,
+     534
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     20,
+     546,
+     42,
+     568
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     20,
+     580,
+     42,
+     602
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 26
+ },
+ {
+  "id": "sp_www-11kp-net-1b56e124b7cd5356",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-11kp-net-1b56e124b7cd5356.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.11kp.net",
+  "targets": [
+   {
+    "box": [
+     288,
+     16,
+     762,
+     163
+    ],
+    "label": "Heading",
+    "text": "SORRY!",
+    "interactable": false
+   },
+   {
+    "box": [
+     288,
+     180,
+     1632,
+     206
+    ],
+    "label": "Link",
+    "text": "If you are the owner of this website, please contact your hosting provider: webm",
+    "interactable": true
+   },
+   {
+    "box": [
+     961,
+     182,
+     1160,
+     203
+    ],
+    "label": "Link",
+    "text": "webmaster@11kp.net",
+    "interactable": true
+   },
+   {
+    "box": [
+     288,
+     226,
+     1632,
+     252
+    ],
+    "label": "Text",
+    "text": "It is possible you have reached this page because:",
+    "interactable": false
+   },
+   {
+    "box": [
+     427,
+     321,
+     555,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     328,
+     464,
+     654,
+     484
+    ],
+    "label": "Text",
+    "text": "The IP address has changed.",
+    "interactable": false
+   },
+   {
+    "box": [
+     328,
+     586,
+     586,
+     622
+    ],
+    "label": "Link",
+    "text": "following these instructions",
+    "interactable": true
+   },
+   {
+    "box": [
+     793,
+     321,
+     921,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     694,
+     464,
+     1020,
+     504
+    ],
+    "label": "Text",
+    "text": "There has been a server misconfiguration.",
+    "interactable": false
+   },
+   {
+    "box": [
+     694,
+     504,
+     1020,
+     604
+    ],
+    "label": "Text",
+    "text": "You must verify that your hosting provider has the correct IP address configured",
+    "interactable": false
+   },
+   {
+    "box": [
+     1159,
+     321,
+     1287,
+     449
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1060,
+     464,
+     1386,
+     504
+    ],
+    "label": "Text",
+    "text": "The site may have moved to a different server.",
+    "interactable": false
+   },
+   {
+    "box": [
+     1060,
+     504,
+     1386,
+     564
+    ],
+    "label": "Text",
+    "text": "The URL for this domain may have changed or the hosting provider may have moved ",
+    "interactable": false
+   },
+   {
+    "box": [
+     913,
+     729,
+     1008,
+     749
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     288,
+     754,
+     1632,
+     768
+    ],
+    "label": "Text",
+    "text": "Copyright \u00a9 2026 cPanel, L.L.C.",
+    "interactable": false
+   }
+  ],
+  "n": 15
+ },
+ {
+  "id": "sp_www-10yellowmilk-com-646fd4e551c4ac9f",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10yellowmilk-com-646fd4e551c4ac9f.png",
+  "width": 1920,
+  "height": 1080,
+  "viewport": [
+   1920,
+   1080
+  ],
+  "group": "1920",
+  "url": "https://www.10yellowmilk.com",
+  "targets": [
+   {
+    "box": [
+     350,
+     32,
+     447,
+     72
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     544,
+     496,
+     604,
+     518
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     704,
+     89,
+     1217,
+     137
+    ],
+    "label": "Heading",
+    "text": "Web Server's Default Page",
+    "interactable": false
+   },
+   {
+    "box": [
+     608,
+     161,
+     1311,
+     225
+    ],
+    "label": "Text",
+    "text": "This page is generated by Plesk, the leading hosting automation software. You se",
+    "interactable": false
+   },
+   {
+    "box": [
+     860,
+     165,
+     911,
+     189
+    ],
+    "label": "Link",
+    "text": "Plesk",
+    "interactable": true
+   },
+   {
+    "box": [
+     609,
+     249,
+     1311,
+     283
+    ],
+    "label": "Text",
+    "text": "Log in to Plesk to create websites and set up hosting",
+    "interactable": false
+   },
+   {
+    "box": [
+     609,
+     291,
+     1311,
+     323
+    ],
+    "label": "Text",
+    "text": "New to Plesk? Learn how to log in and start working with it.",
+    "interactable": false
+   },
+   {
+    "box": [
+     818,
+     295,
+     919,
+     319
+    ],
+    "label": "Link",
+    "text": "Learn how",
+    "interactable": true
+   },
+   {
+    "box": [
+     807,
+     351,
+     1113,
+     423
+    ],
+    "label": "Button",
+    "text": "Log in to Plesk",
+    "interactable": true
+   },
+   {
+    "box": [
+     630,
+     471,
+     1382,
+     548
+    ],
+    "label": "Text",
+    "text": "Do you host WordPress sites outside of Plesk? Try WP Guardian - it provides comp",
+    "interactable": false
+   },
+   {
+    "box": [
+     1018,
+     473,
+     1116,
+     493
+    ],
+    "label": "Link",
+    "text": "WP Guardian",
+    "interactable": true
+   },
+   {
+    "box": [
+     350,
+     627,
+     952,
+     661
+    ],
+    "label": "Heading",
+    "text": "What is Plesk",
+    "interactable": false
+   },
+   {
+    "box": [
+     350,
+     677,
+     952,
+     901
+    ],
+    "label": "Text",
+    "text": "Plesk is a hosting control panel with simple and secure web server, website and ",
+    "interactable": false
+   },
+   {
+    "box": [
+     350,
+     681,
+     403,
+     705
+    ],
+    "label": "Link",
+    "text": "Plesk",
+    "interactable": true
+   },
+   {
+    "box": [
+     523,
+     681,
+     647,
+     705
+    ],
+    "label": "Link",
+    "text": "control panel",
+    "interactable": true
+   },
+   {
+    "box": [
+     375,
+     944,
+     554,
+     970
+    ],
+    "label": "Button",
+    "text": "Try Online Demo",
+    "interactable": true
+   },
+   {
+    "box": [
+     1121,
+     682,
+     1161,
+     722
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1079,
+     730,
+     1202,
+     754
+    ],
+    "label": "Link",
+    "text": "Plesk Guides",
+    "interactable": true
+   },
+   {
+    "box": [
+     1121,
+     782,
+     1161,
+     822
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1068,
+     830,
+     1213,
+     854
+    ],
+    "label": "Link",
+    "text": "Developer Blog",
+    "interactable": true
+   },
+   {
+    "box": [
+     1294,
+     682,
+     1334,
+     722
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1235,
+     730,
+     1393,
+     754
+    ],
+    "label": "Link",
+    "text": "Knowledge Base",
+    "interactable": true
+   },
+   {
+    "box": [
+     1294,
+     782,
+     1334,
+     822
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1250,
+     830,
+     1377,
+     854
+    ],
+    "label": "Link",
+    "text": "Video Guides",
+    "interactable": true
+   },
+   {
+    "box": [
+     1467,
+     682,
+     1507,
+     722
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1458,
+     730,
+     1517,
+     754
+    ],
+    "label": "Link",
+    "text": "Forum",
+    "interactable": true
+   },
+   {
+    "box": [
+     1477,
+     792,
+     1497,
+     812
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1441,
+     830,
+     1534,
+     854
+    ],
+    "label": "Link",
+    "text": "Facebook",
+    "interactable": true
+   },
+   {
+    "box": [
+     1379,
+     1041,
+     1440,
+     1056
+    ],
+    "label": "Link",
+    "text": "plesk.com",
+    "interactable": true
+   }
+  ],
+  "n": 29
+ },
+ {
+  "id": "sp_www-1062fm-co-il-50aae217e434a742",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1062fm-co-il-50aae217e434a742.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.1062fm.co.il",
+  "targets": [
+   {
+    "box": [
+     24,
+     26,
+     38,
+     42
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     54,
+     26,
+     70,
+     42
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     86,
+     26,
+     102,
+     42
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     118,
+     26,
+     132,
+     42
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     148,
+     26,
+     166,
+     42
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     199,
+     24,
+     257,
+     48
+    ],
+    "label": "Text",
+    "text": "\u05e9\u05d9\u05d3\u05d5\u05e8 \u05d7\u05d9",
+    "interactable": false
+   },
+   {
+    "box": [
+     398,
+     27,
+     414,
+     43
+    ],
+    "label": "Search Field",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     422,
+     22,
+     613,
+     48
+    ],
+    "label": "Search Field",
+    "text": "\u05d7\u05d9\u05e4\u05d5\u05e9:",
+    "interactable": true
+   },
+   {
+    "box": [
+     629,
+     22,
+     681,
+     46
+    ],
+    "label": "Link",
+    "text": "English",
+    "interactable": true
+   },
+   {
+    "box": [
+     697,
+     22,
+     754,
+     46
+    ],
+    "label": "Link",
+    "text": "\u05e6\u05e8\u05d5 \u05e7\u05e9\u05e8",
+    "interactable": true
+   },
+   {
+    "box": [
+     770,
+     22,
+     824,
+     46
+    ],
+    "label": "Link",
+    "text": "\u05d0\u05d5\u05d3\u05d5\u05ea\u05d9\u05e0\u05d5",
+    "interactable": true
+   },
+   {
+    "box": [
+     840,
+     22,
+     939,
+     46
+    ],
+    "label": "Link",
+    "text": "\u05ea\u05d5\u05db\u05e0\u05d9\u05d5\u05ea \u05de\u05d5\u05d6\u05d9\u05e7\u05d4",
+    "interactable": true
+   },
+   {
+    "box": [
+     955,
+     22,
+     1033,
+     46
+    ],
+    "label": "Text",
+    "text": "\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd \u05d0\u05e7\u05d3\u05de\u05d9\u05d4 \u05d0\u05e7\u05d8\u05d5\u05d0\u05dc\u05d9\u05d4 \u05d5\u05e1\u05e4\u05d5\u05e8\u05d8 \u05e1\u05e4\u05d9\u05d9\u05e9\u05dc\u05d9\u05dd \u05ea\u05e8\u05d1\u05d5\u05ea \u05d5\u05d1\u05d9\u05d3\u05d5\u05e8 \u05e2\u05e1\u05e7\u05d9\u05dd \u05d5\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4",
+    "interactable": false
+   },
+   {
+    "box": [
+     1141,
+     8,
+     1350,
+     64
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     17,
+     89,
+     256,
+     330
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     17,
+     266,
+     81,
+     330
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     290,
+     89,
+     529,
+     330
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     290,
+     266,
+     354,
+     330
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     290,
+     364,
+     529,
+     605
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     290,
+     541,
+     354,
+     605
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     954,
+     109,
+     1092,
+     137
+    ],
+    "label": "Text",
+    "text": "\u05d9\u05d0\u05dc\u05dc\u05d4 \u05d1\u05e1\u05d3\u05e8!",
+    "interactable": false
+   },
+   {
+    "box": [
+     942,
+     153,
+     1092,
+     171
+    ],
+    "label": "Text",
+    "text": "\u05d1\u05d4\u05d2\u05e9\u05ea: \u05d8\u05dc \u05d3\u05e8\u05d9\u05d9\u05de\u05df, \u05ea\u05d5\u05dd \u05e6\u05d3\u05d9\u05e7",
+    "interactable": false
+   },
+   {
+    "box": [
+     1048,
+     153,
+     1092,
+     171
+    ],
+    "label": "Text",
+    "text": "\u05d1\u05d4\u05d2\u05e9\u05ea:",
+    "interactable": false
+   },
+   {
+    "box": [
+     868,
+     181,
+     1092,
+     469
+    ],
+    "label": "Text",
+    "text": "\u05e2\u05dc \u05de\u05d4 \u05e0\u05d3\u05d1\u05e8? \u05e2\u05dc \u05de\u05d4 \u05dc\u05d0! \u05e2\u05dc \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1, \u05e2\u05dc \u05d9\u05e8\u05d5\u05e9\u05dc\u05de\u05d9\u05dd, \u05e2\u05dc \u05de\u05e2\u05d5\u05e8\u05d1 \u05d9\u05e8\u05d5\u05e9\u05dc\u05de\u05d9, \u05e2\u05dc \u05db\u05dc\u05d1\u05d9\u05dd \u05de\u05e2\u05d5\u05e8\u05d1\u05d9",
+    "interactable": false
+   },
+   {
+    "box": [
+     1108,
+     89,
+     1349,
+     330
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     837,
+     364,
+     1076,
+     605
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     837,
+     541,
+     901,
+     605
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1110,
+     364,
+     1349,
+     605
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1110,
+     541,
+     1174,
+     605
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     563,
+     89,
+     802,
+     330
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     563,
+     266,
+     627,
+     330
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     563,
+     364,
+     802,
+     605
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     563,
+     541,
+     627,
+     605
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     622,
+     1366,
+     692
+    ],
+    "label": "Text",
+    "text": "\u05e4\u05e8\u05e7\u05d9\u05dd \u05d0\u05d7\u05e8\u05d5\u05e0\u05d9\u05dd",
+    "interactable": false
+   },
+   {
+    "box": [
+     18,
+     709,
+     257,
+     948
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     291,
+     709,
+     530,
+     948
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     564,
+     709,
+     803,
+     948
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     837,
+     709,
+     1076,
+     948
+    ],
+    "label": "List Item",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1110,
+     709,
+     1349,
+     948
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 39
+ },
+ {
+  "id": "sp_www-021-rs-db7e88462a2175f6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-021-rs-db7e88462a2175f6.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.021.rs",
+  "targets": [
+   {
+    "box": [
+     52,
+     72,
+     111,
+     107
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     974,
+     79,
+     1004,
+     102
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     10,
+     127,
+     84,
+     151
+    ],
+    "label": "Link",
+    "text": "Najnovije",
+    "interactable": true
+   },
+   {
+    "box": [
+     84,
+     127,
+     103,
+     151
+    ],
+    "label": "Text",
+    "text": "|",
+    "interactable": false
+   },
+   {
+    "box": [
+     103,
+     127,
+     220,
+     151
+    ],
+    "label": "Link",
+    "text": "Oglasi za posao",
+    "interactable": true
+   },
+   {
+    "box": [
+     220,
+     127,
+     239,
+     151
+    ],
+    "label": "Text",
+    "text": "|",
+    "interactable": false
+   },
+   {
+    "box": [
+     239,
+     127,
+     348,
+     151
+    ],
+    "label": "Link",
+    "text": "Radio 021 live",
+    "interactable": true
+   },
+   {
+    "box": [
+     10,
+     161,
+     70,
+     178
+    ],
+    "label": "Link",
+    "text": "Novi Sad",
+    "interactable": true
+   },
+   {
+    "box": [
+     83,
+     161,
+     110,
+     178
+    ],
+    "label": "Link",
+    "text": "Info",
+    "interactable": true
+   },
+   {
+    "box": [
+     123,
+     161,
+     157,
+     178
+    ],
+    "label": "Link",
+    "text": "\u017divot",
+    "interactable": true
+   },
+   {
+    "box": [
+     170,
+     161,
+     220,
+     178
+    ],
+    "label": "Link",
+    "text": "Zabava",
+    "interactable": true
+   },
+   {
+    "box": [
+     233,
+     161,
+     305,
+     178
+    ],
+    "label": "Link",
+    "text": "Naj\u010ditanije",
+    "interactable": true
+   },
+   {
+    "box": [
+     318,
+     161,
+     450,
+     178
+    ],
+    "label": "Link",
+    "text": "Najkomentarisanije",
+    "interactable": true
+   },
+   {
+    "box": [
+     463,
+     161,
+     564,
+     178
+    ],
+    "label": "Link",
+    "text": "Najpopularnije",
+    "interactable": true
+   },
+   {
+    "box": [
+     984,
+     159,
+     1024,
+     187
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     32,
+     199,
+     992,
+     829
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 16
+ },
+ {
+  "id": "sp_www-0800repairgas-co-uk-ceb905d4c8138da6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-0800repairgas-co-uk-ceb905d4c8138da6.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.0800repairgas.co.uk",
+  "targets": [
+   {
+    "box": [
+     50,
+     25,
+     1163,
+     44
+    ],
+    "label": "Text",
+    "text": "This website uses cookies to enhance your browsing experience... More Informatio",
+    "interactable": false
+   },
+   {
+    "box": [
+     802,
+     25,
+     942,
+     44
+    ],
+    "label": "Link",
+    "text": "More Information",
+    "interactable": true
+   },
+   {
+    "box": [
+     1173,
+     20,
+     1316,
+     49
+    ],
+    "label": "Button",
+    "text": "I Understand",
+    "interactable": true
+   },
+   {
+    "box": [
+     1326,
+     5,
+     1356,
+     35
+    ],
+    "label": "Button",
+    "text": "X",
+    "interactable": true
+   },
+   {
+    "box": [
+     48,
+     69,
+     259,
+     144
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     375,
+     97,
+     440,
+     116
+    ],
+    "label": "Link",
+    "text": "About us",
+    "interactable": true
+   },
+   {
+    "box": [
+     472,
+     97,
+     555,
+     116
+    ],
+    "label": "Link",
+    "text": "Gas Boilers",
+    "interactable": true
+   },
+   {
+    "box": [
+     559,
+     97,
+     579,
+     117
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     611,
+     97,
+     702,
+     116
+    ],
+    "label": "Link",
+    "text": "Renewables",
+    "interactable": true
+   },
+   {
+    "box": [
+     706,
+     97,
+     726,
+     117
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     758,
+     97,
+     835,
+     116
+    ],
+    "label": "Link",
+    "text": "Insulation",
+    "interactable": true
+   },
+   {
+    "box": [
+     839,
+     97,
+     859,
+     117
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     891,
+     97,
+     932,
+     116
+    ],
+    "label": "Link",
+    "text": "News",
+    "interactable": true
+   },
+   {
+    "box": [
+     964,
+     97,
+     1042,
+     116
+    ],
+    "label": "Link",
+    "text": "Contact us",
+    "interactable": true
+   },
+   {
+    "box": [
+     1074,
+     97,
+     1119,
+     116
+    ],
+    "label": "Link",
+    "text": "Oakes",
+    "interactable": true
+   },
+   {
+    "box": [
+     1189,
+     98,
+     1206,
+     115
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     203,
+     272,
+     875,
+     404
+    ],
+    "label": "Heading",
+    "text": "Let\u2019s heat your home with renewable energy",
+    "interactable": false
+   },
+   {
+    "box": [
+     203,
+     428,
+     715,
+     500
+    ],
+    "label": "Text",
+    "text": "We design, install and maintain renewable energy systems to keep your home warm,",
+    "interactable": false
+   },
+   {
+    "box": [
+     256,
+     588,
+     344,
+     676
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     344,
+     614,
+     471,
+     650
+    ],
+    "label": "Text",
+    "text": "We install",
+    "interactable": false
+   },
+   {
+    "box": [
+     560,
+     588,
+     648,
+     676
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     648,
+     614,
+     806,
+     650
+    ],
+    "label": "Text",
+    "text": "We maintain",
+    "interactable": false
+   },
+   {
+    "box": [
+     917,
+     588,
+     1005,
+     676
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1005,
+     614,
+     1089,
+     650
+    ],
+    "label": "Text",
+    "text": "We fix",
+    "interactable": false
+   },
+   {
+    "box": [
+     1296,
+     694,
+     1552,
+     754
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 25
+ },
+ {
+  "id": "sp_www-123-expert-3d48f6e46977364d",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-123-expert-3d48f6e46977364d.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.123.expert",
+  "targets": [
+   {
+    "box": [
+     15,
+     1,
+     327,
+     73
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1164,
+     16,
+     1174,
+     32
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     366,
+     36,
+     546,
+     77
+    ],
+    "label": "Link",
+    "text": "123.EXPERT Delivers",
+    "interactable": true
+   },
+   {
+    "box": [
+     560,
+     36,
+     712,
+     77
+    ],
+    "label": "Link",
+    "text": "Why 123.EXPERT",
+    "interactable": true
+   },
+   {
+    "box": [
+     356,
+     87,
+     573,
+     128
+    ],
+    "label": "Link",
+    "text": "Deep Delivery Expertise",
+    "interactable": true
+   },
+   {
+    "box": [
+     726,
+     36,
+     838,
+     77
+    ],
+    "label": "Link",
+    "text": "Our Clients",
+    "interactable": true
+   },
+   {
+    "box": [
+     588,
+     87,
+     764,
+     128
+    ],
+    "label": "Link",
+    "text": "Delivery Networked",
+    "interactable": true
+   },
+   {
+    "box": [
+     996,
+     36,
+     1271,
+     77
+    ],
+    "label": "Link",
+    "text": "Commitment-backed Capability",
+    "interactable": true
+   },
+   {
+    "box": [
+     852,
+     36,
+     992,
+     77
+    ],
+    "label": "Link",
+    "text": "Our Difference",
+    "interactable": true
+   },
+   {
+    "box": [
+     778,
+     87,
+     956,
+     128
+    ],
+    "label": "Link",
+    "text": "Let\u2019s Talk IT Delivery",
+    "interactable": true
+   },
+   {
+    "box": [
+     970,
+     87,
+     1094,
+     128
+    ],
+    "label": "Link",
+    "text": "Case Studies",
+    "interactable": true
+   },
+   {
+    "box": [
+     4,
+     404,
+     578,
+     463
+    ],
+    "label": "Heading",
+    "text": "IT DELIVERY by IT EXPERTS",
+    "interactable": false
+   },
+   {
+    "box": [
+     967,
+     347,
+     1216,
+     386
+    ],
+    "label": "Button",
+    "text": "Find IT Delivery Experts",
+    "interactable": true
+   },
+   {
+    "box": [
+     967,
+     419,
+     1216,
+     458
+    ],
+    "label": "Button",
+    "text": "Find IT Delivery Projects",
+    "interactable": true
+   },
+   {
+    "box": [
+     40,
+     616,
+     455,
+     696
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     485,
+     616,
+     900,
+     696
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     931,
+     616,
+     1346,
+     696
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     161,
+     756,
+     1205,
+     793
+    ],
+    "label": "Text",
+    "text": "IT: Delivered",
+    "interactable": false
+   }
+  ],
+  "n": 18
+ },
+ {
+  "id": "sp_www-10tales-co-3e36ce64547f2e49",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10tales-co-3e36ce64547f2e49.png",
+  "width": 1280,
+  "height": 800,
+  "viewport": [
+   1280,
+   800
+  ],
+  "group": "small",
+  "url": "https://www.10tales.co",
+  "targets": [
+   {
+    "box": [
+     458,
+     14,
+     823,
+     133
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     160,
+     217,
+     640,
+     250
+    ],
+    "label": "Heading",
+    "text": "Education",
+    "interactable": false
+   },
+   {
+    "box": [
+     640,
+     217,
+     1120,
+     250
+    ],
+    "label": "Text",
+    "text": "Entertainment",
+    "interactable": false
+   },
+   {
+    "box": [
+     246,
+     250,
+     554,
+     395
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     798,
+     250,
+     961,
+     414
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     565,
+     662,
+     715,
+     739
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     779,
+     1280,
+     899
+    ],
+    "label": "Text",
+    "text": "1 Coal St, Middleport, PA 17953 Copyright \u00a9 2015-2024 10Tales, Inc. All Rights R",
+    "interactable": false
+   },
+   {
+    "box": [
+     505,
+     782,
+     514,
+     799
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-0200am-com-fc52b7853a6f74a9",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-0200am-com-fc52b7853a6f74a9.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.0200am.com",
+  "targets": [
+   {
+    "box": [
+     17,
+     14,
+     293,
+     36
+    ],
+    "label": "Text",
+    "text": "IBM Enterprise & Technology Security",
+    "interactable": false
+   },
+   {
+    "box": [
+     518,
+     98,
+     848,
+     297
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     317,
+     325,
+     680,
+     367
+    ],
+    "label": "Text",
+    "text": "http://www.0200am.com",
+    "interactable": false
+   },
+   {
+    "box": [
+     317,
+     325,
+     940,
+     412
+    ],
+    "label": "Text",
+    "text": "is blocked on this device.",
+    "interactable": false
+   },
+   {
+    "box": [
+     317,
+     435,
+     1049,
+     502
+    ],
+    "label": "Text",
+    "text": "The website or content that you are trying to access is blocked by IBM Enterpris",
+    "interactable": false
+   },
+   {
+    "box": [
+     317,
+     538,
+     1049,
+     560
+    ],
+    "label": "Text",
+    "text": "Here are some suggestions:",
+    "interactable": false
+   },
+   {
+    "box": [
+     357,
+     576,
+     1049,
+     621
+    ],
+    "label": "List Item",
+    "text": "Make sure the URL is correct. Many blocked requests are due to typos, misplaced ",
+    "interactable": false
+   },
+   {
+    "box": [
+     357,
+     621,
+     1049,
+     711
+    ],
+    "label": "List Item",
+    "text": "Often pages within a legitimate website may have been compromised or may contain",
+    "interactable": false
+   },
+   {
+    "box": [
+     357,
+     710,
+     1049,
+     755
+    ],
+    "label": "Text",
+    "text": "If you suspect that your system has been compromised or is infected with malware",
+    "interactable": false
+   },
+   {
+    "box": [
+     641,
+     734,
+     812,
+     754
+    ],
+    "label": "Link",
+    "text": "IT Support (Help@IBM)",
+    "interactable": true
+   }
+  ],
+  "n": 10
+ },
+ {
+  "id": "sp_www-0437arch-com-2f935c505ade20d6",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-0437arch-com-2f935c505ade20d6.png",
+  "width": 768,
+  "height": 1024,
+  "viewport": [
+   768,
+   1024
+  ],
+  "group": "small",
+  "url": "https://www.0437arch.com",
+  "targets": [
+   {
+    "box": [
+     45,
+     42,
+     57,
+     56
+    ],
+    "label": "Menu",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     334,
+     0,
+     434,
+     100
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     84,
+     144,
+     223,
+     168
+    ],
+    "label": "Text",
+    "text": "FILTRA PROGETTI",
+    "interactable": false
+   },
+   {
+    "box": [
+     279,
+     144,
+     415,
+     168
+    ],
+    "label": "Tab",
+    "text": "COMMERCIALE",
+    "interactable": true
+   },
+   {
+    "box": [
+     223,
+     144,
+     279,
+     168
+    ],
+    "label": "Tab",
+    "text": "ALL",
+    "interactable": true
+   },
+   {
+    "box": [
+     84,
+     168,
+     219,
+     192
+    ],
+    "label": "Tab",
+    "text": "RESIDENZIALE",
+    "interactable": true
+   },
+   {
+    "box": [
+     219,
+     168,
+     363,
+     192
+    ],
+    "label": "Tab",
+    "text": "SPAZI PUBBLICI",
+    "interactable": true
+   },
+   {
+    "box": [
+     415,
+     144,
+     500,
+     168
+    ],
+    "label": "Tab",
+    "text": "DESIGN",
+    "interactable": true
+   },
+   {
+    "box": [
+     363,
+     168,
+     426,
+     192
+    ],
+    "label": "Tab",
+    "text": "UFFICI",
+    "interactable": true
+   },
+   {
+    "box": [
+     500,
+     144,
+     656,
+     168
+    ],
+    "label": "Tab",
+    "text": "EDIFICI PUBBLICI",
+    "interactable": true
+   },
+   {
+    "box": [
+     94,
+     494,
+     132,
+     532
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     64,
+     245,
+     704,
+     555
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     698,
+     950,
+     954,
+     1017
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     10,
+     941,
+     758,
+     981
+    ],
+    "label": "Text",
+    "text": "Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza",
+    "interactable": false
+   },
+   {
+    "box": [
+     312,
+     986,
+     352,
+     1014
+    ],
+    "label": "Button",
+    "text": "Ok",
+    "interactable": true
+   },
+   {
+    "box": [
+     362,
+     986,
+     456,
+     1014
+    ],
+    "label": "Button",
+    "text": "Leggi di pi\u00f9",
+    "interactable": true
+   },
+   {
+    "box": [
+     64,
+     575,
+     374,
+     1255
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 17
+ },
+ {
+  "id": "sp_www-10s-com-adbbab0614dfc1bd",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10s-com-adbbab0614dfc1bd.png",
+  "width": 768,
+  "height": 1024,
+  "viewport": [
+   768,
+   1024
+  ],
+  "group": "small",
+  "url": "https://www.10s.com",
+  "targets": [
+   {
+    "box": [
+     421,
+     10,
+     441,
+     30
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     451,
+     10,
+     471,
+     30
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     481,
+     10,
+     501,
+     30
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     511,
+     10,
+     531,
+     30
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     599,
+     12,
+     619,
+     27
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     630,
+     13,
+     701,
+     30
+    ],
+    "label": "Button",
+    "text": "Subscribe",
+    "interactable": true
+   },
+   {
+    "box": [
+     272,
+     89,
+     336,
+     121
+    ],
+    "label": "Link",
+    "text": "HOME",
+    "interactable": true
+   },
+   {
+    "box": [
+     348,
+     89,
+     455,
+     121
+    ],
+    "label": "Text",
+    "text": "LOCATIONS",
+    "interactable": false
+   },
+   {
+    "box": [
+     467,
+     89,
+     556,
+     121
+    ],
+    "label": "Link",
+    "text": "SERVICES",
+    "interactable": true
+   },
+   {
+    "box": [
+     568,
+     89,
+     675,
+     121
+    ],
+    "label": "Link",
+    "text": "RESOURCES",
+    "interactable": true
+   },
+   {
+    "box": [
+     687,
+     89,
+     760,
+     121
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     766,
+     89,
+     865,
+     121
+    ],
+    "label": "Link",
+    "text": "SPECIALS",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     57,
+     328,
+     121
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     0,
+     125,
+     980,
+     542
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     75,
+     655,
+     96,
+     685
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     30,
+     700,
+     146,
+     723
+    ],
+    "label": "Link",
+    "text": "Boulder Store",
+    "interactable": true
+   },
+   {
+    "box": [
+     20,
+     750,
+     155,
+     809
+    ],
+    "label": "Link",
+    "text": "4800 Baseline Rd, Suite D102, Boulder, CO 80303",
+    "interactable": true
+   },
+   {
+    "box": [
+     39,
+     834,
+     135,
+     852
+    ],
+    "label": "Text",
+    "text": "(303) 442-1412",
+    "interactable": false
+   },
+   {
+    "box": [
+     276,
+     655,
+     297,
+     685
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     218,
+     700,
+     357,
+     723
+    ],
+    "label": "Link",
+    "text": "Centennial Store",
+    "interactable": true
+   },
+   {
+    "box": [
+     220,
+     751,
+     351,
+     810
+    ],
+    "label": "Link",
+    "text": "8280 S. Quebec St., Suite A, Centennial, CO 80112",
+    "interactable": true
+   },
+   {
+    "box": [
+     237,
+     830,
+     333,
+     848
+    ],
+    "label": "Text",
+    "text": "(303) 790-1991",
+    "interactable": false
+   },
+   {
+    "box": [
+     483,
+     655,
+     504,
+     685
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     438,
+     700,
+     548,
+     723
+    ],
+    "label": "Link",
+    "text": "Denver Store",
+    "interactable": true
+   },
+   {
+    "box": [
+     434,
+     755,
+     553,
+     814
+    ],
+    "label": "Link",
+    "text": "2480 S. Colorado Blvd., Denver, CO 80222",
+    "interactable": true
+   },
+   {
+    "box": [
+     441,
+     834,
+     537,
+     852
+    ],
+    "label": "Text",
+    "text": "(303) 394-1991",
+    "interactable": false
+   },
+   {
+    "box": [
+     681,
+     655,
+     702,
+     685
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     628,
+     700,
+     760,
+     723
+    ],
+    "label": "Link",
+    "text": "Las Vegas Store",
+    "interactable": true
+   },
+   {
+    "box": [
+     628,
+     750,
+     759,
+     809
+    ],
+    "label": "Link",
+    "text": "4840 S Fort Apache Rd #100, Las Vegas, NV 89147",
+    "interactable": true
+   },
+   {
+    "box": [
+     643,
+     834,
+     739,
+     852
+    ],
+    "label": "Text",
+    "text": "(702) 463-4643",
+    "interactable": false
+   },
+   {
+    "box": [
+     82,
+     980,
+     561,
+     1022
+    ],
+    "label": "Text",
+    "text": "The Place to go for All Things",
+    "interactable": false
+   }
+  ],
+  "n": 31
+ },
+ {
+  "id": "sp_www-1-2stepentertainment-com-d783ebacd7acde07",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1-2stepentertainment-com-d783ebacd7acde07.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.1-2stepentertainment.com",
+  "targets": [
+   {
+    "box": [
+     170,
+     20,
+     228,
+     64
+    ],
+    "label": "Link",
+    "text": "HOME",
+    "interactable": true
+   },
+   {
+    "box": [
+     274,
+     20,
+     332,
+     64
+    ],
+    "label": "Link",
+    "text": "Quote",
+    "interactable": true
+   },
+   {
+    "box": [
+     378,
+     20,
+     457,
+     64
+    ],
+    "label": "Link",
+    "text": "About Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     502,
+     20,
+     578,
+     64
+    ],
+    "label": "Link",
+    "text": "Services",
+    "interactable": true
+   },
+   {
+    "box": [
+     624,
+     20,
+     741,
+     64
+    ],
+    "label": "Link",
+    "text": "Current Clients",
+    "interactable": true
+   },
+   {
+    "box": [
+     766,
+     20,
+     874,
+     64
+    ],
+    "label": "Link",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     64,
+     1024,
+     952
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     212,
+     0,
+     812,
+     395
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-12comics-com-3117d7a9602413a9",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12comics-com-3117d7a9602413a9.png",
+  "width": 1280,
+  "height": 800,
+  "viewport": [
+   1280,
+   800
+  ],
+  "group": "small",
+  "url": "https://www.12comics.com",
+  "targets": [
+   {
+    "box": [
+     55,
+     16,
+     251,
+     45
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     992,
+     15,
+     1080,
+     45
+    ],
+    "label": "Text",
+    "text": "Questions?",
+    "interactable": false
+   },
+   {
+    "box": [
+     1091,
+     19,
+     1214,
+     39
+    ],
+    "label": "Text",
+    "text": "+1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     55,
+     94,
+     268,
+     121
+    ],
+    "label": "Text",
+    "text": "Captcha security check",
+    "interactable": false
+   },
+   {
+    "box": [
+     437,
+     375,
+     843,
+     411
+    ],
+    "label": "Text",
+    "text": "12comics.com is for sale",
+    "interactable": false
+   },
+   {
+    "box": [
+     437,
+     411,
+     843,
+     447
+    ],
+    "label": "Text",
+    "text": "Please prove you're not a robot",
+    "interactable": false
+   },
+   {
+    "box": [
+     437,
+     453,
+     741,
+     531
+    ],
+    "label": "Checkbox",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     437,
+     549,
+     637,
+     599
+    ],
+    "label": "Button",
+    "text": "View Price",
+    "interactable": true
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-073meetingcompany-nl-a905d0724f82d533",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-073meetingcompany-nl-a905d0724f82d533.png",
+  "width": 1280,
+  "height": 800,
+  "viewport": [
+   1280,
+   800
+  ],
+  "group": "small",
+  "url": "https://www.073meetingcompany.nl",
+  "targets": [
+   {
+    "box": [
+     24,
+     30,
+     175,
+     106
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     214,
+     48,
+     280,
+     90
+    ],
+    "label": "Link",
+    "text": "Over ons",
+    "interactable": true
+   },
+   {
+    "box": [
+     542,
+     48,
+     722,
+     90
+    ],
+    "label": "Link",
+    "text": "Events & Bedrijfsfeesten",
+    "interactable": true
+   },
+   {
+    "box": [
+     311,
+     48,
+     399,
+     90
+    ],
+    "label": "Link",
+    "text": "Vergaderen",
+    "interactable": true
+   },
+   {
+    "box": [
+     430,
+     48,
+     512,
+     90
+    ],
+    "label": "Link",
+    "text": "Restaurant",
+    "interactable": true
+   },
+   {
+    "box": [
+     293,
+     334,
+     986,
+     462
+    ],
+    "label": "Heading",
+    "text": "Efficient en sfeervol vergaderen Ervaar het bij ons",
+    "interactable": false
+   },
+   {
+    "box": [
+     425,
+     486,
+     855,
+     516
+    ],
+    "label": "Text",
+    "text": "Deel uw agendapunten, we delen onze gastvrijheid met u.",
+    "interactable": false
+   },
+   {
+    "box": [
+     547,
+     547,
+     733,
+     603
+    ],
+    "label": "Button",
+    "text": "Lees verder",
+    "interactable": true
+   },
+   {
+    "box": [
+     25,
+     771,
+     412,
+     989
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     25,
+     771,
+     412,
+     1294
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     446,
+     771,
+     833,
+     989
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     446,
+     771,
+     833,
+     1294
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     868,
+     771,
+     1255,
+     989
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     868,
+     771,
+     1255,
+     1294
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1032,
+     40,
+     1083,
+     96
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1083,
+     40,
+     1134,
+     96
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     1134,
+     42,
+     1256,
+     96
+    ],
+    "label": "Button",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     1210,
+     726,
+     1466,
+     795
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 18
+ },
+ {
+  "id": "sp_www-123jaloezie-nl-775a9e926656d646",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-123jaloezie-nl-775a9e926656d646.png",
+  "width": 768,
+  "height": 1024,
+  "viewport": [
+   768,
+   1024
+  ],
+  "group": "small",
+  "url": "https://www.123jaloezie.nl",
+  "targets": [
+   {
+    "box": [
+     16,
+     16,
+     752,
+     89
+    ],
+    "label": "Toolbar",
+    "text": "Menu Zoeken Monsters Winkelwagen",
+    "interactable": true
+   },
+   {
+    "box": [
+     160,
+     246,
+     363,
+     274
+    ],
+    "label": "Heading",
+    "text": "We Gebruiken Cookies",
+    "interactable": false
+   },
+   {
+    "box": [
+     160,
+     284,
+     608,
+     724
+    ],
+    "label": "Text",
+    "text": "123jaloezie gebruikt cookies en vergelijkbare technieken op onze website om je e",
+    "interactable": false
+   },
+   {
+    "box": [
+     510,
+     546,
+     538,
+     562
+    ],
+    "label": "Link",
+    "text": "hier",
+    "interactable": true
+   },
+   {
+    "box": [
+     175,
+     744,
+     342,
+     767
+    ],
+    "label": "Button",
+    "text": "Voorkeuren beheren",
+    "interactable": true
+   },
+   {
+    "box": [
+     352,
+     745,
+     443,
+     766
+    ],
+    "label": "Button",
+    "text": "Weigeren",
+    "interactable": true
+   },
+   {
+    "box": [
+     453,
+     744,
+     593,
+     767
+    ],
+    "label": "Button",
+    "text": "Alles accepteren",
+    "interactable": true
+   },
+   {
+    "box": [
+     396,
+     1016,
+     752,
+     1238
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     93,
+     293,
+     172,
+     345
+    ],
+    "label": "Text",
+    "text": "10%",
+    "interactable": false
+   },
+   {
+    "box": [
+     15,
+     939,
+     85,
+     1014
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     16,
+     1016,
+     372,
+     1239
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     709,
+     267,
+     742,
+     300
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 12
+ },
+ {
+  "id": "sp_www-101mobility-com-febab40a17b75332",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-101mobility-com-febab40a17b75332.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.101mobility.com",
+  "targets": [
+   {
+    "box": [
+     23,
+     8,
+     197,
+     24
+    ],
+    "label": "Link",
+    "text": "Find a Location Near You",
+    "interactable": true
+   },
+   {
+    "box": [
+     23,
+     47,
+     182,
+     81
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     917,
+     32,
+     957,
+     96
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     977,
+     0,
+     1001,
+     32
+    ],
+    "label": "Link",
+    "text": "888-258-0652",
+    "interactable": true
+   },
+   {
+    "box": [
+     977,
+     52,
+     1001,
+     76
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     23,
+     200,
+     619,
+     316
+    ],
+    "label": "Heading",
+    "text": "Aging in place is not about standing still.",
+    "interactable": false
+   },
+   {
+    "box": [
+     23,
+     354,
+     619,
+     402
+    ],
+    "label": "Text",
+    "text": "It\u2019s about living life fully.",
+    "interactable": false
+   },
+   {
+    "box": [
+     404,
+     443,
+     611,
+     491
+    ],
+    "label": "Button",
+    "text": "Find Your Location",
+    "interactable": true
+   },
+   {
+    "box": [
+     32,
+     676,
+     612,
+     712
+    ],
+    "label": "Link",
+    "text": "Privacy Policy",
+    "interactable": true
+   },
+   {
+    "box": [
+     645,
+     641,
+     881,
+     696
+    ],
+    "label": "Link",
+    "text": "Do Not Share or Sell My Personal Information",
+    "interactable": true
+   },
+   {
+    "box": [
+     645,
+     706,
+     881,
+     748
+    ],
+    "label": "Button",
+    "text": "Accept Cookies",
+    "interactable": true
+   },
+   {
+    "box": [
+     970,
+     668,
+     1014,
+     712
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     23,
+     736,
+     417,
+     1030
+    ],
+    "label": "Text",
+    "text": "Why 101 Mobility 101 Mobility is here to help you embrace life on your own terms",
+    "interactable": false
+   },
+   {
+    "box": [
+     545,
+     755,
+     751,
+     809
+    ],
+    "label": "Text",
+    "text": "159K+",
+    "interactable": false
+   },
+   {
+    "box": [
+     795,
+     755,
+     1001,
+     809
+    ],
+    "label": "Text",
+    "text": "18K",
+    "interactable": false
+   }
+  ],
+  "n": 15
+ },
+ {
+  "id": "sp_www-060tech-com-9c17cd975ce33542",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-060tech-com-9c17cd975ce33542.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.060tech.com",
+  "targets": [
+   {
+    "box": [
+     51,
+     20,
+     205,
+     174
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     677,
+     60,
+     701,
+     84
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     800,
+     74,
+     913,
+     93
+    ],
+    "label": "Link",
+    "text": "1.888.424.5060",
+    "interactable": true
+   },
+   {
+    "box": [
+     281,
+     376,
+     743,
+     422
+    ],
+    "label": "Text",
+    "text": "Managed IT Services",
+    "interactable": false
+   },
+   {
+    "box": [
+     588,
+     453,
+     599,
+     468
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     300,
+     57,
+     723,
+     480
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     51,
+     663,
+     973,
+     677
+    ],
+    "label": "Text",
+    "text": "OUR SERVICES",
+    "interactable": false
+   },
+   {
+    "box": [
+     51,
+     676,
+     973,
+     682
+    ],
+    "label": "Text",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     51,
+     682,
+     973,
+     718
+    ],
+    "label": "Text",
+    "text": "Stay Up, Stay Running, Stay Connected",
+    "interactable": false
+   },
+   {
+    "box": [
+     933,
+     77,
+     973,
+     117
+    ],
+    "label": "Menu",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 10
+ },
+ {
+  "id": "sp_www-12link-nl-d368a0074e4b409c",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-12link-nl-d368a0074e4b409c.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.12link.nl",
+  "targets": [
+   {
+    "box": [
+     43,
+     0,
+     1323,
+     133
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     43,
+     133,
+     1323,
+     181
+    ],
+    "label": "Navigation Bar",
+    "text": "home over 1-2-Link portfolio EAT (overblijven) contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     43,
+     133,
+     299,
+     181
+    ],
+    "label": "Tab",
+    "text": "home",
+    "interactable": true
+   },
+   {
+    "box": [
+     299,
+     133,
+     555,
+     181
+    ],
+    "label": "Menu",
+    "text": "over 1-2-Link",
+    "interactable": true
+   },
+   {
+    "box": [
+     555,
+     133,
+     811,
+     181
+    ],
+    "label": "Tab",
+    "text": "portfolio",
+    "interactable": true
+   },
+   {
+    "box": [
+     811,
+     133,
+     1067,
+     181
+    ],
+    "label": "Tab",
+    "text": "EAT (overblijven)",
+    "interactable": true
+   },
+   {
+    "box": [
+     1067,
+     133,
+     1323,
+     181
+    ],
+    "label": "Link",
+    "text": "contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     69,
+     207,
+     735,
+     223
+    ],
+    "label": "Heading",
+    "text": "Het visitekaartje voor uw klanten",
+    "interactable": false
+   },
+   {
+    "box": [
+     773,
+     201,
+     1221,
+     225
+    ],
+    "label": "Heading",
+    "text": "Recente projecten",
+    "interactable": false
+   },
+   {
+    "box": [
+     779,
+     236,
+     960,
+     285
+    ],
+    "label": "Text",
+    "text": "NVT ledenadministratie",
+    "interactable": false
+   },
+   {
+    "box": [
+     777,
+     286,
+     962,
+     471
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     779,
+     493,
+     960,
+     542
+    ],
+    "label": "Text",
+    "text": "SVT (St. Volkshuisvesting Tiel)",
+    "interactable": false
+   },
+   {
+    "box": [
+     777,
+     544,
+     962,
+     729
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     773,
+     743,
+     869,
+     761
+    ],
+    "label": "Link",
+    "text": "Bekijk meer...",
+    "interactable": true
+   },
+   {
+    "box": [
+     995,
+     236,
+     1176,
+     285
+    ],
+    "label": "Text",
+    "text": "VMBN - Vereniging Mindfulness Trainers",
+    "interactable": false
+   },
+   {
+    "box": [
+     993,
+     286,
+     1178,
+     471
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     995,
+     493,
+     1176,
+     542
+    ],
+    "label": "Text",
+    "text": "De Weteringen - nieuwbouwproject",
+    "interactable": false
+   },
+   {
+    "box": [
+     993,
+     544,
+     1178,
+     729
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 18
+ },
+ {
+  "id": "sp_www-123autoparts-com-add22ff7613604ba",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-123autoparts-com-add22ff7613604ba.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.123autoparts.com",
+  "targets": [
+   {
+    "box": [
+     432,
+     9,
+     592,
+     27
+    ],
+    "label": "Text",
+    "text": "Welcome to our store",
+    "interactable": false
+   },
+   {
+    "box": [
+     50,
+     54,
+     260,
+     102
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     300,
+     68,
+     338,
+     86
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     362,
+     68,
+     419,
+     86
+    ],
+    "label": "Link",
+    "text": "Products",
+    "interactable": true
+   },
+   {
+    "box": [
+     443,
+     68,
+     560,
+     86
+    ],
+    "label": "Link",
+    "text": "Shop by Category",
+    "interactable": true
+   },
+   {
+    "box": [
+     568,
+     76,
+     578,
+     82
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     598,
+     68,
+     694,
+     86
+    ],
+    "label": "Link",
+    "text": "Shop by Brand",
+    "interactable": true
+   },
+   {
+    "box": [
+     703,
+     76,
+     713,
+     82
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     733,
+     68,
+     803,
+     86
+    ],
+    "label": "Link",
+    "text": "Contact Us",
+    "interactable": true
+   },
+   {
+    "box": [
+     858,
+     68,
+     878,
+     88
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     902,
+     68,
+     922,
+     88
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     934,
+     56,
+     978,
+     100
+    ],
+    "label": "Utility Button",
+    "text": "Cart",
+    "interactable": true
+   },
+   {
+    "box": [
+     122,
+     122,
+     902,
+     151
+    ],
+    "label": "Text",
+    "text": "Outstanding service | Exclusive pricing | Industry expertise",
+    "interactable": false
+   },
+   {
+    "box": [
+     122,
+     306,
+     582,
+     365
+    ],
+    "label": "Heading",
+    "text": "Precision Performance",
+    "interactable": false
+   },
+   {
+    "box": [
+     122,
+     380,
+     582,
+     431
+    ],
+    "label": "Text",
+    "text": "We deliver the parts and expertise you need to unlock your car's true potential.",
+    "interactable": false
+   },
+   {
+    "box": [
+     122,
+     451,
+     283,
+     504
+    ],
+    "label": "Button",
+    "text": "Start your build",
+    "interactable": true
+   },
+   {
+    "box": [
+     50,
+     691,
+     974,
+     745
+    ],
+    "label": "Heading",
+    "text": "Explore our Products",
+    "interactable": false
+   },
+   {
+    "box": [
+     43,
+     400,
+     48,
+     410
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     977,
+     400,
+     982,
+     410
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   }
+  ],
+  "n": 19
+ },
+ {
+  "id": "sp_www-112solutions-com-6e8717277353f4c8",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-112solutions-com-6e8717277353f4c8.png",
+  "width": 1024,
+  "height": 768,
+  "viewport": [
+   1024,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.112solutions.com",
+  "targets": [
+   {
+    "box": [
+     0,
+     16,
+     368,
+     156
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     864,
+     13,
+     1008,
+     42
+    ],
+    "label": "Link",
+    "text": "01661 243 269",
+    "interactable": true
+   },
+   {
+    "box": [
+     742,
+     77,
+     786,
+     98
+    ],
+    "label": "Link",
+    "text": "Home",
+    "interactable": true
+   },
+   {
+    "box": [
+     818,
+     77,
+     863,
+     98
+    ],
+    "label": "Link",
+    "text": "About",
+    "interactable": true
+   },
+   {
+    "box": [
+     895,
+     77,
+     953,
+     98
+    ],
+    "label": "Link",
+    "text": "Services",
+    "interactable": true
+   },
+   {
+    "box": [
+     985,
+     77,
+     1040,
+     98
+    ],
+    "label": "Link",
+    "text": "Contact",
+    "interactable": true
+   },
+   {
+    "box": [
+     134,
+     209,
+     889,
+     417
+    ],
+    "label": "Heading",
+    "text": "Providing trusted scaffolding solutions for projects of every size and scale acr",
+    "interactable": false
+   },
+   {
+    "box": [
+     32,
+     559,
+     992,
+     627
+    ],
+    "label": "Heading",
+    "text": "Welcome to Northern Scaffold \u2013 Safe, Reliable, and Professional Scaffolding Serv",
+    "interactable": false
+   },
+   {
+    "box": [
+     848,
+     753,
+     984,
+     803
+    ],
+    "label": "Button",
+    "text": "Manage consent",
+    "interactable": true
+   },
+   {
+    "box": [
+     32,
+     651,
+     992,
+     843
+    ],
+    "label": "Text",
+    "text": "At Northern Scaffold, we provide trusted scaffolding solutions for projects of e",
+    "interactable": false
+   }
+  ],
+  "n": 10
+ },
+ {
+  "id": "sp_www-10degreesnorth-com-d0104f70e56790aa",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-10degreesnorth-com-d0104f70e56790aa.png",
+  "width": 1366,
+  "height": 768,
+  "viewport": [
+   1366,
+   768
+  ],
+  "group": "small",
+  "url": "https://www.10degreesnorth.com",
+  "targets": [
+   {
+    "box": [
+     98,
+     16,
+     294,
+     45
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     1035,
+     15,
+     1123,
+     45
+    ],
+    "label": "Text",
+    "text": "Questions?",
+    "interactable": false
+   },
+   {
+    "box": [
+     1134,
+     19,
+     1257,
+     39
+    ],
+    "label": "Text",
+    "text": "+1-303-893-0552",
+    "interactable": false
+   },
+   {
+    "box": [
+     98,
+     94,
+     311,
+     121
+    ],
+    "label": "Text",
+    "text": "Captcha security check",
+    "interactable": false
+   },
+   {
+    "box": [
+     480,
+     375,
+     886,
+     411
+    ],
+    "label": "Text",
+    "text": "10degreesnorth.com is for sale",
+    "interactable": false
+   },
+   {
+    "box": [
+     480,
+     411,
+     886,
+     447
+    ],
+    "label": "Text",
+    "text": "Please prove you're not a robot",
+    "interactable": false
+   },
+   {
+    "box": [
+     480,
+     453,
+     784,
+     531
+    ],
+    "label": "Checkbox",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     480,
+     549,
+     680,
+     599
+    ],
+    "label": "Button",
+    "text": "View Price",
+    "interactable": true
+   }
+  ],
+  "n": 8
+ },
+ {
+  "id": "sp_www-1016-org-a814ffee475f11c9",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-1016-org-a814ffee475f11c9.png",
+  "width": 768,
+  "height": 1024,
+  "viewport": [
+   768,
+   1024
+  ],
+  "group": "small",
+  "url": "https://www.1016.org",
+  "targets": [
+   {
+    "box": [
+     30,
+     22,
+     118,
+     38
+    ],
+    "label": "Link",
+    "text": "989.631.0241",
+    "interactable": true
+   },
+   {
+    "box": [
+     482,
+     20,
+     502,
+     40
+    ],
+    "label": "Utility Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     590,
+     20,
+     610,
+     40
+    ],
+    "label": "Link",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     148,
+     22,
+     241,
+     38
+    ],
+    "label": "Link",
+    "text": "info@1016.org",
+    "interactable": true
+   },
+   {
+    "box": [
+     667,
+     22,
+     738,
+     38
+    ],
+    "label": "Link",
+    "text": "DONATE",
+    "interactable": true
+   },
+   {
+    "box": [
+     30,
+     96,
+     195,
+     131
+    ],
+    "label": "Logo",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     215,
+     85,
+     254,
+     141
+    ],
+    "label": "Link",
+    "text": "ABOUT",
+    "interactable": true
+   },
+   {
+    "box": [
+     274,
+     85,
+     326,
+     141
+    ],
+    "label": "Link",
+    "text": "GET HELP",
+    "interactable": true
+   },
+   {
+    "box": [
+     346,
+     85,
+     401,
+     141
+    ],
+    "label": "Link",
+    "text": "SERVICES",
+    "interactable": true
+   },
+   {
+    "box": [
+     422,
+     85,
+     489,
+     141
+    ],
+    "label": "Link",
+    "text": "RESOURCES",
+    "interactable": true
+   },
+   {
+    "box": [
+     509,
+     85,
+     585,
+     141
+    ],
+    "label": "Link",
+    "text": "GET INVOLVED",
+    "interactable": true
+   },
+   {
+    "box": [
+     595,
+     85,
+     738,
+     141
+    ],
+    "label": "Button",
+    "text": "REQUEST A CALL",
+    "interactable": true
+   },
+   {
+    "box": [
+     361,
+     420,
+     666,
+     512
+    ],
+    "label": "Text",
+    "text": "LIVE FREE",
+    "interactable": false
+   },
+   {
+    "box": [
+     30,
+     831,
+     738,
+     933
+    ],
+    "label": "Text",
+    "text": "We promote recovery and wellness at every stage of substance misuse through shar",
+    "interactable": false
+   },
+   {
+    "box": [
+     549,
+     944,
+     733,
+     989
+    ],
+    "label": "Button",
+    "text": "GET HELP NOW",
+    "interactable": true
+   },
+   {
+    "box": [
+     0,
+     998,
+     768,
+     1642
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   }
+  ],
+  "n": 16
+ },
+ {
+  "id": "sp_www-123mieter-de-08ea46525d763507",
+  "source": "screenparse",
+  "image": "data/img/screenparse/www-123mieter-de-08ea46525d763507.png",
+  "width": 1280,
+  "height": 800,
+  "viewport": [
+   1280,
+   800
+  ],
+  "group": "small",
+  "url": "https://www.123mieter.de",
+  "targets": [
+   {
+    "box": [
+     119,
+     72,
+     735,
+     358
+    ],
+    "label": "Text",
+    "text": "Die Domain 123mieter.de steht zum Verkauf Premium Domain Verifizierte Domain",
+    "interactable": false
+   },
+   {
+    "box": [
+     119,
+     454,
+     699,
+     640
+    ],
+    "label": "Text",
+    "text": "Schneller Transfer garantiert Transparente Zahlungsabwicklung Transaktionen \u00fcber",
+    "interactable": false
+   },
+   {
+    "box": [
+     632,
+     225,
+     649,
+     253
+    ],
+    "label": "App Icon",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     412,
+     291,
+     868,
+     325
+    ],
+    "label": "Heading",
+    "text": "Sprache w\u00e4hlen / Choose Language",
+    "interactable": false
+   },
+   {
+    "box": [
+     412,
+     332,
+     868,
+     354
+    ],
+    "label": "Text",
+    "text": "Bitte w\u00e4hlen Sie Ihre bevorzugte Sprache aus",
+    "interactable": false
+   },
+   {
+    "box": [
+     430,
+     416,
+     474,
+     446
+    ],
+    "label": "Button",
+    "text": "",
+    "interactable": true
+   },
+   {
+    "box": [
+     488,
+     398,
+     614,
+     420
+    ],
+    "label": "Text",
+    "text": "Deutsch",
+    "interactable": false
+   },
+   {
+    "box": [
+     488,
+     420,
+     614,
+     464
+    ],
+    "label": "Text",
+    "text": "Deutsche Sprache",
+    "interactable": false
+   },
+   {
+    "box": [
+     666,
+     416,
+     710,
+     446
+    ],
+    "label": "Image",
+    "text": "",
+    "interactable": false
+   },
+   {
+    "box": [
+     724,
+     409,
+     846,
+     431
+    ],
+    "label": "Text",
+    "text": "English",
+    "interactable": false
+   },
+   {
+    "box": [
+     724,
+     431,
+     846,
+     453
+    ],
+    "label": "Text",
+    "text": "English Language",
+    "interactable": false
+   },
+   {
+    "box": [
+     412,
+     508,
+     634,
+     557
+    ],
+    "label": "Button",
+    "text": "Abbrechen",
+    "interactable": true
+   },
+   {
+    "box": [
+     646,
+     508,
+     868,
+     557
+    ],
+    "label": "Button",
+    "text": "Weiter",
+    "interactable": true
+   },
+   {
+    "box": [
+     412,
+     575,
+     868,
+     597
+    ],
+    "label": "Text",
+    "text": "Sie k\u00f6nnen die Sprache jederzeit in den Einstellungen \u00e4ndern.",
+    "interactable": false
+   }
+  ],
+  "n": 14
+ }
+]

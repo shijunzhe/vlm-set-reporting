@@ -1,0 +1,245 @@
+{
+ "scp|gpt61": {
+  "n": 100,
+  "flagged_share": 0.0,
+  "naive_written": 0.59,
+  "code_only": 0.18,
+  "diagnosed": 0.18,
+  "diagnosed_vs_naive": {
+   "a": 0.59,
+   "b": 0.18,
+   "rel": -69.5,
+   "ci": [
+    -84.0,
+    -44.4
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 0.18,
+   "b": 0.18,
+   "rel": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n": 100
+  }
+ },
+ "scp|sonnet55": {
+  "n": 100,
+  "flagged_share": 0.01,
+  "naive_written": 4.52,
+  "code_only": 0.26,
+  "diagnosed": 0.32,
+  "diagnosed_vs_naive": {
+   "a": 4.52,
+   "b": 0.32,
+   "rel": -92.9,
+   "ci": [
+    -98.1,
+    -85.4
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 0.26,
+   "b": 0.32,
+   "rel": 23.1,
+   "ci": [
+    0.0,
+    57.1
+   ],
+   "n": 100
+  }
+ },
+ "scp|gem38": {
+  "n": 99,
+  "flagged_share": 0.505,
+  "naive_written": 5.9,
+  "code_only": 13.88,
+  "diagnosed": 4.49,
+  "diagnosed_vs_naive": {
+   "a": 5.899,
+   "b": 4.495,
+   "rel": -23.8,
+   "ci": [
+    -35.5,
+    -11.4
+   ],
+   "n": 99
+  },
+  "diagnosed_vs_code": {
+   "a": 13.879,
+   "b": 4.495,
+   "rel": -67.6,
+   "ci": [
+    -72.2,
+    -62.1
+   ],
+   "n": 99
+  }
+ },
+ "scpd|gpt61": {
+  "n": 50,
+  "flagged_share": 0.0,
+  "naive_written": 10.84,
+  "code_only": 1.98,
+  "diagnosed": 1.98,
+  "diagnosed_vs_naive": {
+   "a": 10.84,
+   "b": 1.98,
+   "rel": -81.7,
+   "ci": [
+    -86.9,
+    -74.9
+   ],
+   "n": 50
+  },
+  "diagnosed_vs_code": {
+   "a": 1.98,
+   "b": 1.98,
+   "rel": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n": 50
+  }
+ },
+ "scpd|sonnet55": {
+  "n": 50,
+  "flagged_share": 0.06,
+  "naive_written": 35.02,
+  "code_only": 7.06,
+  "diagnosed": 7.98,
+  "diagnosed_vs_naive": {
+   "a": 35.02,
+   "b": 7.98,
+   "rel": -77.2,
+   "ci": [
+    -82.9,
+    -70.9
+   ],
+   "n": 50
+  },
+  "diagnosed_vs_code": {
+   "a": 7.06,
+   "b": 7.98,
+   "rel": 13.0,
+   "ci": [
+    0.0,
+    25.9
+   ],
+   "n": 50
+  }
+ },
+ "scpd|gem38": {
+  "n": 40,
+  "flagged_share": 0.975,
+  "naive_written": 45.17,
+  "code_only": 115.2,
+  "diagnosed": 47.92,
+  "diagnosed_vs_naive": {
+   "a": 45.175,
+   "b": 47.925,
+   "rel": 6.1,
+   "ci": [
+    -13.8,
+    30.9
+   ],
+   "n": 40
+  },
+  "diagnosed_vs_code": {
+   "a": 115.2,
+   "b": 47.925,
+   "rel": -58.4,
+   "ci": [
+    -65.5,
+    -49.6
+   ],
+   "n": 40
+  }
+ },
+ "fsc|gpt61": {
+  "n": 100,
+  "flagged_share": 0.0,
+  "naive_written": 2.73,
+  "code_only": 2.7,
+  "diagnosed": 2.7,
+  "diagnosed_vs_naive": {
+   "a": 2.73,
+   "b": 2.7,
+   "rel": -1.1,
+   "ci": [
+    -8.6,
+    8.1
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 2.7,
+   "b": 2.7,
+   "rel": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "n": 100
+  }
+ },
+ "fsc|sonnet55": {
+  "n": 100,
+  "flagged_share": 0.03,
+  "naive_written": 9.24,
+  "code_only": 8.85,
+  "diagnosed": 8.5,
+  "diagnosed_vs_naive": {
+   "a": 9.24,
+   "b": 8.5,
+   "rel": -8.0,
+   "ci": [
+    -15.0,
+    -3.8
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 8.85,
+   "b": 8.5,
+   "rel": -4.0,
+   "ci": [
+    -9.7,
+    0.0
+   ],
+   "n": 100
+  }
+ },
+ "fsc|gem38": {
+  "n": 100,
+  "flagged_share": 0.03,
+  "naive_written": 6.87,
+  "code_only": 3.93,
+  "diagnosed": 3.98,
+  "diagnosed_vs_naive": {
+   "a": 6.87,
+   "b": 3.98,
+   "rel": -42.1,
+   "ci": [
+    -60.4,
+    -25.9
+   ],
+   "n": 100
+  },
+  "diagnosed_vs_code": {
+   "a": 3.93,
+   "b": 3.98,
+   "rel": 1.3,
+   "ci": [
+    -30.3,
+    49.2
+   ],
+   "n": 100
+  }
+ }
+}

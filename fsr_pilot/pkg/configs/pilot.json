@@ -1,0 +1,19 @@
+{
+  "plan_version": "FSR-v3.0",
+  "status": "PILOT_ONLY_NOT_REGISTERED",
+  "question": "At fixed visual evidence, does reducing simultaneous reporting responsibility reduce local set error?",
+  "experiment": "E1-Q",
+  "registry_grid": [4, 4],
+  "batch_sizes": [1, 4, 16],
+  "order": "one seeded random full-registry permutation per scene/repeat, shared across loads",
+  "recommended_development_sources": 12,
+  "recommended_model_keys": ["model_A", "model_B"],
+  "replicates": 1,
+  "planned_base_calls_if_recommendation_used": 504,
+  "seed": 20261008,
+  "model_snapshots": null,
+  "provider_parameters": null,
+  "output_token_ceiling": null,
+  "total_budget_rule": null,
+  "notes": "Fill real model snapshots and API settings before paid execution. No target labels/counts enter prompts. These numbers are pilot design choices, not power guarantees."
+}

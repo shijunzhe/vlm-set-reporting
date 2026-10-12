@@ -1,0 +1,148 @@
+{
+ "scp|a": {
+  "same_type_neighbour_share": 0.435,
+  "untyped_share": 0.273,
+  "p_untyped_given_run": 0.448,
+  "p_untyped_given_switch": 0.267,
+  "n_run": 1956,
+  "n_switch": 2488
+ },
+ "scp|b": {
+  "same_type_neighbour_share": 0.541,
+  "untyped_share": 0.31,
+  "p_untyped_given_run": 0.527,
+  "p_untyped_given_switch": 0.209,
+  "n_run": 2472,
+  "n_switch": 1969
+ },
+ "scp|c": {
+  "same_type_neighbour_share": 0.285,
+  "untyped_share": 0.23,
+  "p_untyped_given_run": 0.375,
+  "p_untyped_given_switch": 0.245,
+  "n_run": 1273,
+  "n_switch": 3109
+ },
+ "scp|d": {
+  "same_type_neighbour_share": 0.257,
+  "untyped_share": 0.307,
+  "p_untyped_given_run": 0.46,
+  "p_untyped_given_switch": 0.367,
+  "n_run": 1151,
+  "n_switch": 3288
+ },
+ "scp|e": {
+  "same_type_neighbour_share": 0.258,
+  "untyped_share": 0.331,
+  "p_untyped_given_run": 0.459,
+  "p_untyped_given_switch": 0.389,
+  "n_run": 2256,
+  "n_switch": 6557
+ },
+ "scp|f": {
+  "same_type_neighbour_share": 0.255,
+  "untyped_share": 0.33,
+  "p_untyped_given_run": 0.497,
+  "p_untyped_given_switch": 0.379,
+  "n_run": 2211,
+  "n_switch": 6455
+ },
+ "scp|g": {
+  "same_type_neighbour_share": 0.226,
+  "untyped_share": 0.238,
+  "p_untyped_given_run": 0.344,
+  "p_untyped_given_switch": 0.289,
+  "n_run": 1938,
+  "n_switch": 6775
+ },
+ "scp|h": {
+  "same_type_neighbour_share": 0.256,
+  "untyped_share": 0.277,
+  "p_untyped_given_run": 0.41,
+  "p_untyped_given_switch": 0.322,
+  "n_run": 2295,
+  "n_switch": 6511
+ },
+ "scp|i": {
+  "same_type_neighbour_share": 0.197,
+  "untyped_share": 0.115,
+  "p_untyped_given_run": 0.139,
+  "p_untyped_given_switch": 0.138,
+  "n_run": 869,
+  "n_switch": 3546
+ },
+ "scp|j": {
+  "same_type_neighbour_share": 0.889,
+  "untyped_share": 0.565,
+  "p_untyped_given_run": 0.72,
+  "p_untyped_given_switch": 0.079,
+  "n_run": 4174,
+  "n_switch": 419
+ },
+ "scpd|a": {
+  "same_type_neighbour_share": 0.375,
+  "untyped_share": 0.858,
+  "p_untyped_given_run": 0.788,
+  "p_untyped_given_switch": 0.783,
+  "n_run": 2546,
+  "n_switch": 4561
+ },
+ "scpd|b": {
+  "same_type_neighbour_share": 0.512,
+  "untyped_share": 0.879,
+  "p_untyped_given_run": 0.838,
+  "p_untyped_given_switch": 0.802,
+  "n_run": 3547,
+  "n_switch": 3512
+ },
+ "scpd|c": {
+  "same_type_neighbour_share": 0.287,
+  "untyped_share": 0.823,
+  "p_untyped_given_run": 0.743,
+  "p_untyped_given_switch": 0.705,
+  "n_run": 2129,
+  "n_switch": 5187
+ },
+ "scpd|d": {
+  "same_type_neighbour_share": 0.298,
+  "untyped_share": 0.832,
+  "p_untyped_given_run": 0.815,
+  "p_untyped_given_switch": 0.79,
+  "n_run": 2254,
+  "n_switch": 5318
+ },
+ "scpd|i": {
+  "same_type_neighbour_share": 0.217,
+  "untyped_share": 0.563,
+  "p_untyped_given_run": 0.627,
+  "p_untyped_given_switch": 0.549,
+  "n_run": 1481,
+  "n_switch": 5333
+ },
+ "scpd|j": {
+  "same_type_neighbour_share": 0.856,
+  "untyped_share": 0.932,
+  "p_untyped_given_run": 0.896,
+  "p_untyped_given_switch": 0.909,
+  "n_run": 5805,
+  "n_switch": 1024
+ },
+ "pooled_logit": {
+  "terms": [
+   "intercept",
+   "same_type_as_previous",
+   "relative_position"
+  ],
+  "coef": [
+   -0.968,
+   0.813,
+   1.9
+  ],
+  "se": [
+   0.013,
+   0.014,
+   0.024
+  ],
+  "n": 104409
+ }
+}

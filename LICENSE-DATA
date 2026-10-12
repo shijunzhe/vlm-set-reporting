@@ -1,0 +1,20 @@
+The synthetic images and labels generated for this work (stageB/data/scp, stageB/data/scpd, stageB/data/scpd_gen,
+release/ground_truth, and the procedural scenes under fsr_pilot/ and fsr_v51/e12*/) and all model requests and
+responses in this repository are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+The same licence covers the ignore regions we added in our label audit (audit_ignore_added in items_corr.jsonl).
+
+Third-party benchmarks. No third-party image is redistributed. See thirdparty/SOURCES.md for links and citations.
+
+  Labels included, with attribution, under the licence of each source (item lists and the labels of the items used):
+    DocLayNet v1.2   CDLA-Permissive-1.0
+    ScreenSpot-Pro   MIT
+    ScreenSpot-v2    Apache-2.0
+    GroundCUA        MIT
+    ScreenParse      CC BY 4.0
+    PixMo-Count      ODC-BY 1.0
+  These files remain under those licences, not under CC BY 4.0.
+
+  Labels not redistributed: DOTA v1.0, SKU-110K, FSC-147. The files that held them contain placeholders and item
+  metadata only (image name, window or scale, class name, number of objects). thirdparty/tp.py rebuilds the
+  byte-identical files from the official downloads; the rebuilt labels are under the terms of the original datasets.

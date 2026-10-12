@@ -1,0 +1,42 @@
+\section{Protocol Details}\label{app:protocol}
+
+\paragraph{List-first prompt.} The readout confirmation runs used the following system prompt for GPT-6.1 and Gemini 3.8 (native 0 to 1000 frame); the user message was ``List every geometric shape in this image with its center, then counts by type. Respond with JSON only.''
+
+{\small
+\begin{verbatim}
+You are a precise visual counting and localization assistant.
+
+Given an image containing geometric shapes, identify every shape.
+Report coordinates on a 0-1000 grid: x = 0 is the left edge and x = 1000 the
+right edge of the image, y = 0 is the top edge and y = 1000 the bottom edge.
+Use integers.
+List the shapes in reading order: scan the image row by row from top to bottom,
+and within a row from left to right.
+The "type" value must be exactly one of: circle, triangle, square, star,
+pentagon. A square rotated by any angle is still a "square"; do not use any
+other type name.
+
+Respond with ONLY a JSON object (no markdown, no commentary) in this format:
+{"shapes": [{"type": "circle", "x": 402, "y": 311}, ...], "counts_by_type":
+{"circle": 5, "triangle": 3, "square": 0, "star": 2, "pentagon": 4}}
+
+Shape types to recognize: circle, triangle, square, star, pentagon.
+Locate every shape carefully. Count systematically; do not miss any and do not
+invent shapes that are not there.
+Write the full shapes list first; after it, give counts_by_type for the shapes
+you listed.
+\end{verbatim}
+}
+\noindent For Sonnet 5.5 the coordinate paragraph reads ``The image is 1024x1024 pixels. Report coordinates as integer pixel positions in this image, where (0,0) is the top-left corner.'' The count-first prompts of the readout experiment ask for \texttt{counts\_by\_type} before the list; all prompts are released with the responses.
+
+\paragraph{Decoder.} The decoder strips a code fence and parses the whole response as JSON (L2). If that fails, it recovers each balanced \texttt{\{...\}} object that has the record fields (declared salvage) and reads \texttt{counts\_by\_type} if present, with its class names mapped by the same alias map (the pure-readout comparisons of Table~\ref{tab:readout} compare stated and list counts with neither mapped). Coordinates are mapped from the model's frame to image pixels. Classes are lower-cased and mapped by the declared alias map; for SCP, \{diamond, rhombus, rotated square\} $\mapsto$ square. Records whose class is outside the vocabulary after mapping stay in the audit collection $Z^{\mathrm{all}}$, are excluded from the delivered collection $Z$ that set scores evaluate, and are counted by the first degeneracy flag; Table~\ref{tab:setting} adds a sensitivity that keeps them and scores them as unmatched. On the detection sources, records with a label outside the vocabulary or a box outside the image are likewise kept in the audit collection, excluded from delivery and counted as invalid (Table~\ref{tab:contract}).
+
+\paragraph{Degeneracy flags.} A list is flagged if any of the following holds: more than 10\% of records lack a valid class; the list length is outside $[0.5,1.5]$ times the stated total; more than 10\% of records repeat a rounded coordinate pair already in the list; or the finish reason is ``length''. The same thresholds are used for every model, including the open model.
+
+\paragraph{Scoring and clustering.} Scoring uses the compatibility relation of each task in Table~\ref{tab:contract}: for example, points of equal class within 30 pixels on SCP and 20 pixels on SCP-dense, detection boxes of equal class at IoU $\ge 0.75$, screen elements at IoU $\ge 0.5$ without class, and clicks inside the target box. Maximum matchings are computed with a linear assignment on the 0/1 compatibility matrix \citep{kuhn1955hungarian}. Clusters across calls use the association rule of Table~\ref{tab:contract} (boxes: equal class and IoU $\ge0.5$, also on the detection sources where scoring uses 0.75), with a maximum-cardinality, then maximum-overlap assignment against cluster representatives, and the fused record is the coordinate mean of members.
+
+\paragraph{Constructions.} Same-model: \texttt{inter2} (two calls, intersection), \texttt{union2}, \texttt{unan3} and \texttt{maj3} (three calls, unanimity or majority), \texttt{union3}; each with fused (\texttt{\_fus}) or base-record (\texttt{\_del}) coordinates. Cross-model: \texttt{x2\_inter} and \texttt{x2\_union} with a named partner, \texttt{x3\_unan} and \texttt{x3\_maj} over the three models (one call each), \texttt{x3\_union}. The leave-one-source-out default for an evaluated source is the construction with the best mean relative change over the other five sources, computed separately for each loss and pool.
+
+\paragraph{Alarms.} For clicks, the same-model alarm compares two unzoomed calls of one model; the cross-model alarm compares one unzoomed call of the user's model with one of the partner; the after-zoom alarm compares the two models' second-stage points. An item is deferred when the two points are farther apart than $\delta$ times the longer image side. The partner is set by a fixed rule, the cheapest other model per click call (GPT-6.1 and Sonnet 5.5: Gemini 3.8; Gemini 3.8: Sonnet 5.5).
+
+\paragraph{Reproducing the tables.} The code and all requests and responses are at \url{https://github.com/shijunzhe/vlm-set-reporting}, together with the labels whose licences allow redistribution (DocLayNet, ScreenSpot-Pro, ScreenSpot-v2, GroundCUA, ScreenParse, PixMo-Count). The labels of DOTA v1.0, SKU-110K and FSC-147 are not redistributed: the repository stores a placeholder for each value, naming the official file and the window, scale and rounding applied, and \texttt{thirdparty/tp.py} rebuilds the files from the official downloads, writing a file only when its SHA-256 digest matches the file we scored against. \texttt{bash reproduce.sh -{}-sources <dir>} performs this rebuild, sets the paths, runs \texttt{stageB/analysis/run\_all.sh}, which recomputes the data of every table and figure in Section~\ref{sec:results}, and writes the LaTeX tables and figures; without \texttt{-{}-sources} it recomputes the analyses that do not score against those three label sets and keeps the shipped outputs of the others. No step calls a model. The synthetic dense images are regenerated with \texttt{python3 -I stageB/code/scp\_generate.py -{}-num\_images 50 -{}-min\_shapes 120 -{}-max\_shapes 200 -{}-min\_radius 9 -{}-max\_radius 16 -{}-seed 2026}, which reproduces all 50 images byte for byte.

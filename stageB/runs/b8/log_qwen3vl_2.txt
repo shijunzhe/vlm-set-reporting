@@ -1,0 +1,12 @@
+qwen3vl main manifest 650 done 104 todo 546
+qwen3vl main 50
+qwen3vl main 100
+qwen3vl main 150
+qwen3vl main 200
+qwen3vl main 250
+qwen3vl main 300
+qwen3vl main 350
+qwen3vl main 400
+qwen3vl main 450
+qwen3vl main 500
+qwen3vl main finished 546

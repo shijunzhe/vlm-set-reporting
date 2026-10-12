@@ -1,0 +1,3 @@
+This call revisits only the responsibilities marked active in the supplied registry. These responsibilities remain unresolved because an earlier reply was absent, malformed, contradictory, or unknown. Reinspect the unchanged scene and return a new complete row for each active region under the same coordinate contract. Your new accepted row replaces that region's previous transaction; do not copy other regions' records. Do not infer a required object count from the earlier reply.
+
+{task_payload_json}

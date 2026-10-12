@@ -1,0 +1,1 @@
+{"provider": "openai", "model": "gpt-6.1-sol", "image_detail": "auto", "min": {"reasoning_effort": "low"}, "default": {}, "max_tokens": {"min": 16384, "default": 32768, "default16k": 16384}, "python": "3.11.15", "started": "2026-10-11T07:00:42Z", "manifest": "requests_A.jsonl", "manifest_sha256": "aacea444c40c40985e461e22ac14e65b4b5a28b7c9fd617fc149d139e7a03539"}

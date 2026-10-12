@@ -1,0 +1,33 @@
+\section{Experimental Setup}\label{sec:experiments}
+
+\paragraph{Models and settings.} The main experiments use three API models: GPT-6.1, Sonnet 5.5 and Gemini 3.8 Flash (written Gemini 3.8). Pilots and the controlled-scene experiments also use GPT-5.6 and Opus 5.5, and an open-weight model, Qwen3-VL-235B, is tested on the readout tasks. Each call uses either the \emph{lowest} reasoning setting the API offers or the \emph{default} setting. Setting labels do not match behaviour, and we report what was measured (Appendix~\ref{app:settings}). Three facts matter for interpretation. First, the default setting also doubled the output cap (16,384 to 32,768 tokens); three runs separate the two: Table~\ref{tab:setting}, a 90-call 16k control on the E3 sources, and a 16k control on controlled scenes. Second, Sonnet 5.5's reasoning share at its default setting varies by task: 0\% to 23\% of calls in the reasoning experiment (dense scenes, FSC-147, screens) and 0\% to 90\% across detection cells; we attribute a Sonnet result to reasoning only where most of its calls reasoned. Reasoning tokens are read from the usage fields of every call after the pilots (Qwen3-VL is an instruct model and reports none); in the two pilots, which logged no thinking tokens for the Claude models, adaptive thinking may have run unseen, and no conclusion here depends on those pilots. Third, Gemini 3.8 at its lowest setting still reasoned on click and point outputs (about 99\% of GUI click calls), so its click results are labelled ``lowest (reasoning observed)''. GPT-6.1's lowest setting is \texttt{reasoning\_effort=low}, and most of its calls carry some reasoning tokens. Images sent to Sonnet 5.5 were resized to at most 1,568 pixels on the long side and 1.15 megapixels (by our code, or in the detection experiment by the provider), and images sent to the other models to at most 2,048 pixels; for Sonnet 5.5 this is below the 2,576-pixel long edge measured for it in the companion paper \citep{shi2026zoomin}, so its whole-image results on large screens understate what the interface allows.
+
+\paragraph{Data.} The \emph{synthetic counting probe} (SCP) has 100 images of $1024\times1024$ pixels with five shape classes and 15 to 80 shapes each (mean 47.6), drawn over clutter lines; \emph{SCP-dense} uses the same generator with 50 images of 121 to 200 smaller shapes (mean 164.3). Labels are exact. Photographs, aerial images and document pages come from PixMo-Count (100 images, 2 to 10 objects), FSC-147 (100 images in three size strata for the readout and tiling experiments, and 60 further images for the detection experiment), and 60 images each from SKU-110K, DOTA v1.0 and DocLayNet v1.2 (three classes). Screen data are 200 ScreenSpot-Pro and 60 ScreenSpot-v2 click items, 60 GroundCUA screens and 60 ScreenParse screens. The controlled-scene experiments add 96 procedurally drawn scenes with 16 to 384 targets each. A natural-image readout experiment adds 30 DOTA v1.0 validation windows and 50 DocLayNet pages (financial reports, tenders and laws, the categories of the two test shards we use), selected with the annotations to contain at least three (DOTA) or four (DocLayNet) classes and at least 30 or 20 objects, disjoint from the detection images; the class alias map for these tasks was written before any response was read. In total the experiments use 1,146 images with 53,875 annotated targets (each click item counts as one target). We refer to SKU-110K, DOTA, DocLayNet and FSC-147 as the \emph{E3 sources} and to GroundCUA and ScreenParse as the \emph{screen sources}.
+
+\paragraph{Experiments.} Table~\ref{tab:experiments} lists the experiments that the results draw on. Every call, including smoke tests, pilots and retries, is stored with its raw response; the full registry with costs is in Appendix~\ref{app:registry}. Merges of existing calls (intersections, unanimity, cross-model constructions) are deterministic post-processing of stored responses and count as design evidence: the same items are re-scored under a changed construction. Mechanism tests on existing data, such as the decomposition of a gain into selection and geometry, are labelled as decomposition evidence.
+
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{3pt}
+\caption{Experiments used in Section~\ref{sec:results}. Calls include repairs and smoke tests; the registry in Appendix~\ref{app:registry} lists all 46,785 calls.}\label{tab:experiments}
+\begin{tabular}{@{}p{1.55cm}p{3.05cm}r@{}}\toprule
+Experiment & What changes & Calls \\\midrule
+Readout & 13 prompt arms on SCP, SCP-dense, PixMo & 7,900 \\
+Readout confirm. & full protocol, SCP-dense; Gemini at 3 settings & 250 \\
+Natural readout & count-first vs.\ list-first, DOTA and DocLayNet & 574 \\
+Grid & grids, ticks, cells, scan, type names & 1,340 \\
+Tiling & count-first, list-only, $2\times2$ tiles (FSC) & 1,800 \\
+Detection (E3) & list / regions $\times$ two settings, 4 datasets & 6,523 \\
+GUI & click arms incl.\ zoom; parse arms incl.\ intersections; pilots & 7,232 \\
+Review & blind vs.\ draft review on crops & 1,440 \\
+Same-view review & draft review on detection images & 663 \\
+Comparator & pairwise comparison of disagreeing reports & 1,960 \\
+Resolution & downscaled / native / upscaled & 600 \\
+End-to-end & naive / common / proposed arms & 1,800 \\
+Reasoning & default setting on dense, FSC, GUI & 1,110 \\
+Open model & Qwen3-VL readout arms & 650 \\
+Controlled scenes & pilots, subset execution, drift, grids & 12,296 \\
+Pilots & small runs before the readout experiments & 647 \\\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Statistics.} Intervals are 95\% paired bootstrap intervals over images (4,000 resamples unless stated), with relative changes computed on means. ``Significant'' means the interval excludes 0; when it does not, we write ``not significant'' or ``reaches'', never ``exceeds''. Fold assignments and random draws use seeds derived from SHA-256 of a fixed string and are persisted, so every table regenerates byte-identically from the saved responses with one script. Costs count every attempted call at list prices.

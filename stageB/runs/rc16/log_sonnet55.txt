@@ -1,0 +1,3 @@
+sonnet55 main manifest 50 done 0 todo 50
+sonnet55 main 50
+sonnet55 main finished 50

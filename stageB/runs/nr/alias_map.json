@@ -1,0 +1,10 @@
+{"_about": "Declared before any EXP-NR response was read. Names are lower-cased, spaces and underscores become hyphens, then mapped.",
+ "dota": {"car": "small-vehicle", "cars": "small-vehicle", "vehicle": "small-vehicle", "small-car": "small-vehicle", "van": "small-vehicle",
+          "truck": "large-vehicle", "bus": "large-vehicle", "lorry": "large-vehicle", "airplane": "plane", "aircraft": "plane", "aeroplane": "plane",
+          "boat": "ship", "vessel": "ship", "tank": "storage-tank", "oil-tank": "storage-tank", "pool": "swimming-pool",
+          "soccer-field": "soccer-ball-field", "football-field": "soccer-ball-field", "track-field": "ground-track-field",
+          "running-track": "ground-track-field", "baseball-field": "baseball-diamond", "tennis-courts": "tennis-court", "helipad": "helicopter"},
+ "doclaynet": {"paragraph": "text", "text-block": "text", "body-text": "text", "list": "list-item", "bullet": "list-item", "header": "page-header",
+               "footer": "page-footer", "figure": "picture", "image": "picture", "chart": "picture", "equation": "formula", "math": "formula",
+               "heading": "section-header", "section-heading": "section-header", "subheading": "section-header", "section-title": "section-header",
+               "page-number": "page-footer", "note": "footnote", "figure-caption": "caption", "table-caption": "caption"}}

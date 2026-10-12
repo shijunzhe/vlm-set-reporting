@@ -1,0 +1,21 @@
+[
+ {
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "media_resolution": "default",
+  "min": {
+   "thinking_budget": 0
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768,
+   "default16k": 16384
+  },
+  "python": "3.11.15",
+  "started": "2026-10-10T06:30:52Z",
+  "manifest": "requests_main.jsonl",
+  "manifest_sha256": "98c9b1eb28e090ac55404a442a28eeca06993d038aaa9f712d7c4e1ab7cbe10a",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

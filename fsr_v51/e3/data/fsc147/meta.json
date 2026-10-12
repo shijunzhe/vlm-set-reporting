@@ -1,0 +1,9 @@
+{
+ "dataset": "fsc147",
+ "n_items": 60,
+ "tertile_bounds": [
+  21,
+  55
+ ],
+ "source": "FSC-147 test split via huggingface isentropic/FSC147"
+}

@@ -1,0 +1,1377 @@
+{
+ "about": "Replay the default pipeline on stored responses and on boundary cases. No model calls.",
+ "count": {
+  "gpt61|lowest": {
+   "n": 50,
+   "per_type_error": 1.6,
+   "branches": {
+    "list_count": 50
+   },
+   "status": {},
+   "cost_per_image": 0.02509
+  },
+  "sonnet55|lowest": {
+   "n": 50,
+   "per_type_error": 0.42,
+   "branches": {
+    "list_count": 50
+   },
+   "status": {},
+   "cost_per_image": 0.03323
+  },
+  "gem38|lowest": {
+   "n": 50,
+   "per_type_error": 52.8,
+   "branches": {
+    "count_from_statement": 40,
+    "list_count": 5,
+    "list_count_flagged": 5
+   },
+   "status": {
+    "flagged": 45,
+    "recovery_unavailable": 45
+   },
+   "cost_per_image": 0.01904
+  },
+  "gem38|default": {
+   "n": 50,
+   "per_type_error": 24.52,
+   "branches": {
+    "list_count": 44,
+    "count_from_statement": 2,
+    "list_count_flagged": 4
+   },
+   "status": {
+    "flagged": 6,
+    "recovery_unavailable": 6,
+    "empty_first_pass": 1
+   },
+   "cost_per_image": 0.03417
+  },
+  "reference": {
+   "gem38|lowest": 52.8,
+   "gem38|default": 24.52,
+   "gpt61|lowest": 1.6,
+   "sonnet55|lowest": 0.42
+  }
+ },
+ "sets": {
+  "E3|doclaynet|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 9.183,
+    "status": {},
+    "cost_per_image": 0.03228
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 9.183,
+    "status": {},
+    "cost_per_image": 0.03228
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 9.183,
+    "status": {},
+    "cost_per_image": 0.03228
+   },
+   "reference_component_E": 9.15,
+   "construction": "unan3_fus"
+  },
+  "E3|doclaynet|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 12.333,
+    "status": {
+     "flagged": 1
+    },
+    "cost_per_image": 0.03835
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 12.333,
+    "status": {
+     "flagged": 1
+    },
+    "cost_per_image": 0.03835
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 12.333,
+    "status": {
+     "flagged": 1,
+     "recovery_unavailable": 1
+    },
+    "cost_per_image": 0.03835
+   },
+   "reference_component_E": 12.333,
+   "construction": "unan3_fus"
+  },
+  "E3|doclaynet|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 12.183,
+    "status": {
+     "flagged": 48,
+     "empty_first_pass": 4,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.01317
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 12.183,
+    "status": {
+     "flagged": 48,
+     "empty_first_pass": 4,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.01317
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 11.633,
+    "status": {
+     "flagged": 48,
+     "recovery_still_flagged": 1,
+     "recovery_unavailable": 46,
+     "empty_first_pass": 4,
+     "recovered": 11,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.01425
+   },
+   "reference_component_E": 12.183,
+   "construction": "unan3_fus"
+  },
+  "E3|dota|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 35.05,
+    "status": {
+     "flagged": 1,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.07851
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 40.217,
+    "status": {
+     "flagged": 1,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.07851
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 35.05,
+    "status": {
+     "flagged": 1,
+     "recovered": 1,
+     "recovery_unavailable": 1,
+     "calls_without_readable_answer": 1
+    },
+    "cost_per_image": 0.07969
+   },
+   "reference_component_E": 34.983,
+   "construction": "unan3_fus"
+  },
+  "E3|dota|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 31.933,
+    "status": {
+     "flagged": 3
+    },
+    "cost_per_image": 0.04723
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 31.933,
+    "status": {
+     "flagged": 3
+    },
+    "cost_per_image": 0.04723
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 31.933,
+    "status": {
+     "flagged": 3,
+     "recovery_unavailable": 3,
+     "recovered": 1
+    },
+    "cost_per_image": 0.04736
+   },
+   "reference_component_E": 31.95,
+   "construction": "unan3_fus"
+  },
+  "E3|dota|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 30.8,
+    "status": {
+     "flagged": 24
+    },
+    "cost_per_image": 0.01781
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 30.8,
+    "status": {
+     "flagged": 24
+    },
+    "cost_per_image": 0.01781
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 30.8,
+    "status": {
+     "flagged": 24,
+     "recovered": 3,
+     "recovery_unavailable": 22,
+     "recovery_still_flagged": 2
+    },
+    "cost_per_image": 0.01919
+   },
+   "reference_component_E": 30.8,
+   "construction": "unan3_fus"
+  },
+  "E3|fsc147|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 30.117,
+    "status": {},
+    "cost_per_image": 0.01094
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 30.117,
+    "status": {},
+    "cost_per_image": 0.01094
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 30.117,
+    "status": {},
+    "cost_per_image": 0.01094
+   },
+   "reference_component_E": 30.117,
+   "construction": "single"
+  },
+  "E3|fsc147|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 48.283,
+    "status": {
+     "flagged": 2
+    },
+    "cost_per_image": 0.00652
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 48.283,
+    "status": {
+     "flagged": 2
+    },
+    "cost_per_image": 0.00652
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 48.283,
+    "status": {
+     "flagged": 2,
+     "recovery_unavailable": 2
+    },
+    "cost_per_image": 0.00652
+   },
+   "reference_component_E": 48.317,
+   "construction": "single"
+  },
+  "E3|fsc147|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 52.05,
+    "status": {
+     "flagged": 1,
+     "empty_first_pass": 1
+    },
+    "cost_per_image": 0.00324
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 52.05,
+    "status": {
+     "flagged": 1,
+     "empty_first_pass": 1
+    },
+    "cost_per_image": 0.00324
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 52.067,
+    "status": {
+     "flagged": 1,
+     "recovered": 1,
+     "empty_first_pass": 1
+    },
+    "cost_per_image": 0.00329
+   },
+   "reference_component_E": 52.05,
+   "construction": "single"
+  },
+  "E3|sku110k|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 148.367,
+    "status": {},
+    "cost_per_image": 0.21213
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 148.367,
+    "status": {},
+    "cost_per_image": 0.21213
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 148.367,
+    "status": {},
+    "cost_per_image": 0.21213
+   },
+   "reference_component_E": 148.317,
+   "construction": "unan3_fus"
+  },
+  "E3|sku110k|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 148.7,
+    "status": {
+     "flagged": 15
+    },
+    "cost_per_image": 0.12584
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 148.7,
+    "status": {
+     "flagged": 15
+    },
+    "cost_per_image": 0.12584
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 148.6,
+    "status": {
+     "flagged": 15,
+     "recovered": 2,
+     "recovery_unavailable": 14
+    },
+    "cost_per_image": 0.12664
+   },
+   "reference_component_E": 148.667,
+   "construction": "unan3_fus"
+  },
+  "E3|sku110k|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 136.45,
+    "status": {
+     "flagged": 42,
+     "calls_without_readable_answer": 6
+    },
+    "cost_per_image": 0.05839
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 134.6,
+    "status": {
+     "flagged": 42,
+     "calls_without_readable_answer": 6
+    },
+    "cost_per_image": 0.05839
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 136.317,
+    "status": {
+     "flagged": 42,
+     "recovery_unavailable": 41,
+     "recovered": 5,
+     "calls_without_readable_answer": 6,
+     "recovery_still_flagged": 4
+    },
+    "cost_per_image": 0.06173
+   },
+   "reference_component_E": 136.483,
+   "construction": "unan3_fus"
+  },
+  "GUI|groundcua|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 89.25,
+    "status": {},
+    "cost_per_image": 0.092
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 89.25,
+    "status": {},
+    "cost_per_image": 0.092
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 89.25,
+    "status": {},
+    "cost_per_image": 0.092
+   },
+   "reference_component_E": 89.25,
+   "construction": "unan3_fus"
+  },
+  "GUI|groundcua|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 43.667,
+    "status": {},
+    "cost_per_image": 0.09992
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 43.667,
+    "status": {},
+    "cost_per_image": 0.09992
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 43.667,
+    "status": {},
+    "cost_per_image": 0.09992
+   },
+   "reference_component_E": 43.667,
+   "construction": "unan3_fus"
+  },
+  "GUI|groundcua|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 95.583,
+    "status": {
+     "flagged": 24,
+     "calls_without_readable_answer": 8
+    },
+    "cost_per_image": 0.0438
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 98.167,
+    "status": {
+     "flagged": 24,
+     "calls_without_readable_answer": 8
+    },
+    "cost_per_image": 0.0438
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 95.583,
+    "status": {
+     "flagged": 24,
+     "recovery_unavailable": 24,
+     "calls_without_readable_answer": 8
+    },
+    "cost_per_image": 0.0438
+   },
+   "reference_component_E": 95.583,
+   "construction": "unan3_fus"
+  },
+  "GUI|screenparse|gpt61": {
+   "no_recovery": {
+    "n": 60,
+    "E": 15.783,
+    "status": {},
+    "cost_per_image": 0.02919
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 15.783,
+    "status": {},
+    "cost_per_image": 0.02919
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 15.783,
+    "status": {},
+    "cost_per_image": 0.02919
+   },
+   "reference_component_E": 15.783,
+   "construction": "unan3_fus"
+  },
+  "GUI|screenparse|sonnet55": {
+   "no_recovery": {
+    "n": 60,
+    "E": 12.967,
+    "status": {},
+    "cost_per_image": 0.03175
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 12.967,
+    "status": {},
+    "cost_per_image": 0.03175
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 12.967,
+    "status": {},
+    "cost_per_image": 0.03175
+   },
+   "reference_component_E": 12.967,
+   "construction": "unan3_fus"
+  },
+  "GUI|screenparse|gem38": {
+   "no_recovery": {
+    "n": 60,
+    "E": 15.533,
+    "status": {
+     "flagged": 10
+    },
+    "cost_per_image": 0.01089
+   },
+   "no_recovery_unreadable_excluded": {
+    "n": 60,
+    "E": 15.533,
+    "status": {
+     "flagged": 10
+    },
+    "cost_per_image": 0.01089
+   },
+   "with_stored_recovery": {
+    "n": 60,
+    "E": 15.533,
+    "status": {
+     "flagged": 10,
+     "recovery_unavailable": 10
+    },
+    "cost_per_image": 0.01089
+   },
+   "reference_component_E": 15.533,
+   "construction": "unan3_fus"
+  }
+ },
+ "clicks": {
+  "gpt61": {
+   "n": 200,
+   "hit_rate": 0.9,
+   "status": {
+    "no_point_in_crop": 5,
+    "no_first_point": 1
+   },
+   "after_zoom_alarm": {
+    "partner": "gem38",
+    "delta": 0.015,
+    "errors_caught": 0.7,
+    "coverage": 0.885,
+    "miss_rate_when_acting": 0.0339
+   },
+   "cost_per_item_with_partner": 0.01365
+  },
+  "sonnet55": {
+   "n": 200,
+   "hit_rate": 0.87,
+   "status": {
+    "no_point_in_crop": 7,
+    "no_first_point": 4
+   },
+   "after_zoom_alarm": {
+    "partner": "gem38",
+    "delta": 0.015,
+    "errors_caught": 0.769,
+    "coverage": 0.845,
+    "miss_rate_when_acting": 0.0355
+   },
+   "cost_per_item_with_partner": 0.01113
+  },
+  "gem38": {
+   "n": 200,
+   "hit_rate": 0.875,
+   "status": {
+    "no_point_in_crop": 7,
+    "no_first_point": 4
+   },
+   "after_zoom_alarm": {
+    "partner": "sonnet55",
+    "delta": 0.015,
+    "errors_caught": 0.68,
+    "coverage": 0.845,
+    "miss_rate_when_acting": 0.0473
+   },
+   "cost_per_item_with_partner": 0.01113
+  },
+  "reference_hit_rate_B4": {
+   "gpt61": 0.9,
+   "sonnet55": 0.87,
+   "gem38": 0.875
+  },
+  "reference_n": {
+   "gpt61": 200,
+   "sonnet55": 200,
+   "gem38": 200
+  }
+ },
+ "multiview": {
+  "gui|gpt61": {
+   "full": 91.7,
+   "views_merged": 73.87,
+   "confirm_coverage_aware": 70.8,
+   "confirm_plain": 70.8,
+   "second_call": 91.43,
+   "unanimity3": 88.67,
+   "deletion_only": 80.13,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": -19.4,
+     "ci": [
+      -27.5,
+      -10.6
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": -22.8,
+     "ci": [
+      -28.2,
+      -17.2
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": -22.8,
+     "ci": [
+      -28.4,
+      -16.9
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": -0.3,
+     "ci": [
+      -3.7,
+      2.9
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": -3.3,
+     "ci": [
+      -8.7,
+      1.5
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": -12.6,
+     "ci": [
+      -16.7,
+      -8.2
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": -22.6,
+     "ci": [
+      -27.5,
+      -17.7
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": -20.2,
+     "ci": [
+      -25.5,
+      -14.5
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.244,
+   "selection_gain_per_image": 11.57,
+   "reference_b2": {
+    "full_D1": 91.7,
+    "crops_blind": 73.87,
+    "inter_D1_crops": 70.8,
+    "inter_D1_D2": 91.43
+   }
+  },
+  "gui|sonnet55": {
+   "full": 46.37,
+   "views_merged": 67.17,
+   "confirm_coverage_aware": 52.33,
+   "confirm_plain": 53.77,
+   "second_call": 45.83,
+   "unanimity3": 46.0,
+   "deletion_only": 52.1,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": 44.9,
+     "ci": [
+      25.7,
+      67.3
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": 12.9,
+     "ci": [
+      1.4,
+      25.3
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": 16.0,
+     "ci": [
+      4.2,
+      29.1
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": -1.2,
+     "ci": [
+      -7.7,
+      6.5
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": -0.8,
+     "ci": [
+      -8.2,
+      7.1
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": 12.4,
+     "ci": [
+      2.4,
+      23.2
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": 14.2,
+     "ci": [
+      4.4,
+      26.2
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": 13.8,
+     "ci": [
+      4.0,
+      26.1
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.622,
+   "selection_gain_per_image": -5.73,
+   "reference_b2": {
+    "full_D1": 46.37,
+    "crops_blind": 67.17,
+    "inter_D1_crops": 53.77,
+    "inter_D1_D2": 45.83
+   }
+  },
+  "gui|gem38": {
+   "full": 114.07,
+   "views_merged": 103.67,
+   "confirm_coverage_aware": 90.9,
+   "confirm_plain": 91.23,
+   "second_call": 103.1,
+   "unanimity3": 95.37,
+   "deletion_only": 92.9,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": -9.1,
+     "ci": [
+      -20.1,
+      2.1
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": -20.3,
+     "ci": [
+      -25.6,
+      -14.6
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": -20.0,
+     "ci": [
+      -25.7,
+      -14.0
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": -9.6,
+     "ci": [
+      -16.0,
+      -3.0
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": -16.4,
+     "ci": [
+      -22.1,
+      -10.5
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": -18.6,
+     "ci": [
+      -23.6,
+      -13.2
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": -11.8,
+     "ci": [
+      -18.8,
+      -5.0
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": -4.7,
+     "ci": [
+      -11.1,
+      1.8
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.244,
+   "selection_gain_per_image": 21.17,
+   "reference_b2": {
+    "full_D1": 114.07,
+    "crops_blind": 103.67,
+    "inter_D1_crops": 91.23,
+    "inter_D1_D2": 103.1
+   }
+  },
+  "sku|gpt61": {
+   "full": 86.0,
+   "views_merged": 74.1,
+   "confirm_coverage_aware": 46.87,
+   "confirm_plain": 46.57,
+   "second_call": 57.13,
+   "unanimity3": 50.97,
+   "deletion_only": 48.1,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": -13.8,
+     "ci": [
+      -34.3,
+      8.2
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": -45.5,
+     "ci": [
+      -55.5,
+      -36.1
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": -45.9,
+     "ci": [
+      -55.9,
+      -36.9
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": -33.6,
+     "ci": [
+      -41.0,
+      -26.3
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": -40.7,
+     "ci": [
+      -48.8,
+      -33.7
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": -44.1,
+     "ci": [
+      -55.1,
+      -34.2
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": -18.0,
+     "ci": [
+      -28.6,
+      -8.4
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": -8.0,
+     "ci": [
+      -17.7,
+      -0.2
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.107,
+   "selection_gain_per_image": 37.9,
+   "reference_b2": {
+    "full_D1": 85.93,
+    "crops_blind": 74.1,
+    "inter_D1_crops": 46.63,
+    "inter_D1_D2": 57.07
+   }
+  },
+  "sku|sonnet55": {
+   "full": 181.13,
+   "views_merged": 65.17,
+   "confirm_coverage_aware": 114.87,
+   "confirm_plain": 113.73,
+   "second_call": 140.6,
+   "unanimity3": 137.1,
+   "deletion_only": 123.07,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": -64.0,
+     "ci": [
+      -70.6,
+      -56.6
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": -36.6,
+     "ci": [
+      -42.6,
+      -30.2
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": -37.2,
+     "ci": [
+      -43.3,
+      -30.7
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": -22.4,
+     "ci": [
+      -28.2,
+      -17.0
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": -24.3,
+     "ci": [
+      -30.0,
+      -18.7
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": -32.1,
+     "ci": [
+      -37.6,
+      -26.5
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": -18.3,
+     "ci": [
+      -22.7,
+      -14.1
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": -16.2,
+     "ci": [
+      -20.2,
+      -12.7
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.034,
+   "selection_gain_per_image": 58.07,
+   "reference_b2": {
+    "full_D1": 181.0,
+    "crops_blind": 65.17,
+    "inter_D1_crops": 113.77,
+    "inter_D1_D2": 140.63
+   }
+  },
+  "sku|gem38": {
+   "full": 80.73,
+   "views_merged": 100.7,
+   "confirm_coverage_aware": 111.3,
+   "confirm_plain": 108.2,
+   "second_call": 104.37,
+   "unanimity3": 111.4,
+   "deletion_only": 109.0,
+   "n": 30,
+   "paired": {
+    "views_merged_vs_full": {
+     "rel": 24.7,
+     "ci": [
+      5.9,
+      48.6
+     ]
+    },
+    "confirm_coverage_aware_vs_full": {
+     "rel": 37.9,
+     "ci": [
+      24.0,
+      56.2
+     ]
+    },
+    "confirm_plain_vs_full": {
+     "rel": 34.0,
+     "ci": [
+      20.7,
+      53.4
+     ]
+    },
+    "second_call_vs_full": {
+     "rel": 29.3,
+     "ci": [
+      12.9,
+      50.2
+     ]
+    },
+    "unanimity3_vs_full": {
+     "rel": 38.0,
+     "ci": [
+      20.7,
+      61.9
+     ]
+    },
+    "deletion_only_vs_full": {
+     "rel": 35.0,
+     "ci": [
+      21.5,
+      54.2
+     ]
+    },
+    "confirm_coverage_aware_vs_second_call": {
+     "rel": 6.6,
+     "ci": [
+      -5.0,
+      21.8
+     ]
+    },
+    "confirm_coverage_aware_vs_unanimity3": {
+     "rel": -0.1,
+     "ci": [
+      -10.5,
+      12.0
+     ]
+    }
+   },
+   "p1_unconfirmed": 0.76,
+   "selection_gain_per_image": -28.27,
+   "reference_b2": {
+    "full_D1": 80.8,
+    "crops_blind": 100.7,
+    "inter_D1_crops": 108.2,
+    "inter_D1_D2": 104.43
+   }
+  }
+ },
+ "boundary": {
+  "count:empty_response": {
+   "y_hat_total": 0,
+   "branch": "list_count",
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0
+    ],
+    "empty_first_pass": true
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "count:refusal_text": {
+   "y_hat_total": 0,
+   "branch": "list_count",
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0
+    ],
+    "empty_first_pass": true
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "count:unparseable_partial_json": {
+   "y_hat_total": 68,
+   "branch": "list_count_flagged",
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "truncated"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "count:no_stated_counts": {
+   "y_hat_total": 135,
+   "branch": "list_count",
+   "status": {},
+   "calls": [
+    "first:completed"
+   ]
+  },
+  "count:degenerate_list_with_counts": {
+   "y_hat_total": 145,
+   "branch": "count_from_statement",
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "missing_class",
+       "length"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "count:degenerate_list_without_counts": {
+   "y_hat_total": 0,
+   "branch": "list_count_flagged",
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "missing_class"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0
+    ],
+    "empty_first_pass": true
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "count:transport_failure_then_resend": {
+   "branch": "list_count",
+   "status": {},
+   "calls": [
+    "first:transport_failed",
+    "resend:completed"
+   ]
+  },
+  "count:transport_failure_twice": {
+   "y_hat_total": 0,
+   "branch": "list_count",
+   "status": {
+    "transport_failed": [
+     0
+    ],
+    "empty_first_pass": true
+   },
+   "calls": [
+    "first:transport_failed",
+    "resend:transport_failed"
+   ]
+  },
+  "set:all_calls_empty": {
+   "n_records": 0,
+   "status": {
+    "flagged": [
+     {
+      "rep": 0,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     },
+     {
+      "rep": 1,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     },
+     {
+      "rep": 2,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     0,
+     1,
+     2
+    ],
+    "empty_first_pass": true,
+    "calls_without_readable_answer": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "followup:unavailable",
+    "first:completed",
+    "followup:unavailable",
+    "first:completed",
+    "followup:unavailable"
+   ]
+  },
+  "set:one_call_unparseable": {
+   "n_records": 0,
+   "status": {
+    "flagged": [
+     {
+      "rep": 1,
+      "view": null,
+      "flags": [
+       "no_readable_answer"
+      ]
+     }
+    ],
+    "recovery_unavailable": [
+     1
+    ],
+    "calls_without_readable_answer": [
+     1
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "first:completed",
+    "followup:unavailable",
+    "first:completed"
+   ]
+  },
+  "click:no_first_point": {
+   "point": null,
+   "hit": 0,
+   "alarm": null,
+   "status": {
+    "no_first_point": [
+     "gem38"
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "first:completed",
+    "zoom:completed"
+   ]
+  },
+  "click:no_point_in_crop": {
+   "point": [
+    0.585,
+    0.708
+   ],
+   "status": {
+    "no_point_in_crop": [
+     "gem38"
+    ]
+   },
+   "calls": [
+    "first:completed",
+    "zoom:completed"
+   ]
+  }
+ },
+ "apparent_size": {
+  "scp_dense|gpt61": {
+   "median": 0.75,
+   "share_below_S_star": 1.0
+  },
+  "scp_dense|sonnet55": {
+   "median": 0.86,
+   "share_below_S_star": 1.0
+  },
+  "scp_dense|gem38": {
+   "median": 0.77,
+   "share_below_S_star": 1.0
+  },
+  "doclaynet|gpt61": {
+   "median": 0.62,
+   "share_below_S_star": 0.748
+  },
+  "doclaynet|sonnet55": {
+   "median": 0.71,
+   "share_below_S_star": 0.726
+  },
+  "doclaynet|gem38": {
+   "median": 0.64,
+   "share_below_S_star": 0.737
+  },
+  "dota|gpt61": {
+   "median": 0.94,
+   "share_below_S_star": 0.724
+  },
+  "dota|sonnet55": {
+   "median": 1.07,
+   "share_below_S_star": 0.669
+  },
+  "dota|gem38": {
+   "median": 1.0,
+   "share_below_S_star": 0.696
+  },
+  "sku110k|gpt61": {
+   "median": 1.43,
+   "share_below_S_star": 0.547
+  },
+  "sku110k|sonnet55": {
+   "median": 1.31,
+   "share_below_S_star": 0.638
+  },
+  "sku110k|gem38": {
+   "median": 1.13,
+   "share_below_S_star": 0.793
+  }
+ }
+}

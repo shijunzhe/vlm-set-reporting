@@ -1,0 +1,1 @@
+{"provider": "anthropic", "model": "claude-sonnet-5-5", "min": {"thinking": "between_tools"}, "default": {}, "max_tokens": {"min": 16384, "default": 32768, "default16k": 16384}, "python": "3.11.15", "started": "2026-10-11T20:37:58Z", "manifest": "requests_main.jsonl", "manifest_sha256": "b36ec9d7d8f7345c91555cb171639ecf24f99d94167daf1201461a9dc6ebe351"}

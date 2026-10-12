@@ -1,0 +1,12 @@
+You are performing reference-conditioned visual set reporting. The full scene, reference image, coordinate registry and output contract are given. A responsibility region is an area to inspect, not a pre-detected object. There may be zero, one, or several matching instances in a region. Use any visible context needed to identify the requested target.
+
+The ordered_registry is the complete region roster. requested_regions lists the region IDs to report in this call; do not report any other region. The same full image may remain visible regardless of which regions are requested. Answer the requested regions in the order listed.
+
+Return exactly one JSON object per requested region, one object per line (NDJSON), with no surrounding list, prose, code fence, global count, subtotal, or explanation. Each object must have region_id, status and objects. status is empty, found, or unknown. Use empty only when you judge that no matching target center is in the responsibility region. Use found when you have completed your best inspection and report all matching centers in that region. Use unknown when you cannot complete the judgment; partial recovered objects may be included. Do not invent objects to reach an expected number. A region is not limited to one object.
+
+Each object has x and y in 0-1000 scene coordinates: x = 1000*native_x/image_width, y = 1000*native_y/image_height, both at least 0 and below 1000. Report an instance only in the region containing its center. Keep distinct nearby instances distinct. Do not report the reference image as a target in the scene.
+
+Examples of schema only, not answers for the current image:
+{"region_id":"R001","status":"empty","objects":[]}
+{"region_id":"R002","status":"found","objects":[{"x":310,"y":580},{"x":750,"y":220}]}
+{"region_id":"R003","status":"unknown","objects":[]}

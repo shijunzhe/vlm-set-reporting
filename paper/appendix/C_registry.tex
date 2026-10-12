@@ -1,0 +1,48 @@
+\section{Experiment Registry, Costs and Settings}\label{app:registry}
+
+\paragraph{Registry.} Table~\ref{tab:registry} lists every experiment with model calls. Counts include smoke tests, pilots, repairs and retries; costs are list prices for every attempted call. The open model was served through a routing provider and is priced at 0 here (0.82M input and 1.75M output tokens in the open-model experiment). Calls from an earlier generation of models, used only for background, are excluded.
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{6.6cm}>{\raggedright\arraybackslash}p{2.3cm}rr@{}}
+\caption{All experiments with model calls (46,785 calls, about \$693).}\label{tab:registry}\\\toprule
+Experiment & Data and arms & Models & Calls & Cost \\\midrule\endfirsthead
+\toprule Experiment & Data and arms & Models & Calls & Cost \\\midrule\endhead
+Pilot v1 & 12 procedural scenes, 768 px; responsibility-split arms; cap 8,192 & G5.6, G6.1, S5.5, O5.5, Q & 3,540 & \$29.30 \\
+Pilot v2 & 24 scenes, 1024 px, 16 to 384 targets; dose response & same & 4,080 & \$47.50 \\
+Subset execution & 12 scenes, 96 or 192 targets; representation and drift arms & G5.6, G6.1, O5.5, S5.5 & 1,924 & \$53.84 \\
+Coverage and grids & 24 scenes; coverage responsibility, grid on/off, granularity; repairs, smoke, supplement & above + Gem & 2,752 & \$113.80 \\
+Detection (E3) & SKU-110K, DOTA, DocLayNet, FSC-147, 60 images each; list / regions $\times$ lowest / default; 16k control & G6.1, S5.5, Gem & 6,523 & \$171.13 \\
+GUI & ScreenSpot-Pro 200, ScreenSpot-v2 60, GroundCUA 60, ScreenParse 60; click and parse arms; pilots 1,050 & same & 7,232 & \$67.77 \\
+Same-view review & SKU, DOTA, FSC, 20 images each; draft review (same view, crop) & same & 663 & \$7.40 \\
+Readout & SCP 100, SCP-dense 50, PixMo 100; 13 prompt arms & same & 7,900 & \$88.48 \\
+Tiling & FSC-147 100 (three size strata); count-first, list-only, $2\times2$ tiles & same & 1,800 & \$8.02 \\
+Review & GroundCUA 30 + SKU 30, four crops each; blind vs.\ draft (2 deleted, 2 injected, 1 moved) & same & 1,440 & \$15.41 \\
+Comparator & 80 disagreeing clicks; SKU and DOTA crops, 150 per model; both orders & same & 1,960 & \$4.76 \\
+Resolution & ScreenSpot-Pro 100; down / native / up & same & 600 & \$1.52 \\
+End-to-end & SCP-dense 50, FSC 100, clicks 200; naive / common / proposed & same & 1,800 & \$22.65 \\
+Reasoning & SCP-dense 30, FSC 30, GroundCUA 20; default setting & same & 1,110 & \$26.37 \\
+Open model & SCP 100, SCP-dense 50; readout arms & Q & 650 & not priced \\
+Grid & SCP 100, SCP-dense 40; grid, ticks, cells, scan, type names; 100 default calls & G6.1, S5.5, Gem & 1,340 & \$15.40 \\
+Pilots & small runs before the readout experiments & same & 647 & \$5.54 \\
+Readout confirmation & SCP-dense 50; full list-first protocol, lowest setting, 16k cap & same & 150 & \$3.87 \\
+\quad Gemini, default 16k & same images; default setting, 16k cap & Gem & 50 & \$1.71 \\
+\quad Gemini, default 32k & same images; default setting, 32k cap & Gem & 50 & \$1.83 \\
+Natural readout & DOTA 30 windows, DocLayNet 50 pages; count-first and list-first, lowest setting; Gemini list-first at default, 16k cap; 14 smoke calls & G6.1, S5.5, Gem & 574 & \$6.25 \\\midrule
+Total & & & 46,785 & \$692.55 \\\bottomrule
+\end{longtable}
+\noindent G5.6, G6.1: GPT-5.6, GPT-6.1. S5.5: Sonnet 5.5. O5.5: Opus 5.5. Gem: Gemini 3.8 Flash. Q: Qwen3-VL-235B (instruct). The open-model calls have no logged per-token price, so the total cost excludes them.
+
+\paragraph{Settings audit.}\label{app:settings} Table~\ref{tab:settings} records what each setting label meant in practice. The lowest setting used an output cap of 16,384 tokens and the default setting 32,768, except where a 16k default was run to separate the two (Table~\ref{tab:setting}, a 90-call control on the detection sources, and a control on controlled scenes).
+
+\begin{table}[h]
+\centering\small
+\caption{Reasoning settings as sent and as observed (share of calls with reasoning tokens).}\label{tab:settings}
+\begin{tabular}{@{}lp{3.6cm}>{\raggedright\arraybackslash}p{8.2cm}@{}}\toprule
+Model & Lowest setting as sent & Observed \\\midrule
+GPT-6.1 & \texttt{reasoning\_effort=low} & reasoning in most calls (SCP 100\%, PixMo 61\%, clicks 39\%); default: 100\% \\
+GPT-5.6 & effort none & no reasoning \\
+Sonnet 5.5 & \texttt{thinking: between\_tools} & lowest: 0\%; default (adaptive thinking): 0\% to 23\% on the dense, FSC and screen runs, 4 of 48 calls on controlled scenes, 0\% to 90\% on E3 by cell; pilots: not logged \\
+Opus 5.5 & effort low (adaptive thinking cannot be disabled) & under 1\% of logged calls at effort low; pilots: not logged \\
+Gemini 3.8 & \texttt{thinking\_budget=0} & little on list and box tasks (FSC list 6\%, regions 12\%); still reasons on clicks and points (GUI clicks about 99\%, PixMo 23\%, FSC points 32\%); default: 51\% to 100\% \\
+Qwen3-VL & instruct model, no reasoning parameter & no reasoning \\\bottomrule
+\end{tabular}
+\end{table}

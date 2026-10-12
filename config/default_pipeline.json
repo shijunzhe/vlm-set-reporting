@@ -1,0 +1,128 @@
+{
+  "_about": "Shipped configuration of the default reporting pipeline (paper Section 5, Algorithm 1, Table 'Shipped defaults'). Every value the paper labels as shipped is here. Inputs from the task specification (classes, alias map, matching rule, loss) are supplied by the user per task.",
+  "request": {
+    "format": "one JSON object; record list first, then counts_by_type",
+    "count_instruction": "Write the full list first; after it, give counts_by_type for the records you listed.",
+    "allowed_class_names": "listed in the format (from the task specification)",
+    "scan_order": "row by row, top to bottom",
+    "coordinates": {
+      "gpt61": "0-1000 grid of the image as sent",
+      "gem38": "0-1000 grid of the image as sent",
+      "sonnet55": "pixels of the image as sent; image pre-resized so the provider does not resize it again"
+    },
+    "overlays": "none",
+    "reasoning_setting": {
+      "gpt61": "lowest",
+      "sonnet55": "lowest",
+      "gem38": "default"
+    },
+    "max_output_tokens": 16384
+  },
+  "decode": {
+    "strip_code_fence": true,
+    "salvage": "if the whole response does not parse, recover each balanced {...} object that has the record fields",
+    "invalid_records": "records outside the class vocabulary after the alias map, or outside the frame, are kept in the audit pool and excluded from the delivered set"
+  },
+  "degeneracy_flags": {
+    "missing_class_share_gt": 0.1,
+    "list_length_outside_times_stated_total": [
+      0.5,
+      1.5
+    ],
+    "duplicate_coordinate_share_gt": 0.1,
+    "finish_reason_length": true
+  },
+  "recovery": {
+    "transport_failure": "resend the identical request once",
+    "flagged_response": "one follow-up request that attaches the previous answer and asks for the complete answer under the same contract; keep it if it carries no flag, otherwise keep the first response and its flags",
+    "max_recovery_calls_per_call": 1,
+    "count_every_attempt_in_cost": true
+  },
+  "views": {
+    "clicks": {
+      "two_stage_zoom": true,
+      "crop_fraction_of_each_side": 0.3333333333333333,
+      "crop_pixels": "native, no resizing beyond provider limits",
+      "no_point_in_crop": "keep the first point",
+      "no_first_point": "no crop; report no point"
+    },
+    "sets_and_counts": {
+      "default": "whole image (no views)",
+      "external_view_planner": "optional input: a list of crops from any view planner (for example the companion paper's safe decomposition, which needs every target inside some view and a one-object overlap). Each view is one call; records are mapped to image coordinates and merged across views by the association rule.",
+      "confirmation_with_views": "optional: crops whose merged report confirms the whole-image result. coverage_aware: a view confirms or rejects only records that lie wholly inside it; records that no view contains are kept. plain: every record needs confirmation.",
+      "companion_paper_design_value_S_star": 1.5,
+      "token_geometry": {
+        "gpt61": "32 px tokens on the image as sent (companion-paper calibration data for GPT-6.1: 1024x1024 gives 1,247 input tokens)",
+        "sonnet55": "28 px tokens on the image as sent",
+        "gem38": "fixed grid of about 1,090 tokens per image"
+      },
+      "confirmation_rule": "coverage_aware"
+    }
+  },
+  "construction": {
+    "association": {
+      "boxes": "same class, IoU >= 0.5 (class-agnostic for screen parsing)",
+      "points": "same class, within the task tolerance"
+    },
+    "set_error_over_reporting_families": {
+      "calls": 3,
+      "keep": "records reported by all three calls",
+      "coordinates": "mean of the associated records"
+    },
+    "set_error_under_reporting_families": {
+      "calls": 1,
+      "keep": "all delivered records"
+    },
+    "f1": {
+      "calls": 1,
+      "keep": "all delivered records"
+    },
+    "count": {
+      "calls": 1,
+      "keep": "all delivered records"
+    },
+    "unreadable_call": {
+      "default": "count_as_empty",
+      "menu": [
+        "count_as_empty",
+        "exclude"
+      ],
+      "_about": "A call that still has no readable answer after recovery counts as an empty report, so three-call unanimity keeps nothing on that image; this is the construction evaluated in the paper. 'exclude' drops the call from support counting instead (replayed in stageB/analysis/out/pipeline_replay.json)."
+    }
+  },
+  "readout": {
+    "count": "list count of the final set; if the source list is flagged and a stated count exists, the stated count (status count_from_statement)",
+    "click": "final point"
+  },
+  "alarm": {
+    "partner_rule": {
+      "gpt61": "gem38",
+      "sonnet55": "gem38",
+      "gem38": "sonnet55"
+    },
+    "click_threshold_fraction_of_longer_side": 0.015,
+    "threshold_menu": [
+      0.005,
+      0.01,
+      0.015,
+      0.02,
+      0.03,
+      0.05,
+      0.08
+    ]
+  },
+  "optional_labels": {
+    "fewer_than_3_images": "keep the shipped default; report the labelled error",
+    "3_or_more_images": "switch to a menu configuration only if its mean paired advantage over images minus one standard error is positive",
+    "5_to_10_images": "may fit the record gate (logistic selector on output features)"
+  },
+  "task_family_regime": {
+    "_about": "over: models mostly report false objects; under: models mostly miss objects. Shipped per task family from source-side evaluation (paper Table 3).",
+    "sku110k": "over",
+    "dota": "over",
+    "doclaynet": "over",
+    "groundcua": "over",
+    "screenparse": "over",
+    "fsc147": "under"
+  }
+}

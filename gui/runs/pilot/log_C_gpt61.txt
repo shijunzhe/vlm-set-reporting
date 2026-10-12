@@ -1,0 +1,2 @@
+gpt61 C manifest 6 done 0 todo 6
+gpt61 C finished 6

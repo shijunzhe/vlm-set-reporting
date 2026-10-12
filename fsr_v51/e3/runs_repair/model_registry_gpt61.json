@@ -1,0 +1,21 @@
+[
+ {
+  "provider": "openai",
+  "model": "gpt-6.1-sol",
+  "image_detail": "auto",
+  "min": {
+   "reasoning_effort": "low"
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768,
+   "default16k": 16384
+  },
+  "python": "3.11.15",
+  "started": "2026-10-10T07:44:33Z",
+  "manifest": "requests_repair.jsonl",
+  "manifest_sha256": "b10bd90af0e3873ad311cfb4fb78435344fffa8447e9bc3f2341da2da5f92724",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

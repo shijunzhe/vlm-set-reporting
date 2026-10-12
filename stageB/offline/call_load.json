@@ -1,0 +1,41 @@
+{
+ "gpt61": {
+  "screens": 30,
+  "mean_gain_separate_vs_onecall": 10.4,
+  "spearman_n_vs_gain": {
+   "rho": 0.224,
+   "p": 0.2343
+  },
+  "mean_gain_whole_vs_onecall": -1.4,
+  "spearman_n_vs_whole_gain": {
+   "rho": -0.213,
+   "p": 0.2595
+  }
+ },
+ "sonnet55": {
+  "screens": 30,
+  "mean_gain_separate_vs_onecall": 0.4,
+  "spearman_n_vs_gain": {
+   "rho": 0.017,
+   "p": 0.9278
+  },
+  "mean_gain_whole_vs_onecall": 14.1,
+  "spearman_n_vs_whole_gain": {
+   "rho": 0.436,
+   "p": 0.0159
+  }
+ },
+ "gem38": {
+  "screens": 30,
+  "mean_gain_separate_vs_onecall": 15.4,
+  "spearman_n_vs_gain": {
+   "rho": 0.405,
+   "p": 0.0264
+  },
+  "mean_gain_whole_vs_onecall": 12.1,
+  "spearman_n_vs_whole_gain": {
+   "rho": 0.272,
+   "p": 0.1457
+  }
+ }
+}

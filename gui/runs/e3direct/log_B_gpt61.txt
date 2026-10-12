@@ -1,0 +1,4 @@
+gpt61 B manifest 120 done 0 todo 120
+gpt61 B 50
+gpt61 B 100
+gpt61 B finished 120

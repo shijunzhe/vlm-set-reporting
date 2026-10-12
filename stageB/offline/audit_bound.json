@@ -1,0 +1,72 @@
+{
+ "gpt61|A3": {
+  "n_good": 20,
+  "n_bad": 50,
+  "h_plus": 0.95,
+  "h_minus": 0.92,
+  "h_gap": 0.03,
+  "tv_plugin": 0.63,
+  "tv_split": 0.088,
+  "bound_holds_vs_split": true
+ },
+ "gpt61|A4": {
+  "n_good": 18,
+  "n_bad": 53,
+  "h_plus": 0.833,
+  "h_minus": 0.83,
+  "h_gap": 0.003,
+  "tv_plugin": 0.736,
+  "tv_split": 0.403,
+  "bound_holds_vs_split": true
+ },
+ "sonnet55|A3": {
+  "n_good": 75,
+  "n_bad": 189,
+  "h_plus": 0.787,
+  "h_minus": 0.677,
+  "h_gap": 0.109,
+  "tv_plugin": 0.367,
+  "tv_split": 0.085,
+  "bound_holds_vs_split": false
+ },
+ "sonnet55|A4": {
+  "n_good": 53,
+  "n_bad": 185,
+  "h_plus": 0.736,
+  "h_minus": 0.654,
+  "h_gap": 0.082,
+  "tv_plugin": 0.458,
+  "tv_split": 0.221,
+  "bound_holds_vs_split": true
+ },
+ "gem38|A3": {
+  "n_good": 173,
+  "n_bad": 167,
+  "h_plus": 0.948,
+  "h_minus": 0.934,
+  "h_gap": 0.014,
+  "tv_plugin": 0.495,
+  "tv_split": 0.366,
+  "bound_holds_vs_split": true
+ },
+ "gem38|A4": {
+  "n_good": 80,
+  "n_bad": 294,
+  "h_plus": 0.812,
+  "h_minus": 0.575,
+  "h_gap": 0.238,
+  "tv_plugin": 0.636,
+  "tv_split": 0.439,
+  "bound_holds_vs_split": true
+ },
+ "pooled": {
+  "n_good": 419,
+  "n_bad": 938,
+  "h_plus": 0.862,
+  "h_minus": 0.708,
+  "h_gap": 0.154,
+  "tv_plugin": 0.419,
+  "tv_split": 0.372,
+  "bound_holds_vs_split": true
+ }
+}

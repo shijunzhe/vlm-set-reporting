@@ -1,0 +1,1337 @@
+{
+ "scpd|gpt61": {
+  "naive": 10.84,
+  "common": 8.32,
+  "fsr_1call": 1.42,
+  "fsr_3call": 1.06,
+  "units": 50,
+  "common_vs_naive": {
+   "a": 10.84,
+   "b": 8.32,
+   "rel": -23.2,
+   "ci": [
+    -32.3,
+    -14.1
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_naive": {
+   "a": 10.84,
+   "b": 1.42,
+   "rel": -86.9,
+   "ci": [
+    -90.6,
+    -81.9
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_naive": {
+   "a": 10.84,
+   "b": 1.06,
+   "rel": -90.2,
+   "ci": [
+    -93.5,
+    -86.4
+   ],
+   "n": 50
+  },
+  "naive_vs_common": {
+   "a": 8.32,
+   "b": 10.84,
+   "rel": 30.3,
+   "ci": [
+    16.6,
+    48.5
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_common": {
+   "a": 8.32,
+   "b": 1.42,
+   "rel": -82.9,
+   "ci": [
+    -87.9,
+    -76.0
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_common": {
+   "a": 8.32,
+   "b": 1.06,
+   "rel": -87.3,
+   "ci": [
+    -91.7,
+    -81.4
+   ],
+   "n": 50
+  },
+  "exact_count_rate": {
+   "naive": 0.04,
+   "common": 0.04,
+   "fsr_1call": 0.36,
+   "fsr_3call": 0.52
+  },
+  "cost_per_image": {
+   "naive": 0.0294,
+   "common": 0.0888,
+   "fsr_1call": 0.0249,
+   "fsr_3call": 0.0747
+  },
+  "fsr_10label_calibration_vs_fsr_1call": {
+   "median_rel": 1.6,
+   "worse_share": 0.51
+  }
+ },
+ "scpd|sonnet55": {
+  "naive": 35.02,
+  "common": 34.56,
+  "fsr_1call": 8.46,
+  "fsr_3call": 6.52,
+  "units": 50,
+  "common_vs_naive": {
+   "a": 35.02,
+   "b": 34.56,
+   "rel": -1.3,
+   "ci": [
+    -3.8,
+    1.3
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_naive": {
+   "a": 35.02,
+   "b": 8.46,
+   "rel": -75.8,
+   "ci": [
+    -82.3,
+    -66.7
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_naive": {
+   "a": 35.02,
+   "b": 6.52,
+   "rel": -81.4,
+   "ci": [
+    -85.0,
+    -77.5
+   ],
+   "n": 50
+  },
+  "naive_vs_common": {
+   "a": 34.56,
+   "b": 35.02,
+   "rel": 1.3,
+   "ci": [
+    -1.3,
+    4.0
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_common": {
+   "a": 34.56,
+   "b": 8.46,
+   "rel": -75.5,
+   "ci": [
+    -82.3,
+    -66.4
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_common": {
+   "a": 34.56,
+   "b": 6.52,
+   "rel": -81.1,
+   "ci": [
+    -85.0,
+    -77.3
+   ],
+   "n": 50
+  },
+  "exact_count_rate": {
+   "naive": 0.0,
+   "common": 0.0,
+   "fsr_1call": 0.16,
+   "fsr_3call": 0.14
+  },
+  "cost_per_image": {
+   "naive": 0.0313,
+   "common": 0.0936,
+   "fsr_1call": 0.038,
+   "fsr_3call": 0.1143
+  },
+  "fsr_10label_calibration_vs_fsr_1call": {
+   "median_rel": -18.6,
+   "worse_share": 0.2
+  }
+ },
+ "scpd|gem38": {
+  "naive": 45.68,
+  "common": 45.22,
+  "fsr_1call": 102.04,
+  "fsr_3call": 107.7,
+  "units": 50,
+  "common_vs_naive": {
+   "a": 45.68,
+   "b": 45.22,
+   "rel": -1.0,
+   "ci": [
+    -4.7,
+    2.8
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_naive": {
+   "a": 45.68,
+   "b": 102.04,
+   "rel": 123.4,
+   "ci": [
+    98.9,
+    147.6
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_naive": {
+   "a": 45.68,
+   "b": 107.7,
+   "rel": 135.8,
+   "ci": [
+    118.0,
+    153.0
+   ],
+   "n": 50
+  },
+  "naive_vs_common": {
+   "a": 45.22,
+   "b": 45.68,
+   "rel": 1.0,
+   "ci": [
+    -2.7,
+    4.9
+   ],
+   "n": 50
+  },
+  "fsr_1call_vs_common": {
+   "a": 45.22,
+   "b": 102.04,
+   "rel": 125.7,
+   "ci": [
+    101.0,
+    149.2
+   ],
+   "n": 50
+  },
+  "fsr_3call_vs_common": {
+   "a": 45.22,
+   "b": 107.7,
+   "rel": 138.2,
+   "ci": [
+    121.8,
+    154.7
+   ],
+   "n": 50
+  },
+  "exact_count_rate": {
+   "naive": 0.0,
+   "common": 0.0,
+   "fsr_1call": 0.0,
+   "fsr_3call": 0.0
+  },
+  "cost_per_image": {
+   "naive": 0.0265,
+   "common": 0.0762,
+   "fsr_1call": 0.0134,
+   "fsr_3call": 0.0415
+  },
+  "fsr_10label_calibration_vs_fsr_1call": {
+   "median_rel": -17.3,
+   "worse_share": 0.165
+  }
+ },
+ "fsc|gpt61": {
+  "naive": 2.73,
+  "common": 2.6,
+  "fsr_list_1call": 2.61,
+  "fsr_tiles": 2.72,
+  "units": 100,
+  "common_vs_naive": {
+   "a": 2.73,
+   "b": 2.6,
+   "rel": -4.8,
+   "ci": [
+    -14.2,
+    4.1
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_naive": {
+   "a": 2.73,
+   "b": 2.61,
+   "rel": -4.4,
+   "ci": [
+    -18.8,
+    19.9
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_naive": {
+   "a": 2.73,
+   "b": 2.72,
+   "rel": -0.4,
+   "ci": [
+    -27.1,
+    43.8
+   ],
+   "n": 100
+  },
+  "naive_vs_common": {
+   "a": 2.6,
+   "b": 2.73,
+   "rel": 5.0,
+   "ci": [
+    -3.9,
+    16.4
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_common": {
+   "a": 2.6,
+   "b": 2.61,
+   "rel": 0.4,
+   "ci": [
+    -13.9,
+    24.0
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_common": {
+   "a": 2.6,
+   "b": 2.72,
+   "rel": 4.6,
+   "ci": [
+    -23.4,
+    57.6
+   ],
+   "n": 100
+  },
+  "cost_per_image": {
+   "naive": 0.0089,
+   "common": 0.0261,
+   "fsr_list_1call": 0.0073,
+   "fsr_tiles": 0.0192
+  },
+  "fsr_10label_calibration_vs_fsr_tiles": {
+   "median_rel": 13.3,
+   "worse_share": 0.9
+  }
+ },
+ "fsc|sonnet55": {
+  "naive": 9.24,
+  "common": 9.02,
+  "fsr_list_1call": 5.33,
+  "fsr_tiles": 4.23,
+  "units": 100,
+  "common_vs_naive": {
+   "a": 9.24,
+   "b": 9.02,
+   "rel": -2.4,
+   "ci": [
+    -6.7,
+    1.8
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_naive": {
+   "a": 9.24,
+   "b": 5.33,
+   "rel": -42.3,
+   "ci": [
+    -56.1,
+    -30.2
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_naive": {
+   "a": 9.24,
+   "b": 4.23,
+   "rel": -54.2,
+   "ci": [
+    -70.7,
+    -30.1
+   ],
+   "n": 100
+  },
+  "naive_vs_common": {
+   "a": 9.02,
+   "b": 9.24,
+   "rel": 2.4,
+   "ci": [
+    -1.6,
+    7.1
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_common": {
+   "a": 9.02,
+   "b": 5.33,
+   "rel": -40.9,
+   "ci": [
+    -54.0,
+    -28.8
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_common": {
+   "a": 9.02,
+   "b": 4.23,
+   "rel": -53.1,
+   "ci": [
+    -69.4,
+    -28.4
+   ],
+   "n": 100
+  },
+  "cost_per_image": {
+   "naive": 0.0063,
+   "common": 0.0187,
+   "fsr_list_1call": 0.0064,
+   "fsr_tiles": 0.014
+  },
+  "fsr_10label_calibration_vs_fsr_tiles": {
+   "median_rel": -1.5,
+   "worse_share": 0.405
+  }
+ },
+ "fsc|gem38": {
+  "naive": 6.87,
+  "common": 6.99,
+  "fsr_list_1call": 16.27,
+  "fsr_tiles": 10.09,
+  "units": 100,
+  "common_vs_naive": {
+   "a": 6.87,
+   "b": 6.99,
+   "rel": 1.7,
+   "ci": [
+    -5.0,
+    11.0
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_naive": {
+   "a": 6.87,
+   "b": 16.27,
+   "rel": 136.8,
+   "ci": [
+    -38.0,
+    448.5
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_naive": {
+   "a": 6.87,
+   "b": 10.09,
+   "rel": 46.9,
+   "ci": [
+    -29.3,
+    203.8
+   ],
+   "n": 100
+  },
+  "naive_vs_common": {
+   "a": 6.99,
+   "b": 6.87,
+   "rel": -1.7,
+   "ci": [
+    -10.2,
+    5.3
+   ],
+   "n": 100
+  },
+  "fsr_list_1call_vs_common": {
+   "a": 6.99,
+   "b": 16.27,
+   "rel": 132.8,
+   "ci": [
+    -39.5,
+    464.9
+   ],
+   "n": 100
+  },
+  "fsr_tiles_vs_common": {
+   "a": 6.99,
+   "b": 10.09,
+   "rel": 44.3,
+   "ci": [
+    -29.2,
+    197.0
+   ],
+   "n": 100
+  },
+  "cost_per_image": {
+   "naive": 0.0047,
+   "common": 0.0142,
+   "fsr_list_1call": 0.0046,
+   "fsr_tiles": 0.0088
+  },
+  "fsr_10label_calibration_vs_fsr_tiles": {
+   "median_rel": -14.2,
+   "worse_share": 0.205
+  }
+ },
+ "sku|gpt61": {
+  "naive": 198.35,
+  "common": 177.75,
+  "fsr_unanimous3": 148.317,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 198.35,
+   "b": 177.75,
+   "rel": -10.4,
+   "ci": [
+    -12.5,
+    -8.5
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_naive": {
+   "a": 198.35,
+   "b": 148.317,
+   "rel": -25.2,
+   "ci": [
+    -28.3,
+    -22.4
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 177.75,
+   "b": 198.35,
+   "rel": 11.6,
+   "ci": [
+    9.2,
+    14.1
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_common": {
+   "a": 177.75,
+   "b": 148.317,
+   "rel": -16.6,
+   "ci": [
+    -18.9,
+    -14.4
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.4367,
+   "common": 0.472,
+   "fsr_unanimous3": 0.5066
+  },
+  "cost_per_image": {
+   "naive": 0.0701,
+   "common": 0.2121,
+   "fsr_unanimous3": 0.2121,
+   "fsr_crossview": 0.1378
+  },
+  "crossview_subset": {
+   "fsr_crossview": 145.033,
+   "naive": 193.2,
+   "common": 172.533,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 193.2,
+    "b": 145.033,
+    "rel": -24.9,
+    "ci": [
+     -31.4,
+     -19.6
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 193.2,
+    "b": 172.533,
+    "rel": -10.7,
+    "ci": [
+     -14.0,
+     -7.9
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 172.533,
+    "b": 145.033,
+    "rel": -15.9,
+    "ci": [
+     -21.3,
+     -11.7
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 172.533,
+    "b": 193.2,
+    "rel": 12.0,
+    "ci": [
+     8.5,
+     16.4
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_gate_rel_vs_single": 0.3853,
+  "common_rel_vs_single_E3": 0.1039
+ },
+ "sku|sonnet55": {
+  "naive": 217.3,
+  "common": 173.45,
+  "fsr_unanimous3": 148.667,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 217.3,
+   "b": 173.45,
+   "rel": -20.2,
+   "ci": [
+    -24.0,
+    -16.6
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_naive": {
+   "a": 217.3,
+   "b": 148.667,
+   "rel": -31.6,
+   "ci": [
+    -35.2,
+    -27.9
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 173.45,
+   "b": 217.3,
+   "rel": 25.3,
+   "ci": [
+    20.0,
+    31.4
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_common": {
+   "a": 173.45,
+   "b": 148.667,
+   "rel": -14.3,
+   "ci": [
+    -16.3,
+    -12.2
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.1278,
+   "common": 0.1625,
+   "fsr_unanimous3": 0.1299
+  },
+  "cost_per_image": {
+   "naive": 0.0454,
+   "common": 0.1258,
+   "fsr_unanimous3": 0.1258,
+   "fsr_crossview": 0.1119
+  },
+  "crossview_subset": {
+   "fsr_crossview": 154.167,
+   "naive": 229.733,
+   "common": 182.933,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 229.733,
+    "b": 154.167,
+    "rel": -32.9,
+    "ci": [
+     -37.5,
+     -28.1
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 229.733,
+    "b": 182.933,
+    "rel": -20.4,
+    "ci": [
+     -24.9,
+     -15.8
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 182.933,
+    "b": 154.167,
+    "rel": -15.7,
+    "ci": [
+     -19.7,
+     -11.7
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 182.933,
+    "b": 229.733,
+    "rel": 25.6,
+    "ci": [
+     18.9,
+     32.9
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_gate_rel_vs_single": 0.3343,
+  "common_rel_vs_single_E3": 0.2018
+ },
+ "sku|gem38": {
+  "naive": 150.967,
+  "common": 146.033,
+  "fsr_unanimous3": 136.483,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 150.967,
+   "b": 146.033,
+   "rel": -3.3,
+   "ci": [
+    -5.8,
+    -0.3
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_naive": {
+   "a": 150.967,
+   "b": 136.483,
+   "rel": -9.6,
+   "ci": [
+    -14.4,
+    -4.5
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 146.033,
+   "b": 150.967,
+   "rel": 3.4,
+   "ci": [
+    0.3,
+    6.1
+   ],
+   "n": 60
+  },
+  "fsr_unanimous3_vs_common": {
+   "a": 146.033,
+   "b": 136.483,
+   "rel": -6.5,
+   "ci": [
+    -11.0,
+    -1.7
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.3542,
+   "common": 0.3459,
+   "fsr_unanimous3": 0.2359
+  },
+  "cost_per_image": {
+   "naive": 0.0197,
+   "common": 0.0584,
+   "fsr_unanimous3": 0.0584,
+   "fsr_crossview": 0.051
+  },
+  "crossview_subset": {
+   "fsr_crossview": 144.533,
+   "naive": 150.933,
+   "common": 145.8,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 150.933,
+    "b": 144.533,
+    "rel": -4.2,
+    "ci": [
+     -9.7,
+     2.9
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 150.933,
+    "b": 145.8,
+    "rel": -3.4,
+    "ci": [
+     -6.5,
+     0.2
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 145.8,
+    "b": 144.533,
+    "rel": -0.9,
+    "ci": [
+     -6.3,
+     6.4
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 145.8,
+    "b": 150.933,
+    "rel": 3.5,
+    "ci": [
+     -0.1,
+     6.9
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_gate_rel_vs_single": 0.0944,
+  "common_rel_vs_single_E3": 0.0327
+ },
+ "groundcua|gpt61": {
+  "naive": 92.583,
+  "common": 93.6,
+  "fsr_inter2": 91.133,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 92.583,
+   "b": 93.6,
+   "rel": 1.1,
+   "ci": [
+    -2.3,
+    4.1
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_naive": {
+   "a": 92.583,
+   "b": 91.133,
+   "rel": -1.6,
+   "ci": [
+    -5.0,
+    1.9
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 93.6,
+   "b": 92.583,
+   "rel": -1.1,
+   "ci": [
+    -4.0,
+    2.4
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_common": {
+   "a": 93.6,
+   "b": 91.133,
+   "rel": -2.6,
+   "ci": [
+    -4.8,
+    -0.1
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.4831,
+   "common": 0.473,
+   "fsr_inter2": 0.4666
+  },
+  "cost_per_image": {
+   "naive": 0.0307,
+   "common": 0.092,
+   "fsr_inter2": 0.0612,
+   "fsr_crossview": 0.0627
+  },
+  "crossview_subset": {
+   "fsr_crossview": 70.8,
+   "naive": 91.7,
+   "common": 94.233,
+   "fsr_crops_only": 73.867,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 91.7,
+    "b": 70.8,
+    "rel": -22.8,
+    "ci": [
+     -28.5,
+     -16.8
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 91.7,
+    "b": 94.233,
+    "rel": 2.8,
+    "ci": [
+     0.0,
+     5.9
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_naive": {
+    "a": 91.7,
+    "b": 73.867,
+    "rel": -19.4,
+    "ci": [
+     -27.5,
+     -10.4
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 94.233,
+    "b": 70.8,
+    "rel": -24.9,
+    "ci": [
+     -29.7,
+     -20.1
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 94.233,
+    "b": 91.7,
+    "rel": -2.7,
+    "ci": [
+     -5.6,
+     -0.0
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_common": {
+    "a": 94.233,
+    "b": 73.867,
+    "rel": -21.6,
+    "ci": [
+     -29.8,
+     -12.5
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_menu_vs_naive": {
+   "median_rel": -22.0,
+   "worse_share": 0.0
+  }
+ },
+ "groundcua|sonnet55": {
+  "naive": 44.15,
+  "common": 42.05,
+  "fsr_inter2": 43.817,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 44.15,
+   "b": 42.05,
+   "rel": -4.8,
+   "ci": [
+    -9.8,
+    0.8
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_naive": {
+   "a": 44.15,
+   "b": 43.817,
+   "rel": -0.8,
+   "ci": [
+    -6.1,
+    6.2
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 42.05,
+   "b": 44.15,
+   "rel": 5.0,
+   "ci": [
+    -0.9,
+    11.1
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_common": {
+   "a": 42.05,
+   "b": 43.817,
+   "rel": 4.2,
+   "ci": [
+    -0.6,
+    10.9
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.7174,
+   "common": 0.7314,
+   "fsr_inter2": 0.7139
+  },
+  "cost_per_image": {
+   "naive": 0.0333,
+   "common": 0.0999,
+   "fsr_inter2": 0.0664,
+   "fsr_crossview": 0.0607
+  },
+  "crossview_subset": {
+   "fsr_crossview": 53.767,
+   "naive": 46.367,
+   "common": 45.4,
+   "fsr_crops_only": 67.167,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 46.367,
+    "b": 53.767,
+    "rel": 16.0,
+    "ci": [
+     4.2,
+     28.7
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 46.367,
+    "b": 45.4,
+    "rel": -2.1,
+    "ci": [
+     -10.1,
+     7.1
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_naive": {
+    "a": 46.367,
+    "b": 67.167,
+    "rel": 44.9,
+    "ci": [
+     25.6,
+     67.0
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 45.4,
+    "b": 53.767,
+    "rel": 18.4,
+    "ci": [
+     7.0,
+     32.4
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 45.4,
+    "b": 46.367,
+    "rel": 2.1,
+    "ci": [
+     -6.1,
+     11.3
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_common": {
+    "a": 45.4,
+    "b": 67.167,
+    "rel": 47.9,
+    "ci": [
+     30.7,
+     68.9
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_menu_vs_naive": {
+   "median_rel": 0.0,
+   "worse_share": 0.31
+  }
+ },
+ "groundcua|gem38": {
+  "naive": 121.75,
+  "common": 113.1,
+  "fsr_inter2": 105.533,
+  "units": 60,
+  "common_vs_naive": {
+   "a": 121.75,
+   "b": 113.1,
+   "rel": -7.1,
+   "ci": [
+    -13.5,
+    -0.8
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_naive": {
+   "a": 121.75,
+   "b": 105.533,
+   "rel": -13.3,
+   "ci": [
+    -18.7,
+    -8.0
+   ],
+   "n": 60
+  },
+  "naive_vs_common": {
+   "a": 113.1,
+   "b": 121.75,
+   "rel": 7.6,
+   "ci": [
+    0.4,
+    15.2
+   ],
+   "n": 60
+  },
+  "fsr_inter2_vs_common": {
+   "a": 113.1,
+   "b": 105.533,
+   "rel": -6.7,
+   "ci": [
+    -9.3,
+    -4.0
+   ],
+   "n": 60
+  },
+  "F1": {
+   "naive": 0.256,
+   "common": 0.267,
+   "fsr_inter2": 0.2122
+  },
+  "cost_per_image": {
+   "naive": 0.0147,
+   "common": 0.0438,
+   "fsr_inter2": 0.0293,
+   "fsr_crossview": 0.0316
+  },
+  "crossview_subset": {
+   "fsr_crossview": 91.233,
+   "naive": 114.067,
+   "common": 112.7,
+   "fsr_crops_only": 103.667,
+   "units": 30,
+   "fsr_crossview_vs_naive": {
+    "a": 114.067,
+    "b": 91.233,
+    "rel": -20.0,
+    "ci": [
+     -25.5,
+     -14.1
+    ],
+    "n": 30
+   },
+   "common_vs_naive": {
+    "a": 114.067,
+    "b": 112.7,
+    "rel": -1.2,
+    "ci": [
+     -8.2,
+     6.4
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_naive": {
+    "a": 114.067,
+    "b": 103.667,
+    "rel": -9.1,
+    "ci": [
+     -19.7,
+     2.1
+    ],
+    "n": 30
+   },
+   "fsr_crossview_vs_common": {
+    "a": 112.7,
+    "b": 91.233,
+    "rel": -19.0,
+    "ci": [
+     -25.5,
+     -12.1
+    ],
+    "n": 30
+   },
+   "naive_vs_common": {
+    "a": 112.7,
+    "b": 114.067,
+    "rel": 1.2,
+    "ci": [
+     -6.2,
+     9.1
+    ],
+    "n": 30
+   },
+   "fsr_crops_only_vs_common": {
+    "a": 112.7,
+    "b": 103.667,
+    "rel": -8.0,
+    "ci": [
+     -19.4,
+     3.8
+    ],
+    "n": 30
+   }
+  },
+  "fsr_10label_menu_vs_naive": {
+   "median_rel": -19.7,
+   "worse_share": 0.01
+  }
+ },
+ "click|gpt61": {
+  "naive": 0.111,
+  "common": 0.106,
+  "fsr_zoom": 0.095,
+  "units": 199,
+  "common_vs_naive": {
+   "a": 0.111,
+   "b": 0.106,
+   "rel": -4.5,
+   "ci": [
+    -15.0,
+    0.0
+   ],
+   "n": 199
+  },
+  "fsr_zoom_vs_naive": {
+   "a": 0.111,
+   "b": 0.095,
+   "rel": -13.6,
+   "ci": [
+    -38.1,
+    15.8
+   ],
+   "n": 199
+  },
+  "naive_vs_common": {
+   "a": 0.106,
+   "b": 0.111,
+   "rel": 4.8,
+   "ci": [
+    0.0,
+    18.2
+   ],
+   "n": 199
+  },
+  "fsr_zoom_vs_common": {
+   "a": 0.106,
+   "b": 0.095,
+   "rel": -9.5,
+   "ci": [
+    -36.0,
+    23.5
+   ],
+   "n": 199
+  },
+  "note": "values are click error rates",
+  "cost_per_image": {
+   "naive": 0.0061,
+   "common": 0.0182,
+   "fsr_zoom": 0.0083
+  }
+ },
+ "click|sonnet55": {
+  "naive": 0.204,
+  "common": 0.209,
+  "fsr_zoom": 0.112,
+  "units": 196,
+  "common_vs_naive": {
+   "a": 0.204,
+   "b": 0.209,
+   "rel": 2.5,
+   "ci": [
+    -5.7,
+    11.9
+   ],
+   "n": 196
+  },
+  "fsr_zoom_vs_naive": {
+   "a": 0.204,
+   "b": 0.112,
+   "rel": -45.0,
+   "ci": [
+    -61.5,
+    -28.6
+   ],
+   "n": 196
+  },
+  "naive_vs_common": {
+   "a": 0.209,
+   "b": 0.204,
+   "rel": -2.4,
+   "ci": [
+    -10.9,
+    5.9
+   ],
+   "n": 196
+  },
+  "fsr_zoom_vs_common": {
+   "a": 0.209,
+   "b": 0.112,
+   "rel": -46.3,
+   "ci": [
+    -62.5,
+    -28.6
+   ],
+   "n": 196
+  },
+  "note": "values are click error rates",
+  "cost_per_image": {
+   "naive": 0.0035,
+   "common": 0.0104,
+   "fsr_zoom": 0.0058
+  }
+ },
+ "click|gem38": {
+  "naive": 0.355,
+  "common": 0.35,
+  "fsr_zoom": 0.125,
+  "units": 200,
+  "common_vs_naive": {
+   "a": 0.355,
+   "b": 0.35,
+   "rel": -1.4,
+   "ci": [
+    -6.4,
+    3.2
+   ],
+   "n": 200
+  },
+  "fsr_zoom_vs_naive": {
+   "a": 0.355,
+   "b": 0.125,
+   "rel": -64.8,
+   "ci": [
+    -76.1,
+    -51.5
+   ],
+   "n": 200
+  },
+  "naive_vs_common": {
+   "a": 0.35,
+   "b": 0.355,
+   "rel": 1.4,
+   "ci": [
+    -3.1,
+    6.9
+   ],
+   "n": 200
+  },
+  "fsr_zoom_vs_common": {
+   "a": 0.35,
+   "b": 0.125,
+   "rel": -64.3,
+   "ci": [
+    -76.5,
+    -50.0
+   ],
+   "n": 200
+  },
+  "note": "values are click error rates",
+  "cost_per_image": {
+   "naive": 0.003,
+   "common": 0.0086,
+   "fsr_zoom": 0.0053
+  }
+ }
+}

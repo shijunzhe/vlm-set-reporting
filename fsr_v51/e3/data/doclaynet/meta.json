@@ -1,0 +1,9 @@
+{
+ "dataset": "doclaynet",
+ "n_items": 60,
+ "tertile_bounds": [
+  10,
+  19
+ ],
+ "source": "DocLayNet v1.2 test split (docling-project/DocLayNet-v1.2), CDLA-Permissive-1.0"
+}

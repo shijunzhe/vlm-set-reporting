@@ -1,0 +1,142 @@
+{
+ "doclaynet": {
+  "best_cross_vs_best_same": {
+   "a": "single|gpt61",
+   "b": "cross3_maj",
+   "va": 8.57,
+   "vb": 7.42,
+   "rel": -13.4,
+   "ci": [
+    -30.4,
+    7.9
+   ]
+  },
+  "cross3_unan_vs_best_same": {
+   "a": "single|gpt61",
+   "b": "cross3_unan",
+   "va": 8.57,
+   "vb": 10.03,
+   "rel": 17.1,
+   "ci": [
+    -4.5,
+    46.5
+   ]
+  },
+  "cross3_unan_vs_avg_model_same3_unan": {
+   "a": "avg_same3_unan",
+   "b": "cross3_unan",
+   "va": 11.22,
+   "vb": 10.03,
+   "rel": -10.6,
+   "ci": [
+    -20.2,
+    0.4
+   ]
+  }
+ },
+ "dota": {
+  "best_cross_vs_best_same": {
+   "a": "same3_unan|gem38",
+   "b": "cross3_unan",
+   "va": 30.8,
+   "vb": 29.02,
+   "rel": -5.8,
+   "ci": [
+    -10.4,
+    -1.8
+   ]
+  },
+  "cross3_unan_vs_best_same": {
+   "a": "same3_unan|gem38",
+   "b": "cross3_unan",
+   "va": 30.8,
+   "vb": 29.02,
+   "rel": -5.8,
+   "ci": [
+    -10.4,
+    -1.8
+   ]
+  },
+  "cross3_unan_vs_avg_model_same3_unan": {
+   "a": "avg_same3_unan",
+   "b": "cross3_unan",
+   "va": 32.58,
+   "vb": 29.02,
+   "rel": -10.9,
+   "ci": [
+    -17.6,
+    -6.8
+   ]
+  }
+ },
+ "fsc147": {
+  "best_cross_vs_best_same": {
+   "a": "same3_maj|gpt61",
+   "b": "cross2_union|gpt61|gem38",
+   "va": 30.02,
+   "vb": 30.37,
+   "rel": 1.2,
+   "ci": [
+    -2.4,
+    5.5
+   ]
+  },
+  "cross3_unan_vs_best_same": {
+   "a": "same3_maj|gpt61",
+   "b": "cross3_unan",
+   "va": 30.02,
+   "vb": 53.73,
+   "rel": 79.0,
+   "ci": [
+    46.2,
+    136.5
+   ]
+  },
+  "cross3_unan_vs_avg_model_same3_unan": {
+   "a": "avg_same3_unan",
+   "b": "cross3_unan",
+   "va": 45.76,
+   "vb": 53.73,
+   "rel": 17.4,
+   "ci": [
+    11.7,
+    24.6
+   ]
+  }
+ },
+ "sku110k": {
+  "best_cross_vs_best_same": {
+   "a": "same3_unan|gem38",
+   "b": "cross2_inter|gpt61|gem38",
+   "va": 136.48,
+   "vb": 129.03,
+   "rel": -5.5,
+   "ci": [
+    -11.2,
+    0.4
+   ]
+  },
+  "cross3_unan_vs_best_same": {
+   "a": "same3_unan|gem38",
+   "b": "cross3_unan",
+   "va": 136.48,
+   "vb": 138.37,
+   "rel": 1.4,
+   "ci": [
+    -2.7,
+    5.9
+   ]
+  },
+  "cross3_unan_vs_avg_model_same3_unan": {
+   "a": "avg_same3_unan",
+   "b": "cross3_unan",
+   "va": 144.49,
+   "vb": 138.37,
+   "rel": -4.2,
+   "ci": [
+    -7.7,
+    -0.4
+   ]
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "note": "post hoc; lower bound: mean over reps of E_tau >= mean pairwise U_{2tau} / 2 (exact, samplewise)",
+ "violations": 0,
+ "pairs": 1440,
+ "res": {
+  "gpt56": {
+   "A-global": {
+    "E": 9.31,
+    "half_selfU": 5.53
+   },
+   "A-local": {
+    "E": 11.72,
+    "half_selfU": 5.03
+   },
+   "J-global": {
+    "E": 5.08,
+    "half_selfU": 2.03
+   },
+   "J-global-rev": {
+    "E": 12.17,
+    "half_selfU": 5.89
+   },
+   "J-local": {
+    "E": 16.81,
+    "half_selfU": 5.78
+   }
+  },
+  "gpt61": {
+   "A-global": {
+    "E": 22.36,
+    "half_selfU": 6.22
+   },
+   "A-local": {
+    "E": 0.08,
+    "half_selfU": 0.03
+   },
+   "J-global": {
+    "E": 14.42,
+    "half_selfU": 13.92
+   },
+   "J-global-rev": {
+    "E": 0.67,
+    "half_selfU": 0.28
+   },
+   "J-local": {
+    "E": 0.08,
+    "half_selfU": 0.03
+   }
+  },
+  "opus55": {
+   "A-global": {
+    "E": 0.0,
+    "half_selfU": 0.0
+   },
+   "A-local": {
+    "E": 0.39,
+    "half_selfU": 0.0
+   },
+   "J-global": {
+    "E": 0.06,
+    "half_selfU": 0.0
+   },
+   "J-global-rev": {
+    "E": 0.17,
+    "half_selfU": 0.0
+   },
+   "J-local": {
+    "E": 0.39,
+    "half_selfU": 0.0
+   }
+  },
+  "sonnet55": {
+   "A-global": {
+    "E": 2.75,
+    "half_selfU": 1.28
+   },
+   "A-local": {
+    "E": 50.25,
+    "half_selfU": 13.36
+   },
+   "J-global": {
+    "E": 2.89,
+    "half_selfU": 1.0
+   },
+   "J-global-rev": {
+    "E": 28.86,
+    "half_selfU": 19.81
+   },
+   "J-local": {
+    "E": 46.97,
+    "half_selfU": 12.06
+   }
+  }
+ }
+}

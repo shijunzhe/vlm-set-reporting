@@ -1,0 +1,247 @@
+{
+ "doclaynet|gem38": {
+  "primary": {
+   "mean_extra": 11.3,
+   "extra_precision": 0.412,
+   "union_minus_majority": 1.44
+  },
+  "iou50": {
+   "mean_extra": 11.3,
+   "extra_precision": 0.588,
+   "union_minus_majority": -1.67
+  },
+  "point": {
+   "mean_extra": 11.3,
+   "extra_precision": 0.547,
+   "union_minus_majority": -1.22
+  },
+  "counts": {
+   "n": 18.7,
+   "lo": 3.3,
+   "hi": 17.6,
+   "maj": 6.3,
+   "uni": 17.7
+  },
+  "n_sources": 9
+ },
+ "doclaynet|gpt61": {
+  "primary": {
+   "mean_extra": 8.0,
+   "extra_precision": 0.745,
+   "union_minus_majority": 0.0
+  },
+  "iou50": {
+   "mean_extra": 8.0,
+   "extra_precision": 0.509,
+   "union_minus_majority": 4.0
+  },
+  "point": {
+   "mean_extra": 8.0,
+   "extra_precision": 0.545,
+   "union_minus_majority": 2.0
+  },
+  "counts": {
+   "n": 36.0,
+   "lo": 21.5,
+   "hi": 40.0,
+   "maj": 33.5,
+   "uni": 41.5
+  },
+  "n_sources": 2
+ },
+ "doclaynet|sonnet55": {
+  "primary": {
+   "mean_extra": 4.0,
+   "extra_precision": 0.25,
+   "union_minus_majority": 2.0
+  },
+  "iou50": {
+   "mean_extra": 4.0,
+   "extra_precision": 0.0,
+   "union_minus_majority": 4.0
+  },
+  "point": {
+   "mean_extra": 4.0,
+   "extra_precision": 0.25,
+   "union_minus_majority": 2.0
+  },
+  "counts": {
+   "n": 28.0,
+   "lo": 28.0,
+   "hi": 30.0,
+   "maj": 28.0,
+   "uni": 32.0
+  },
+  "n_sources": 1
+ },
+ "dota|gem38": {
+  "primary": {
+   "mean_extra": 8.6,
+   "extra_precision": 0.352,
+   "union_minus_majority": -2.8
+  },
+  "iou50": {
+   "mean_extra": 8.6,
+   "extra_precision": 0.257,
+   "union_minus_majority": 1.2
+  },
+  "point": {
+   "mean_extra": 8.6,
+   "extra_precision": 0.152,
+   "union_minus_majority": 4.0
+  },
+  "counts": {
+   "n": 27.0,
+   "lo": 21.8,
+   "hi": 29.2,
+   "maj": 24.0,
+   "uni": 32.6
+  },
+  "n_sources": 5
+ },
+ "dota|gpt61": {
+  "primary": {
+   "mean_extra": 31.2,
+   "extra_precision": -0.05,
+   "union_minus_majority": 25.61
+  },
+  "iou50": {
+   "mean_extra": 31.2,
+   "extra_precision": 0.125,
+   "union_minus_majority": 21.72
+  },
+  "point": {
+   "mean_extra": 31.2,
+   "extra_precision": 0.143,
+   "union_minus_majority": 20.89
+  },
+  "counts": {
+   "n": 62.4,
+   "lo": 71.1,
+   "hi": 101.3,
+   "maj": 74.6,
+   "uni": 105.8
+  },
+  "n_sources": 18
+ },
+ "dota|sonnet55": {
+  "primary": {
+   "mean_extra": 7.2,
+   "extra_precision": 0.113,
+   "union_minus_majority": 1.44
+  },
+  "iou50": {
+   "mean_extra": 7.2,
+   "extra_precision": -0.061,
+   "union_minus_majority": 4.78
+  },
+  "point": {
+   "mean_extra": 7.2,
+   "extra_precision": 0.294,
+   "union_minus_majority": 0.22
+  },
+  "counts": {
+   "n": 41.0,
+   "lo": 39.2,
+   "hi": 45.8,
+   "maj": 41.2,
+   "uni": 48.4
+  },
+  "n_sources": 9
+ },
+ "fsc147|gem38": {
+  "primary": {
+   "mean_extra": 18.3,
+   "extra_precision": 0.693,
+   "union_minus_majority": -11.33
+  },
+  "counts": {
+   "n": 62.7,
+   "lo": 9.0,
+   "hi": 39.3,
+   "maj": 22.7,
+   "uni": 41.0
+  },
+  "n_sources": 3
+ },
+ "fsc147|gpt61": {
+  "primary": {
+   "mean_extra": 9.9,
+   "extra_precision": 0.56,
+   "union_minus_majority": -2.75
+  },
+  "counts": {
+   "n": 97.5,
+   "lo": 63.1,
+   "hi": 71.8,
+   "maj": 65.1,
+   "uni": 75.0
+  },
+  "n_sources": 8
+ },
+ "fsc147|sonnet55": {
+  "primary": {
+   "mean_extra": 8.2,
+   "extra_precision": 0.847,
+   "union_minus_majority": -4.83
+  },
+  "counts": {
+   "n": 47.5,
+   "lo": 8.7,
+   "hi": 17.7,
+   "maj": 10.0,
+   "uni": 18.2
+  },
+  "n_sources": 6
+ },
+ "sku110k|gem38": {
+  "primary": {
+   "mean_extra": 51.2,
+   "extra_precision": 0.429,
+   "union_minus_majority": 0.0
+  },
+  "iou50": {
+   "mean_extra": 51.2,
+   "extra_precision": 0.715,
+   "union_minus_majority": -27.67
+  },
+  "point": {
+   "mean_extra": 51.2,
+   "extra_precision": 0.751,
+   "union_minus_majority": -32.08
+  },
+  "counts": {
+   "n": 132.2,
+   "lo": 41.2,
+   "hi": 107.1,
+   "maj": 61.3,
+   "uni": 112.5
+  },
+  "n_sources": 12
+ },
+ "sku110k|gpt61": {
+  "primary": {
+   "mean_extra": 45.2,
+   "extra_precision": -0.086,
+   "union_minus_majority": 47.45
+  },
+  "iou50": {
+   "mean_extra": 45.2,
+   "extra_precision": 0.036,
+   "union_minus_majority": 41.45
+  },
+  "point": {
+   "mean_extra": 45.2,
+   "extra_precision": 0.032,
+   "union_minus_majority": 39.05
+  },
+  "counts": {
+   "n": 151.2,
+   "lo": 192.3,
+   "hi": 226.2,
+   "maj": 201.3,
+   "uni": 246.6
+  },
+  "n_sources": 20
+ }
+}

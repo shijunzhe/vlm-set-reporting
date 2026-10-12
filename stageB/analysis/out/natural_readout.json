@@ -1,0 +1,486 @@
+{
+ "dota|gpt61": {
+  "pure_readout_cf": {
+   "n": 30,
+   "a": 40.5,
+   "b": 40.8,
+   "rel": 0.7,
+   "ci": [
+    -5.0,
+    4.5
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 30,
+   "a": 44.1,
+   "b": 40.667,
+   "rel": -7.8,
+   "ci": [
+    -12.7,
+    -3.0
+   ]
+  },
+  "full_protocol": {
+   "n": 30,
+   "a": 40.5,
+   "b": 40.667,
+   "rel": 0.4,
+   "ci": [
+    -17.7,
+    16.4
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 32.4,
+   "stated_mae": 37.03
+  },
+  "readout_gap_cf": 2.23,
+  "readout_gap_lf": 5.23,
+  "list_recall_lf": 0.88,
+  "list_precision_lf": 0.676,
+  "flagged_lf": 0.0,
+  "flagged_cf": 0.0,
+  "stated_equals_list_cf": 0.767,
+  "stated_equals_list_lf": 0.3,
+  "n_images": 30
+ },
+ "dota|sonnet55": {
+  "pure_readout_cf": {
+   "n": 30,
+   "a": 45.833,
+   "b": 39.667,
+   "rel": -13.5,
+   "ci": [
+    -34.7,
+    -0.6
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 30,
+   "a": 39.4,
+   "b": 38.633,
+   "rel": -1.9,
+   "ci": [
+    -5.0,
+    -0.2
+   ]
+  },
+  "full_protocol": {
+   "n": 30,
+   "a": 45.833,
+   "b": 38.633,
+   "rel": -15.7,
+   "ci": [
+    -38.2,
+    7.7
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 31.3,
+   "stated_mae": 32.27
+  },
+  "readout_gap_cf": 7.37,
+  "readout_gap_lf": 1.63,
+  "list_recall_lf": 0.681,
+  "list_precision_lf": 0.791,
+  "flagged_lf": 0.0,
+  "flagged_cf": 0.067,
+  "stated_equals_list_cf": 0.4,
+  "stated_equals_list_lf": 0.333,
+  "n_images": 30
+ },
+ "dota|gem38": {
+  "pure_readout_cf": {
+   "n": 30,
+   "a": 33.233,
+   "b": 63.933,
+   "rel": 92.4,
+   "ci": [
+    54.2,
+    145.0
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 24,
+   "a": 26.917,
+   "b": 48.0,
+   "rel": 78.3,
+   "ci": [
+    33.4,
+    140.6
+   ]
+  },
+  "full_protocol": {
+   "n": 30,
+   "a": 33.233,
+   "b": 39.2,
+   "rel": 18.0,
+   "ci": [
+    -13.4,
+    61.2
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 54.57,
+   "stated_mae": 22.17
+  },
+  "readout_gap_cf": 44.17,
+  "readout_gap_lf": 33.25,
+  "list_recall_lf": 0.26,
+  "list_precision_lf": 0.845,
+  "flagged_lf": 0.933,
+  "flagged_cf": 0.967,
+  "stated_equals_list_cf": 0.033,
+  "stated_equals_list_lf": 0.033,
+  "n_images": 30,
+  "default16k_readout_vs_cf_stated": {
+   "n": 30,
+   "a": 33.233,
+   "b": 23.867,
+   "rel": -28.2,
+   "ci": [
+    -48.6,
+    0.1
+   ]
+  },
+  "default16k_pure_readout": {
+   "n": 29,
+   "a": 26.517,
+   "b": 25.931,
+   "rel": -2.2,
+   "ci": [
+    -29.1,
+    32.0
+   ]
+  },
+  "default16k_flagged": 0.167
+ },
+ "doclaynet|gpt61": {
+  "pure_readout_cf": {
+   "n": 50,
+   "a": 4.92,
+   "b": 4.94,
+   "rel": 0.4,
+   "ci": [
+    -1.6,
+    2.2
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 50,
+   "a": 4.82,
+   "b": 4.8,
+   "rel": -0.4,
+   "ci": [
+    -5.6,
+    3.1
+   ]
+  },
+  "full_protocol": {
+   "n": 50,
+   "a": 4.92,
+   "b": 4.8,
+   "rel": -2.4,
+   "ci": [
+    -12.4,
+    4.5
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 1.48,
+   "stated_mae": 1.5
+  },
+  "readout_gap_cf": 0.14,
+  "readout_gap_lf": 0.18,
+  "list_recall_lf": 0.874,
+  "list_precision_lf": 0.891,
+  "flagged_lf": 0.0,
+  "flagged_cf": 0.0,
+  "stated_equals_list_cf": 0.9,
+  "stated_equals_list_lf": 0.9,
+  "n_images": 50
+ },
+ "doclaynet|sonnet55": {
+  "pure_readout_cf": {
+   "n": 50,
+   "a": 8.56,
+   "b": 6.86,
+   "rel": -19.9,
+   "ci": [
+    -32.5,
+    -10.1
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 50,
+   "a": 7.16,
+   "b": 7.02,
+   "rel": -2.0,
+   "ci": [
+    -11.4,
+    6.4
+   ]
+  },
+  "full_protocol": {
+   "n": 50,
+   "a": 8.56,
+   "b": 6.84,
+   "rel": -20.1,
+   "ci": [
+    -36.7,
+    3.3
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 1.5,
+   "stated_mae": 2.0
+  },
+  "readout_gap_cf": 3.1,
+  "readout_gap_lf": 1.78,
+  "list_recall_lf": 0.832,
+  "list_precision_lf": 0.82,
+  "flagged_lf": 0.02,
+  "flagged_cf": 0.0,
+  "stated_equals_list_cf": 0.08,
+  "stated_equals_list_lf": 0.26,
+  "n_images": 50
+ },
+ "doclaynet|gem38": {
+  "pure_readout_cf": {
+   "n": 50,
+   "a": 9.38,
+   "b": 11.18,
+   "rel": 19.2,
+   "ci": [
+    1.6,
+    41.0
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 50,
+   "a": 8.54,
+   "b": 10.06,
+   "rel": 17.8,
+   "ci": [
+    2.8,
+    36.4
+   ]
+  },
+  "full_protocol": {
+   "n": 50,
+   "a": 9.38,
+   "b": 8.64,
+   "rel": -7.9,
+   "ci": [
+    -24.7,
+    10.6
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 5.54,
+   "stated_mae": 3.18
+  },
+  "readout_gap_cf": 5.28,
+  "readout_gap_lf": 3.72,
+  "list_recall_lf": 0.685,
+  "list_precision_lf": 0.841,
+  "flagged_lf": 0.36,
+  "flagged_cf": 0.38,
+  "stated_equals_list_cf": 0.12,
+  "stated_equals_list_lf": 0.16,
+  "n_images": 50,
+  "default16k_readout_vs_cf_stated": {
+   "n": 50,
+   "a": 9.38,
+   "b": 6.96,
+   "rel": -25.8,
+   "ci": [
+    -42.5,
+    -8.8
+   ]
+  },
+  "default16k_pure_readout": {
+   "n": 50,
+   "a": 7.06,
+   "b": 7.5,
+   "rel": 6.2,
+   "ci": [
+    -3.0,
+    23.4
+   ]
+  },
+  "default16k_flagged": 0.08
+ },
+ "pooled|gpt61": {
+  "pure_readout_cf": {
+   "n": 80,
+   "a": 18.262,
+   "b": 18.387,
+   "rel": 0.7,
+   "ci": [
+    -4.1,
+    3.9
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 80,
+   "a": 19.55,
+   "b": 18.25,
+   "rel": -6.6,
+   "ci": [
+    -10.5,
+    -2.1
+   ]
+  },
+  "full_protocol": {
+   "n": 80,
+   "a": 18.262,
+   "b": 18.25,
+   "rel": -0.1,
+   "ci": [
+    -14.7,
+    14.0
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 13.07,
+   "stated_mae": 14.82
+  },
+  "readout_gap_cf": 0.93,
+  "readout_gap_lf": 2.08,
+  "list_recall_lf": 0.876,
+  "list_precision_lf": 0.81,
+  "flagged_lf": 0.0,
+  "flagged_cf": 0.0,
+  "stated_equals_list_cf": 0.85,
+  "stated_equals_list_lf": 0.675,
+  "n_images": 80
+ },
+ "pooled|sonnet55": {
+  "pure_readout_cf": {
+   "n": 80,
+   "a": 22.538,
+   "b": 19.163,
+   "rel": -15.0,
+   "ci": [
+    -31.2,
+    -4.8
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 80,
+   "a": 19.25,
+   "b": 18.875,
+   "rel": -1.9,
+   "ci": [
+    -5.3,
+    0.5
+   ]
+  },
+  "full_protocol": {
+   "n": 80,
+   "a": 22.538,
+   "b": 18.762,
+   "rel": -16.7,
+   "ci": [
+    -34.8,
+    0.6
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 12.68,
+   "stated_mae": 13.35
+  },
+  "readout_gap_cf": 4.7,
+  "readout_gap_lf": 1.73,
+  "list_recall_lf": 0.776,
+  "list_precision_lf": 0.809,
+  "flagged_lf": 0.013,
+  "flagged_cf": 0.025,
+  "stated_equals_list_cf": 0.2,
+  "stated_equals_list_lf": 0.287,
+  "n_images": 80
+ },
+ "pooled|gem38": {
+  "pure_readout_cf": {
+   "n": 80,
+   "a": 18.325,
+   "b": 30.962,
+   "rel": 69.0,
+   "ci": [
+    42.7,
+    99.4
+   ]
+  },
+  "pure_readout_lf": {
+   "n": 74,
+   "a": 14.5,
+   "b": 22.365,
+   "rel": 54.2,
+   "ci": [
+    24.7,
+    87.8
+   ]
+  },
+  "full_protocol": {
+   "n": 80,
+   "a": 18.325,
+   "b": 20.1,
+   "rel": 9.7,
+   "ci": [
+    -13.9,
+    35.9
+   ]
+  },
+  "totals_lf": {
+   "list_mae": 23.93,
+   "stated_mae": 9.34
+  },
+  "readout_gap_cf": 19.86,
+  "readout_gap_lf": 13.3,
+  "list_recall_lf": 0.525,
+  "list_precision_lf": 0.842,
+  "flagged_lf": 0.575,
+  "flagged_cf": 0.6,
+  "stated_equals_list_cf": 0.087,
+  "stated_equals_list_lf": 0.113,
+  "n_images": 80,
+  "default16k_readout_vs_cf_stated": {
+   "n": 80,
+   "a": 18.325,
+   "b": 13.3,
+   "rel": -27.4,
+   "ci": [
+    -43.3,
+    -8.7
+   ]
+  },
+  "default16k_pure_readout": {
+   "n": 79,
+   "a": 14.203,
+   "b": 14.266,
+   "rel": 0.4,
+   "ci": [
+    -18.3,
+    23.7
+   ]
+  },
+  "default16k_flagged": 0.113
+ },
+ "_run": {
+  "calls": 574,
+  "cost_usd": 6.25,
+  "images": {
+   "dota": 30,
+   "doclaynet": 50
+  },
+  "mean_objects": {
+   "dota": 71.0,
+   "doclaynet": 25.0
+  },
+  "mean_classes": {
+   "dota": 3.33,
+   "doclaynet": 5.02
+  }
+ }
+}

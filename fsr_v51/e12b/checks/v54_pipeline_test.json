@@ -1,0 +1,8 @@
+{
+ "cap_zero": true,
+ "b1_zero": true,
+ "no_missing": true,
+ "strong_equals_step0": true,
+ "api_equals_strict": true,
+ "none_for_gemini": true
+}

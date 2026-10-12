@@ -1,0 +1,23 @@
+{
+ "gpt61": {
+  "screens": 120,
+  "records_per_screen": 64.1,
+  "tp_per_screen": 29.1,
+  "fp_per_screen": 34.9,
+  "share_fp_explained_by_crop_index": 0.004
+ },
+ "sonnet55": {
+  "screens": 120,
+  "records_per_screen": 52.7,
+  "tp_per_screen": 26.6,
+  "fp_per_screen": 26.1,
+  "share_fp_explained_by_crop_index": 0.011
+ },
+ "gem38": {
+  "screens": 94,
+  "records_per_screen": 43.4,
+  "tp_per_screen": 11.0,
+  "fp_per_screen": 32.4,
+  "share_fp_explained_by_crop_index": 0.003
+ }
+}

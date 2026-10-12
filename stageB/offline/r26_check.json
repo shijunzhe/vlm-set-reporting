@@ -1,0 +1,158 @@
+{
+ "gui|gpt61": {
+  "true|agree": {
+   "n": 1023,
+   "keep_rate": 0.993
+  },
+  "true|disagree": {
+   "n": 162,
+   "keep_rate": 0.778
+  },
+  "false|agree": {
+   "n": 1155,
+   "keep_rate": 0.992
+  },
+  "false|disagree": {
+   "n": 587,
+   "keep_rate": 0.717
+  },
+  "injected|agree": {
+   "n": 1,
+   "keep_rate": 1.0
+  },
+  "injected|disagree": {
+   "n": 239,
+   "keep_rate": 0.0
+  },
+  "effect_of_agreement": 0.245,
+  "effect_of_truth_given_agreement": 0.031
+ },
+ "gui|sonnet55": {
+  "true|agree": {
+   "n": 1123,
+   "keep_rate": 0.992
+  },
+  "true|disagree": {
+   "n": 434,
+   "keep_rate": 0.724
+  },
+  "false|agree": {
+   "n": 370,
+   "keep_rate": 0.989
+  },
+  "false|disagree": {
+   "n": 302,
+   "keep_rate": 0.672
+  },
+  "injected|disagree": {
+   "n": 238,
+   "keep_rate": 0.008
+  },
+  "effect_of_agreement": 0.292,
+  "effect_of_truth_given_agreement": 0.027
+ },
+ "gui|gem38": {
+  "true|agree": {
+   "n": 319,
+   "keep_rate": 0.426
+  },
+  "true|disagree": {
+   "n": 249,
+   "keep_rate": 0.225
+  },
+  "false|agree": {
+   "n": 728,
+   "keep_rate": 0.62
+  },
+  "false|disagree": {
+   "n": 1019,
+   "keep_rate": 0.262
+  },
+  "injected|disagree": {
+   "n": 240,
+   "keep_rate": 0.004
+  },
+  "effect_of_agreement": 0.279,
+  "effect_of_truth_given_agreement": -0.116
+ },
+ "sku|gpt61": {
+  "true|agree": {
+   "n": 3964,
+   "keep_rate": 0.998
+  },
+  "true|disagree": {
+   "n": 257,
+   "keep_rate": 0.809
+  },
+  "false|agree": {
+   "n": 733,
+   "keep_rate": 0.975
+  },
+  "false|disagree": {
+   "n": 1524,
+   "keep_rate": 0.68
+  },
+  "injected|agree": {
+   "n": 1,
+   "keep_rate": 0.0
+  },
+  "injected|disagree": {
+   "n": 235,
+   "keep_rate": 0.026
+  },
+  "effect_of_agreement": 0.242,
+  "effect_of_truth_given_agreement": 0.076
+ },
+ "sku|sonnet55": {
+  "true|agree": {
+   "n": 975,
+   "keep_rate": 0.99
+  },
+  "true|disagree": {
+   "n": 91,
+   "keep_rate": 0.176
+  },
+  "false|agree": {
+   "n": 478,
+   "keep_rate": 0.897
+  },
+  "false|disagree": {
+   "n": 1827,
+   "keep_rate": 0.048
+  },
+  "injected|agree": {
+   "n": 1,
+   "keep_rate": 1.0
+  },
+  "injected|disagree": {
+   "n": 228,
+   "keep_rate": 0.004
+  },
+  "effect_of_agreement": 0.832,
+  "effect_of_truth_given_agreement": 0.11
+ },
+ "sku|gem38": {
+  "true|agree": {
+   "n": 1312,
+   "keep_rate": 0.758
+  },
+  "true|disagree": {
+   "n": 1431,
+   "keep_rate": 0.617
+  },
+  "false|agree": {
+   "n": 91,
+   "keep_rate": 0.736
+  },
+  "false|disagree": {
+   "n": 452,
+   "keep_rate": 0.35
+  },
+  "injected|disagree": {
+   "n": 216,
+   "keep_rate": 0.065
+  },
+  "effect_of_agreement": 0.264,
+  "effect_of_truth_given_agreement": 0.145
+ }
+}

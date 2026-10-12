@@ -1,0 +1,3 @@
+gpt61 main manifest 80 done 0 todo 80
+gpt61 main 50
+gpt61 main finished 80

@@ -1,0 +1,2312 @@
+{
+ "gpt56": {
+  "16": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 236.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 2.0,
+    "B": 2.0,
+    "fn": 1.0,
+    "fp": 1.0,
+    "dup": 0.0,
+    "f1": 0.94,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 429.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.67
+   },
+   "S1": {
+    "set_error": 1.83,
+    "B": 1.83,
+    "fn": 1.0,
+    "fp": 0.83,
+    "dup": 0.0,
+    "f1": 0.94,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 476.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.5
+   },
+   "C1": {
+    "set_error": 0.33,
+    "B": 0.33,
+    "fn": 0.17,
+    "fp": 0.17,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 489.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -0.17,
+     -2.67,
+     1.67,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -1.5,
+     -3.83,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     2.0,
+     0.0,
+     4.67,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -1.67,
+     -4.67,
+     0.67,
+     6
+    ]
+   }
+  },
+  "64": {
+   "F": {
+    "set_error": 2.83,
+    "B": 2.83,
+    "fn": 1.17,
+    "fp": 1.67,
+    "dup": 0.17,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 914.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.33
+   },
+   "J": {
+    "set_error": 2.5,
+    "B": 2.5,
+    "fn": 1.33,
+    "fp": 1.17,
+    "dup": 0.0,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 1008.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.5
+   },
+   "S1": {
+    "set_error": 2.0,
+    "B": 2.0,
+    "fn": 1.0,
+    "fp": 1.0,
+    "dup": 0.0,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 1063.83,
+    "n_scenes": 6,
+    "exact_set_rate": 0.5
+   },
+   "C1": {
+    "set_error": 0.33,
+    "B": 0.33,
+    "fn": 0.33,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.17,
+    "malformed": 0.17,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 1108.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -0.5,
+     -3.0,
+     1.67,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -1.67,
+     -4.33,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -0.33,
+     -2.67,
+     2.33,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -2.17,
+     -5.0,
+     0.33,
+     6
+    ]
+   }
+  },
+  "192": {
+   "F": {
+    "set_error": 53.17,
+    "B": 53.17,
+    "fn": 26.17,
+    "fp": 27.0,
+    "dup": 2.5,
+    "f1": 0.86,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 2702.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.17
+   },
+   "J": {
+    "set_error": 4.17,
+    "B": 4.17,
+    "fn": 2.33,
+    "fp": 1.83,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 2541.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.33
+   },
+   "S1": {
+    "set_error": 31.33,
+    "B": 31.33,
+    "fn": 14.5,
+    "fp": 16.83,
+    "dup": 0.0,
+    "f1": 0.92,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 2624.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 0.17,
+    "B": 0.17,
+    "fn": 0.17,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 2671.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     27.17,
+     21.67,
+     32.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -31.17,
+     -36.83,
+     -24.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -49.0,
+     -117.17,
+     -5.5,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -4.0,
+     -8.33,
+     -0.67,
+     6
+    ]
+   }
+  },
+  "384": {
+   "F": {
+    "set_error": 6.5,
+    "B": 6.5,
+    "fn": 1.33,
+    "fp": 5.17,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 5440.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.33
+   },
+   "J": {
+    "set_error": 0.83,
+    "B": 0.83,
+    "fn": 0.67,
+    "fp": 0.17,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 4845.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.5
+   },
+   "S1": {
+    "set_error": 96.83,
+    "B": 96.83,
+    "fn": 87.17,
+    "fp": 9.67,
+    "dup": 0.0,
+    "f1": 0.86,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 4133.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 5027.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     96.0,
+     80.83,
+     111.83,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -96.83,
+     -112.17,
+     -82.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -5.67,
+     -15.67,
+     0.17,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.83,
+     -1.5,
+     -0.17,
+     6
+    ]
+   }
+  },
+  "all": {
+   "F": {
+    "set_error": 15.62,
+    "B": 15.62,
+    "fn": 7.17,
+    "fp": 8.46,
+    "dup": 0.67,
+    "f1": 0.96,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 2323.42,
+    "n_scenes": 24,
+    "exact_set_rate": 0.46
+   },
+   "J": {
+    "set_error": 2.38,
+    "B": 2.38,
+    "fn": 1.33,
+    "fp": 1.04,
+    "dup": 0.0,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 2205.92,
+    "n_scenes": 24,
+    "exact_set_rate": 0.5
+   },
+   "S1": {
+    "set_error": 33.0,
+    "B": 33.0,
+    "fn": 25.92,
+    "fp": 7.08,
+    "dup": 0.0,
+    "f1": 0.93,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 2074.33,
+    "n_scenes": 24,
+    "exact_set_rate": 0.25
+   },
+   "C1": {
+    "set_error": 0.21,
+    "B": 0.21,
+    "fn": 0.17,
+    "fp": 0.04,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.04,
+    "malformed": 0.04,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 2324.04,
+    "n_scenes": 24,
+    "exact_set_rate": 0.88
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     30.62,
+     15.21,
+     47.71,
+     24
+    ],
+    "L = B(C1)-B(S1)": [
+     -32.79,
+     -49.58,
+     -17.38,
+     24
+    ],
+    "rho = E(J)-E(F)": [
+     -13.25,
+     -33.83,
+     -0.92,
+     24
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -2.17,
+     -3.71,
+     -0.83,
+     24
+    ]
+   }
+  }
+ },
+ "sonnet55": {
+  "16": {
+   "F": {
+    "set_error": 1.0,
+    "B": 1.0,
+    "fn": 0.5,
+    "fp": 0.5,
+    "dup": 0.0,
+    "f1": 0.97,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 276.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.67
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 13.33,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 1038.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 28.5,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 1916.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 34.17,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 2249.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -1.0,
+     -2.33,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "64": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 1355.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 3.0,
+    "B": 3.0,
+    "fn": 1.5,
+    "fp": 1.5,
+    "dup": 0.0,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.17,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 2314.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.67
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 99.17,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 4255.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 97.33,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 4251.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -3.0,
+     -8.33,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     3.0,
+     0.0,
+     8.33,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -3.0,
+     -8.33,
+     0.0,
+     6
+    ]
+   }
+  },
+  "192": {
+   "F": {
+    "set_error": 0.83,
+    "B": 0.83,
+    "fn": 0.5,
+    "fp": 0.33,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 4351.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.67
+   },
+   "J": {
+    "set_error": 0.17,
+    "B": 0.17,
+    "fn": 0.17,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 6957.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 199.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 8659.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 195.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 8675.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -0.17,
+     -0.5,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -0.67,
+     -2.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.17,
+     -0.5,
+     0.0,
+     6
+    ]
+   }
+  },
+  "384": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 12270.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 64.0,
+    "B": 64.0,
+    "fn": 64.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 0.83,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.33,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 11591.83,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 109.5,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 14636.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 51.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 14079.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -64.0,
+     -192.0,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     64.0,
+     0.0,
+     192.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -64.0,
+     -192.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "all": {
+   "F": {
+    "set_error": 0.46,
+    "B": 0.46,
+    "fn": 0.25,
+    "fp": 0.21,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 4563.5,
+    "n_scenes": 24,
+    "exact_set_rate": 0.83
+   },
+   "J": {
+    "set_error": 16.79,
+    "B": 16.79,
+    "fn": 16.42,
+    "fp": 0.38,
+    "dup": 0.0,
+    "f1": 0.95,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 3.46,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 5475.58,
+    "n_scenes": 24,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 109.04,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 7366.71,
+    "n_scenes": 24,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 94.38,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 7314.17,
+    "n_scenes": 24,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -16.79,
+     -49.42,
+     -0.04,
+     24
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     24
+    ],
+    "rho = E(J)-E(F)": [
+     16.33,
+     -0.58,
+     49.08,
+     24
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -16.79,
+     -49.42,
+     -0.04,
+     24
+    ]
+   }
+  }
+ },
+ "opus55": {
+  "16": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 287.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 599.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 918.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 1217.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "64": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 1102.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.83,
+    "B": 0.83,
+    "fn": 0.83,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.17,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 1302.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 2633.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 2765.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -0.83,
+     -2.5,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.83,
+     0.0,
+     2.5,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.83,
+     -2.5,
+     0.0,
+     6
+    ]
+   }
+  },
+  "192": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 4338.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 4957.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 0.67,
+    "B": 0.67,
+    "fn": 0.0,
+    "fp": 0.67,
+    "dup": 0.67,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.5,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 6946.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 7270.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.67,
+     0.0,
+     2.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -0.67,
+     -2.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "384": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 8473.5,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 12005.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 12466.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 13465.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "all": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2287.0,
+    "tok_out": 3550.29,
+    "n_scenes": 24,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.21,
+    "B": 0.21,
+    "fn": 0.21,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.04,
+    "truncated": 0.0,
+    "tok_in": 2816.0,
+    "tok_out": 4716.21,
+    "n_scenes": 24,
+    "exact_set_rate": 0.96
+   },
+   "S1": {
+    "set_error": 0.17,
+    "B": 0.17,
+    "fn": 0.0,
+    "fp": 0.17,
+    "dup": 0.17,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.12,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 5740.96,
+    "n_scenes": 24,
+    "exact_set_rate": 0.96
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 44096.0,
+    "tok_out": 6179.58,
+    "n_scenes": 24,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -0.04,
+     -0.62,
+     0.5,
+     24
+    ],
+    "L = B(C1)-B(S1)": [
+     -0.17,
+     -0.5,
+     0.0,
+     24
+    ],
+    "rho = E(J)-E(F)": [
+     0.21,
+     0.0,
+     0.62,
+     24
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.21,
+     -0.62,
+     0.0,
+     24
+    ]
+   }
+  }
+ },
+ "gpt61": {
+  "16": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 355.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 577.0,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 533.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 623.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "64": {
+   "F": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 1102.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "J": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 1344.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "S1": {
+    "set_error": 1.67,
+    "B": 1.67,
+    "fn": 0.83,
+    "fp": 0.83,
+    "dup": 0.0,
+    "f1": 0.99,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 1959.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 1793.17,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     1.67,
+     0.0,
+     5.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -1.67,
+     -5.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     0.0,
+     0.0,
+     0.0,
+     6
+    ]
+   }
+  },
+  "192": {
+   "F": {
+    "set_error": 17.33,
+    "B": 17.33,
+    "fn": 12.17,
+    "fp": 5.17,
+    "dup": 0.17,
+    "f1": 0.95,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 2343.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.33
+   },
+   "J": {
+    "set_error": 0.17,
+    "B": 0.17,
+    "fn": 0.17,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 2982.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 0.33,
+    "B": 0.33,
+    "fn": 0.17,
+    "fp": 0.17,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 4944.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 4526.67,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.17,
+     -0.5,
+     1.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -0.33,
+     -1.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -17.17,
+     -42.33,
+     -0.33,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.17,
+     -0.5,
+     0.0,
+     6
+    ]
+   }
+  },
+  "384": {
+   "F": {
+    "set_error": 13.83,
+    "B": 13.83,
+    "fn": 11.67,
+    "fp": 2.17,
+    "dup": 2.0,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 4565.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.67
+   },
+   "J": {
+    "set_error": 0.17,
+    "B": 0.17,
+    "fn": 0.0,
+    "fp": 0.17,
+    "dup": 0.17,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 4928.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "S1": {
+    "set_error": 1.67,
+    "B": 1.67,
+    "fn": 0.83,
+    "fp": 0.83,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 7792.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.83
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 7980.83,
+    "n_scenes": 6,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     1.5,
+     -0.5,
+     5.0,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -1.67,
+     -5.0,
+     0.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -13.67,
+     -40.67,
+     0.33,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.17,
+     -0.5,
+     0.0,
+     6
+    ]
+   }
+  },
+  "all": {
+   "F": {
+    "set_error": 7.79,
+    "B": 7.79,
+    "fn": 5.96,
+    "fp": 1.83,
+    "dup": 0.54,
+    "f1": 0.98,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 1997.0,
+    "tok_out": 2091.92,
+    "n_scenes": 24,
+    "exact_set_rate": 0.75
+   },
+   "J": {
+    "set_error": 0.08,
+    "B": 0.08,
+    "fn": 0.04,
+    "fp": 0.04,
+    "dup": 0.04,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2362.0,
+    "tok_out": 2458.04,
+    "n_scenes": 24,
+    "exact_set_rate": 0.92
+   },
+   "S1": {
+    "set_error": 0.92,
+    "B": 0.92,
+    "fn": 0.46,
+    "fp": 0.46,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 3807.38,
+    "n_scenes": 24,
+    "exact_set_rate": 0.88
+   },
+   "C1": {
+    "set_error": 0.0,
+    "B": 0.0,
+    "fn": 0.0,
+    "fp": 0.0,
+    "dup": 0.0,
+    "f1": 1.0,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 36832.0,
+    "tok_out": 3731.08,
+    "n_scenes": 24,
+    "exact_set_rate": 1.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     0.83,
+     -0.08,
+     2.08,
+     24
+    ],
+    "L = B(C1)-B(S1)": [
+     -0.92,
+     -2.17,
+     0.0,
+     24
+    ],
+    "rho = E(J)-E(F)": [
+     -7.71,
+     -17.58,
+     -0.12,
+     24
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -0.08,
+     -0.21,
+     0.0,
+     24
+    ]
+   }
+  }
+ },
+ "qwen3vl": {
+  "16": {
+   "F": {
+    "set_error": 15.5,
+    "B": 15.5,
+    "fn": 15.33,
+    "fp": 0.17,
+    "dup": 0.0,
+    "f1": 0.08,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.5,
+    "truncated": 0.0,
+    "tok_in": 2017.0,
+    "tok_out": 284.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "J": {
+    "set_error": 16.67,
+    "B": 16.67,
+    "fn": 8.33,
+    "fp": 8.33,
+    "dup": 0.0,
+    "f1": 0.44,
+    "wrong_region_rows": 0.0,
+    "missing": 2.0,
+    "malformed": 2.0,
+    "truncated": 0.0,
+    "tok_in": 2419.0,
+    "tok_out": 481.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "S1": {
+    "set_error": 25.5,
+    "B": 25.5,
+    "fn": 10.17,
+    "fp": 15.33,
+    "dup": 0.17,
+    "f1": 0.31,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 522.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 11.33,
+    "B": 11.33,
+    "fn": 5.33,
+    "fp": 6.0,
+    "dup": 0.0,
+    "f1": 0.65,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 469.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     8.83,
+     3.0,
+     14.17,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -14.17,
+     -18.83,
+     -10.17,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     1.17,
+     -3.67,
+     7.0,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -5.33,
+     -11.17,
+     0.0,
+     6
+    ]
+   }
+  },
+  "64": {
+   "F": {
+    "set_error": 69.83,
+    "B": 69.83,
+    "fn": 60.83,
+    "fp": 9.0,
+    "dup": 0.0,
+    "f1": 0.05,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.5,
+    "truncated": 0.17,
+    "tok_in": 2017.0,
+    "tok_out": 3984.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "J": {
+    "set_error": 94.33,
+    "B": 95.0,
+    "fn": 51.83,
+    "fp": 42.5,
+    "dup": 0.0,
+    "f1": 0.18,
+    "wrong_region_rows": 0.0,
+    "missing": 5.5,
+    "malformed": 3.33,
+    "truncated": 0.0,
+    "tok_in": 2419.0,
+    "tok_out": 1025.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "S1": {
+    "set_error": 86.0,
+    "B": 87.33,
+    "fn": 40.5,
+    "fp": 45.5,
+    "dup": 0.83,
+    "f1": 0.35,
+    "wrong_region_rows": 0.0,
+    "missing": 1.83,
+    "malformed": 1.83,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 1176.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 41.5,
+    "B": 41.5,
+    "fn": 22.0,
+    "fp": 19.5,
+    "dup": 0.0,
+    "f1": 0.67,
+    "wrong_region_rows": 0.0,
+    "missing": 0.33,
+    "malformed": 0.33,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 1027.5,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     -7.67,
+     -34.5,
+     20.5,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -45.83,
+     -55.67,
+     -36.33,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     24.5,
+     -4.17,
+     57.67,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -52.83,
+     -81.17,
+     -26.67,
+     6
+    ]
+   }
+  },
+  "192": {
+   "F": {
+    "set_error": 337.83,
+    "B": 337.83,
+    "fn": 179.83,
+    "fp": 158.0,
+    "dup": 0.0,
+    "f1": 0.05,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.33,
+    "truncated": 0.0,
+    "tok_in": 2017.0,
+    "tok_out": 5693.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "J": {
+    "set_error": 256.5,
+    "B": 256.5,
+    "fn": 184.5,
+    "fp": 72.0,
+    "dup": 0.0,
+    "f1": 0.04,
+    "wrong_region_rows": 0.0,
+    "missing": 11.17,
+    "malformed": 3.67,
+    "truncated": 0.0,
+    "tok_in": 2419.0,
+    "tok_out": 2187.83,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "S1": {
+    "set_error": 297.5,
+    "B": 299.17,
+    "fn": 162.67,
+    "fp": 134.83,
+    "dup": 0.33,
+    "f1": 0.16,
+    "wrong_region_rows": 0.0,
+    "missing": 5.17,
+    "malformed": 5.5,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 3247.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 187.67,
+    "B": 187.67,
+    "fn": 95.0,
+    "fp": 92.67,
+    "dup": 0.17,
+    "f1": 0.51,
+    "wrong_region_rows": 0.0,
+    "missing": 2.33,
+    "malformed": 2.67,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 2975.83,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     42.67,
+     -31.33,
+     110.67,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -111.5,
+     -128.5,
+     -87.0,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -81.33,
+     -200.0,
+     29.33,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -68.83,
+     -138.0,
+     0.33,
+     6
+    ]
+   }
+  },
+  "384": {
+   "F": {
+    "set_error": 395.67,
+    "B": 395.67,
+    "fn": 382.67,
+    "fp": 13.0,
+    "dup": 0.0,
+    "f1": 0.01,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2017.0,
+    "tok_out": 332.67,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "J": {
+    "set_error": 394.83,
+    "B": 394.83,
+    "fn": 382.5,
+    "fp": 12.33,
+    "dup": 0.0,
+    "f1": 0.01,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "tok_in": 2419.0,
+    "tok_out": 422.17,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "S1": {
+    "set_error": 400.83,
+    "B": 400.83,
+    "fn": 382.0,
+    "fp": 18.83,
+    "dup": 0.0,
+    "f1": 0.01,
+    "wrong_region_rows": 0.0,
+    "missing": 0.67,
+    "malformed": 0.67,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 523.33,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 381.5,
+    "B": 381.5,
+    "fn": 192.17,
+    "fp": 189.33,
+    "dup": 0.0,
+    "f1": 0.5,
+    "wrong_region_rows": 0.0,
+    "missing": 0.17,
+    "malformed": 0.17,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 4913.0,
+    "n_scenes": 6,
+    "exact_set_rate": 0.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     6.0,
+     1.0,
+     13.33,
+     6
+    ],
+    "L = B(C1)-B(S1)": [
+     -19.33,
+     -66.83,
+     26.83,
+     6
+    ],
+    "rho = E(J)-E(F)": [
+     -0.83,
+     -16.5,
+     10.5,
+     6
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -13.33,
+     -63.5,
+     38.0,
+     6
+    ]
+   }
+  },
+  "all": {
+   "F": {
+    "set_error": 204.71,
+    "B": 204.71,
+    "fn": 159.67,
+    "fp": 45.04,
+    "dup": 0.0,
+    "f1": 0.05,
+    "wrong_region_rows": 0.0,
+    "missing": 0.0,
+    "malformed": 0.33,
+    "truncated": 0.04,
+    "tok_in": 2017.0,
+    "tok_out": 2573.71,
+    "n_scenes": 24,
+    "exact_set_rate": 0.0
+   },
+   "J": {
+    "set_error": 190.58,
+    "B": 190.75,
+    "fn": 156.79,
+    "fp": 33.79,
+    "dup": 0.0,
+    "f1": 0.17,
+    "wrong_region_rows": 0.0,
+    "missing": 4.67,
+    "malformed": 2.25,
+    "truncated": 0.0,
+    "tok_in": 2419.0,
+    "tok_out": 1029.12,
+    "n_scenes": 24,
+    "exact_set_rate": 0.0
+   },
+   "S1": {
+    "set_error": 202.46,
+    "B": 203.21,
+    "fn": 148.83,
+    "fp": 53.62,
+    "dup": 0.33,
+    "f1": 0.21,
+    "wrong_region_rows": 0.0,
+    "missing": 1.92,
+    "malformed": 2.0,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 1367.25,
+    "n_scenes": 24,
+    "exact_set_rate": 0.0
+   },
+   "C1": {
+    "set_error": 155.5,
+    "B": 155.5,
+    "fn": 78.62,
+    "fp": 76.88,
+    "dup": 0.04,
+    "f1": 0.58,
+    "wrong_region_rows": 0.0,
+    "missing": 0.71,
+    "malformed": 0.79,
+    "truncated": 0.0,
+    "tok_in": 37264.0,
+    "tok_out": 2346.33,
+    "n_scenes": 24,
+    "exact_set_rate": 0.0
+   },
+   "contrasts": {
+    "D = B(S1)-B(J)": [
+     12.46,
+     -7.42,
+     33.33,
+     24
+    ],
+    "L = B(C1)-B(S1)": [
+     -47.71,
+     -67.5,
+     -27.62,
+     24
+    ],
+    "rho = E(J)-E(F)": [
+     -14.12,
+     -52.21,
+     18.04,
+     24
+    ],
+    "crop gain = E(C1)-E(J)": [
+     -35.08,
+     -61.75,
+     -10.71,
+     24
+    ]
+   }
+  }
+ }
+}

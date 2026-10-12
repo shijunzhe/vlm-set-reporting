@@ -1,0 +1,15 @@
+\begin{table*}[tp]\centering\small\setlength{\tabcolsep}{2.6pt}
+\caption{Defaults evaluated by leave-one-source-out transfer: for each source, the construction is the one that is best on the other five sources (same model only, or any construction including cross-model ones), and it is evaluated on the evaluated source against a single call of the user's model. Entries are relative changes of the loss (for $E$, negative is better; for F1, positive is better). \textbf{Bold}: paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: significantly worse. $^{\star}$: the user's model is the strongest single model on that source and loss. Every significantly worse cross-model entry carries a $\star$. Costs, recall and the chosen construction per cell are in Appendix~\ref{app:tables}.}\label{tab:transfer}
+\resizebox{\textwidth}{!}{\begin{tabular}{@{}lcccccccccccc@{}}\toprule
+& \multicolumn{6}{c}{Same model only} & \multicolumn{6}{c}{Any construction (incl.\ cross-model)} \\\cmidrule(lr){2-7}\cmidrule(l){8-13}
+& \multicolumn{3}{c}{$E$} & \multicolumn{3}{c}{F1} & \multicolumn{3}{c}{$E$} & \multicolumn{3}{c}{F1} \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(l){11-13}
+Source & GPT & Son. & Gem. & GPT & Son. & Gem. & GPT & Son. & Gem. & GPT & Son. & Gem. \\\midrule
+DocLayNet & $+$7\%$^{\star}$ & \textbf{$-$10\%} & $+$3\% & \underline{$-$3\%}$^{\star}$ & $-$1\% & \textbf{$+$19\%} & $+$4\%$^{\star}$ & \textbf{$-$36\%} & \textbf{$-$13\%} & $-$7\%$^{\star}$ & \textbf{$+$15\%} & \textbf{$+$75\%} \\
+DOTA & \textbf{$-$22\%} & \textbf{$-$16\%}$^{\star}$ & \textbf{$-$25\%} & $-$1\%$^{\star}$ & $-$1\% & $+$2\% & \textbf{$-$30\%} & \textbf{$-$17\%}$^{\star}$ & \textbf{$-$22\%} & $-$6\%$^{\star}$ & $+$11\% & \textbf{$+$17\%} \\
+FSC-147 & $+$3\%$^{\star}$ & \underline{$+$7\%} & \underline{$+$5\%} & $-$2\%$^{\star}$ & \underline{$-$6\%} & $+$1\% & \underline{$+$58\%}$^{\star}$ & $-$1\% & $-$1\% & \underline{$-$35\%}$^{\star}$ & $+$1\% & \textbf{$+$68\%} \\
+SKU-110K & \textbf{$-$25\%} & \textbf{$-$32\%} & \textbf{$-$10\%}$^{\star}$ & \underline{$-$8\%}$^{\star}$ & $+$1\% & \textbf{$+$13\%} & \textbf{$-$30\%} & \textbf{$-$36\%} & \textbf{$-$8\%}$^{\star}$ & \underline{$-$22\%}$^{\star}$ & \textbf{$+$165\%} & \textbf{$+$21\%} \\
+GroundCUA & $-$4\% & $-$1\%$^{\star}$ & \textbf{$-$21\%} & \underline{$-$4\%} & $+$2\%$^{\star}$ & $+$12\% & \textbf{$-$26\%} & \underline{$+$52\%}$^{\star}$ & \textbf{$-$42\%} & \textbf{$+$24\%} & \underline{$-$17\%}$^{\star}$ & \textbf{$+$61\%} \\
+ScreenParse & \textbf{$-$3\%} & $-$2\%$^{\star}$ & $-$3\% & 0\% & 0\%$^{\star}$ & $+$2\% & \textbf{$-$14\%} & $+$4\%$^{\star}$ & \textbf{$-$12\%} & \textbf{$+$6\%} & $-$2\%$^{\star}$ & \textbf{$+$11\%} \\
+\midrule
+Better / worse / n.s. & \multicolumn{3}{c}{9 / 2 / 7} & \multicolumn{3}{c}{2 / 4 / 12} & \multicolumn{3}{c}{12 / 2 / 4} & \multicolumn{3}{c}{10 / 3 / 5} \\
+\bottomrule\end{tabular}}\end{table*}

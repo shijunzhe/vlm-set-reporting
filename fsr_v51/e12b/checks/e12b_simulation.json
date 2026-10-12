@@ -1,0 +1,25 @@
+{
+ "all_pass": true,
+ "checks": {
+  "floor_never_violated": true,
+  "P1_gpt56_supported": true,
+  "P1_opus_supported": true,
+  "opus_A2-A3_is_pure_count": true,
+  "gpt56_A2-A3_is_placement": true,
+  "gpt61_equivalent": true,
+  "P2_opus_replicated": true,
+  "P2_sonnet_not_replicated": true,
+  "P2_opus_effect_positive": true,
+  "floor_eliminates_random_drops": true,
+  "floor_misses_deterministic_drops": true,
+  "floor_le_actual_everywhere": true,
+  "Adef_opus_reversed_only": true,
+  "D7_gem38_only": true,
+  "B2_fp_target_free": true,
+  "B1_perfect_sonnet": true,
+  "truncation_flagged": true,
+  "gem_gridoff_E_equals_n": true,
+  "reconciliation_raises": true,
+  "incomplete_flagged_and_scored": true
+ }
+}

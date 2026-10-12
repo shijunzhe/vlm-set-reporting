@@ -1,0 +1,1 @@
+{"provider": "gemini", "model": "gemini-3.8-flash", "media_resolution": "default", "min": {"thinking_budget": 0}, "default": {}, "max_tokens": {"min": 16384, "default": 32768, "default16k": 16384}, "python": "3.11.15", "started": "2026-10-11T21:09:06Z", "manifest": "requests_main.jsonl", "manifest_sha256": "c4ed8ec70ee73f8e4cdad22348a47b4dc736283637297c2e7c8410a227f287db"}

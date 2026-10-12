@@ -1,0 +1,28 @@
+{
+ "gpt61": 1.6,
+ "sonnet55": 0.42,
+ "gem38": 52.8,
+ "median3": 1.02,
+ "mean_gpt_sonnet": 0.99,
+ "median3_vs_sonnet": {
+  "diff": 0.6,
+  "ci": [
+   0.36,
+   0.84
+  ]
+ },
+ "median3_vs_gpt": {
+  "diff": -0.58,
+  "ci": [
+   -0.8,
+   -0.359
+  ]
+ },
+ "meanGS_vs_sonnet": {
+  "diff": 0.57,
+  "ci": [
+   0.35,
+   0.79
+  ]
+ }
+}

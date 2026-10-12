@@ -1,0 +1,164 @@
+{
+ "n": 260,
+ "single_acc": {
+  "gpt61": 0.9115,
+  "sonnet55": 0.8269,
+  "gem38": 0.7269
+ },
+ "best": "gpt61",
+ "same|gpt61": {
+  "coverage": 0.9577,
+  "acc_when_acting": 0.9237,
+  "consistent_but_wrong_share": 0.8261,
+  "err_rate_under_alarm": 0.3636,
+  "errors_caught": 0.1739
+ },
+ "cross|gpt61|sonnet55": {
+  "coverage": 0.8385,
+  "acc_when_acting": 0.9587,
+  "consistent_but_wrong_share": 0.3913,
+  "err_rate_under_alarm": 0.3333,
+  "errors_caught": 0.6087
+ },
+ "cross|gpt61|gem38": {
+  "coverage": 0.8577,
+  "acc_when_acting": 0.9596,
+  "consistent_but_wrong_share": 0.3913,
+  "err_rate_under_alarm": 0.3784,
+  "errors_caught": 0.6087
+ },
+ "same|sonnet55": {
+  "coverage": 0.9115,
+  "acc_when_acting": 0.8776,
+  "consistent_but_wrong_share": 0.6444,
+  "err_rate_under_alarm": 0.6957,
+  "errors_caught": 0.3556
+ },
+ "cross|sonnet55|gpt61": {
+  "coverage": 0.8385,
+  "acc_when_acting": 0.9404,
+  "consistent_but_wrong_share": 0.2889,
+  "err_rate_under_alarm": 0.7619,
+  "errors_caught": 0.7111
+ },
+ "cross|sonnet55|gem38": {
+  "coverage": 0.7846,
+  "acc_when_acting": 0.9363,
+  "consistent_but_wrong_share": 0.2889,
+  "err_rate_under_alarm": 0.5714,
+  "errors_caught": 0.7111
+ },
+ "same|gem38": {
+  "coverage": 0.9038,
+  "acc_when_acting": 0.7787,
+  "consistent_but_wrong_share": 0.7324,
+  "err_rate_under_alarm": 0.76,
+  "errors_caught": 0.2676
+ },
+ "cross|gem38|gpt61": {
+  "coverage": 0.8577,
+  "acc_when_acting": 0.8072,
+  "consistent_but_wrong_share": 0.6056,
+  "err_rate_under_alarm": 0.7568,
+  "errors_caught": 0.3944
+ },
+ "cross|gem38|sonnet55": {
+  "coverage": 0.7846,
+  "acc_when_acting": 0.8333,
+  "consistent_but_wrong_share": 0.4789,
+  "err_rate_under_alarm": 0.6607,
+  "errors_caught": 0.5211
+ },
+ "cross3_vote_fallback_gpt61": {
+  "vs_best_single": {
+   "a": 0.9115,
+   "b": 0.8769,
+   "diff": -0.0346,
+   "ci": [
+    -0.0577,
+    -0.0154
+   ]
+  },
+  "vs_fallback_single": {
+   "a": 0.9115,
+   "b": 0.8769,
+   "diff": -0.0346,
+   "ci": [
+    -0.0577,
+    -0.0154
+   ]
+  },
+  "agreed_share": 0.9423
+ },
+ "cross3_vote_fallback_sonnet55": {
+  "vs_best_single": {
+   "a": 0.9115,
+   "b": 0.8654,
+   "diff": -0.0462,
+   "ci": [
+    -0.0731,
+    -0.0192
+   ]
+  },
+  "vs_fallback_single": {
+   "a": 0.8269,
+   "b": 0.8654,
+   "diff": 0.0385,
+   "ci": [
+    0.0038,
+    0.0731
+   ]
+  },
+  "agreed_share": 0.9423
+ },
+ "cross3_vote_fallback_gem38": {
+  "vs_best_single": {
+   "a": 0.9115,
+   "b": 0.8654,
+   "diff": -0.0462,
+   "ci": [
+    -0.0769,
+    -0.0192
+   ]
+  },
+  "vs_fallback_single": {
+   "a": 0.7269,
+   "b": 0.8654,
+   "diff": 0.1385,
+   "ci": [
+    0.0923,
+    0.1846
+   ]
+  },
+  "agreed_share": 0.9423
+ },
+ "cross3_vote_fallback_gpt61_vs_each": {
+  "gpt61": {
+   "a": 0.9115,
+   "b": 0.8769,
+   "diff": -0.0346,
+   "ci": [
+    -0.0577,
+    -0.0154
+   ]
+  },
+  "sonnet55": {
+   "a": 0.8269,
+   "b": 0.8769,
+   "diff": 0.05,
+   "ci": [
+    0.0115,
+    0.0923
+   ]
+  },
+  "gem38": {
+   "a": 0.7269,
+   "b": 0.8769,
+   "diff": 0.15,
+   "ci": [
+    0.1,
+    0.2038
+   ]
+  }
+ }
+}

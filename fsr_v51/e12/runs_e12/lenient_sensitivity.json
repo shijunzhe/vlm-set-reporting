@@ -1,0 +1,122 @@
+{
+ "gpt56": {
+  "J-global-rev": {
+   "strict": 12.17,
+   "lenient": 12.17
+  },
+  "A-local": {
+   "strict": 11.72,
+   "lenient": 11.72
+  },
+  "A-global": {
+   "strict": 9.31,
+   "lenient": 9.31
+  },
+  "F-up": {
+   "strict": 94.31,
+   "lenient": 94.31
+  },
+  "J-local": {
+   "strict": 16.81,
+   "lenient": 16.81
+  },
+  "F-down": {
+   "strict": 64.28,
+   "lenient": 64.28
+  },
+  "J-global": {
+   "strict": 5.08,
+   "lenient": 5.08
+  }
+ },
+ "gpt61": {
+  "A-global": {
+   "strict": 22.36,
+   "lenient": 22.36
+  },
+  "J-global": {
+   "strict": 14.42,
+   "lenient": 14.42
+  },
+  "J-local": {
+   "strict": 0.08,
+   "lenient": 0.08
+  },
+  "J-global-rev": {
+   "strict": 0.67,
+   "lenient": 0.67
+  },
+  "A-local": {
+   "strict": 0.08,
+   "lenient": 0.08
+  },
+  "F-down": {
+   "strict": 7.81,
+   "lenient": 7.81
+  },
+  "F-up": {
+   "strict": 0.58,
+   "lenient": 0.58
+  }
+ },
+ "opus55": {
+  "F-down": {
+   "strict": 62.92,
+   "lenient": 62.92
+  },
+  "F-up": {
+   "strict": 45.64,
+   "lenient": 45.64
+  },
+  "J-global": {
+   "strict": 0.06,
+   "lenient": 0.06
+  },
+  "A-local": {
+   "strict": 0.39,
+   "lenient": 0.39
+  },
+  "J-local": {
+   "strict": 0.39,
+   "lenient": 0.39
+  },
+  "A-global": {
+   "strict": 0.0,
+   "lenient": 0.0
+  },
+  "J-global-rev": {
+   "strict": 0.17,
+   "lenient": 0.17
+  }
+ },
+ "sonnet55": {
+  "F-down": {
+   "strict": 95.17,
+   "lenient": 95.33
+  },
+  "F-up": {
+   "strict": 152.58,
+   "lenient": 152.97
+  },
+  "J-local": {
+   "strict": 46.97,
+   "lenient": 46.64
+  },
+  "A-local": {
+   "strict": 50.25,
+   "lenient": 50.25
+  },
+  "J-global-rev": {
+   "strict": 28.86,
+   "lenient": 9.0
+  },
+  "J-global": {
+   "strict": 2.89,
+   "lenient": 2.89
+  },
+  "A-global": {
+   "strict": 2.75,
+   "lenient": 2.47
+  }
+ }
+}

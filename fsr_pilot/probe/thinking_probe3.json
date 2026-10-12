@@ -1,0 +1,85 @@
+[
+ {
+  "request": "S1:v2_n064_0:opus55:R014",
+  "config": "opus_omitted",
+  "blocks": [
+   "thinking",
+   "text"
+  ],
+  "out": 389,
+  "thinking": 246,
+  "chars": 225
+ },
+ {
+  "request": "S1:v2_n064_0:opus55:R014",
+  "config": "opus_effort_low",
+  "blocks": [
+   "text"
+  ],
+  "out": 143,
+  "thinking": 0,
+  "chars": 223
+ },
+ {
+  "request": "S1:v2_n064_0:opus55:R014",
+  "config": "sonnet_omitted",
+  "blocks": [
+   "text"
+  ],
+  "out": 450,
+  "thinking": 0,
+  "chars": 809
+ },
+ {
+  "request": "S1:v2_n064_0:opus55:R014",
+  "config": "sonnet_between_tools",
+  "blocks": [
+   "text"
+  ],
+  "out": 159,
+  "thinking": 0,
+  "chars": 241
+ },
+ {
+  "request": "C1:v2_n192_4:opus55:R004",
+  "config": "opus_omitted",
+  "blocks": [
+   "thinking",
+   "text"
+  ],
+  "out": 521,
+  "thinking": 288,
+  "chars": 357
+ },
+ {
+  "request": "C1:v2_n192_4:opus55:R004",
+  "config": "opus_effort_low",
+  "blocks": [
+   "text"
+  ],
+  "out": 233,
+  "thinking": 0,
+  "chars": 357
+ },
+ {
+  "request": "C1:v2_n192_4:opus55:R004",
+  "config": "sonnet_omitted",
+  "blocks": [
+   "thinking",
+   "text"
+  ],
+  "out": 613,
+  "thinking": 380,
+  "chars": 357
+ },
+ {
+  "request": "C1:v2_n192_4:opus55:R004",
+  "config": "sonnet_between_tools",
+  "blocks": [
+   "text"
+  ],
+  "out": 233,
+  "thinking": 0,
+  "chars": 351
+ }
+]

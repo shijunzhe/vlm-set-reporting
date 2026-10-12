@@ -1,0 +1,1 @@
+Additional instruction for F-scan only: inspect in top-to-bottom, left-to-right order and list the recovered object centers in that order. This instruction does not supply a count or a candidate list.

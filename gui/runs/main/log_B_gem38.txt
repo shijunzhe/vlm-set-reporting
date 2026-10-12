@@ -1,0 +1,18 @@
+gem38 B manifest 760 done 0 todo 760
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 B 50
+gem38 B 100
+gem38 B 150
+gem38 B 200
+gem38 B 250
+gem38 B 300
+gem38 B 350
+gem38 B 400
+gem38 B 450
+gem38 B 500
+gem38 B 550
+gem38 B 600
+gem38 B 650
+gem38 B 700
+gem38 B 750
+gem38 B finished 760

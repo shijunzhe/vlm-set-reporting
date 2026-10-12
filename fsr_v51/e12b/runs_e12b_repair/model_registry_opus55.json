@@ -1,0 +1,48 @@
+[
+ {
+  "provider": "anthropic",
+  "model": "claude-opus-5-5",
+  "min": {
+   "output_config.effort": "low",
+   "thinking": "adaptive (cannot be disabled)"
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768
+  },
+  "python": "3.11.15",
+  "sdk": {
+   "anthropic": "1.9.0",
+   "openai": "3.20.0",
+   "google-genai": "2.25.0"
+  },
+  "started": "2026-10-09T23:40:48Z",
+  "manifest": "repair_requests.jsonl",
+  "manifest_sha256": "734e5102c7c5ba5e334a599c229c4ac3bea3727c7bce1ec0571093468ebcc88c",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ },
+ {
+  "provider": "anthropic",
+  "model": "claude-opus-5-5",
+  "min": {
+   "output_config.effort": "low",
+   "thinking": "adaptive (cannot be disabled)"
+  },
+  "default": {},
+  "max_tokens": {
+   "min": 16384,
+   "default": 32768
+  },
+  "python": "3.11.15",
+  "sdk": {
+   "anthropic": "1.9.0",
+   "openai": "3.20.0",
+   "google-genai": "2.25.0"
+  },
+  "started": "2026-10-09T23:41:51Z",
+  "manifest": "repair_requests.jsonl",
+  "manifest_sha256": "734e5102c7c5ba5e334a599c229c4ac3bea3727c7bce1ec0571093468ebcc88c",
+  "retry_rule": "technical errors only, up to 4 attempts with exponential backoff; content never retried"
+ }
+]

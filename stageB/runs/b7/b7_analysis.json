@@ -1,0 +1,232 @@
+{
+ "cost": {
+  "gpt61": 10.21,
+  "sonnet55": 7.35,
+  "gem38": 8.81
+ },
+ "scpd": {
+  "gpt61": {
+   "a": {
+    "n": 30,
+    "code_min": 2.9,
+    "code_default": 1.63,
+    "written_min": 8.97,
+    "written_default": 1.63,
+    "mean_out_tokens_default": 4661.0
+   },
+   "c": {
+    "n": 30,
+    "code_min": 1.87,
+    "code_default": 1.57,
+    "written_min": 8.73,
+    "written_default": 1.6,
+    "mean_out_tokens_default": 4199.0
+   },
+   "d": {
+    "n": 30,
+    "code_min": 1.37,
+    "code_default": 1.57,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 3447.0
+   },
+   "i": {
+    "n": 30,
+    "code_min": 1.5,
+    "code_default": 1.93,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 3950.0
+   },
+   "k1": {
+    "n": 30,
+    "code_min": 1.37,
+    "code_default": 1.67,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 4291.0
+   },
+   "commitment_weight_default": 0.003
+  },
+  "sonnet55": {
+   "a": {
+    "n": 30,
+    "code_min": 3.13,
+    "code_default": 22.87,
+    "written_min": 33.2,
+    "written_default": 28.53,
+    "mean_out_tokens_default": 2698.0
+   },
+   "c": {
+    "n": 30,
+    "code_min": 6.1,
+    "code_default": 3.4,
+    "written_min": 18.97,
+    "written_default": 9.97,
+    "mean_out_tokens_default": 3236.0
+   },
+   "d": {
+    "n": 30,
+    "code_min": 8.3,
+    "code_default": 6.87,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 2955.0
+   },
+   "i": {
+    "n": 30,
+    "code_min": 9.33,
+    "code_default": 6.5,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 3803.0
+   },
+   "k1": {
+    "n": 30,
+    "code_min": 7.67,
+    "code_default": 6.3,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 2881.0
+   },
+   "commitment_weight_default": 0.0
+  },
+  "gem38": {
+   "a": {
+    "n": 30,
+    "code_min": 127.97,
+    "code_default": 22.0,
+    "written_min": 43.73,
+    "written_default": 17.93,
+    "mean_out_tokens_default": 15961.0
+   },
+   "c": {
+    "n": 30,
+    "code_min": 112.63,
+    "code_default": 37.57,
+    "written_min": 38.85,
+    "written_default": 22.13,
+    "mean_out_tokens_default": 10263.0
+   },
+   "d": {
+    "n": 30,
+    "code_min": 130.97,
+    "code_default": 25.33,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 10343.0
+   },
+   "i": {
+    "n": 30,
+    "code_min": 99.0,
+    "code_default": 46.2,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 8937.0
+   },
+   "k1": {
+    "n": 30,
+    "code_min": 124.23,
+    "code_default": 43.8,
+    "written_min": null,
+    "written_default": null,
+    "mean_out_tokens_default": 11361.0
+   },
+   "commitment_weight_default": 1.189
+  }
+ },
+ "fsc": {
+  "gpt61": {
+   "cf_list": {
+    "min": 2.5,
+    "default": 2.63
+   },
+   "cf_written": {
+    "min": 2.53,
+    "default": 2.63
+   },
+   "lo_list": {
+    "min": 2.97,
+    "default": 3.73
+   },
+   "tl": {
+    "min": 2.8,
+    "default": 4.03
+   },
+   "n": 30
+  },
+  "sonnet55": {
+   "cf_list": {
+    "min": 11.2,
+    "default": 7.9
+   },
+   "cf_written": {
+    "min": 12.17,
+    "default": 8.57
+   },
+   "lo_list": {
+    "min": 6.23,
+    "default": 6.33
+   },
+   "tl": {
+    "min": 4.2,
+    "default": 3.47
+   },
+   "n": 30
+  },
+  "gem38": {
+   "cf_list": {
+    "min": 5.53,
+    "default": 4.87
+   },
+   "cf_written": {
+    "min": 7.27,
+    "default": 5.33
+   },
+   "lo_list": {
+    "min": 42.73,
+    "default": 14.97
+   },
+   "tl": {
+    "min": 19.97,
+    "default": 4.87
+   },
+   "n": 30
+  }
+ },
+ "gui": {
+  "gpt61": {
+   "D1_min_E": 86.85,
+   "D1_min_F1": 0.529,
+   "D1_default_E": 105.5,
+   "D1_default_F1": 0.47,
+   "inter_min_E": 88.75,
+   "inter_min_F1": 0.492,
+   "inter_default_E": 100.0,
+   "inter_default_F1": 0.476,
+   "n": 20
+  },
+  "sonnet55": {
+   "D1_min_E": 41.95,
+   "D1_min_F1": 0.758,
+   "D1_default_E": 49.25,
+   "D1_default_F1": 0.718,
+   "inter_min_E": 41.85,
+   "inter_min_F1": 0.755,
+   "inter_default_E": 47.6,
+   "inter_default_F1": 0.724,
+   "n": 20
+  },
+  "gem38": {
+   "D1_min_E": 121.0,
+   "D1_min_F1": 0.28,
+   "D1_default_E": 121.9,
+   "D1_default_F1": 0.331,
+   "inter_min_E": 110.55,
+   "inter_min_F1": 0.225,
+   "inter_default_E": 102.2,
+   "inter_default_F1": 0.322,
+   "n": 20
+  }
+ }
+}

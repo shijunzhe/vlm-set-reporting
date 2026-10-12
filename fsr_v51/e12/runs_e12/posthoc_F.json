@@ -1,0 +1,58 @@
+{
+ "gpt56": {
+  "F-down minus J-global": [
+   59.194,
+   34.028,
+   84.583,
+   12
+  ],
+  "recall early half minus late half (F, both orders)": [
+   0.018,
+   -0.02,
+   0.051,
+   12
+  ]
+ },
+ "gpt61": {
+  "F-down minus J-global": [
+   -6.611,
+   -25.083,
+   12.833,
+   12
+  ],
+  "recall early half minus late half (F, both orders)": [
+   0.007,
+   0.001,
+   0.015,
+   12
+  ]
+ },
+ "opus55": {
+  "F-down minus J-global": [
+   62.861,
+   28.972,
+   98.5,
+   12
+  ],
+  "recall early half minus late half (F, both orders)": [
+   0.125,
+   0.053,
+   0.201,
+   12
+  ]
+ },
+ "sonnet55": {
+  "F-down minus J-global": [
+   92.278,
+   57.444,
+   127.194,
+   12
+  ],
+  "recall early half minus late half (F, both orders)": [
+   0.133,
+   0.099,
+   0.171,
+   12
+  ]
+ }
+}

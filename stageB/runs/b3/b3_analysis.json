@@ -1,0 +1,359 @@
+{
+ "cost": {
+  "gpt61": 1.25,
+  "sonnet55": 1.81,
+  "gem38": 1.7
+ },
+ "click": {
+  "gpt61": {
+   "differing_items": 12,
+   "acc_c1": 0.5,
+   "acc_b4": 0.333,
+   "acc_comparator": 0.5,
+   "acc_single_order": 0.5,
+   "acc_oracle": 0.583,
+   "consistency": 0.75,
+   "first_position_rate": 0.542,
+   "comp_minus_b4": 2,
+   "extra_calls": 24
+  },
+  "sonnet55": {
+   "differing_items": 25,
+   "acc_c1": 0.08,
+   "acc_b4": 0.68,
+   "acc_comparator": 0.68,
+   "acc_single_order": 0.68,
+   "acc_oracle": 0.72,
+   "consistency": 0.84,
+   "first_position_rate": 0.42,
+   "comp_minus_b4": 0,
+   "extra_calls": 50
+  },
+  "gem38": {
+   "differing_items": 43,
+   "acc_c1": 0.326,
+   "acc_b4": 0.721,
+   "acc_comparator": 0.744,
+   "acc_single_order": 0.767,
+   "acc_oracle": 0.791,
+   "consistency": 0.767,
+   "first_position_rate": 0.453,
+   "comp_minus_b4": 1,
+   "extra_calls": 86
+  }
+ },
+ "block": {
+  "dota|gem38|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.347,
+   "acc_comparator": 0.7,
+   "acc_majority": 0.66,
+   "acc_drop_all": 0.653,
+   "acc_keep_all": 0.347,
+   "acc_strict": 0.7,
+   "consistency": 0.947,
+   "first_position_rate": 0.527,
+   "gain_per_decision_vs_drop": {
+    "comparator": 0.047,
+    "majority": 0.007,
+    "keep_all": -0.307,
+    "oracle": 0.347
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.04,
+    "ci": [
+     -0.06,
+     0.133
+    ]
+   },
+   "tp_keep_rate": 0.654,
+   "fp_keep_rate": 0.276
+  },
+  "dota|gem38|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.107,
+   "acc_comparator": 0.62,
+   "acc_majority": 0.74,
+   "acc_drop_all": 0.893,
+   "acc_keep_all": 0.107,
+   "acc_strict": 0.647,
+   "consistency": 0.947,
+   "first_position_rate": 0.527,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.273,
+    "majority": -0.153,
+    "keep_all": -0.787,
+    "oracle": 0.107
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": -0.12,
+    "ci": [
+     -0.207,
+     -0.027
+    ]
+   },
+   "tp_keep_rate": 0.625,
+   "fp_keep_rate": 0.381
+  },
+  "dota|gpt61|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.153,
+   "acc_comparator": 0.293,
+   "acc_majority": 0.74,
+   "acc_drop_all": 0.847,
+   "acc_keep_all": 0.153,
+   "acc_strict": 0.307,
+   "consistency": 0.787,
+   "first_position_rate": 0.503,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.553,
+    "majority": -0.107,
+    "keep_all": -0.693,
+    "oracle": 0.153
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": -0.447,
+    "ci": [
+     -0.547,
+     -0.347
+    ]
+   },
+   "tp_keep_rate": 0.783,
+   "fp_keep_rate": 0.795
+  },
+  "dota|gpt61|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.08,
+   "acc_comparator": 0.26,
+   "acc_majority": 0.747,
+   "acc_drop_all": 0.92,
+   "acc_keep_all": 0.08,
+   "acc_strict": 0.287,
+   "consistency": 0.787,
+   "first_position_rate": 0.503,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.66,
+    "majority": -0.173,
+    "keep_all": -0.84,
+    "oracle": 0.08
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": -0.487,
+    "ci": [
+     -0.587,
+     -0.393
+    ]
+   },
+   "tp_keep_rate": 0.833,
+   "fp_keep_rate": 0.79
+  },
+  "dota|sonnet55|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.32,
+   "acc_comparator": 0.647,
+   "acc_majority": 0.64,
+   "acc_drop_all": 0.68,
+   "acc_keep_all": 0.32,
+   "acc_strict": 0.64,
+   "consistency": 0.887,
+   "first_position_rate": 0.49,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.033,
+    "majority": -0.04,
+    "keep_all": -0.36,
+    "oracle": 0.32
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.007,
+    "ci": [
+     -0.1,
+     0.1
+    ]
+   },
+   "tp_keep_rate": 0.896,
+   "fp_keep_rate": 0.471
+  },
+  "dota|sonnet55|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.147,
+   "acc_comparator": 0.513,
+   "acc_majority": 0.733,
+   "acc_drop_all": 0.853,
+   "acc_keep_all": 0.147,
+   "acc_strict": 0.52,
+   "consistency": 0.887,
+   "first_position_rate": 0.49,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.34,
+    "majority": -0.12,
+    "keep_all": -0.707,
+    "oracle": 0.147
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": -0.22,
+    "ci": [
+     -0.313,
+     -0.12
+    ]
+   },
+   "tp_keep_rate": 0.909,
+   "fp_keep_rate": 0.555
+  },
+  "sku110k|gem38|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.653,
+   "acc_comparator": 0.82,
+   "acc_majority": 0.633,
+   "acc_drop_all": 0.347,
+   "acc_keep_all": 0.653,
+   "acc_strict": 0.8,
+   "consistency": 0.92,
+   "first_position_rate": 0.513,
+   "gain_per_decision_vs_drop": {
+    "comparator": 0.473,
+    "majority": 0.287,
+    "keep_all": 0.307,
+    "oracle": 0.653
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.187,
+    "ci": [
+     0.107,
+     0.273
+    ]
+   },
+   "tp_keep_rate": 0.929,
+   "fp_keep_rate": 0.385
+  },
+  "sku110k|gem38|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.34,
+   "acc_comparator": 0.587,
+   "acc_majority": 0.547,
+   "acc_drop_all": 0.66,
+   "acc_keep_all": 0.34,
+   "acc_strict": 0.607,
+   "consistency": 0.92,
+   "first_position_rate": 0.513,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.073,
+    "majority": -0.113,
+    "keep_all": -0.32,
+    "oracle": 0.34
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.04,
+    "ci": [
+     -0.053,
+     0.133
+    ]
+   },
+   "tp_keep_rate": 0.98,
+   "fp_keep_rate": 0.616
+  },
+  "sku110k|gpt61|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.087,
+   "acc_comparator": 0.733,
+   "acc_majority": 0.727,
+   "acc_drop_all": 0.913,
+   "acc_keep_all": 0.087,
+   "acc_strict": 0.733,
+   "consistency": 0.74,
+   "first_position_rate": 0.47,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.18,
+    "majority": -0.187,
+    "keep_all": -0.827,
+    "oracle": 0.087
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.007,
+    "ci": [
+     -0.073,
+     0.087
+    ]
+   },
+   "tp_keep_rate": 0.692,
+   "fp_keep_rate": 0.263
+  },
+  "sku110k|gpt61|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.027,
+   "acc_comparator": 0.7,
+   "acc_majority": 0.693,
+   "acc_drop_all": 0.973,
+   "acc_keep_all": 0.027,
+   "acc_strict": 0.74,
+   "consistency": 0.74,
+   "first_position_rate": 0.47,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.273,
+    "majority": -0.28,
+    "keep_all": -0.947,
+    "oracle": 0.027
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.007,
+    "ci": [
+     -0.073,
+     0.08
+    ]
+   },
+   "tp_keep_rate": 0.5,
+   "fp_keep_rate": 0.295
+  },
+  "sku110k|sonnet55|iou50": {
+   "blocks": 150,
+   "tp_rate": 0.207,
+   "acc_comparator": 0.86,
+   "acc_majority": 0.8,
+   "acc_drop_all": 0.793,
+   "acc_keep_all": 0.207,
+   "acc_strict": 0.86,
+   "consistency": 0.907,
+   "first_position_rate": 0.477,
+   "gain_per_decision_vs_drop": {
+    "comparator": 0.067,
+    "majority": 0.007,
+    "keep_all": -0.587,
+    "oracle": 0.207
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": 0.06,
+    "ci": [
+     -0.013,
+     0.133
+    ]
+   },
+   "tp_keep_rate": 0.806,
+   "fp_keep_rate": 0.126
+  },
+  "sku110k|sonnet55|iou75": {
+   "blocks": 150,
+   "tp_rate": 0.08,
+   "acc_comparator": 0.787,
+   "acc_majority": 0.793,
+   "acc_drop_all": 0.92,
+   "acc_keep_all": 0.08,
+   "acc_strict": 0.8,
+   "consistency": 0.907,
+   "first_position_rate": 0.477,
+   "gain_per_decision_vs_drop": {
+    "comparator": -0.133,
+    "majority": -0.127,
+    "keep_all": -0.84,
+    "oracle": 0.08
+   },
+   "comp_minus_majority_per_decision": {
+    "mean": -0.007,
+    "ci": [
+     -0.087,
+     0.067
+    ]
+   },
+   "tp_keep_rate": 0.833,
+   "fp_keep_rate": 0.217
+  }
+ }
+}

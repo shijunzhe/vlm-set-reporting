@@ -1,0 +1,4 @@
+Review the previous global list against the unchanged full scene and reference. Return a complete revised global list under the same global normalized coordinate contract. Check both missed objects and false or duplicate detections. Do not infer a required count from the earlier list. The revised list replaces, rather than appends to, the earlier list. Use unknown if the task remains incomplete. Return no total count or narrative.
+
+Previous raw output:
+{previous_output}

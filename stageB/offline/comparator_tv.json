@@ -1,0 +1,50 @@
+{
+ "dota|gem38": {
+  "blocks": 150,
+  "tp_rate75": 0.107,
+  "comparator_gap75": 0.244,
+  "tv_support": 0.214,
+  "tv_support_label_plugin": 0.504,
+  "comparator_gap50": 0.378
+ },
+ "dota|gpt61": {
+  "blocks": 150,
+  "tp_rate75": 0.08,
+  "comparator_gap75": 0.043,
+  "tv_support": 0.116,
+  "tv_support_label_plugin": 0.652,
+  "comparator_gap50": -0.012
+ },
+ "dota|sonnet55": {
+  "blocks": 150,
+  "tp_rate75": 0.147,
+  "comparator_gap75": 0.354,
+  "tv_support": 0.386,
+  "tv_support_label_plugin": 0.447,
+  "comparator_gap50": 0.425
+ },
+ "sku110k|gem38": {
+  "blocks": 150,
+  "tp_rate75": 0.34,
+  "comparator_gap75": 0.364,
+  "tv_support": 0.085,
+  "tv_support_label_plugin": 0.085,
+  "comparator_gap50": 0.544
+ },
+ "sku110k|gpt61": {
+  "blocks": 150,
+  "tp_rate75": 0.027,
+  "comparator_gap75": 0.205,
+  "tv_support": 0.199,
+  "tv_support_label_plugin": 0.199,
+  "comparator_gap50": 0.429
+ },
+ "sku110k|sonnet55": {
+  "blocks": 150,
+  "tp_rate75": 0.08,
+  "comparator_gap75": 0.616,
+  "tv_support": 0.243,
+  "tv_support_label_plugin": 0.243,
+  "comparator_gap50": 0.68
+ }
+}

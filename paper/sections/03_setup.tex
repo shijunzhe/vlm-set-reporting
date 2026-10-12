@@ -1,0 +1,116 @@
+\section{Problem Setup}\label{sec:setup}
+
+\begin{figure*}[tp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\small, minimum height=1.05cm, inner sep=3pt},
+  arr/.style={-{Latex[length=2mm]}, thick},
+  lab/.style={font=\scriptsize, align=center, text=black!70, text width=1.7cm}]
+\node[box] (x) {image $x$\\task $\tau$};
+\node[box, right=1.9cm of x] (h) {responses\\$H_1,\dots,H_K$};
+\node[box, right=1.9cm of h] (z) {records $Z_k$, stated\\counts $d_k$, status $\sigma_k$};
+\node[box, right=1.9cm of z] (s) {set $S\in\mathcal{S}_A$};
+\node[box, right=1.9cm of s] (y) {readout $\hat y$,\\status, alarm};
+\draw[arr] (x) to node[above, lab]{$K_\eta$} node[below, lab]{model, setting, cap, prompt, view} (h);
+\draw[arr] (h) to node[above, lab]{$D_{\eta,\tau}$} node[below, lab]{decode, aliases, frames, L1 to L3} (z);
+\draw[arr] (z) to node[above, lab]{$C$} node[below, lab]{cluster, keep, fuse} (s);
+\draw[arr] (s) to node[above, lab]{$r_\tau$} node[below, lab]{count, set, click} (y);
+\end{tikzpicture}}
+\caption{The reporting chain. A call to a model with a given interface returns a response; decoding turns it into records, stated counts and a status; a construction combines the records of one or more calls into a set; a readout turns the set (or, as a declared fallback, the stated counts) into the task answer. Every operation studied in this paper acts on one arrow. The readout relation (Proposition~\ref{prop:readout}) compares the stated counts $d_k$ with the list count of $Z_k$ in one response. The selection and geometry identities (Propositions~\ref{prop:identity} and \ref{prop:geometry}) and the intersection threshold (Proposition~\ref{thm:intersect}) act on $C$. The constrained oracle (Proposition~\ref{prop:oracle}) optimizes over $\mathcal{S}_A$. No functional of the outputs certifies completeness (Proposition~\ref{prop:nocert}).}
+\label{fig:chain}
+\end{figure*}
+
+\subsection{Terms}\label{sec:setup:terms}
+Table~\ref{tab:terms} defines the words used throughout the paper in plain language; the formal objects follow.
+
+\begin{table*}[tp]
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Terms used in this paper.}\label{tab:terms}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{12.8cm}@{}}\toprule
+Term & Meaning \\\midrule
+call, response & One request to a model API, and the raw text it returns. Every attempted call is stored and counted in the cost. \\
+interface & Everything that defines a call except the image: model, reasoning setting (\emph{lowest} or \emph{default}), output cap, prompt, output schema, and the view of the image that is sent. \\
+target & A true object in the image, given by the annotation (a point or box with a class, or the box of the element a click should hit). \\
+record & One object as reported by the model: a class name and a location (a point or a box). \\
+list & The sequence of records in one response. A \emph{list-first} prompt asks for the list before any counts; a \emph{count-first} prompt asks for counts first. \\
+stated count & The numbers the model writes for how many objects of each class it found (for example the field \texttt{counts\_by\_type}). \\
+list count & The number of records of each class in the list, counted by code after the alias map. \\
+readout gap & The difference between the list count and the stated count of the same response. A gap shows that the two disagree; it does not by itself say which is right. \\
+alias map & A declared, task-specific mapping of class names the model uses to the task's classes (``diamond'' $\to$ ``square'' for rotated squares in our synthetic scenes). \\
+decoding, status & Turning a response into records, stated counts and a status: whether the call returned, whether the text parses as the requested object, which records are valid, and four list-level \emph{degeneracy flags} (Section~\ref{sec:method}). A \emph{degenerate} list is one with at least one flag. \\
+audit and delivered records & The audit collection holds every record the decoder could recover; the delivered collection holds the records that are valid under the task contract (Table~\ref{tab:contract}). Set scores evaluate the delivered collection. \\
+matching, matched record & Pairing records with targets one-to-one under the task's rule (same class and within a distance or overlap threshold). The \emph{matching size} is the largest number of such pairs. A record in such a pair is \emph{matched}. \\
+set error $E$, F1 & $E$ is the number of unmatched records plus the number of unmatched targets. F1 is the harmonic mean of precision and recall. \\
+readout & The rule that turns a set or a response into the task answer, for example a count per class or one click point. \\
+construction & A rule that builds one set from the records of several calls, for example keeping only records that all three calls agree on (\emph{unanimity}), at least two of three (\emph{majority}), both of two (\emph{intersection}), or any (\emph{union}). \emph{Fused} coordinates average the agreeing records; \emph{deletion only} keeps the base call's own record. \\
+base call, partner & In a confirmation, the call whose records may be deleted, and the call (same model or another model) used to confirm them. \\
+$p_1$ & In a confirmation, the \emph{marginal matching rate} of the base call's unconfirmed records (those the partner does not report): how much the matching size falls per deleted record. It equals their precision unless another record can take over a deleted record's target. Deleting them lowers $E$ when $p_1<1/2$ (Proposition~\ref{thm:intersect}). \\
+view, tile, two-stage zoom & The part of the image sent in a call. Tiles are overlapping crops sent in separate calls. Two-stage zoom first asks for a click on the whole screen, then asks again on a crop around that point. The \emph{apparent size} of an object is the number of visual tokens across its shorter side in the image as sent. A \emph{view planner} is any procedure that chooses the views, such as tiling or the safe decomposition of the companion paper. \\
+alarm, coverage & An alarm flags an item for review when two answers disagree by more than a threshold. Coverage is the share of items not flagged, which the system acts on. \\
+source, cell & A dataset, and one model on one dataset. The six set-task sources are the four \emph{E3 sources} (SKU-110K, DOTA, DocLayNet, FSC-147) and the two \emph{screen sources} (GroundCUA, ScreenParse). \\
+shipped configuration & The fixed values the method uses on any new image (prompt, setting, flag thresholds, construction per loss, alarm partner), released as a file with the code (Section~\ref{sec:method}). \\
+over- and under-reporting & Task families where models mostly report false objects (detection, layout, screen parsing) or mostly miss objects (dense counting with points). \\\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Task}
+A \emph{visual set-reporting task} $\tau$ fixes the following:
+(i) a class vocabulary $\mathcal{C}_\tau$, with a declared alias map $\alpha_\tau$ from strings to $\mathcal{C}_\tau\cup\{\bot\}$ (the map is part of the task, not a global rule);
+(ii) a record schema $(c,g)$ with class $c\in\mathcal{C}_\tau$ and geometry $g$ (a point, an axis-aligned box, or a click point);
+(iii) a \emph{compatibility relation} $\rho_\tau(z,y)\in\{0,1\}$ between a record $z$ and a target $y$, which decides whether they may be matched;
+(iv) an \emph{ignore region} $\Omega_\tau(x)$, possibly empty, in which an unmatched record is not scored;
+(v) a loss $\ell_\tau$: weighted set error, F1, per-type count error, or click miss.
+An image $x$ has a true target multiset $Y=Y(x)$ with $n=|Y|$.\footnote{Notation differs from the companion paper \citep{shi2026zoomin}: there $S$ is the number of visual tokens across a target side and $L$ the content of a call; here $S$ is a reported set and L1 to L4 are status layers. That paper's $S$ is the apparent size that enters the view effect $\gamma_v$ of Section~\ref{sec:theory:behaviour}. Our point tolerances (20 or 30 pixels on the synthetic scenes) are about two to three times that paper's tolerance of half the target size.}
+Table~\ref{tab:contract} lists, for every task in the paper, the compatibility relation used for scoring, the separate rule used to associate records across calls, and what the decoder does with records that are not valid.
+
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Task contracts. Scoring compatibility decides matches with the truth; association decides which records of different calls are the same object, and uses no labels. Coordinates are mapped from each model's native frame to image pixels before scoring. The detection rows and the multi-class count row use overlapping datasets but different images and different contracts.}\label{tab:contract}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{5.0cm}@{}}\toprule
+Task & Scoring compatibility & Association across calls & Records that are not valid \\\midrule
+SCP (synthetic, 100 images) & same class, within 30 px & not used & class unknown after the alias map: kept for status, excluded from the delivered set \\
+SCP-dense (50 images) & same class, within 20 px & not used & as for SCP \\
+Counts, one class (PixMo-Count, FSC-147; Figure~\ref{fig:density}) & absolute error of the count against the annotated number; no matching & not used & every decoded point is counted \\
+Counts, several classes (30 DOTA windows, 50 DocLayNet pages; Table~\ref{tab:natural}) & per-class count error; DOTA objects marked difficult or less than half inside the window are not targets and there are no ignore regions, so records on them are counted like any other record; list recall (diagnostic only): a record centre inside a true box of the same class, one to one & not used & class unknown after the declared alias map: kept in the response, not counted \\
+Detection boxes (SKU-110K, DOTA, DocLayNet) & same class, IoU $\ge 0.75$; unmatched records in ignore regions not scored & same class, IoU $\ge 0.5$ & label outside the vocabulary or box outside the image: kept for audit, excluded from the delivered set, counted as invalid \\
+FSC-147 points & within half the mean short side of the three exemplar boxes & within the same distance & point outside the image: kept for audit, excluded and counted as invalid \\
+Screen parsing (GroundCUA, ScreenParse) & class-agnostic, IoU $\ge 0.5$ & IoU $\ge 0.5$ & coordinates clamped to the image; boxes of zero area dropped \\
+Clicks (ScreenSpot-Pro, ScreenSpot-v2) & point inside the target box & alarm: distance above a share of the longer image side & missing point counted as a miss \\\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsection{Reporting chain}
+One call with interface $\eta$ consists of a model, a reasoning setting, an output cap, a prompt, an output schema and a view (crop or tile set). The chain (Figure~\ref{fig:chain}) is
+\begin{align*}
+&H_\eta\sim K_\eta(\cdot\mid x,\tau)\xrightarrow{D_{\eta,\tau}}(Z^{\mathrm{all}},Z,d,\sigma)\\
+&\qquad\xrightarrow{C}S\xrightarrow{r_\tau}\hat y.
+\end{align*}
+$H_\eta$ is the raw response text, which is always stored. $D_{\eta,\tau}$ is a deterministic decoder. It returns the audit collection $Z^{\mathrm{all}}$ of every recoverable record; the delivered collection $Z\subseteq Z^{\mathrm{all}}$ of records that are valid under the task contract (Table~\ref{tab:contract}), with aliases normalised by $\alpha_\tau$ and coordinates in image pixels; the stated count vector $d\in\mathbb{N}^{\mathcal{C}_\tau}\cup\{\varnothing\}$; and a status vector $\sigma$ that records, among other things, how many records were excluded. Set scores in this paper evaluate the delivered collection; where exclusion is large we also report a sensitivity that keeps the excluded records and scores them as unmatched (Table~\ref{tab:setting}). $C$ is a construction that maps the delivered records of $K\ge1$ calls, possibly with different interfaces, to a final set $S$ inside a declared feasible family. $r_\tau$ is the task readout, for example the per-class count of $S$, or $d$ when a declared fallback applies. The objective of a procedure $\pi$ is
+\[
+\mathcal{R}(\pi)=\mathbb{E}\,\ell_\tau(\pi(x),Y)+\lambda\,\mathbb{E}\,\mathrm{cost}(\pi;x),
+\]
+where the cost counts every attempted call, including failed, truncated or retried ones.
+
+\subsection{Records, clusters and feasible sets}\label{sec:setup:feasible}
+Calls $1,\dots,K$ give delivered collections $Z_1,\dots,Z_K$. A label-free correspondence merges them into clusters $\mathcal{Q}=\{Q_1,\dots\}$: it first maximizes the number of associated pairs under the association rule of Table~\ref{tab:contract}, then their overlap, against cluster representatives. A cluster has a support set $\mathrm{sup}(Q)\subseteq\{1,\dots,K\}$ (the calls that reported it), member records, and a fused record $\bar z_Q$ (the coordinate mean of its members, with the class of the first member). A construction chooses, for each cluster, either nothing or one representative from a declared candidate set $A(Q)$, so its feasible family is
+\[
+\SA=\big\{\textstyle\bigcup_Q s_Q:\ s_Q\in\{\varnothing\}\cup\{\{a\}:a\in A(Q)\}\big\}.
+\]
+Support-$k$ rules use $A(Q)=\{\bar z_Q\}$ and keep $Q$ iff $|\mathrm{sup}(Q)|\ge k$. Deletion-only intersection uses the base call's own record. A record gate uses $A(Q)=\{\bar z_Q\}\cup\mathrm{members}(Q)$. All oracles and fitted selectors compared with a construction use the same $\SA$.
+
+\subsection{Output contract and status}\label{sec:setup:contract}
+The decoder reports four status layers for every call. They are distinct, and passing a lower layer never implies a higher one.
+\textbf{L1 transport}: the call returned, and its finish reason (stop, length) is recorded.
+\textbf{L2 outer syntax}: the whole response parses as the requested JSON object after stripping a code fence.
+\textbf{L3 record validity}: which records were recovered (strict parse, or a declared salvage of individual objects when the whole response does not parse), which of them are valid under the task contract, and four list-level degeneracy flags (Section~\ref{sec:method}).
+\textbf{L4 task completeness}: whether $S$ contains every target. L1 to L3 are checked by code; L4 cannot be checked without labels (Section~\ref{sec:theory:cert}).
+The procedures return $S$, $\hat y$ and $\sigma$ for every input, never drop a call from cost or coverage accounting, and report the strict-JSON failure rate, so the share of salvaged responses is visible.
+
+\subsection{Losses}\label{sec:setup:loss}
+For a scored collection $S$, let $r(S)$ be the matching size: the largest number of disjoint pairs $(z,y)$ with $\rho_\tau(z,y)=1$. Let $c(S)$ be the number of scored records: those matched in the scorer's maximum matching or lying outside $\Omega_\tau$. Without an ignore region, $c(S)=|S|$. With one, $c$ can depend on which maximum matching the scorer picks; the relations below hold for any fixed scorer applied consistently, since they are computed from the same $c$ and $r$. Ignore regions occur in 34 of 240 detection items and in no screen item. The set losses are functions of $r$, $c$ and $n$; the count losses also depend on the readout. With costs $\cfp,\cfn>0$,
+\begin{align*}
+E_w(S)&=\cfp[c(S)-r(S)]+\cfn[n-r(S)],\\
+\mathrm{F1}(S)&=2\,r(S)/(n+c(S)),
+\end{align*}
+with $\mathrm{F1}=1$ when $n=c(S)=0$. $E$ denotes $E_w$ with $\cfp=\cfn=1$; recall is $r(S)/n$. F1 in our tables is the mean of per-image F1. The per-type count error of a readout $\hat y$ is $\sum_c|\hat y_c-n_c|$, and the click loss is $1-\mathbb{1}[\hat p\in\mathrm{box}(y)]$. Every reported number names the number of calls $K$, the interface, the setting, and the loss.
