@@ -1,4 +1,4 @@
-## Table 1. Readout effects (SCP-dense 50, min, per-type count error; paired image bootstrap)
+## Table 7. Readout effects (SCP-dense 50, min, per-type count error; paired image bootstrap)
 
 | Effect | Comparison | GPT-6.1 | Sonnet 5.5 | Gemini 3.8 |
 |---|---|---|---|---|
@@ -9,7 +9,7 @@
 | Full method | count-first declared -> list-first readout of draft 3.4 | 10.84 -> 1.6, -85.2% [-89.1, -80.3] | 35.02 -> 0.42, -98.8% [-99.5, -98.1] | 45.68 -> 52.8, +15.6% [-5.3, +39.4] |
 | Totals | same response, |list length - n| vs |declared total - n| | 0.04 vs 7.78 | 0.02 vs 10.48 | 109.38 vs 46.111 |
 
-## Table 2. Gemini 3.8 setting and output cap (V516, SCP-dense 50)
+## Table 9. Gemini 3.8 setting and output cap (list-first protocol, SCP-dense 50)
 
 | Configuration | Count readout error | Code count error | Set error E | Flagged lists | Strict-JSON failures | Truncated | Thinking share | Output tokens | Cost (50 calls) |
 |---|---|---|---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@ readout: default32k vs default16k: -37.0% [-62.4, +7.7]
 
 readout: default32k vs min16k: -70.8% [-79.5, -57.9]
 
-## Table 3. Intersection = selection + geometry (per image, E reduction; positive = better)
+## Table 10. Intersection = selection + geometry (per image, E reduction; positive = better)
 
 Identity checks exact on every image: selection True, geometry True (54 base/partner pairs x 60 images). Geometry term positive in 37 pairs, negative in 13. Sign of the fused total differs from the deletion-only sign in: E3|doclaynet|gpt61|sonnet55, GUI|groundcua|sonnet55|same.
 
@@ -84,7 +84,7 @@ Identity checks exact on every image: selection True, geometry True (54 base/par
 | GUI screenparse | Gemini 3.8 | Sonnet 5.5 | 3.383 | 0.933 | 0.2759 | +1.52 | +0.87 | +2.38 | +0.00 |
 | GUI screenparse | Gemini 3.8 | same model | 2.167 | 0.983 | 0.4538 | +0.20 | +0.00 | +0.20 | +0.00 |
 
-## Table 4. Label-fitted output-feature selectors vs the constrained oracle (E3 LIST-min, K = 3; reduction of E relative to call 0)
+## Table 12. Label-fitted output-feature selectors vs the constrained oracle (E3 sources, list prompt, lowest setting, K = 3; reduction of E relative to call 0)
 
 | Cell | Oracle (constrained) | Oracle (unrestricted atoms) | Images where they differ | Cross-fit logistic | Cross-fit boosted trees | In-sample logistic | 10 labels (median of 40) | Empirical gap (cross-fit logistic) [eval. CI] |
 |---|---|---|---|---|---|---|---|---|
@@ -104,7 +104,7 @@ Identity checks exact on every image: selection True, geometry True (54 base/par
 
 The gap mixes information not in the features with selector and estimation shortfall (Prop. 6); it is not an information limit.
 
-## Table 5. Deployable defaults by leave-one-source-out transfer (change vs single call; significant = paired CI excludes 0)
+## Table 13. Deployable defaults by leave-one-source-out transfer (change vs single call; significant = paired CI excludes 0)
 
 | Pool | Loss | Better | Worse | Not significant |
 |---|---|---|---|---|
@@ -188,7 +188,7 @@ The gap mixes information not in the features with selector and estimation short
 | all | F1 | GUI screenparse | Sonnet 5.5 | x3_maj_fus | 0.6148 -> 0.6005 | [-0.0414, 0.0126] | 13.817 | 0.6005 | 0.6167 | $0.02412 | union2 (0.6165) |
 | all | F1 | GUI screenparse | Gemini 3.8 | x3_maj_fus | 0.5357 -> 0.5962 | [0.0401, 0.0838] | 14.017 | 0.5962 | 0.6128 | $0.02412 | x3_maj_fus (0.5962) |
 
-## Table 6. Click alarms (260 items; partner set by a fixed rule: cheapest other model)
+## Table 11. Click alarms (260 items; partner set by a fixed rule: cheapest other model)
 
 | Model | Partner | Alarm | tau | Coverage | Miss rate when acting | Errors caught |
 |---|---|---|---|---|---|---|

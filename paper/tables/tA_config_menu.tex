@@ -1,0 +1,12 @@
+\begin{table}[h]
+\centering\small
+\caption{The four fixed single-call configurations on the four detection sources (first repetition; mean over sources of per-source mean F1 at the primary scoring, and mean cost per image at list prices). low: lowest setting; def.: default setting. The shipped F1 configuration per model is the highest F1 of its column (bold); for Gemini 3.8 the two default-setting configurations differ by 0.2 points.}\label{tab:config_menu}
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+ & \multicolumn{2}{c}{GPT-6.1} & \multicolumn{2}{c}{Sonnet 5.5} & \multicolumn{2}{c}{Gemini 3.8} \\
+Configuration & F1 & Cost & F1 & Cost & F1 & Cost \\\midrule
+list, low & 56.2 & \$0.0295 & 37.1 & \$0.0201 & 33.1 & \$0.0084 \\
+regions, low & \textbf{58.6} & \$0.0327 & 31.6 & \$0.0291 & 39.4 & \$0.0101 \\
+list, def. & 54.0 & \$0.0436 & 44.7 & \$0.0237 & \textbf{45.0} & \$0.0192 \\
+regions, def. & 56.7 & \$0.0475 & \textbf{48.1} & \$0.0477 & 44.8 & \$0.0200 \\
+\bottomrule\end{tabular}
+\end{table}

@@ -1,0 +1,65 @@
+{
+ "gem|anchor=50": {
+  "error": 5.48,
+  "sd": 0.38
+ },
+ "gem|anchor=100": {
+  "error": 5.42,
+  "sd": 0.17
+ },
+ "gem|anchor=all": {
+  "error": 5.38,
+  "sd": 0.0
+ },
+ "nb_all|anchor=50": {
+  "error": 6.37,
+  "sd": 0.37
+ },
+ "nb_all|anchor=100": {
+  "error": 6.4,
+  "sd": 0.3
+ },
+ "nb_all|anchor=all": {
+  "error": 6.29,
+  "sd": 0.22
+ },
+ "mean_p|anchor=50": {
+  "error": 6.92,
+  "sd": 0.52
+ },
+ "mean_p|anchor=100": {
+  "error": 6.75,
+  "sd": 0.37
+ },
+ "mean_p|anchor=all": {
+  "error": 6.56,
+  "sd": 0.15
+ },
+ "size|anchor=50": {
+  "error": 6.92,
+  "sd": 0.63
+ },
+ "size|anchor=100": {
+  "error": 6.54,
+  "sd": 0.0
+ },
+ "size|anchor=all": {
+  "error": 6.54,
+  "sd": 0.0
+ },
+ "coverage_floor": 3.46,
+ "zoom_only_gpt61": 7.69,
+ "zoom_only_sonnet55": 10.38,
+ "zoom_only_gem38": 9.62,
+ "unanimous": {
+  "n": 216,
+  "wrong": 3,
+  "gem_p_wrong": [
+   0.95,
+   0.97,
+   0.997
+  ],
+  "right_below_max_wrong": 208,
+  "right_n": 213
+ }
+}

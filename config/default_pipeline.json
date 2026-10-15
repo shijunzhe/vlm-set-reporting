@@ -1,5 +1,5 @@
 {
-  "_about": "Shipped configuration of the default reporting pipeline (paper Section 5, Algorithm 1, Table 'Shipped defaults'). Every value the paper labels as shipped is here. Inputs from the task specification (classes, alias map, matching rule, loss) are supplied by the user per task.",
+  "_about": "Shipped configuration of the reporting pipeline (paper Section 5: Algorithm 1, Algorithm 2 and Table 'Shipped defaults'). Every value the paper labels as shipped is here. Inputs from the task specification (classes, alias map, matching rule, loss) and the per-item budget are supplied by the user per task.",
   "request": {
     "format": "one JSON object; record list first, then counts_by_type",
     "count_instruction": "Write the full list first; after it, give counts_by_type for the records you listed.",
@@ -124,5 +124,52 @@
     "groundcua": "over",
     "screenparse": "over",
     "fsc147": "under"
+  },
+  "set_f1_configuration": {
+    "_about": "Single-call interface and reasoning setting per model for F1 on detection-type set tasks, chosen by the leave-one-source-out rule (paper Table 'config') applied to all four detection sources (Table 'config_menu'; stageB/analysis/e3_loso_config.py). list: one list for the whole image; regions: one row per region of a fixed coordinate registry. Not used for set error, where the construction of 'construction' applies.",
+    "gpt61": {
+      "interface": "regions",
+      "setting": "lowest"
+    },
+    "sonnet55": {
+      "interface": "regions",
+      "setting": "default"
+    },
+    "gem38": {
+      "interface": "list",
+      "setting": "default"
+    }
+  },
+  "click_tier": {
+    "_about": "Algorithm 2 of the paper (clicks from several models). Implemented by gui/code/decision.py (c_rule, configuration 'D'); requests are built by gui/code/conf_stages.py.",
+    "run_if": "the per-item budget covers the worst case: 15 calls besides technical retries (3 first clicks, 3 zooms, 3 scores, at most 6 comparisons); otherwise one model's two-stage zoom",
+    "generators": {
+      "gpt61": "default",
+      "sonnet55": "default",
+      "gem38": "lowest"
+    },
+    "max_output_tokens": {
+      "lowest": 16384,
+      "default": 32768
+    },
+    "zoom": "two-stage zoom as in views.clicks; a failed zoom keeps the first click; a failed first click gives no candidate",
+    "cluster_distance_fraction_of_longer_side": 0.015,
+    "clusters": "connected components",
+    "judge": {
+      "model": "gem38",
+      "setting": "lowest",
+      "score_crop_fraction": 0.2,
+      "missing_score": -1
+    },
+    "source_order": [
+      "gpt61",
+      "sonnet55",
+      "gem38"
+    ],
+    "representative": "member with the highest judge hit score; ties: earlier source",
+    "ranking_key": "(representative score, cluster size, earliest source in the cluster)",
+    "compared_clusters": 3,
+    "comparison": "both orders; a representative wins only if both answers name it; failed, undecided or split pairs give no win",
+    "output": "representative of the cluster with most wins, ties among those broken by the ranking key; no wins: first cluster of the ranking; no point from any call: no answer (a miss)"
   }
 }

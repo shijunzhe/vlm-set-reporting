@@ -1,0 +1,49 @@
+{
+ "comparator_M": {
+  "pairs": 146,
+  "one_right_one_wrong": 86,
+  "single_call_accuracy": 0.82,
+  "both_orders_agree": 78,
+  "agree_correct": 67
+ },
+ "comparator_D": {
+  "pairs": 137,
+  "one_right_one_wrong": 78,
+  "single_call_accuracy": 0.859,
+  "both_orders_agree": 71,
+  "agree_correct": 64
+ },
+ "clusters_M": {
+  "chain_clusters": 5,
+  "max_diameter_pct": 2.02,
+  "single_cluster_items": 488,
+  "single_cluster_errors": 26
+ },
+ "clusters_D": {
+  "chain_clusters": 9,
+  "max_diameter_pct": 2.13,
+  "single_cluster_items": 499,
+  "single_cluster_errors": 29
+ },
+ "collection": {
+  "usd": 44.93,
+  "physical_attempts": 13126,
+  "completed": 13120
+ },
+ "deploy_GPT-default-zoom": {
+  "usd_per_item": 0.00847,
+  "calls_per_item": 2.0
+ },
+ "deploy_GLF": {
+  "usd_per_item": 0.01165,
+  "calls_per_item": 2.0
+ },
+ "deploy_GPTx3": {
+  "usd_per_item": 0.02545,
+  "calls_per_item": 5.99
+ },
+ "deploy_D-C": {
+  "usd_per_item": 0.02733,
+  "calls_per_item": 9.45
+ }
+}

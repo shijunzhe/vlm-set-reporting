@@ -1,0 +1,7 @@
+gpt61 GLF2 manifest 260 done 0 todo 260
+gpt61 GLF2 50
+gpt61 GLF2 100
+gpt61 GLF2 150
+gpt61 GLF2 200
+gpt61 GLF2 250
+gpt61 GLF2 finished 260

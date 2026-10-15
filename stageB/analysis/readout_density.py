@@ -1,7 +1,7 @@
-"""Same-response readout gap across object density (Figure 3). No model calls. For every response that contains both a list
+"""Same-response readout gap across object density (Figure 4, Table 15). No model calls. For every response that contains both a list
 and a stated count (count-first prompts: B1 arm a on PixMo, SCP, SCP-dense; B1' arm cf on FSC-147), error of the stated count vs
 error of the code count of the list in the same response. SCP / SCP-dense: per-type count error with the declared alias map;
-PixMo / FSC: total count error. code = alias-mapped code count; code_raw = unmapped (pure readout, as in Table 1). Paired image bootstrap. Output: out/readout_density.json"""
+PixMo / FSC: total count error. code = alias-mapped code count; code_raw = unmapped (pure readout, as in Table 7). Paired image bootstrap. Output: out/readout_density.json"""
 import json, sys, collections
 from pathlib import Path
 import numpy as np

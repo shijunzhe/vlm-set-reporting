@@ -1,0 +1,145 @@
+{
+ "base_gem_cluster_error": 5.38,
+ "cmp_calls": 134,
+ "cmp_usd": 0.45,
+ "cmp": {
+  "pairs": 67,
+  "discordant_pairs": 31,
+  "single_call_accuracy": 0.903,
+  "both_orders_agree": 29,
+  "agree_accuracy": 0.931,
+  "undecided_or_invalid": 5,
+  "gemini_pointwise_accuracy_same_pairs": 0.855
+ },
+ "cmp_rule_error": 4.62,
+ "cmp_rule_fixed_broken": [
+  3,
+  1
+ ],
+ "gate": {
+  "switches_fixing": 3,
+  "switches_breaking": 1,
+  "note": "g r and h f realised counts over 260 items"
+ },
+ "r_calls": 168,
+ "r_usd": 0.897,
+ "reground_a_prime": {
+  "gpt61": {
+   "n": 15,
+   "a_prime_reground": 0.533,
+   "a_prime_other_models": {
+    "sonnet55": 0.267,
+    "gem38": 0.467
+   }
+  },
+  "sonnet55": {
+   "n": 22,
+   "a_prime_reground": 0.636,
+   "a_prime_other_models": {
+    "gpt61": 0.5,
+    "gem38": 0.636
+   }
+  },
+  "gem38": {
+   "n": 16,
+   "a_prime_reground": 0.5,
+   "a_prime_other_models": {
+    "gpt61": 0.5,
+    "sonnet55": 0.5
+   }
+  }
+ },
+ "reground_floor": {
+  "floor_items": 9,
+  "rescued": 1
+ },
+ "s2": {
+  "n": 33,
+  "hits": 11,
+  "floor_rescued": 2
+ },
+ "gem_cluster_with_R_error": 5.77,
+ "gem_cluster_with_R_fixed_broken": [
+  0,
+  1
+ ],
+ "coverage_floor_with_R": 3.08,
+ "gem_cluster_with_S2_error": 5.38,
+ "gem_cluster_with_S2_fixed_broken": [
+  1,
+  1
+ ],
+ "coverage_floor_with_S2": 2.69,
+ "gem_cluster_with_R_S2_error": 6.15,
+ "gem_cluster_with_R_S2_fixed_broken": [
+  0,
+  2
+ ],
+ "coverage_floor_with_R_S2": 2.31,
+ "region_regeneration": [
+  {
+   "item": "sspro_origin_windows_36",
+   "model": "gpt61",
+   "hit": 0
+  },
+  {
+   "item": "sspro_origin_windows_36",
+   "model": "sonnet55",
+   "hit": 0
+  },
+  {
+   "item": "sspro_origin_windows_2",
+   "model": "sonnet55",
+   "hit": 0
+  },
+  {
+   "item": "sspro_origin_windows_41",
+   "model": "sonnet55",
+   "hit": 0
+  },
+  {
+   "item": "sspro_origin_windows_3",
+   "model": "sonnet55",
+   "hit": 0
+  }
+ ],
+ "default_usd": 5.541,
+ "default_reasoning": {
+  "gpt61": {
+   "first_click_min": 8.85,
+   "first_click_default": 7.31,
+   "zoom_min": 7.69,
+   "zoom_default": 6.15,
+   "n_default": 260,
+   "mean_thinking_tokens": 0.0,
+   "zoom_fixed_broken": [
+    5,
+    1
+   ]
+  },
+  "sonnet55": {
+   "first_click_min": 17.31,
+   "first_click_default": 12.31,
+   "zoom_min": 10.38,
+   "zoom_default": 8.85,
+   "n_default": 260,
+   "mean_thinking_tokens": 36.1,
+   "zoom_fixed_broken": [
+    8,
+    4
+   ]
+  },
+  "gem38": {
+   "first_click_min": 27.31,
+   "first_click_default": 26.15,
+   "zoom_min": 9.62,
+   "zoom_default": 9.62,
+   "n_default": 260,
+   "mean_thinking_tokens": 847.6,
+   "zoom_fixed_broken": [
+    5,
+    5
+   ]
+  }
+ }
+}

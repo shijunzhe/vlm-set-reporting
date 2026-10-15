@@ -1,4 +1,4 @@
-"""Repair B. Intersection = selection (deletion only) + geometry (coordinate fusion). Draft Propositions 1, 2, 4; Theorem 1.
+"""Repair B. Intersection = selection (deletion only) + geometry (coordinate fusion). Propositions 1 to 3 of the paper.
 For every base call A0 and partner (A1 same model, or B0 another model), on every image:
   S0 = A0's own records whose cluster is confirmed by the partner (original coordinates); Sf = fused records of confirmed clusters.
   selection = E(A) - E(S0); geometry = E(S0) - E(Sf); total = E(A) - E(Sf).

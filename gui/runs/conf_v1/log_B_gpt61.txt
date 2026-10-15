@@ -1,0 +1,14 @@
+gpt61 B manifest 97 done 0 todo 97
+gpt61 B 50
+gpt61 B finished 97
+gpt61 B manifest 596 done 97 todo 499
+gpt61 B 50
+gpt61 B 100
+gpt61 B 150
+gpt61 B 200
+gpt61 B 250
+gpt61 B 300
+gpt61 B 350
+gpt61 B 400
+gpt61 B 450
+gpt61 B finished 499

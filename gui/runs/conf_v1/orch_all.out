@@ -1,0 +1,5 @@
+2026-10-14T05:21:08 start batch=all execute=True
+2026-10-14T05:21:38 built A: A: 1800 requests, 600 items, system prompt identical to pilot for 1800/1800 | A written 1800 Counter({('gpt61', 'min'): 600, ('sonnet55', 'min'): 600, ('gem38', 'min'): 600})
+2026-10-14T05:21:39 built DA: DA: 2400 requests, 600 items, system prompt identical to pilot for 2400/2400 | DA written 2400 Counter({('gpt61', 'default'): 1800, ('sonnet55', 'default'): 600})
+2026-10-14T05:21:40 built GLF1: GLF1: 600 requests, 600 items, system prompt identical to pilot for 600/600 | GLF1 written 600 Counter({('gpt61', 'default'): 600})
+2026-10-14T05:21:40 budget check before step 1: spent $7.41, attempts 2182, completed 2179; expected remaining $37.42; projected $44.83 (cap $60.0)

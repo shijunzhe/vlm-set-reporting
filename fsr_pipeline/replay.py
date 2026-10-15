@@ -35,7 +35,7 @@ def status_counts(results):
     return out
 
 
-# ------------------------------------------------------------------ 1. dense counts (Table 7 full method; Table 8)
+# ------------------------------------------------------------------ 1. dense counts (Table 7 full method; Table 9)
 for gem in ('lowest', 'default'):
     ad = A.CountSCPDense(gemini_setting=gem)
     for m in MODELS:
@@ -50,7 +50,7 @@ res['count']['reference'] = {'gem38|lowest': rc['min16k']['readout'], 'gem38|def
                              'gpt61|lowest': ro['gpt61']['full_method']['b'] if 'full_method' in ro['gpt61'] else None,
                              'sonnet55|lowest': ro['sonnet55']['full_method']['b'] if 'full_method' in ro['sonnet55'] else None}
 
-# ------------------------------------------------------------------ 2. sets (Table 12 single and unanimity cells)
+# ------------------------------------------------------------------ 2. sets (Table 13 single and unanimity cells)
 ct = json.load(open(OUT / 'construction_table.json'))['cells']
 srcs = [('E3', ds) for ds in ('doclaynet', 'dota', 'fsc147', 'sku110k')] + [('GUI', s) for s in ('groundcua', 'screenparse')]
 for fam, ds in srcs:

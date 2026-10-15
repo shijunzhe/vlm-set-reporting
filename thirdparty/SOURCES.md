@@ -10,7 +10,7 @@ Download the images from the source.
 | Dataset | Used in | Source | Licence |
 |---|---|---|---|
 | DocLayNet v1.2 | detection experiment (E3), natural readout (EXP-NR) | https://huggingface.co/datasets/docling-project/DocLayNet-v1.2 | CDLA-Permissive-1.0 |
-| ScreenSpot-Pro | clicks, readout confirmation | https://huggingface.co/datasets/likaixin/ScreenSpot-Pro | MIT |
+| ScreenSpot-Pro | clicks, comparator, resolution and end-to-end runs; the 600-item click evaluation | https://huggingface.co/datasets/likaixin/ScreenSpot-Pro | MIT |
 | ScreenSpot-v2 | clicks | https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2 | Apache-2.0 |
 | GroundCUA | screen element sets | https://huggingface.co/datasets/ServiceNow/GroundCUA | MIT |
 | ScreenParse | screen element sets | https://huggingface.co/datasets/docling-project/screenparse | CC BY 4.0 |

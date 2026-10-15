@@ -1,0 +1,18 @@
+gpt61 A manifest 100 done 0 todo 100
+gpt61 A 50
+gpt61 A 100
+gpt61 A finished 100
+gpt61 A manifest 600 done 100 todo 500
+gpt61 A 50
+gpt61 A 100
+gpt61 A 150
+gpt61 A 200
+gpt61 A 250
+gpt61 A 300
+gpt61 A 350
+gpt61 A 400
+gpt61 A 450
+gpt61 A 500
+gpt61 A finished 500
+gpt61 A manifest 600 done 600 todo 0
+gpt61 A finished 0

@@ -1,0 +1,7 @@
+gpt61 DB manifest 259 done 0 todo 259
+gpt61 DB 50
+gpt61 DB 100
+gpt61 DB 150
+gpt61 DB 200
+gpt61 DB 250
+gpt61 DB finished 259

@@ -1,0 +1,27 @@
+\begin{table*}[tp]
+\centering\small\setlength{\tabcolsep}{3pt}
+\caption{Choosing one click among several calls, on 600 ScreenSpot-Pro items that share no item and no screenshot with the items used to design the method. Every item is in the denominator; a flow that returns no point counts as a miss, which happened only in single-model flows (column No point). Calls and cost: what the flow needs per item, at list prices. Lower block: paired comparisons, as the difference in miss rate in percentage points with a 95\% paired bootstrap interval over screenshots, items repaired and broken, and the exact McNemar $p$ (Holm-adjusted over the two comparisons marked $\dagger$). D settings: GPT-6.1 and Sonnet 5.5 default, Gemini 3.8 lowest; M: all three lowest.}\label{tab:choose}
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Flow & Misses & No point & Miss rate & Calls & Cost / item \\\midrule
+GPT-6.1, lowest, two-stage zoom & 86 & 4 & 14.33\% & 1.99 & \$0.0080 \\
+Sonnet 5.5, lowest, two-stage zoom & 104 & 15 & 17.33\% & 1.98 & \$0.0056 \\
+Gemini 3.8, lowest, two-stage zoom & 88 & 0 & 14.67\% & 2.00 & \$0.0054 \\
+Sonnet 5.5, default, two-stage zoom & 80 & 0 & 13.33\% & 2.00 & \$0.0066 \\
+GPT-6.1, default, two-stage zoom (reference) & 82 & 2 & 13.67\% & 2.00 & \$0.0085 \\
+GPT-6.1, three default zooms, cluster vote & 76 & 1 & 12.67\% & 5.99 & \$0.0255 \\
+Crop-first baseline, GUI-Lens style (ours) & 69 & 0 & 11.50\% & 2.00 & \$0.0117 \\
+Three models, lowest; judge score & 66 & 0 & 11.00\% & 8.94 & \$0.0244 \\
+Three models, lowest; score and comparison & 61 & 0 & 10.17\% & 9.42 & \$0.0261 \\
+Three models, D settings; judge score & 61 & 0 & 10.17\% & 8.99 & \$0.0257 \\
+Three models, D settings; score, comparison (Alg.~\ref{alg:clicks}) & 56 & 0 & 9.33\% & 9.45 & \$0.0273 \\
+\midrule
+Comparison & Difference & 95\% interval & Repaired / broken & \multicolumn{2}{r}{$p$} \\\midrule
+D, score and comparison vs GPT-6.1 default zoom & $-4.33$ & $[-6.33, -2.33]$ & 34 / 8 & \multicolumn{2}{r}{$7\times10^{-5}$} \\
+D, score and comparison vs GPT-6.1 $\times$3$\dagger$ & $-3.33$ & $[-5.17, -1.50]$ & 27 / 7 & \multicolumn{2}{r}{0.002} \\
+D, score and comparison vs crop-first baseline$\dagger$ & $-2.17$ & $[-4.17, 0.00]$ & 27 / 14 & \multicolumn{2}{r}{0.060} \\
+D, score and comparison vs D, judge score & $-0.83$ & $[-2.00, 0.17]$ & 8 / 3 & \multicolumn{2}{r}{0.227} \\
+M, score and comparison vs M, judge score & $-0.83$ & $[-2.00, 0.33]$ & 9 / 4 & \multicolumn{2}{r}{0.267} \\
+GPT-6.1 default zoom vs GPT-6.1 lowest zoom & $-0.67$ & $[-2.67, 1.33]$ & 19 / 15 & \multicolumn{2}{r}{0.608} \\
+Sonnet 5.5 default zoom vs Sonnet 5.5 lowest zoom & $-4.00$ & $[-6.17, -1.83]$ & 34 / 10 & \multicolumn{2}{r}{$4\times10^{-4}$} \\
+\bottomrule\end{tabular}
+\end{table*}

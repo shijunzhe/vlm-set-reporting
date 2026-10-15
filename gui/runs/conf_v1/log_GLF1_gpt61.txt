@@ -1,0 +1,18 @@
+gpt61 GLF1 manifest 100 done 0 todo 100
+gpt61 GLF1 50
+gpt61 GLF1 100
+gpt61 GLF1 finished 100
+gpt61 GLF1 manifest 600 done 100 todo 500
+gpt61 GLF1 50
+gpt61 GLF1 100
+gpt61 GLF1 150
+gpt61 GLF1 200
+gpt61 GLF1 250
+gpt61 GLF1 300
+gpt61 GLF1 350
+gpt61 GLF1 400
+gpt61 GLF1 450
+gpt61 GLF1 500
+gpt61 GLF1 finished 500
+gpt61 GLF1 manifest 600 done 600 todo 0
+gpt61 GLF1 finished 0

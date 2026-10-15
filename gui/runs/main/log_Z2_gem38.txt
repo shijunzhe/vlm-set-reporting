@@ -1,0 +1,8 @@
+gem38 Z2 manifest 259 done 0 todo 259
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 Z2 50
+gem38 Z2 100
+gem38 Z2 150
+gem38 Z2 200
+gem38 Z2 250
+gem38 Z2 finished 259

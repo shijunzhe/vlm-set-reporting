@@ -1,7 +1,8 @@
 """Generates the data figures of the FSR paper from saved responses, labels and analysis outputs. No model calls.
 fig_example.pdf   Figure 3: SCP-dense image 28, GPT-6.1 list-first response (RC16): truth vs list vs stated count per type
-fig_density.pdf   Figure 3: same-response readout gap across object density (analysis/out/readout_density.json)
-fig_alarm.pdf     Figure 4: click alarm risk-coverage (analysis/out/alarm_curves.json)
+fig_density.pdf   Figure 4: same-response readout gap across object density (analysis/out/readout_density.json)
+fig_teaser.pdf    Figure 1: (a) count readout, (b) zoom example, (c) 600-item click accuracy against cost (accfirst outputs)
+fig_alarm.pdf     Figure 6: click alarm risk-coverage, same and cross model, before and after zoom (analysis/out/alarm_curves.json)
 fig_select.pdf    Figure 5: (a) deletion threshold check (intersection_decomp.json), (b) oracle vs selectors (prep1_v2.json)
 Run: python3 -I make_figures.py  (from any directory)"""
 import json, collections
@@ -75,13 +76,13 @@ def fig_density():
 def fig_alarm():
     d = json.load(open(OUT / 'alarm_curves.json'))
     fig, axes = plt.subplots(1, 3, figsize=(6.9, 2.15))
-    sty = {'same': ('same model, unzoomed', '#7f7f7f', 'o'), 'cross': ('cross model, unzoomed', '#1f77b4', 's'),
-           'cross_after_zoom': ('cross model, after zoom', '#d62728', '^')}
+    sty = {'same': ('same model, unzoomed', '#7f7f7f', 'o', '-'), 'cross': ('cross model, unzoomed', '#1f77b4', 's', '-'),
+           'same_after_zoom': ('same model, after zoom', '#7f7f7f', '^', '--'), 'cross_after_zoom': ('cross model, after zoom', '#d62728', '^', '-')}
     for ax, m in zip(axes, MODEL):
         v = d['models'][m]
-        for k, (lab, c, mk) in sty.items():
+        for k, (lab, c, mk, ls) in sty.items():
             pts = sorted(v[k]['points'], key=lambda p: p['coverage'])
-            ax.plot([p['coverage'] * 100 for p in pts], [p['risk_when_acting'] * 100 for p in pts], marker=mk, ms=3, color=c, lw=1, label=lab)
+            ax.plot([p['coverage'] * 100 for p in pts], [p['risk_when_acting'] * 100 for p in pts], marker=mk, ms=3, color=c, lw=1, ls=ls, label=lab)
             base = 100 * (1 - v[k]['base_accuracy'])
             ax.scatter([100], [base], color=c, marker=mk, s=14, facecolors='none')
         ax.set_title(f'{MODEL[m]} (partner {MODEL[v["partner"]]})'); ax.set_xlabel('coverage (%)')
@@ -172,15 +173,16 @@ def fig_teaser():
     a2.scatter([p4[0] * Wc], [p4[1] * Hc], marker='o', facecolors='none', edgecolors='#1f77b4', s=25, linewidths=1.2, label='after zoom (hit)')
     a2.set_xlim(x0, x1); a2.set_ylim(y1, y0); a2.set_xticks([]); a2.set_yticks([])
     a2.legend(frameon=False, fontsize=5.5, loc='upper center', bbox_to_anchor=(0.5, -0.04), ncol=2); a2.set_title('(b) Repair: zoom in', fontsize=7, loc='left')
-    al = json.load(open(OUT / 'alarm_curves.json')); xs = np.arange(3); vals_s = []; vals_c = []
-    for mm in MODEL:
-        v = al['models'][mm]; g = lambda kk: [p for p in v[kk]['points'] if abs(p['tau'] - 0.015) < 1e-9][0]['errors_caught'] * 100
-        vals_s.append(g('same')); vals_c.append(g('cross'))
-    a3.bar(xs - 0.2, vals_s, 0.4, color='#7f7f7f', label='2nd call, same model'); a3.bar(xs + 0.2, vals_c, 0.4, color='#1f77b4', label='2nd model')
-    for i in range(3):
-        a3.text(xs[i] - 0.2, vals_s[i] + 1.5, f'{vals_s[i]:.0f}', ha='center', fontsize=5.5); a3.text(xs[i] + 0.2, vals_c[i] + 1.5, f'{vals_c[i]:.0f}', ha='center', fontsize=5.5)
-    a3.set_xticks(xs); a3.set_xticklabels(['GPT', 'Sonnet', 'Gemini'], fontsize=6); a3.set_ylim(0, 95); a3.set_ylabel('errors caught (%)', fontsize=6)
-    a3.legend(frameon=False, fontsize=5.5, loc='upper left'); a3.set_title('(c) Detect: a second model', fontsize=7, loc='left')
+    AC = ROOT / 'analysis' / 'accfirst'
+    ev = json.load(open(AC / 'conf_eval_conf_v1.json'))['flows']; dep = json.load(open(AC / 'deploy_costs_conf_v1.json'))
+    pts = [('GPT-default-zoom', 'GPT-6.1 zoom', '#7f7f7f', (4, -8)), ('GPTx3', 'GPT-6.1 zoom x3', '#7f7f7f', (-8, 5)),
+           ('GLF', 'crop-first', '#9467bd', (4, 3)), ('D-C', 'three models (Alg. 2)', '#1f77b4', (-62, -9))]
+    for k, lab, col, off in pts:
+        xx, yy = dep[k]['usd_per_item'] * 100, ev[k]['errors'] / 6
+        a3.scatter([xx], [yy], s=22, color=col, zorder=3)
+        a3.annotate(lab, (xx, yy), xytext=off, textcoords='offset points', fontsize=5.5)
+    a3.set_xlim(0.5, 3.1); a3.set_ylim(8, 15); a3.set_xlabel('cost per item (US cents)', fontsize=6); a3.set_ylabel('miss rate (%), 600 new items', fontsize=6)
+    a3.set_title('(c) Repair: choose among models', fontsize=7, loc='left')
     fig.savefig(HERE / 'fig_teaser.pdf', bbox_inches='tight'); plt.close(fig)
     return dict(click=c['id'], p1=p1, p4=p4)
 

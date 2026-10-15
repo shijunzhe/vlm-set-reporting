@@ -1,0 +1,7 @@
+sonnet55 Z2 manifest 255 done 0 todo 255
+sonnet55 Z2 50
+sonnet55 Z2 100
+sonnet55 Z2 150
+sonnet55 Z2 200
+sonnet55 Z2 250
+sonnet55 Z2 finished 255

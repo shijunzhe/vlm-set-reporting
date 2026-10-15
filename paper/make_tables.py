@@ -38,7 +38,7 @@ def write(name, s):
     (TAB / f'{name}.tex').write_text(s)
 
 
-# ---------------------------------------------------------------- Table 1: readout effects
+# ---------------------------------------------------------------- Table 7: readout effects
 def t1():
     d = j('readout_effects')
     rows = [('Pure readout, count-first', 'same response', 'pure_readout_old_protocol'),
@@ -65,14 +65,14 @@ def t1():
          '\\emph{Pure readout} compares the stated count with the list count of the list in the same response, without the alias map. '
          '\\emph{Alias map} applies the declared map to the same list. \\emph{Protocol} compares count-first and list-first lists under the same mapped readout. '
          '\\emph{Full method} compares the stated count of a count-first response with the readout of Section~\\ref{sec:method} on a list-first response. '
-         'This is the effect of the reporting and decoding protocol, not of better recognition.}\\label{tab:readout}\n'
+         'This is the effect of the reporting and decoding protocol.}\\label{tab:readout}\n'
          '\\begin{tabular}{@{}p{2.3cm}p{2.5cm}ccc@{}}\\toprule\n'
          'Effect & Comparison & GPT-6.1 & Sonnet 5.5 & Gemini 3.8 (lowest) \\\\\\midrule\n' + '\n'.join(L) +
          '\n\\bottomrule\\end{tabular}\\end{table*}\n')
     write('t1_readout', s)
 
 
-# ---------------------------------------------------------------- Table 2: Gemini setting and cap
+# ---------------------------------------------------------------- Table 9: Gemini setting and cap
 def t2():
     d = j('rc16_setting'); lv = d['levels']; c = d['contrasts']
     names = {'min16k': 'lowest, 16k', 'default16k': 'default, 16k', 'default32k': 'default, 32k'}
@@ -95,7 +95,7 @@ def t2():
     write('t2_setting', s)
 
 
-# ---------------------------------------------------------------- Table 3: intersection decomposition
+# ---------------------------------------------------------------- Table 10: intersection decomposition
 def t3():
     d = j('intersection_decomp'); pr = j('p1_predict')['pairs']
     # compact: by source
@@ -135,7 +135,7 @@ def t3():
     write('tA_intersect_full', s)
 
 
-# ---------------------------------------------------------------- Table 4: selection
+# ---------------------------------------------------------------- Table 12: selection
 def t4():
     d = j('prep1_v2')
     L = []
@@ -164,7 +164,7 @@ def t4():
     write('t4_select', s)
 
 
-# ---------------------------------------------------------------- Table 5: transfer
+# ---------------------------------------------------------------- Table 13: transfer
 def t5():
     d = j('construction_table'); dt = d['default_transfer']; sm = d['default_transfer_summary']
     single = collections.defaultdict(dict)
@@ -220,13 +220,13 @@ def t5():
     write('tA_transfer_full', s)
 
 
-# ---------------------------------------------------------------- Table 6: alarms
+# ---------------------------------------------------------------- Table 11: alarms
 def t6():
     d = j('alarm_curves')
     L = []
     for m in M:
         v = d['models'][m]
-        for k, lab in [('same', 'same model, unzoomed'), ('cross', 'cross model, unzoomed'), ('cross_after_zoom', 'cross model, after zoom')]:
+        for k, lab in [('same', 'same model, unzoomed'), ('cross', 'cross model, unzoomed'), ('same_after_zoom', 'same model, after zoom'), ('cross_after_zoom', 'cross model, after zoom')]:
             p = [x for x in v[k]['points'] if abs(x['tau'] - 0.015) < 1e-9][0]
             L.append(f"{MN[m] if k=='same' else ''} & {MN[v['partner']] if k=='same' else ''} & {lab} & {100*(1-v[k]['base_accuracy']):.1f}\\% & {p['coverage']*100:.1f}\\% & {p['risk_when_acting']*100:.1f}\\% & {p['errors_caught']*100:.0f}\\% \\\\")
         if m != M[-1]: L.append('\\midrule')
@@ -238,10 +238,18 @@ def t6():
             if key in seen: continue
             seen.add(key); parts.append(f"{r['coverage']*100:.1f}\\%: {r['risk_same']*100:.1f} vs.\\ {r['risk_cross']*100:.1f}")
         mc.append(f"{MN[m]} ({'; '.join(parts)})")
+    mz = []
+    for m in M:
+        seen = set(); parts = []
+        for r in d['models'][m]['matched_coverage_after_zoom']:
+            key = (round(r['coverage'], 4), round(r['risk_same'], 4), round(r['risk_cross'], 4))
+            if key in seen: continue
+            seen.add(key); parts.append(f"{r['coverage']*100:.1f}\\%: {r['risk_same']*100:.1f} vs.\\ {r['risk_cross']*100:.1f}")
+        mz.append(f"{MN[m]} ({'; '.join(parts) if parts else 'no overlap'})")
     s = ('\\begin{table*}[tp]\\centering\\small\\setlength{\\tabcolsep}{4pt}\n'
-         '\\caption{Disagreement alarms for clicks (ScreenSpot-Pro and ScreenSpot-v2, 260 items; partner set by a fixed rule as the cheapest other model). The alarm fires when two points are farther apart than $\\delta=1.5\\%$ of the longer image side; the item is then deferred. '
-         'Coverage: share of items acted on; miss rate: share of acted-on items whose point is outside the target; errors caught: share of the single call\'s errors that the alarm defers. Other $\\delta$ values are in Figure~\\ref{fig:alarm}. '
-         'Where the same-model and cross-model curves overlap, miss rates at matched coverage (same vs.\\ cross, in \\%, point estimates without intervals) are: ' + '; '.join(mc) + '.}\\label{tab:alarm}\n'
+         '\\caption{Disagreement alarms for clicks (ScreenSpot-Pro and ScreenSpot-v2, 260 items; partner set by a fixed rule as the cheapest other model). The alarm compares the acted-on point with a second point for the same item and fires when the two are farther apart than $\\delta=1.5\\%$ of the longer image side; the item is then deferred (sent for review or another step) instead of acted on. Unzoomed alarms compare first clicks; after zoom, the acted-on point is the zoomed first click, and the second point is the same model\'s zoomed second click or the partner\'s zoomed first click. '
+         'Coverage: share of items acted on; miss rate: share of acted-on items whose point is outside the target; errors caught: share of the acted-on prediction\'s errors (the first click unzoomed, the zoomed first click after zoom) that the alarm defers. These deferrals measure risk and coverage; the automatic tier of Algorithm~\\ref{alg:clicks} defers nothing. Other $\\delta$ values are in Figure~\\ref{fig:alarm}. '
+         'Where the same-model and cross-model curves overlap, miss rates at matched coverage (same vs.\\ cross, in \\%, point estimates without intervals) are, unzoomed: ' + '; '.join(mc) + '; after zoom: ' + '; '.join(mz) + '.}\\label{tab:alarm}\n'
          '\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}lllcccc@{}}\\toprule\n'
          'Model & Partner & Alarm & Error rate, no alarm & Coverage & Miss rate when acting & Errors caught \\\\\\midrule\n'
          + '\n'.join(L) + '\n\\bottomrule\\end{tabular}}\\end{table*}\n')
@@ -261,7 +269,7 @@ def tA_density():
         L.append('\\midrule')
     L = L[:-1]
     s = ('\\begin{table}[h]\\centering\\small\\setlength{\\tabcolsep}{4pt}\n'
-         '\\caption{Same-response readout across datasets (count-first prompts, lowest setting, one call; data of Figure~\\ref{fig:density}). List count without and with the declared alias map; paired image bootstrap.}\\label{tab:density}\n'
+         '\\caption{Same-response readout across datasets (count-first prompts, lowest setting, one call; data of Figure~\\ref{fig:density}). List count without and with the declared alias map; paired image bootstrap (a separate run from Table~\\ref{tab:readout}, so shared rows can differ in the last digit of an interval).}\\label{tab:density}\n'
          '\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}lclllccc@{}}\\toprule\n'
          'Dataset & Objects & Error & Model & $n$ & Stated & List count (unmapped) & List count (alias map) \\\\\\midrule\n'
          + '\n'.join(L) + '\n\\bottomrule\\end{tabular}}\\end{table}\n')
@@ -309,7 +317,7 @@ def t7_common():
          '\\caption{Against common practice, from stored calls only. Columns give the common baseline, the usual remedies (self-consistency: median of three stated counts, or a vote of three clicks; uncertainty-gated zoom: zoom only when two clicks disagree; majority vote and equal-weight box fusion over three calls), and our default. '
          'Relative changes are against one call (\\textbf{bold}: paired 95\\% interval below 0; \\underline{underlined}: above 0). Our count readout costs about as much as one call and our click protocol less than a three-call vote. '
          'For Gemini 3.8, ``ours\'\' is the list-first protocol at its lowest setting; the method runs Gemini at its default setting, which at the same 16k cap gives a readout error of 24.52 (Table~\\ref{tab:setting}). '
-         'For F1 our default is one call; over the 15 over-reporting cells, majority vote and box fusion change F1 by a median of $-0.3\\%$ and $+0.2\\%$. Per-cell values are in \\texttt{analysis/out/common\\_practice.json}.}\\label{tab:common}\n'
+         'For F1 our default is one call; over the 15 over-reporting cells, majority vote and box fusion change F1 by a median of $-0.3\\%$ and $+0.2\\%$. Per-cell values are in \\texttt{stageB/analysis/out/common\\_practice.json}.}\\label{tab:common}\n'
          '\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}lllll@{}}\\toprule\n'
          '& One call & Common remedy & Second common remedy & Ours (Section~\\ref{sec:method}) \\\\\\midrule\n'
          + '\n'.join(L) + '\n\\bottomrule\\end{tabular}}\\end{table*}\n')
@@ -327,7 +335,7 @@ def t8_natural():
         g = d[f'{ds}|gem38']['default16k_readout_vs_cf_stated']
         L.append(f"{lab} & Gemini 3.8, default & & & & & {num(g['b'], 1)} & {pct(g['rel'])} {ci(g['ci'])} \\\\")
     s = ('\\begin{table*}[tp]\\centering\\small\\setlength{\\tabcolsep}{4pt}\n'
-         f"\\caption{{Readout on natural images with several classes: {run['images']['dota']} DOTA windows ({run['mean_objects']['dota']:.0f} objects and {run['mean_classes']['dota']:.1f} classes per image on average) and {run['images']['doclaynet']} DocLayNet pages ({run['mean_objects']['doclaynet']:.0f} elements, {run['mean_classes']['doclaynet']:.1f} classes); one call per image and arm, lowest setting unless stated, 16k cap. "
+         f"\\caption{{Readout on aerial and document images with several classes: {run['images']['dota']} DOTA windows ({run['mean_objects']['dota']:.0f} objects and {run['mean_classes']['dota']:.1f} classes per image on average) and {run['images']['doclaynet']} DocLayNet pages ({run['mean_objects']['doclaynet']:.0f} elements, {run['mean_classes']['doclaynet']:.1f} classes); one call per image and arm, lowest setting unless stated, 16k cap. "
          'Per-type count error; paired image bootstrap. Difficult DOTA objects and objects less than half inside the window are not targets, so records on them are counted like any other record, for every readout alike. \\emph{List recall}: share of true objects matched by a record centre inside a true box of the same class (list-first arm). \\emph{Readout gap}: mean per-type difference between the stated count and the list count of the same count-first response, which bounds how much switching readouts can change the error. '
          '\\emph{Same response}: stated count $\\to$ list count of the count-first response. \\emph{Protocol}: readout of the list-first response (list count, or the stated count if the list is flagged) against the stated count of the count-first response; the Gemini default row is the shipped configuration.}\\label{tab:natural}\n'
          '\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}llcccccc@{}}\\toprule\n'

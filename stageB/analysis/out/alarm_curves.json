@@ -161,6 +161,54 @@
      }
     ]
    },
+   "same_after_zoom": {
+    "base_accuracy": 0.9231,
+    "errors": 20,
+    "points": [
+     {
+      "tau": 0.005,
+      "coverage": 0.9038,
+      "risk_when_acting": 0.0383,
+      "errors_caught": 0.55
+     },
+     {
+      "tau": 0.01,
+      "coverage": 0.9308,
+      "risk_when_acting": 0.0372,
+      "errors_caught": 0.55
+     },
+     {
+      "tau": 0.015,
+      "coverage": 0.9423,
+      "risk_when_acting": 0.0408,
+      "errors_caught": 0.5
+     },
+     {
+      "tau": 0.02,
+      "coverage": 0.9423,
+      "risk_when_acting": 0.0408,
+      "errors_caught": 0.5
+     },
+     {
+      "tau": 0.03,
+      "coverage": 0.9538,
+      "risk_when_acting": 0.0484,
+      "errors_caught": 0.4
+     },
+     {
+      "tau": 0.05,
+      "coverage": 0.9577,
+      "risk_when_acting": 0.0482,
+      "errors_caught": 0.4
+     },
+     {
+      "tau": 0.08,
+      "coverage": 0.9615,
+      "risk_when_acting": 0.052,
+      "errors_caught": 0.35
+     }
+    ]
+   },
    "matched_coverage": [
     {
      "coverage": 0.9308,
@@ -178,10 +226,28 @@
      "risk_cross": 0.0579
     }
    ],
+   "matched_coverage_after_zoom": [
+    {
+     "coverage": 0.9038,
+     "risk_same": 0.0383,
+     "risk_cross": 0.0289
+    },
+    {
+     "coverage": 0.9173,
+     "risk_same": 0.0377,
+     "risk_cross": 0.0335
+    },
+    {
+     "coverage": 0.9308,
+     "risk_same": 0.0372,
+     "risk_cross": 0.0372
+    }
+   ],
    "extra_calls": {
     "same": 1,
     "cross": 1,
-    "cross_after_zoom": "1 partner call + 1 partner zoom"
+    "cross_after_zoom": "1 partner call + 1 partner zoom",
+    "same_after_zoom": "1 call + 1 zoom"
    }
   },
   "sonnet55": {
@@ -330,6 +396,54 @@
      }
     ]
    },
+   "same_after_zoom": {
+    "base_accuracy": 0.8962,
+    "errors": 27,
+    "points": [
+     {
+      "tau": 0.005,
+      "coverage": 0.9077,
+      "risk_when_acting": 0.0636,
+      "errors_caught": 0.4444
+     },
+     {
+      "tau": 0.01,
+      "coverage": 0.9231,
+      "risk_when_acting": 0.0667,
+      "errors_caught": 0.4074
+     },
+     {
+      "tau": 0.015,
+      "coverage": 0.9308,
+      "risk_when_acting": 0.0661,
+      "errors_caught": 0.4074
+     },
+     {
+      "tau": 0.02,
+      "coverage": 0.9423,
+      "risk_when_acting": 0.0735,
+      "errors_caught": 0.3333
+     },
+     {
+      "tau": 0.03,
+      "coverage": 0.9423,
+      "risk_when_acting": 0.0735,
+      "errors_caught": 0.3333
+     },
+     {
+      "tau": 0.05,
+      "coverage": 0.95,
+      "risk_when_acting": 0.0729,
+      "errors_caught": 0.3333
+     },
+     {
+      "tau": 0.08,
+      "coverage": 0.9538,
+      "risk_when_acting": 0.0726,
+      "errors_caught": 0.3333
+     }
+    ]
+   },
    "matched_coverage": [
     {
      "coverage": 0.8769,
@@ -347,10 +461,12 @@
      "risk_cross": 0.1121
     }
    ],
+   "matched_coverage_after_zoom": [],
    "extra_calls": {
     "same": 1,
     "cross": 1,
-    "cross_after_zoom": "1 partner call + 1 partner zoom"
+    "cross_after_zoom": "1 partner call + 1 partner zoom",
+    "same_after_zoom": "1 call + 1 zoom"
    }
   },
   "gem38": {
@@ -499,6 +615,54 @@
      }
     ]
    },
+   "same_after_zoom": {
+    "base_accuracy": 0.9038,
+    "errors": 25,
+    "points": [
+     {
+      "tau": 0.005,
+      "coverage": 0.8731,
+      "risk_when_acting": 0.0529,
+      "errors_caught": 0.52
+     },
+     {
+      "tau": 0.01,
+      "coverage": 0.9154,
+      "risk_when_acting": 0.0588,
+      "errors_caught": 0.44
+     },
+     {
+      "tau": 0.015,
+      "coverage": 0.9269,
+      "risk_when_acting": 0.0622,
+      "errors_caught": 0.4
+     },
+     {
+      "tau": 0.02,
+      "coverage": 0.9385,
+      "risk_when_acting": 0.0615,
+      "errors_caught": 0.4
+     },
+     {
+      "tau": 0.03,
+      "coverage": 0.9538,
+      "risk_when_acting": 0.0685,
+      "errors_caught": 0.32
+     },
+     {
+      "tau": 0.05,
+      "coverage": 0.9615,
+      "risk_when_acting": 0.072,
+      "errors_caught": 0.28
+     },
+     {
+      "tau": 0.08,
+      "coverage": 0.9615,
+      "risk_when_acting": 0.072,
+      "errors_caught": 0.28
+     }
+    ]
+   },
    "matched_coverage": [
     {
      "coverage": 0.7808,
@@ -516,10 +680,28 @@
      "risk_cross": 0.2069
     }
    ],
+   "matched_coverage_after_zoom": [
+    {
+     "coverage": 0.8731,
+     "risk_same": 0.0529,
+     "risk_cross": 0.0375
+    },
+    {
+     "coverage": 0.8865,
+     "risk_same": 0.0548,
+     "risk_cross": 0.0455
+    },
+    {
+     "coverage": 0.9,
+     "risk_same": 0.0567,
+     "risk_cross": 0.0513
+    }
+   ],
    "extra_calls": {
     "same": 1,
     "cross": 1,
-    "cross_after_zoom": "1 partner call + 1 partner zoom"
+    "cross_after_zoom": "1 partner call + 1 partner zoom",
+    "same_after_zoom": "1 call + 1 zoom"
    }
   }
  }

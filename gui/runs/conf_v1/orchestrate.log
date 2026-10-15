@@ -1,0 +1,57 @@
+2026-10-14T05:02:23 start batch=first100 execute=True
+2026-10-14T05:02:24 built A: A: 300 requests, 100 items, system prompt identical to pilot for 300/300 | A written 300 Counter({('gpt61', 'min'): 100, ('sonnet55', 'min'): 100, ('gem38', 'min'): 100})
+2026-10-14T05:02:25 built DA: DA: 400 requests, 100 items, system prompt identical to pilot for 400/400 | DA written 400 Counter({('gpt61', 'default'): 300, ('sonnet55', 'default'): 100})
+2026-10-14T05:02:25 built GLF1: GLF1: 100 requests, 100 items, system prompt identical to pilot for 100/100 | GLF1 written 100 Counter({('gpt61', 'default'): 100})
+2026-10-14T05:02:25 budget check before step 1: spent $0.00, attempts 0, completed 0; expected remaining $44.47; projected $44.47 (cap $60.0)
+2026-10-14T05:05:11 step 1 done: spent $4.13, attempts 800, completed 800
+2026-10-14T05:05:11 unresolved failed requests so far: 0
+2026-10-14T05:07:07 built B: B: 294 requests, 100 items, system prompt identical to pilot for 294/294 | B written 294 Counter({('gem38', 'min'): 100, ('gpt61', 'min'): 97, ('sonnet55', 'min'): 97})
+2026-10-14T05:09:07 built DB: DB: 395 requests, 100 items, system prompt identical to pilot for 395/395 | DB written 395 Counter({('gpt61', 'default'): 295, ('sonnet55', 'default'): 100})
+2026-10-14T05:10:19 built GLF2: GLF2: 100 requests, 100 items, system prompt identical to pilot for 100/100 | GLF2 written 100 Counter({('gpt61', 'default'): 100})
+2026-10-14T05:10:19 budget check before step 2: spent $4.13, attempts 800, completed 800; expected remaining $40.43; projected $44.56 (cap $60.0)
+2026-10-14T05:11:49 step 2 done: spent $6.17, attempts 1589, completed 1589
+2026-10-14T05:11:49 unresolved failed requests so far: 0
+2026-10-14T05:11:50 built GLF3: GLF3: 0 requests, 0 items, system prompt identical to pilot for 0/0 | GLF3 written 0 Counter()
+2026-10-14T05:12:32 built S: S: 294 requests, 100 items, system prompt identical to pilot for 294/294 | S written 294 Counter({('gem38', 'min'): 294})
+2026-10-14T05:13:05 built SD: SD: 198 requests, 100 items, system prompt identical to pilot for 198/198 | SD written 198 Counter({('gem38', 'min'): 198})
+2026-10-14T05:13:05 budget check before step 3: spent $6.17, attempts 1589, completed 1589; expected remaining $38.38; projected $44.55 (cap $60.0)
+2026-10-14T05:15:54 step 3 done: spent $7.07, attempts 2084, completed 2081
+2026-10-14T05:15:54 unresolved failed requests so far: 0
+2026-10-14T05:16:41 built CMPA_M: CMPA_M: 48 requests, 20 items, system prompt identical to pilot for 48/48 | CMPA_M written 48 Counter({('gem38', 'min'): 48})
+2026-10-14T05:17:45 built CMPA_D: CMPA_D: 50 requests, 17 items, system prompt identical to pilot for 50/50 | CMPA_D written 50 Counter({('gem38', 'min'): 50})
+2026-10-14T05:17:45 budget check before step 4: spent $7.07, attempts 2084, completed 2081; expected remaining $37.45; projected $44.51 (cap $60.0)
+2026-10-14T05:18:37 step 4 done: spent $7.41, attempts 2182, completed 2179
+2026-10-14T05:18:37 unresolved failed requests so far: 0
+2026-10-14T05:18:37 finished batch=first100: spent $7.41, attempts 2182, completed 2179; per item $0.0741 (cumulative)
+2026-10-14T05:21:07 first100 check: per item $0.0741, 21.8 attempts/item, 0 unresolved failures; projected 600 = $44.5 < $60 -> continue with batch all (accuracy not inspected)
+2026-10-14T05:21:08 start batch=all execute=True
+2026-10-14T05:21:38 built A: A: 1800 requests, 600 items, system prompt identical to pilot for 1800/1800 | A written 1800 Counter({('gpt61', 'min'): 600, ('sonnet55', 'min'): 600, ('gem38', 'min'): 600})
+2026-10-14T05:21:39 built DA: DA: 2400 requests, 600 items, system prompt identical to pilot for 2400/2400 | DA written 2400 Counter({('gpt61', 'default'): 1800, ('sonnet55', 'default'): 600})
+2026-10-14T05:21:40 built GLF1: GLF1: 600 requests, 600 items, system prompt identical to pilot for 600/600 | GLF1 written 600 Counter({('gpt61', 'default'): 600})
+2026-10-14T05:21:40 budget check before step 1: spent $7.41, attempts 2182, completed 2179; expected remaining $37.42; projected $44.83 (cap $60.0)
+2026-10-14T05:31:18 interrupted: driver process was killed by a tool timeout during step 1 (DA gpt61 at 1316/1800); up to 8 in-flight GPT requests may have been billed without a saved response; resuming (runner skips completed requests)
+2026-10-14T05:31:19 start batch=all execute=True
+2026-10-14T05:31:20 built A: A: 1800 requests, 600 items, system prompt identical to pilot for 1800/1800 | A written 1800 Counter({('gpt61', 'min'): 600, ('sonnet55', 'min'): 600, ('gem38', 'min'): 600})
+2026-10-14T05:31:20 built DA: DA: 2400 requests, 600 items, system prompt identical to pilot for 2400/2400 | DA written 2400 Counter({('gpt61', 'default'): 1800, ('sonnet55', 'default'): 600})
+2026-10-14T05:31:21 built GLF1: GLF1: 600 requests, 600 items, system prompt identical to pilot for 600/600 | GLF1 written 600 Counter({('gpt61', 'default'): 600})
+2026-10-14T05:31:21 budget check before step 1: spent $25.43, attempts 5699, completed 5695; expected remaining $17.25; projected $42.69 (cap $60.0)
+2026-10-14T05:34:26 step 1 done: spent $28.29, attempts 6183, completed 6179
+2026-10-14T05:34:26 unresolved failed requests so far: 0
+2026-10-14T05:43:19 built B: B: 1781 requests, 600 items, system prompt identical to pilot for 1781/1781 | B written 1781 Counter({('gem38', 'min'): 600, ('gpt61', 'min'): 596, ('sonnet55', 'min'): 585})
+2026-10-14T05:55:03 built DB: DB: 2394 requests, 600 items, system prompt identical to pilot for 2394/2394 | DB written 2394 Counter({('gpt61', 'default'): 1794, ('sonnet55', 'default'): 600})
+2026-10-14T06:02:02 built GLF2: GLF2: 600 requests, 600 items, system prompt identical to pilot for 600/600 | GLF2 written 600 Counter({('gpt61', 'default'): 600})
+2026-10-14T06:02:02 budget check before step 2: spent $28.29, attempts 6183, completed 6179; expected remaining $17.25; projected $45.54 (cap $60.0)
+2026-10-14T06:12:29 step 2 done: spent $38.91, attempts 10169, completed 10165
+2026-10-14T06:12:29 unresolved failed requests so far: 0
+2026-10-14T06:12:30 built GLF3: GLF3: 0 requests, 0 items, system prompt identical to pilot for 0/0 | GLF3 written 0 Counter()
+2026-10-14T06:18:51 built S: S: 1781 requests, 600 items, system prompt identical to pilot for 1781/1781 | S written 1781 Counter({('gem38', 'min'): 1781})
+2026-10-14T06:24:38 built SD: SD: 1198 requests, 600 items, system prompt identical to pilot for 1198/1198 | SD written 1198 Counter({('gem38', 'min'): 1198})
+2026-10-14T06:24:39 budget check before step 3: spent $38.91, attempts 10169, completed 10165; expected remaining $6.97; projected $45.88 (cap $60.0)
+2026-10-14T06:37:38 step 3 done: spent $43.25, attempts 12658, completed 12652
+2026-10-14T06:37:38 unresolved failed requests so far: 0
+2026-10-14T06:43:26 built CMPA_M: CMPA_M: 292 requests, 112 items, system prompt identical to pilot for 292/292 | CMPA_M written 292 Counter({('gem38', 'min'): 292})
+2026-10-14T06:49:30 built CMPA_D: CMPA_D: 274 requests, 101 items, system prompt identical to pilot for 274/274 | CMPA_D written 274 Counter({('gem38', 'min'): 274})
+2026-10-14T06:49:30 budget check before step 4: spent $43.25, attempts 12658, completed 12652; expected remaining $2.27; projected $45.51 (cap $60.0)
+2026-10-14T06:52:13 step 4 done: spent $44.93, attempts 13126, completed 13120
+2026-10-14T06:52:13 unresolved failed requests so far: 0
+2026-10-14T06:52:13 finished batch=all: spent $44.93, attempts 13126, completed 13120; per item $0.0749 (cumulative)

@@ -1,0 +1,17 @@
+sonnet55 S manifest 775 done 0 todo 775
+sonnet55 S 50
+sonnet55 S 100
+sonnet55 S 150
+sonnet55 S 200
+sonnet55 S 250
+sonnet55 S 300
+sonnet55 S 350
+sonnet55 S 400
+sonnet55 S 450
+sonnet55 S 500
+sonnet55 S 550
+sonnet55 S 600
+sonnet55 S 650
+sonnet55 S 700
+sonnet55 S 750
+sonnet55 S finished 775

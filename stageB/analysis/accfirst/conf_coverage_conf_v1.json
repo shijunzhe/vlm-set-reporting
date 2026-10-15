@@ -1,0 +1,37 @@
+{
+ "F": {
+  "GPT": 82,
+  "GPT x2": 67,
+  "GPT x3": 62,
+  "GPT+Sonnet": 58,
+  "GPT+Gemini": 52,
+  "D (GPT+Sonnet+Gemini)": 43
+ },
+ "rho": {
+  "GPT repeat | GPT wrong": {
+   "n_all_old_wrong": 82,
+   "new_hits": 15,
+   "rho": 0.183
+  },
+  "Sonnet | GPT wrong": {
+   "n_all_old_wrong": 82,
+   "new_hits": 24,
+   "rho": 0.293
+  },
+  "Gemini | GPT wrong": {
+   "n_all_old_wrong": 82,
+   "new_hits": 30,
+   "rho": 0.366
+  },
+  "third GPT | two GPT wrong": {
+   "n_all_old_wrong": 67,
+   "new_hits": 5,
+   "rho": 0.075
+  },
+  "Gemini | GPT and Sonnet wrong": {
+   "n_all_old_wrong": 58,
+   "new_hits": 15,
+   "rho": 0.259
+  }
+ }
+}

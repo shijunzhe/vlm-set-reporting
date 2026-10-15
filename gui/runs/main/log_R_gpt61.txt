@@ -1,0 +1,3 @@
+gpt61 R manifest 55 done 0 todo 55
+gpt61 R 50
+gpt61 R finished 55

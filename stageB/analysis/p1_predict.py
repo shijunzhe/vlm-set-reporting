@@ -1,5 +1,5 @@
 """Predictive test of the deletion threshold with a few labels (Section 5, Step 7; the intersection threshold). No model calls.
-For each of the 54 base/partner pairs of Table 9 (E3 and screen sources, 60 images each), per image: deleted scored records
+For each of the 54 base/partner pairs of Table 10 (E3 and screen sources, 60 images each), per image: deleted scored records
 dc_i = c(A) - c(S0) and lost matches dr_i = r(A) - r(S0), where S0 keeps the base call's records confirmed by the partner
 (deletion only). The selection gain on an image is g_i = dc_i - 2 dr_i (equal error costs).
 Test: draw L labelled images (L = 3, 5, 10; 200 seeded draws per pair), decide from them only, and score the decision on the

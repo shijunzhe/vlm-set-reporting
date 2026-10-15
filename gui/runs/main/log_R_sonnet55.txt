@@ -1,0 +1,3 @@
+sonnet55 R manifest 58 done 0 todo 58
+sonnet55 R 50
+sonnet55 R finished 58

@@ -1,26 +1,5 @@
 \section{Problem Setup}\label{sec:setup}
 
-\begin{figure*}[tp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tikzpicture}[
-  box/.style={draw, rounded corners=2pt, align=center, font=\small, minimum height=1.05cm, inner sep=3pt},
-  arr/.style={-{Latex[length=2mm]}, thick},
-  lab/.style={font=\scriptsize, align=center, text=black!70, text width=1.7cm}]
-\node[box] (x) {image $x$\\task $\tau$};
-\node[box, right=1.9cm of x] (h) {responses\\$H_1,\dots,H_K$};
-\node[box, right=1.9cm of h] (z) {records $Z_k$, stated\\counts $d_k$, status $\sigma_k$};
-\node[box, right=1.9cm of z] (s) {set $S\in\mathcal{S}_A$};
-\node[box, right=1.9cm of s] (y) {readout $\hat y$,\\status, alarm};
-\draw[arr] (x) to node[above, lab]{$K_\eta$} node[below, lab]{model, setting, cap, prompt, view} (h);
-\draw[arr] (h) to node[above, lab]{$D_{\eta,\tau}$} node[below, lab]{decode, aliases, frames, L1 to L3} (z);
-\draw[arr] (z) to node[above, lab]{$C$} node[below, lab]{cluster, keep, fuse} (s);
-\draw[arr] (s) to node[above, lab]{$r_\tau$} node[below, lab]{count, set, click} (y);
-\end{tikzpicture}}
-\caption{The reporting chain. A call to a model with a given interface returns a response; decoding turns it into records, stated counts and a status; a construction combines the records of one or more calls into a set; a readout turns the set (or, as a declared fallback, the stated counts) into the task answer. Every operation studied in this paper acts on one arrow. The readout relation (Proposition~\ref{prop:readout}) compares the stated counts $d_k$ with the list count of $Z_k$ in one response. The selection and geometry identities (Propositions~\ref{prop:identity} and \ref{prop:geometry}) and the intersection threshold (Proposition~\ref{thm:intersect}) act on $C$. The constrained oracle (Proposition~\ref{prop:oracle}) optimizes over $\mathcal{S}_A$. No functional of the outputs certifies completeness (Proposition~\ref{prop:nocert}).}
-\label{fig:chain}
-\end{figure*}
-
 \subsection{Terms}\label{sec:setup:terms}
 Table~\ref{tab:terms} defines the words used throughout the paper in plain language; the formal objects follow.
 
@@ -46,10 +25,12 @@ readout & The rule that turns a set or a response into the task answer, for exam
 construction & A rule that builds one set from the records of several calls, for example keeping only records that all three calls agree on (\emph{unanimity}), at least two of three (\emph{majority}), both of two (\emph{intersection}), or any (\emph{union}). \emph{Fused} coordinates average the agreeing records; \emph{deletion only} keeps the base call's own record. \\
 base call, partner & In a confirmation, the call whose records may be deleted, and the call (same model or another model) used to confirm them. \\
 $p_1$ & In a confirmation, the \emph{marginal matching rate} of the base call's unconfirmed records (those the partner does not report): how much the matching size falls per deleted record. It equals their precision unless another record can take over a deleted record's target. Deleting them lowers $E$ when $p_1<1/2$ (Proposition~\ref{thm:intersect}). \\
-view, tile, two-stage zoom & The part of the image sent in a call. Tiles are overlapping crops sent in separate calls. Two-stage zoom first asks for a click on the whole screen, then asks again on a crop around that point. The \emph{apparent size} of an object is the number of visual tokens across its shorter side in the image as sent. A \emph{view planner} is any procedure that chooses the views, such as tiling or the safe decomposition of the companion paper. \\
-alarm, coverage & An alarm flags an item for review when two answers disagree by more than a threshold. Coverage is the share of items not flagged, which the system acts on. \\
+view, tile, two-stage zoom & The part of the image sent in a call. Tiles are overlapping crops sent in separate calls. Two-stage zoom (ReGround, \citealp{li2025screenspotpro}) first asks for a click on the whole screen, then asks again on a crop around that point. The \emph{apparent size} of an object is the number of visual tokens across its shorter side in the image as sent. A \emph{view planner} is any procedure that chooses the views, such as tiling or the safe decomposition of the companion paper. \\
+disagreement alarm & An observable signal that two answers for the same item disagree by more than a threshold. In the risk-coverage analysis of Section~\ref{sec:res:persist}, alarmed items are set aside to trace a risk-coverage curve; in the several-model click tier (Algorithm~\ref{alg:clicks}) the alarm triggers a visual comparison, and every item stays in the denominator. \\
+acceptance coverage & In the risk-coverage analysis, the share of items acted on without an alarm. It differs from \emph{candidate coverage}, the share of items with at least one correct candidate, which is measured with the annotations. \\
+candidate, cluster, representative & For a click, a candidate is one point from one call; clusters group candidates within a distance; each cluster's representative is the member the tier would output for it (Section~\ref{sec:theory:points}). \\
 source, cell & A dataset, and one model on one dataset. The six set-task sources are the four \emph{E3 sources} (SKU-110K, DOTA, DocLayNet, FSC-147) and the two \emph{screen sources} (GroundCUA, ScreenParse). \\
-shipped configuration & The fixed values the method uses on any new image (prompt, setting, flag thresholds, construction per loss, alarm partner), released as a file with the code (Section~\ref{sec:method}). \\
+shipped configuration & The fixed values the method uses on any new image (interface and setting per model and loss, flag thresholds, construction per loss, alarm partner, click tier), chosen on our evaluation data and released as a file with the code (Section~\ref{sec:method}). \\
 over- and under-reporting & Task families where models mostly report false objects (detection, layout, screen parsing) or mostly miss objects (dense counting with points). \\\bottomrule
 \end{tabular}
 \end{table*}
@@ -104,7 +85,7 @@ The decoder reports four status layers for every call. They are distinct, and pa
 \textbf{L1 transport}: the call returned, and its finish reason (stop, length) is recorded.
 \textbf{L2 outer syntax}: the whole response parses as the requested JSON object after stripping a code fence.
 \textbf{L3 record validity}: which records were recovered (strict parse, or a declared salvage of individual objects when the whole response does not parse), which of them are valid under the task contract, and four list-level degeneracy flags (Section~\ref{sec:method}).
-\textbf{L4 task completeness}: whether $S$ contains every target. L1 to L3 are checked by code; L4 cannot be checked without labels (Section~\ref{sec:theory:cert}).
+\textbf{L4 task completeness}: whether $S$ contains every target. L1 to L3 are checked by code; L4 cannot in general be checked without labels (Section~\ref{sec:theory:cert}).
 The procedures return $S$, $\hat y$ and $\sigma$ for every input, never drop a call from cost or coverage accounting, and report the strict-JSON failure rate, so the share of salvaged responses is visible.
 
 \subsection{Losses}\label{sec:setup:loss}

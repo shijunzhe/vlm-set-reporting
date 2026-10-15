@@ -1,5 +1,5 @@
 """PREP-1 v2 (repair A). Label-fitted output-feature selector vs constrained oracle on the SAME feasible family.
-Draft sections 1.3, 2.3 (Propositions 6, 7). E3 LIST-min, K = 3, 12 cells. No model calls.
+Section 4.3 of the paper (Propositions 7, 8). E3 LIST-min, K = 3, 12 cells. No model calls.
 Feasible family S_A: per cluster, nothing or one candidate from A(Q) = {fused record} U {members} (members only if support >= 2);
 the fused-only family uses A(Q) = {fused}. Single-call baseline: call 0.
 Labels (fitting only): 'approx' = candidate compatible with some target (the v1 label, an additive approximation);

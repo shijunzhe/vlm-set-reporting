@@ -1,0 +1,18 @@
+sonnet55 A manifest 100 done 0 todo 100
+sonnet55 A 50
+sonnet55 A 100
+sonnet55 A finished 100
+sonnet55 A manifest 600 done 100 todo 500
+sonnet55 A 50
+sonnet55 A 100
+sonnet55 A 150
+sonnet55 A 200
+sonnet55 A 250
+sonnet55 A 300
+sonnet55 A 350
+sonnet55 A 400
+sonnet55 A 450
+sonnet55 A 500
+sonnet55 A finished 500
+sonnet55 A manifest 600 done 600 todo 0
+sonnet55 A finished 0

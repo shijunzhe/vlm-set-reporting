@@ -1,4 +1,4 @@
-"""FSR analysis core: the objects of the Theory/Method draft (paper/FSR_theory_method_draft.md, sections 1.3-1.5).
+"""FSR analysis core: the objects of Sections 3 and 4 of the paper.
 One implementation of records, clusters, feasible sets, matching rank, losses and the constrained oracle, shared by every
 analysis script. No model calls. Labels are read only by score(), compat() and the oracle.
 Sources: E3 (LIST-min, 3 calls x 3 models x 4 datasets x 60 images) via fsr_v51/e3; GUI screen parsing via gui/."""
@@ -111,7 +111,7 @@ class GUIData:
 
 
 def constrained_oracle(compat_by_cluster, n):
-    """Proposition 7: clusters x targets graph (edge if some candidate of the cluster is compatible); E* = n - |M|.
+    """Proposition 8: clusters x targets graph (edge if some candidate of the cluster is compatible); E* = n - |M|.
     compat_by_cluster: list of (n_candidates x n) bool arrays. Returns (E*, |M|, choice) with choice[q] = (cand index, target) or None."""
     if not compat_by_cluster or n == 0: return n, 0, [None] * len(compat_by_cluster)
     CT = np.array([c.any(0) for c in compat_by_cluster], bool)

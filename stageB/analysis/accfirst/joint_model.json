@@ -1,0 +1,286 @@
+{
+ "acq_usd": {
+  "gpt61": 0.00949,
+  "sonnet55": 0.00717,
+  "gem38": 0.00651
+ },
+ "example_fit": {
+  "pi": [
+   0.864,
+   0.136
+  ],
+  "q": {
+   "gpt61": [
+    0.994,
+    0.189
+   ],
+   "sonnet55": [
+    0.959,
+    0.05
+   ],
+   "gem38": [
+    0.969,
+    0.295
+   ]
+  },
+  "alpha_hit": 0.01,
+  "alpha_wrong": 1.922,
+  "gem_llr_easy": [
+   -3.21,
+   -2.49,
+   -3.6,
+   0.63
+  ],
+  "gem_llr_hard": [
+   -0.67,
+   1.4,
+   -0.48,
+   0.99
+  ]
+ },
+ "gem38|gpt61": {
+  "error": 7.69,
+  "mean_post": 0.912,
+  "accuracy": 0.923
+ },
+ "gem38|sonnet55": {
+  "error": 10.38,
+  "mean_post": 0.866,
+  "accuracy": 0.896
+ },
+ "gem38|gem38": {
+  "error": 9.62,
+  "mean_post": 0.872,
+  "accuracy": 0.904
+ },
+ "gem38|gpt61+sonnet55": {
+  "error": 7.31,
+  "mean_post": 0.913,
+  "accuracy": 0.927
+ },
+ "gem38|gpt61+gem38": {
+  "error": 5.77,
+  "mean_post": 0.921,
+  "accuracy": 0.942
+ },
+ "gem38|sonnet55+gem38": {
+  "error": 5.77,
+  "mean_post": 0.898,
+  "accuracy": 0.942
+ },
+ "gem38|gpt61+sonnet55+gem38": {
+  "error": 6.15,
+  "mean_post": 0.926,
+  "accuracy": 0.938
+ },
+ "gpt61+sonnet55+gem38|gpt61": {
+  "error": 7.69,
+  "mean_post": 0.912,
+  "accuracy": 0.923
+ },
+ "gpt61+sonnet55+gem38|sonnet55": {
+  "error": 10.38,
+  "mean_post": 0.902,
+  "accuracy": 0.896
+ },
+ "gpt61+sonnet55+gem38|gem38": {
+  "error": 9.62,
+  "mean_post": 0.883,
+  "accuracy": 0.904
+ },
+ "gpt61+sonnet55+gem38|gpt61+sonnet55": {
+  "error": 7.31,
+  "mean_post": 0.939,
+  "accuracy": 0.927
+ },
+ "gpt61+sonnet55+gem38|gpt61+gem38": {
+  "error": 6.15,
+  "mean_post": 0.929,
+  "accuracy": 0.938
+ },
+ "gpt61+sonnet55+gem38|sonnet55+gem38": {
+  "error": 6.54,
+  "mean_post": 0.933,
+  "accuracy": 0.935
+ },
+ "gpt61+sonnet55+gem38|gpt61+sonnet55+gem38": {
+  "error": 6.54,
+  "mean_post": 0.952,
+  "accuracy": 0.935
+ },
+ "calibration_full_gem": [
+  {
+   "bin": [
+    0,
+    0.6
+   ],
+   "n": 23,
+   "mean_post": 0.285,
+   "hit": 0.522
+  },
+  {
+   "bin": [
+    0.6,
+    0.9
+   ],
+   "n": 9,
+   "mean_post": 0.759,
+   "hit": 0.889
+  },
+  {
+   "bin": [
+    0.9,
+    0.99
+   ],
+   "n": 19,
+   "mean_post": 0.969,
+   "hit": 1.0
+  },
+  {
+   "bin": [
+    0.99,
+    1.01
+   ],
+   "n": 209,
+   "mean_post": 1.0,
+   "hit": 0.981
+  }
+ ],
+ "policy_curve": [
+  {
+   "cap": 1,
+   "lam": 0.0,
+   "error": 7.69,
+   "mean_acq": 1.0,
+   "calls": 3.0,
+   "usd": 0.00949,
+   "first": {
+    "gpt61": 260
+   }
+  },
+  {
+   "cap": 1,
+   "lam": 1.0,
+   "error": 7.69,
+   "mean_acq": 1.0,
+   "calls": 3.0,
+   "usd": 0.00949,
+   "first": {
+    "gpt61": 260
+   }
+  },
+  {
+   "cap": 1,
+   "lam": 3.0,
+   "error": 9.62,
+   "mean_acq": 1.0,
+   "calls": 3.0,
+   "usd": 0.00651,
+   "first": {
+    "gem38": 260
+   }
+  },
+  {
+   "cap": 1,
+   "lam": 10.0,
+   "error": 9.62,
+   "mean_acq": 1.0,
+   "calls": 3.0,
+   "usd": 0.00651,
+   "first": {
+    "gem38": 260
+   }
+  },
+  {
+   "cap": 2,
+   "lam": 0.0,
+   "error": 6.54,
+   "mean_acq": 1.55,
+   "calls": 4.64,
+   "usd": 0.01317,
+   "first": {
+    "gpt61": 129,
+    "sonnet55": 131
+   }
+  },
+  {
+   "cap": 2,
+   "lam": 1.0,
+   "error": 5.77,
+   "mean_acq": 1.09,
+   "calls": 3.27,
+   "usd": 0.01007,
+   "first": {
+    "gpt61": 260
+   }
+  },
+  {
+   "cap": 2,
+   "lam": 3.0,
+   "error": 6.92,
+   "mean_acq": 1.11,
+   "calls": 3.33,
+   "usd": 0.00876,
+   "first": {
+    "gpt61": 129,
+    "gem38": 131
+   }
+  },
+  {
+   "cap": 2,
+   "lam": 10.0,
+   "error": 6.92,
+   "mean_acq": 1.14,
+   "calls": 3.43,
+   "usd": 0.0077,
+   "first": {
+    "gem38": 260
+   }
+  },
+  {
+   "cap": 3,
+   "lam": 0.0,
+   "error": 6.15,
+   "mean_acq": 2.17,
+   "calls": 6.51,
+   "usd": 0.01777,
+   "first": {
+    "gpt61": 260
+   }
+  },
+  {
+   "cap": 3,
+   "lam": 1.0,
+   "error": 6.15,
+   "mean_acq": 1.65,
+   "calls": 4.95,
+   "usd": 0.01281,
+   "first": {
+    "gpt61": 129,
+    "sonnet55": 131
+   }
+  },
+  {
+   "cap": 3,
+   "lam": 3.0,
+   "error": 6.15,
+   "mean_acq": 1.14,
+   "calls": 3.43,
+   "usd": 0.01045,
+   "first": {
+    "gpt61": 260
+   }
+  },
+  {
+   "cap": 3,
+   "lam": 10.0,
+   "error": 6.15,
+   "mean_acq": 1.17,
+   "calls": 3.5,
+   "usd": 0.00792,
+   "first": {
+    "gem38": 260
+   }
+  }
+ ]
+}

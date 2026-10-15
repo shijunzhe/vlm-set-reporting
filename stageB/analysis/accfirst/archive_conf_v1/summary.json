@@ -1,0 +1,47 @@
+{
+ "errors": {
+  "GPT-min-zoom": 86,
+  "GPT-default-zoom": 82,
+  "Sonnet-min-zoom": 104,
+  "Sonnet-default-zoom": 80,
+  "GLF": 69,
+  "GPTx3": 76,
+  "M-S": 66,
+  "M-C": 61,
+  "D-S": 61,
+  "D-C": 56
+ },
+ "events": {
+  "M-S": {
+   "correct": 534,
+   "no_correct_candidate": 45,
+   "wrong_choice_among_representatives": 19,
+   "representative_lost_correct": 2
+  },
+  "M-C": {
+   "correct": 539,
+   "no_correct_candidate": 45,
+   "wrong_choice_among_representatives": 14,
+   "representative_lost_correct": 2
+  },
+  "D-S": {
+   "correct": 539,
+   "wrong_choice_among_representatives": 15,
+   "no_correct_candidate": 43,
+   "representative_lost_correct": 3
+  },
+  "D-C": {
+   "correct": 544,
+   "wrong_choice_among_representatives": 10,
+   "no_correct_candidate": 43,
+   "representative_lost_correct": 3
+  }
+ },
+ "glf_cross": {
+  "DC_right_GLF_wrong:GLF_near_D_candidate=False": 13,
+  "DC_right_GLF_wrong:GLF_near_D_candidate=True": 14,
+  "GLF_right_DC_wrong:wrong_choice_among_representatives": 5,
+  "GLF_right_DC_wrong:no_correct_candidate": 7,
+  "GLF_right_DC_wrong:representative_lost_correct": 2
+ }
+}

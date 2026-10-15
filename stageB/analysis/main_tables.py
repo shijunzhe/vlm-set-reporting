@@ -10,7 +10,7 @@ def ci(x): return f"{x['rel']:+.1f}% [{x['ci'][0]:+.1f}, {x['ci'][1]:+.1f}]"
 
 # T1 readout effects
 R = J('readout_effects.json')
-w('## Table 1. Readout effects (SCP-dense 50, min, per-type count error; paired image bootstrap)\n')
+w('## Table 7. Readout effects (SCP-dense 50, min, per-type count error; paired image bootstrap)\n')
 w('| Effect | Comparison | ' + ' | '.join(MN.values()) + ' |'); w('|---|---|---|---|---|')
 for key, lab, cmp in (('pure_readout_old_protocol', 'Pure readout', 'same response, declared -> code count (count-first protocol)'),
                       ('pure_readout_new_protocol', 'Pure readout', 'same response, declared -> code count (list-first protocol)'),
@@ -22,7 +22,7 @@ w('| Totals | same response, |list length - n| vs |declared total - n| | ' + ' |
 
 # T2 setting
 S = J('rc16_setting.json')
-w('## Table 2. Gemini 3.8 setting and output cap (V516, SCP-dense 50)\n')
+w('## Table 9. Gemini 3.8 setting and output cap (list-first protocol, SCP-dense 50)\n')
 w('| Configuration | Count readout error | Code count error | Set error E | Flagged lists | Strict-JSON failures | Truncated | Thinking share | Output tokens | Cost (50 calls) |'); w('|---|---|---|---|---|---|---|---|---|---|')
 for k in ('min16k', 'default16k', 'default32k'):
     v = S['levels'][k]; w(f"| {k} | {v['readout']} | {v['code']} | {v['E']} | {v['flagged']:.0%} | {v['strict_fail']:.0%} | {v['trunc']:.0%} | {v['think_share']:.0%} | {v['out_tok']:.0f} | ${v['cost_total']} |")
@@ -32,7 +32,7 @@ w('')
 
 # T3 intersection decomposition
 I = J('intersection_decomp.json'); s = I['_summary']
-w('## Table 3. Intersection = selection + geometry (per image, E reduction; positive = better)\n')
+w('## Table 10. Intersection = selection + geometry (per image, E reduction; positive = better)\n')
 w(f"Identity checks exact on every image: selection {s['identity_selection_all_exact']}, geometry {s['identity_geometry_all_exact']} ({s['pairs']} base/partner pairs x 60 images). "
   f"Geometry term positive in {s['geometry_positive_pairs']} pairs, negative in {s['geometry_negative_pairs']}. Sign of the fused total differs from the deletion-only sign in: {', '.join(s['sign_flips_due_to_geometry'])}.\n")
 w('| Source | Base | Partner | Deleted scored / img | Matches lost / img | p1 (marginal) | Selection | Geometry | Total | Takeover |'); w('|---|---|---|---|---|---|---|---|---|---|')
@@ -44,7 +44,7 @@ w('')
 
 # T4 PREP-1 v2
 P = J('prep1_v2.json')
-w('## Table 4. Label-fitted output-feature selectors vs the constrained oracle (E3 LIST-min, K = 3; reduction of E relative to call 0)\n')
+w('## Table 12. Label-fitted output-feature selectors vs the constrained oracle (E3 sources, list prompt, lowest setting, K = 3; reduction of E relative to call 0)\n')
 w('| Cell | Oracle (constrained) | Oracle (unrestricted atoms) | Images where they differ | Cross-fit logistic | Cross-fit boosted trees | In-sample logistic | 10 labels (median of 40) | Empirical gap (cross-fit logistic) [eval. CI] |'); w('|---|---|---|---|---|---|---|---|---|')
 for k, v in P.items():
     if k.startswith('_'): continue
@@ -56,7 +56,7 @@ w('The gap mixes information not in the features with selector and estimation sh
 
 # T5 defaults
 C = J('construction_table.json')
-w('## Table 5. Deployable defaults by leave-one-source-out transfer (change vs single call; significant = paired CI excludes 0)\n')
+w('## Table 13. Deployable defaults by leave-one-source-out transfer (change vs single call; significant = paired CI excludes 0)\n')
 w('| Pool | Loss | Better | Worse | Not significant |'); w('|---|---|---|---|---|')
 for k, v in C['default_transfer_summary'].items():
     pool, loss = k.split('|'); w(f"| {pool} | {loss} | {v['better']} | {v['worse']} | {v['ns']} |")
@@ -69,7 +69,7 @@ w('')
 
 # T6 alarms
 A = J('alarm_curves.json')
-w('## Table 6. Click alarms (260 items; partner set by a fixed rule: cheapest other model)\n')
+w('## Table 11. Click alarms (260 items; partner set by a fixed rule: cheapest other model)\n')
 w('| Model | Partner | Alarm | tau | Coverage | Miss rate when acting | Errors caught |'); w('|---|---|---|---|---|---|---|')
 for m, v in A['models'].items():
     for nm, key in (('same model, unzoomed', 'same'), ('cross model, unzoomed', 'cross'), ('cross model, after zoom', 'cross_after_zoom')):

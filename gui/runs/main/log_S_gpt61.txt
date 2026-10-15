@@ -1,0 +1,17 @@
+gpt61 S manifest 775 done 0 todo 775
+gpt61 S 50
+gpt61 S 100
+gpt61 S 150
+gpt61 S 200
+gpt61 S 250
+gpt61 S 300
+gpt61 S 350
+gpt61 S 400
+gpt61 S 450
+gpt61 S 500
+gpt61 S 550
+gpt61 S 600
+gpt61 S 650
+gpt61 S 700
+gpt61 S 750
+gpt61 S finished 775

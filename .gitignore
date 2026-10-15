@@ -13,3 +13,4 @@ config.env
 # internal planning documents, kept locally only
 fsr_pilot/pkg/docs/
 fsr_v51/e12/E12_RESULTS_CN.pdf
+stageB/analysis/accfirst_shipped/

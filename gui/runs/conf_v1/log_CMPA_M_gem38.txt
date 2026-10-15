@@ -1,0 +1,10 @@
+gem38 CMPA_M manifest 48 done 0 todo 48
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 CMPA_M finished 48
+gem38 CMPA_M manifest 292 done 48 todo 244
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+gem38 CMPA_M 50
+gem38 CMPA_M 100
+gem38 CMPA_M 150
+gem38 CMPA_M 200
+gem38 CMPA_M finished 244

@@ -1,0 +1,108 @@
+{
+ "n": 600,
+ "flags": {},
+ "errors": {
+  "GPT-default-zoom": 82,
+  "GPTx3": 76,
+  "GLF": 69,
+  "D-S": 61,
+  "D-C": 56,
+  "D4-S": 61,
+  "D4-C": 54
+ },
+ "paired": [
+  {
+   "base": "D-C",
+   "flow": "D4-C",
+   "diff_pp": -0.33,
+   "ci95": [
+    -1.17,
+    0.34
+   ],
+   "fixed": 4,
+   "broken": 2,
+   "p_exact": 0.6875
+  },
+  {
+   "base": "D-S",
+   "flow": "D4-S",
+   "diff_pp": 0.0,
+   "ci95": [
+    -0.83,
+    0.83
+   ],
+   "fixed": 3,
+   "broken": 3,
+   "p_exact": 1.0
+  },
+  {
+   "base": "D4-S",
+   "flow": "D4-C",
+   "diff_pp": -1.17,
+   "ci95": [
+    -2.5,
+    0.17
+   ],
+   "fixed": 11,
+   "broken": 4,
+   "p_exact": 0.11847
+  },
+  {
+   "base": "GPT-default-zoom",
+   "flow": "D4-C",
+   "diff_pp": -4.67,
+   "ci95": [
+    -6.83,
+    -2.5
+   ],
+   "fixed": 36,
+   "broken": 8,
+   "p_exact": 3e-05
+  },
+  {
+   "base": "GPTx3",
+   "flow": "D4-C",
+   "diff_pp": -3.67,
+   "ci95": [
+    -5.67,
+    -1.83
+   ],
+   "fixed": 28,
+   "broken": 6,
+   "p_exact": 0.0002
+  },
+  {
+   "base": "GLF",
+   "flow": "D4-C",
+   "diff_pp": -2.5,
+   "ci95": [
+    -4.5,
+    -0.67
+   ],
+   "fixed": 25,
+   "broken": 10,
+   "p_exact": 0.01667
+  }
+ ],
+ "decomposition_D4C": {
+  "W": 11,
+  "F": 36,
+  "L": 7
+ },
+ "single_cluster_items": 489,
+ "single_cluster_errors": 26,
+ "glf_effects": {
+  "glf_joins_cluster": 573,
+  "glf_own_cluster": 27,
+  "glf_became_representative_of_joined": 47,
+  "output_is_glf_point": 49
+ },
+ "deploy": {
+  "usd_per_item": 0.04098,
+  "calls_per_item": 12.53
+ },
+ "new_calls": {
+  "attempts": 717,
+  "usd": 1.44
+ }
+}

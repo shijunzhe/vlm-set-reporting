@@ -1,8 +1,8 @@
-"""Against common practice at equal or lower cost (Table 7). No model calls; reuses stored responses.
+"""Against common practice at equal or lower cost (Table 6). No model calls; reuses stored responses.
   dense count (SCP-dense, 50 images, per-type count error):
       naive            = stated count of a count-first response (1 call)
       self-consistency = per-type median of the stated counts of 3 count-first responses (3 calls)
-      ours             = list-first response, Step 3 readout (1 call; readout confirmation run)
+      ours             = list-first response, Step 6 readout (1 call; readout confirmation run)
   clicks (ScreenSpot-Pro, 200 items, click error):
       naive            = one click (1 call)
       self-consistency = vote of 3 clicks, points within 1.5% of the longer side agree (3 calls)
