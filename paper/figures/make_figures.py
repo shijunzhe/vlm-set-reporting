@@ -36,22 +36,44 @@ def fig_example():
     stated = resp['counts_by_type']
     img = Image.open(ROOT / 'data/scpd/028.png').convert('RGB')
     W, H = img.size
-    fig, (a0, a1) = plt.subplots(1, 2, figsize=(6.9, 2.75), gridspec_kw={'width_ratios': [1, 1.25]})
-    a0.imshow(img)
-    xs = [s['x'] / 1000 * W for s in resp['shapes']]; ys = [s['y'] / 1000 * H for s in resp['shapes']]
-    a0.scatter(xs, ys, s=5, c='black', marker='x', linewidths=0.6)
-    a0.set_xticks([]); a0.set_yticks([])
-    for sp in a0.spines.values(): sp.set_visible(True)
-    a0.set_title(f'SCP-dense image 28: {gt["total_shapes"]} shapes; x = records in GPT-6.1\'s list ({len(resp["shapes"])})')
-    x = np.arange(len(T5)); w = 0.27
-    a1.bar(x - w, [truth[t] for t in T5], w, label=f'truth (total {sum(truth.values())})', color='#bbbbbb', edgecolor='black', linewidth=0.4)
-    a1.bar(x, [listed[t] for t in T5], w, label=f'list count (total {sum(listed.values())})', color='#1f77b4')
-    a1.bar(x + w, [stated[t] for t in T5], w, label=f'stated count in the same response (total {sum(stated.values())})', color='#ff7f0e')
-    a1.set_xticks(x); a1.set_xticklabels(T5); a1.set_ylabel('count'); a1.set_ylim(0, 56)
+    CC = {'circle': '#9467bd', 'triangle': '#2ca02c', 'square': '#8c564b', 'star': '#e377c2', 'pentagon': '#17becf'}
+    X0, Y0, X1, Y1 = 0, 0, 420, 420                      # crop shown in panel (b), in image pixels
+    fig = plt.figure(figsize=(6.9, 2.75))
+    gs = fig.add_gridspec(1, 3, width_ratios=[1.0, 1.0, 1.5], wspace=0.06)
+    a0, a1, a2 = fig.add_subplot(gs[0]), fig.add_subplot(gs[1]), fig.add_subplot(gs[2])
+    a0.imshow(img); a0.set_xticks([]); a0.set_yticks([])
+    for sp in a0.spines.values(): sp.set_visible(True); sp.set_linewidth(0.6)
+    from matplotlib.patches import Rectangle
+    a0.add_patch(Rectangle((X0, Y0), X1 - X0, Y1 - Y0, fill=False, ec='#d62728', lw=1.0))
+    a0.set_title(f'(a) scene, {gt["total_shapes"]} shapes', loc='left')
+    a1.imshow(img.crop((X0, Y0, X1, Y1))); a1.set_xticks([]); a1.set_yticks([])
+    for sp in a1.spines.values(): sp.set_visible(True); sp.set_edgecolor('#d62728')
+    for t in T5:
+        pts = [(sh['x'] / 1000 * W - X0, sh['y'] / 1000 * H - Y0) for sh in resp['shapes'] if sh['type'] == t]
+        pts = [(u, v) for u, v in pts if 0 <= u < X1 - X0 and 0 <= v < Y1 - Y0]
+        a1.scatter([u for u, _ in pts], [v for _, v in pts], s=9, color=CC[t], marker='o', linewidths=0, alpha=0.9, label=t)
+    a1.set_title('(b) listed records (red box)', loc='left')
+    a1.legend(frameon=True, framealpha=0.9, fontsize=5.5, loc='lower left', handletextpad=0.2, borderpad=0.3, labelspacing=0.2, markerscale=1.2)
+    a2.axis('off'); a2.set_title('(c) one response: list, then counts', loc='left')
+    first, last = resp['shapes'][0], resp['shapes'][-1]
+    js = lambda sh: '{"type":"%s","x":%d,"y":%d}' % (sh['type'], sh['x'], sh['y'])
+    cb = resp['counts_by_type']
+    txt = ('{"shapes": [\n  ' + js(first) + ',\n  ... %d more records ...,\n  ' % (len(resp['shapes']) - 2) + js(last) + '],\n'
+           ' "counts_by_type": {\n  ' + ', '.join(f'"{t}":{cb[t]}' for t in T5[:3]) + ',\n  ' + ', '.join(f'"{t}":{cb[t]}' for t in T5[3:]) + '}}')
+    a2.text(0.0, 0.97, txt, family='monospace', fontsize=5.6, va='top', ha='left', transform=a2.transAxes,
+            bbox=dict(boxstyle='round,pad=0.4', fc='#f7f7f7', ec='#999999', lw=0.5))
     el = sum(abs(listed[t] - truth[t]) for t in T5); es = sum(abs(stated[t] - truth[t]) for t in T5)
-    a1.set_title(f'Per-type count error: list {el}, stated {es}')
-    a1.legend(loc='upper left', frameon=False, ncol=1)
-    fig.tight_layout(); fig.savefig(HERE / 'fig_example.pdf', bbox_inches='tight'); plt.close(fig)
+    rows = [['', 'truth', 'list count', 'stated']] + [[t, str(truth[t]), str(listed[t]), str(stated[t])] for t in T5] + \
+           [['total', str(sum(truth.values())), str(sum(listed.values())), str(sum(stated.values()))],
+            ['per-type error', '', str(el), str(es)]]
+    tb = a2.table(cellText=rows, cellLoc='center', colLoc='center', bbox=[0.0, 0.0, 1.0, 0.5], edges='horizontal')
+    tb.auto_set_font_size(False); tb.set_fontsize(6)
+    for (r, c), cell in tb.get_celld().items():
+        cell.set_linewidth(0.4)
+        if c == 2 and r > 0: cell.get_text().set_color('#1f77b4')
+        if c == 3 and r > 0: cell.get_text().set_color('#d95f02')
+        if r == 0: cell.get_text().set_fontweight('bold')
+    fig.savefig(HERE / 'fig_example.pdf', bbox_inches='tight'); plt.close(fig)
     return dict(truth=dict(truth), listed=dict(listed), stated=stated, err_list=el, err_stated=es)
 
 
@@ -77,7 +99,7 @@ def fig_alarm():
     d = json.load(open(OUT / 'alarm_curves.json'))
     fig, axes = plt.subplots(1, 3, figsize=(6.9, 2.15))
     sty = {'same': ('same model, unzoomed', '#7f7f7f', 'o', '-'), 'cross': ('cross model, unzoomed', '#1f77b4', 's', '-'),
-           'same_after_zoom': ('same model, after zoom', '#7f7f7f', '^', '--'), 'cross_after_zoom': ('cross model, after zoom', '#d62728', '^', '-')}
+           'same_after_zoom': ('same model, after zoom', '#7f7f7f', '^', '--'), 'cross_after_zoom': ('cross model, after zoom', '#d62728', '^', '--')}
     for ax, m in zip(axes, MODEL):
         v = d['models'][m]
         for k, (lab, c, mk, ls) in sty.items():
@@ -85,7 +107,7 @@ def fig_alarm():
             ax.plot([p['coverage'] * 100 for p in pts], [p['risk_when_acting'] * 100 for p in pts], marker=mk, ms=3, color=c, lw=1, ls=ls, label=lab)
             base = 100 * (1 - v[k]['base_accuracy'])
             ax.scatter([100], [base], color=c, marker=mk, s=14, facecolors='none')
-        ax.set_title(f'{MODEL[m]} (partner {MODEL[v["partner"]]})'); ax.set_xlabel('coverage (%)')
+        ax.set_title(f'{MODEL[m]} (partner {MODEL[v["partner"]]})'); ax.set_xlabel('acceptance coverage (%)')
         ax.set_xlim(55, 101)
     axes[0].set_ylabel('miss rate when acting (%)'); axes[0].legend(frameon=False, loc='upper left', fontsize=6)
     fig.tight_layout(); fig.savefig(HERE / 'fig_alarm.pdf', bbox_inches='tight'); plt.close(fig)
@@ -100,21 +122,26 @@ def fig_select():
         a0.scatter(v['p1_marginal'], v['selection'], s=12, marker='o' if same else 's', facecolors='none' if gui else ('#555555' if same else '#1f77b4'),
                    edgecolors='#555555' if same else '#1f77b4', linewidths=0.7)
     a0.axvline(0.5, color='k', lw=0.6, ls='--'); a0.axhline(0, color='k', lw=0.5)
-    a0.set_yscale('symlog', linthresh=1); a0.set_xlabel(r'marginal matching rate $p_1$ of deleted records'); a0.set_ylabel('selection gain in $E$ per image')
+    ys = [v['selection'] for v in dec.values() if isinstance(v, dict) and 'p1_marginal' in v]
+    a0.set_yscale('symlog', linthresh=1); a0.set_ylim(min(ys) * 1.6, max(ys) * 1.6); a0.set_xlabel(r'marginal matching rate $p_1$ of deleted records'); a0.set_ylabel('selection gain in $E$ per image')
     a0.set_title('(a) Deletion helps iff $p_1 < 1/2$ (54/54 pairs)')
     from matplotlib.lines import Line2D
     a0.legend(handles=[Line2D([], [], marker='o', ls='', color='#555555', mfc='#555555', ms=4, label='same-model partner'),
                        Line2D([], [], marker='s', ls='', color='#1f77b4', mfc='#1f77b4', ms=4, label='cross-model partner'),
                        Line2D([], [], marker='s', ls='', color='#1f77b4', mfc='none', ms=4, label='open markers: screen sources')], frameon=False, fontsize=6, loc='lower left')
     cells = [k for k in pr if not k.startswith('_')]
-    lab = [k.replace('|', '\n').replace('gpt61', 'GPT').replace('sonnet55', 'Son.').replace('gem38', 'Gem.').replace('doclaynet', 'DLN').replace('fsc147', 'FSC').replace('sku110k', 'SKU').replace('dota', 'DOTA') for k in cells]
+    lab = [k.split('|')[1].replace('gpt61', 'GPT').replace('sonnet55', 'Son.').replace('gem38', 'Gem.') for k in cells]
+    dsn = {'doclaynet': 'DocLayNet', 'dota': 'DOTA', 'fsc147': 'FSC-147', 'sku110k': 'SKU-110K'}
     x = np.arange(len(cells)); w = 0.27
     a1.bar(x - w, [100 * pr[k]['oracle_constrained'] for k in cells], w, color='#bbbbbb', edgecolor='black', linewidth=0.4, label='constrained oracle')
     a1.bar(x, [100 * pr[k]['crossfit_oracle_logit'] for k in cells], w, color='#1f77b4', label='label-fitted selector (cross-fit)')
     a1.bar(x + w, [100 * pr[k]['labels10_oracle_logit_median'] for k in cells], w, color='#ff7f0e', label='selector fitted on 10 labels')
     a1.axhline(0, color='k', lw=0.5); a1.set_xticks(x); a1.set_xticklabels(lab, fontsize=5.5)
-    a1.set_ylabel('reduction of $E$ vs one call (%)'); a1.set_ylim(-12, 100); a1.legend(frameon=False, fontsize=6, loc='upper center', ncol=3)
-    a1.set_title('(b) Selection among three calls of one model (E3)')
+    for g in range(0, len(cells), 3):
+        a1.text(g + 1, -0.2, dsn[cells[g].split('|')[0]], transform=a1.get_xaxis_transform(), ha='center', va='top', fontsize=6)
+        if g: a1.axvline(g - 0.5, color='#cccccc', lw=0.5)
+    a1.set_ylabel('reduction of $E$ vs one call (%)'); a1.set_ylim(-12, 118); a1.set_yticks([0, 20, 40, 60, 80, 100]); a1.legend(frameon=False, fontsize=6, loc='upper right', ncol=1)
+    a1.set_title('(b) Selection among three calls of one model (detection sources)')
     fig.tight_layout(); fig.savefig(HERE / 'fig_select.pdf', bbox_inches='tight'); plt.close(fig)
 
 

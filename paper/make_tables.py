@@ -248,10 +248,10 @@ def t6():
         mz.append(f"{MN[m]} ({'; '.join(parts) if parts else 'no overlap'})")
     s = ('\\begin{table*}[tp]\\centering\\small\\setlength{\\tabcolsep}{4pt}\n'
          '\\caption{Disagreement alarms for clicks (ScreenSpot-Pro and ScreenSpot-v2, 260 items; partner set by a fixed rule as the cheapest other model). The alarm compares the acted-on point with a second point for the same item and fires when the two are farther apart than $\\delta=1.5\\%$ of the longer image side; the item is then deferred (sent for review or another step) instead of acted on. Unzoomed alarms compare first clicks; after zoom, the acted-on point is the zoomed first click, and the second point is the same model\'s zoomed second click or the partner\'s zoomed first click. '
-         'Coverage: share of items acted on; miss rate: share of acted-on items whose point is outside the target; errors caught: share of the acted-on prediction\'s errors (the first click unzoomed, the zoomed first click after zoom) that the alarm defers. Other $\\delta$ values are in Figure~\\ref{fig:alarm}. '
+         'Acceptance coverage: share of items acted on; miss rate: share of acted-on items whose point is outside the target; errors caught: share of the acted-on prediction\'s errors (the first click unzoomed, the zoomed first click after zoom) that the alarm defers. Other $\\delta$ values are in Figure~\\ref{fig:alarm}. '
          'Where the same-model and cross-model curves overlap, miss rates at matched coverage (same vs.\\ cross, in \\%, point estimates without intervals) are, unzoomed: ' + '; '.join(mc) + '; after zoom: ' + '; '.join(mz) + '.}\\label{tab:alarm}\n'
          '\\resizebox{\\textwidth}{!}{\\begin{tabular}{@{}lllcccc@{}}\\toprule\n'
-         'Model & Partner & Alarm & Error rate, no alarm & Coverage & Miss rate when acting & Errors caught \\\\\\midrule\n'
+         'Model & Partner & Alarm & Error rate, no alarm & Acceptance coverage & Miss rate when acting & Errors caught \\\\\\midrule\n'
          + '\n'.join(L) + '\n\\bottomrule\\end{tabular}}\\end{table*}\n')
     write('t6_alarm', s)
 
