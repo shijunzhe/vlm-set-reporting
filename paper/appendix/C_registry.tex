@@ -10,7 +10,7 @@ Pilot v1 & 12 procedural scenes, 768 px; responsibility-split arms; cap 8,192 & 
 Pilot v2 & 24 scenes, 1024 px, 16 to 384 targets; dose response & same & 4,080 & \$47.50 \\
 Subset execution & 12 scenes, 96 or 192 targets; representation and drift arms & G5.6, G6.1, O5.5, S5.5 & 1,924 & \$53.84 \\
 Coverage and grids & 48 scenes; coverage responsibility, grid on/off, granularity; repairs, smoke, supplement & above + Gem & 2,752 & \$113.80 \\
-Detection (E3) & SKU-110K, DOTA, DocLayNet, FSC-147, 60 images each; list / regions $\times$ lowest / default; 16k control & G6.1, S5.5, Gem & 6,523 & \$171.13 \\
+Detection & SKU-110K, DOTA, DocLayNet, FSC-147, 60 images each; list / regions $\times$ lowest / default; 16k control & G6.1, S5.5, Gem & 6,523 & \$171.13 \\
 GUI & ScreenSpot-Pro 200, ScreenSpot-v2 60, GroundCUA 60, ScreenParse 60; click and parse arms; pilots 1,050 & same & 7,232 & \$67.77 \\
 Same-view review & SKU, DOTA, FSC, 20 images each; draft review (same view, crop) & same & 663 & \$7.40 \\
 Readout & SCP 100, SCP-dense 50, PixMo 100; 13 prompt arms & same & 7,900 & \$88.48 \\
@@ -28,10 +28,10 @@ Readout confirmation & SCP-dense 50; full list-first protocol, lowest setting, 1
 \quad Gemini, default 32k & same images; default setting, 32k cap & Gem & 50 & \$1.83 \\
 Multi-class readout & DOTA 30 windows, DocLayNet 50 pages; count-first and list-first, lowest setting; Gemini list-first at default, 16k cap; 14 smoke calls & G6.1, S5.5, Gem & 574 & \$6.25 \\
 Zoom on second click & the 260 click items of GUI; two-stage zoom around each model's second click, the same request as the first-click zoom & G6.1, S5.5, Gem & 772 & \$1.60 \\
-Click scores & the 260 click items of GUI; each model's zoomed point scored by each model (probability of a hit) & G6.1, S5.5, Gem & 2,325 & \$3.91 \\
+Click scores & the 260 click items of GUI; each model's zoomed point scored by each model (hit score) & G6.1, S5.5, Gem & 2,325 & \$3.91 \\
 Click choice & the 260 click items; default-setting zooms of GPT-6.1 and Sonnet 5.5, re-grounding and second-opinion arms, scores of default-setting points, pairwise comparisons of cluster representatives, crop-first baselines & same & 3,639 & \$13.56 \\
 Click confirmation & 600 new ScreenSpot-Pro items; all arms of Table~\ref{tab:choose}; 13,120 requests and 6 retries & same & 13,126 & \$44.93 \\
-Fourth click source & the 600 confirmation items; judge scores of the crop-first point and the comparisons the four-source tier needs that were not already asked & Gem & 717 & \$1.44 \\\midrule
+Fourth click source & the 600 confirmation items; scorer's scores of the crop-first point and the comparisons the four-source tier needs that were not already asked & Gem & 717 & \$1.44 \\\midrule
 Total & & & 67,364 & \$757.99 \\\bottomrule
 \end{longtable}
 \noindent G5.6, G6.1: GPT-5.6, GPT-6.1. S5.5: Sonnet 5.5. O5.5: Opus 5.5. Gem: Gemini 3.8 Flash. Q: Qwen3-VL-235B (instruct). The open-model calls have no logged per-token price, so the total cost excludes them.
@@ -45,7 +45,7 @@ Total & & & 67,364 & \$757.99 \\\bottomrule
 Model & Lowest setting as sent & Observed \\\midrule
 GPT-6.1 & \texttt{reasoning\_effort=low} & reasoning in most calls (SCP 100\%, PixMo 61\%, clicks 39\%); default: 100\% \\
 GPT-5.6 & effort none & no reasoning \\
-Sonnet 5.5 & \texttt{thinking: between\_tools} & lowest: 0\%; default (adaptive thinking): 0\% to 23\% on the dense, FSC and screen runs, 4 of 48 calls on controlled scenes, 0\% to 90\% on E3 by cell; pilots: not logged \\
+Sonnet 5.5 & \texttt{thinking: between\_tools} & lowest: 0\%; default (adaptive thinking): 0\% to 23\% on the dense, FSC and screen runs, 4 of 48 calls on controlled scenes, 0\% to 90\% on the detection sources by cell; pilots: not logged \\
 Opus 5.5 & effort low (adaptive thinking cannot be disabled) & under 1\% of logged calls at effort low; pilots: not logged \\
 Gemini 3.8 & \texttt{thinking\_budget=0} & little on list and box tasks (FSC list 6\%, regions 12\%); still reasons on clicks and points (GUI clicks about 99\%, PixMo 23\%, FSC points 32\%); default: 51\% to 100\% \\
 Qwen3-VL & instruct model, no reasoning parameter & no reasoning \\\bottomrule

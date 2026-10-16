@@ -35,6 +35,10 @@
   "usd_per_item": 0.02571,
   "calls_per_item": 8.99
  },
+ "vote-3": {
+  "usd_per_item": 0.02048,
+  "calls_per_item": 6.0
+ },
  "M-C": {
   "usd_per_item": 0.02613,
   "calls_per_item": 9.42

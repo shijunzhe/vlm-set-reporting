@@ -1,0 +1,25 @@
+{
+ "F": {
+  "GPT": 16,
+  "GPT+Sonnet": 12,
+  "GPT+Gemini": 10,
+  "D (GPT+Sonnet+Gemini)": 9
+ },
+ "rho": {
+  "Sonnet | GPT wrong": {
+   "n_all_old_wrong": 16,
+   "new_hits": 4,
+   "rho": 0.25
+  },
+  "Gemini | GPT wrong": {
+   "n_all_old_wrong": 16,
+   "new_hits": 6,
+   "rho": 0.375
+  },
+  "Gemini | GPT and Sonnet wrong": {
+   "n_all_old_wrong": 12,
+   "new_hits": 3,
+   "rho": 0.25
+  }
+ }
+}

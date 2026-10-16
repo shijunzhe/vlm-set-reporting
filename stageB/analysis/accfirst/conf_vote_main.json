@@ -1,0 +1,47 @@
+{
+ "subset": "main",
+ "n": 260,
+ "vote": {
+  "errors": 15,
+  "error_pct": 5.77,
+  "no_output": 0
+ },
+ "paired": [
+  {
+   "base": "vote-3-models",
+   "flow": "D-C",
+   "diff_pp": -1.54,
+   "ci95": [
+    -3.45,
+    0.01
+   ],
+   "fixed": 5,
+   "broken": 1,
+   "p_exact": 0.21875
+  },
+  {
+   "base": "vote-3-models",
+   "flow": "D-S",
+   "diff_pp": -0.77,
+   "ci95": [
+    -3.05,
+    1.53
+   ],
+   "fixed": 5,
+   "broken": 3,
+   "p_exact": 0.72656
+  },
+  {
+   "base": "GPT-default-zoom",
+   "flow": "vote-3-models",
+   "diff_pp": -0.38,
+   "ci95": [
+    -1.95,
+    1.16
+   ],
+   "fixed": 3,
+   "broken": 2,
+   "p_exact": 1.0
+  }
+ ]
+}

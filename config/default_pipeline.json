@@ -1,5 +1,5 @@
 {
-  "_about": "Shipped configuration of the reporting pipeline (paper Section 5: Algorithm 1, Algorithm 2 and Table 'Shipped defaults'). Every value the paper labels as shipped is here. Inputs from the task specification (classes, alias map, matching rule, loss) and the per-item budget are supplied by the user per task.",
+  "_about": "Shipped configuration of the reporting pipeline (paper Section 5: Algorithm 1, Algorithm 2 and Table 4, shipped defaults). Every value the paper labels as shipped is here. Inputs from the task specification (classes, alias map, matching rule, loss) and the per-item budget are supplied by the user per task.",
   "request": {
     "format": "one JSON object; record list first, then counts_by_type",
     "count_instruction": "Write the full list first; after it, give counts_by_type for the records you listed.",
@@ -16,7 +16,8 @@
       "sonnet55": "lowest",
       "gem38": "default"
     },
-    "max_output_tokens": 16384
+    "max_output_tokens": 16384,
+    "reasoning_setting_applies_to": "count requests (paper Table 4, Count row); set error and screen-source F1 use the lowest setting for every model, detection-source F1 uses set_f1_configuration, clicks use views.clicks.basic_tier_setting or click_tier"
   },
   "decode": {
     "strip_code_fence": true,
@@ -44,7 +45,12 @@
       "crop_fraction_of_each_side": 0.3333333333333333,
       "crop_pixels": "native, no resizing beyond provider limits",
       "no_point_in_crop": "keep the first point",
-      "no_first_point": "no crop; report no point"
+      "no_first_point": "no crop; report no point",
+      "basic_tier_setting": {
+        "gpt61": "default",
+        "sonnet55": "default",
+        "gem38": "lowest"
+      }
     },
     "sets_and_counts": {
       "default": "whole image (no views)",
@@ -67,11 +73,13 @@
     "set_error_over_reporting_families": {
       "calls": 3,
       "keep": "records reported by all three calls",
-      "coordinates": "mean of the associated records"
+      "coordinates": "mean of the associated records",
+      "interface_setting": "list interface, lowest setting for every model"
     },
     "set_error_under_reporting_families": {
       "calls": 1,
-      "keep": "all delivered records"
+      "keep": "all delivered records",
+      "interface_setting": "list interface, lowest setting for every model"
     },
     "f1": {
       "calls": 1,
@@ -117,7 +125,7 @@
     "5_to_10_images": "may fit the record gate (logistic selector on output features)"
   },
   "task_family_regime": {
-    "_about": "over: models mostly report false objects; under: models mostly miss objects. Shipped per task family from source-side evaluation (paper Table 3).",
+    "_about": "over: models mostly report false objects; under: models mostly miss objects. Shipped per task family from source-side evaluation (paper Table 4).",
     "sku110k": "over",
     "dota": "over",
     "doclaynet": "over",
@@ -126,7 +134,7 @@
     "fsc147": "under"
   },
   "set_f1_configuration": {
-    "_about": "Single-call interface and reasoning setting per model for F1 on detection-type set tasks, chosen by the leave-one-source-out rule (paper Table 'config') applied to all four detection sources (Table 'config_menu'; stageB/analysis/e3_loso_config.py). list: one list for the whole image; regions: one row per region of a fixed coordinate registry. Not used for set error, where the construction of 'construction' applies.",
+    "_about": "Single-call interface and reasoning setting per model for F1 on detection-type set tasks, chosen by the leave-one-source-out rule (paper Table 16) applied to all four detection sources (paper Table 21; stageB/analysis/e3_loso_config.py). list: one list for the whole image; regions: one row per region of a fixed coordinate registry. Not used for set error, where the construction of 'construction' applies.",
     "gpt61": {
       "interface": "regions",
       "setting": "lowest"
@@ -155,7 +163,7 @@
     "zoom": "two-stage zoom as in views.clicks; a failed zoom keeps the first click; a failed first click gives no candidate",
     "cluster_distance_fraction_of_longer_side": 0.015,
     "clusters": "connected components",
-    "judge": {
+    "scorer": {
       "model": "gem38",
       "setting": "lowest",
       "score_crop_fraction": 0.2,
@@ -166,8 +174,8 @@
       "sonnet55",
       "gem38"
     ],
-    "representative": "member with the highest judge hit score; ties: earlier source",
-    "ranking_key": "(representative score, cluster size, earliest source in the cluster)",
+    "representative": "member with the highest scorer hit score; ties: earlier source",
+    "ranking_key": "(representative's scorer hit score, cluster size, earliest source in the cluster)",
     "compared_clusters": 3,
     "comparison": "both orders; a representative wins only if both answers name it; failed, undecided or split pairs give no win",
     "output": "representative of the cluster with most wins, ties among those broken by the ranking key; no wins: first cluster of the ranking; no point from any call: no answer (a miss)"

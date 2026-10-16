@@ -176,12 +176,14 @@ def fig_teaser():
     AC = ROOT / 'analysis' / 'accfirst'
     ev = json.load(open(AC / 'conf_eval_conf_v1.json'))['flows']; dep = json.load(open(AC / 'deploy_costs_conf_v1.json'))
     pts = [('GPT-default-zoom', 'GPT-6.1 zoom', '#7f7f7f', (4, -8)), ('GPTx3', 'GPT-6.1 zoom x3', '#7f7f7f', (-8, 5)),
-           ('GLF', 'crop-first', '#9467bd', (4, 3)), ('D-C', 'three models (Alg. 2)', '#1f77b4', (-62, -9))]
+           ('GLF', 'crop-first', '#9467bd', (-12, -11)), ('D-C', 'three models (Alg. 2)', '#1f77b4', (-62, -9))]
+    ev = dict(ev, **{'vote-3': dict(errors=json.load(open(AC / 'conf_vote_conf_v1.json'))['vote']['errors'])})
+    pts.insert(3, ('vote-3', 'three models, vote', '#aec7e8', (-22, -11)))
     for k, lab, col, off in pts:
         xx, yy = dep[k]['usd_per_item'] * 100, ev[k]['errors'] / 6
         a3.scatter([xx], [yy], s=22, color=col, zorder=3)
         a3.annotate(lab, (xx, yy), xytext=off, textcoords='offset points', fontsize=5.5)
-    a3.set_xlim(0.5, 3.1); a3.set_ylim(8, 15); a3.set_xlabel('cost per item (US cents)', fontsize=6); a3.set_ylabel('miss rate (%), 600 new items', fontsize=6)
+    a3.set_xlim(0.5, 3.1); a3.set_ylim(8, 15); a3.set_xlabel('cost per item (US cents)', fontsize=6); a3.set_ylabel('miss rate (%), 600 click items', fontsize=6)
     a3.set_title('(c) Repair: choose among models', fontsize=7, loc='left')
     fig.savefig(HERE / 'fig_teaser.pdf', bbox_inches='tight'); plt.close(fig)
     return dict(click=c['id'], p1=p1, p4=p4)
