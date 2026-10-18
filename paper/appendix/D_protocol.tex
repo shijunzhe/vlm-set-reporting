@@ -1,6 +1,6 @@
 \section{Protocol Details}\label{app:protocol}
 
-\paragraph{List-first prompt.} The readout confirmation runs used the following system prompt for GPT-6.1 and Gemini 3.8 (native 0 to 1000 frame); the user message was ``List every geometric shape in this image with its center, then counts by type. Respond with JSON only.''
+\paragraph{List-first prompt.} The full-protocol readout runs used the following system prompt for GPT-6.1 and Gemini 3.8 (native 0 to 1000 frame); the user message was ``List every geometric shape in this image with its center, then counts by type. Respond with JSON only.''
 
 {\small
 \begin{verbatim}
@@ -33,16 +33,182 @@ you listed.
 
 \paragraph{Degeneracy flags.} A list is flagged if any of the following holds: more than 10\% of records lack a valid class; the list length is outside $[0.5,1.5]$ times the stated total; more than 10\% of records repeat a rounded coordinate pair already in the list; or the finish reason is ``length''. The same thresholds are used for every model, including the open model.
 
-\paragraph{Scoring and clustering.} Scoring uses the compatibility relation of each task in Table~\ref{tab:contract}: for example, points of equal class within 30 pixels on SCP and 20 pixels on SCP-dense, detection boxes of equal class at IoU $\ge 0.75$, screen elements at IoU $\ge 0.5$ without class, and clicks inside the target box. Maximum matchings are computed with a linear assignment on the 0/1 compatibility matrix \citep{kuhn1955hungarian}. Clusters across calls use the association rule of Table~\ref{tab:contract} (boxes: equal class and IoU $\ge0.5$, also on the detection sources where scoring uses 0.75), with a maximum-cardinality, then maximum-overlap assignment against cluster representatives, and the fused record is the coordinate mean of members.
+\paragraph{Scoring and clustering.} Scoring uses the compatibility relation of each task in Table~\ref{tab:contract}: for example, points of equal class within 30 pixels on SCP and 20 pixels on SCP-dense, detection boxes of equal class at IoU $\ge 0.75$, screen elements at IoU $\ge 0.5$ without class, and clicks inside the target box. Maximum matchings are computed with a linear assignment on the 0/1 compatibility matrix \citep{kuhn1955hungarian}. Clusters across calls use the association rule of Table~\ref{tab:contract} (boxes: equal class and IoU $\ge0.5$, also on the detection sources where scoring uses 0.75), with a maximum-cardinality, then maximum-overlap assignment against cluster representatives, and the averaged record is the coordinate mean of members.
 
-\paragraph{Constructions.} Same-model: \texttt{inter2} (two calls, intersection), \texttt{union2}, \texttt{unan3} and \texttt{maj3} (three calls, unanimity or majority), \texttt{union3}; each with fused (\texttt{\_fus}) or base-record (\texttt{\_del}) coordinates. Cross-model: \texttt{x2\_inter} and \texttt{x2\_union} with a named partner, \texttt{x3\_unan} and \texttt{x3\_maj} over the three models (one call each), \texttt{x3\_union}. The leave-one-source-out default for an evaluated source is the construction with the best mean relative change over the other five sources, computed separately for each loss and pool.
+\paragraph{Constructions.} Same-model: \texttt{inter2} (two calls, intersection), \texttt{union2}, \texttt{unan3} and \texttt{maj3} (three calls, unanimity or majority), \texttt{union3}; each with averaged (\texttt{\_fus}) or base-record (\texttt{\_del}) coordinates. Cross-model: \texttt{x2\_inter} and \texttt{x2\_union} with a named partner, \texttt{x3\_unan} and \texttt{x3\_maj} over the three models (one call each), \texttt{x3\_union}. The leave-one-source-out default for an evaluated source is the construction with the best mean relative change over the other five sources, computed separately for each loss and pool.
 
-\paragraph{Alarms.} For clicks, the same-model alarm compares two unzoomed calls of one model; the cross-model alarm compares one unzoomed call of the user's model with one of the partner; after zoom, the same-model alarm compares the model's zoomed first click with its zoomed second click, and the cross-model alarm compares the zoomed first clicks of the two models. An item is deferred when the two points are farther apart than $\delta$ times the longer image side. The partner is set by a fixed rule, the cheapest other model per click call (GPT-6.1 and Sonnet 5.5: Gemini 3.8; Gemini 3.8: Sonnet 5.5).
+\paragraph{Alarms.} For clicks, the same-model alarm compares two unzoomed calls of one model; the cross-model alarm compares one unzoomed call of the user's model with one of the partner; after zoom, the same-model alarm compares the model's zoomed first click with its zoomed second click, and the cross-model alarm compares the zoomed first clicks of the two models. An item is set aside in the risk-coverage analysis when the two points are farther apart than $\delta$ times the longer image side. The partner is set by a fixed rule, the cheapest other model per click call (GPT-6.1 and Sonnet 5.5: Gemini 3.8; Gemini 3.8: Sonnet 5.5).
 
 \paragraph{Clicks from several models.} Candidates are the two-stage zoom points of Step 4, mapped to the original screenshot. A candidate's identifier is the first 16 hexadecimal digits of the SHA-256 of the item, model, setting, parent call and coordinates. The scorer's score request shows a native crop of one fifth of the screenshot's width and height around the candidate, with a marker at the point, the instruction and the platform, and asks for a verdict and the probability that a click at the marker hits the intended element; it never names the model that produced the candidate. A missing or unreadable score counts as $-1$ for ranking. The comparison request shows the downscaled screenshot with both representatives marked by their identifiers and a native crop around each, asks which candidate satisfies the instruction (element, text, state, relation and whether the exact point lies inside the element), and allows ``undecided''; it forbids proposing a new point. Each pair is sent in both orders, and the code asserts that the points drawn equal the representatives' coordinates. Ranking keys, ties and failures follow Algorithm~\ref{alg:clicks}: a failed first click leaves that model without a candidate, a failed zoom keeps the first click, a failed comparison gives no win.
 
-\paragraph{Confirmation items and baselines.} The 600 confirmation items were sampled from the ScreenSpot-Pro annotations not among the 200 ScreenSpot-Pro items of the GUI experiment, in proportion to each application file and, within it, to each pair of group and element type, with a fixed seed; the sampler asserts that no item and no screenshot is shared with those items. The release records the SHA-256 of the protocol, the item list and every piece of code used to build requests and to evaluate; the hashes were checked before and after the run. A first batch of 100 seeded items, part of the 600, was run through every arm to check costs and transport only; its calls are among the 13,126. The three-call baseline runs three independent default-setting zooms of GPT-6.1, clusters the three points with the same $\delta$, and returns the earliest point of the largest cluster (ties: the cluster with the earliest point). The crop-first baseline uses GPT-6.1 at its default setting: the first call must return a region of the downscaled screenshot, the second sees that region at native resolution with 8\% padding and may return a smaller region or a click, and a third call, if needed, must click; an unreadable reply falls back to the centre of the last region. It follows the coarse-to-fine cropping of GUI-Lens \citep{fu2026guilens} without its OCR and detector anchors or verification step, with our own prompts. Paired intervals resample screenshots (4,000 draws, seed 20261014); McNemar tests are exact.
+\paragraph{The 600 click items and baselines.} The 600 items were sampled from the ScreenSpot-Pro annotations not among the 200 ScreenSpot-Pro items of the GUI experiment, in proportion to each application file and, within it, to each pair of group and element type, with a fixed seed; they share no screenshot with those items. A first batch of 100 seeded items, part of the 600, was run through every arm to check costs and transport only; its calls are among the 13,126. The three-call baseline runs three independent default-setting zooms of GPT-6.1, clusters the three points with the same $\delta$, and returns the earliest point of the largest cluster (ties: the cluster with the earliest point). The crop-first baseline uses GPT-6.1 at its default setting: the first call must return a region of the downscaled screenshot, the second sees that region at native resolution with 8\% padding and may return a smaller region or a click, and a third call, if needed, must click; an unreadable reply falls back to the centre of the last region. It follows the coarse-to-fine cropping of GUI-Lens \citep{fu2026guilens} without its OCR and detector anchors or verification step, with our own prompts. Paired intervals resample screenshots (4,000 draws, seed 20261014); McNemar tests are exact.
 
 \paragraph{Configuration transfer on the detection sources.} The menu contains the four single-call configurations run on every image of the four detection sources (first repetition): list or regions interface, each at the lowest and the default setting. In the regions interface the model returns one row per region of a fixed coordinate registry, with a status of empty, found or unknown, and reports each object in the region that contains its centre; in the list interface it returns one list for the whole image in registry scan order. For each model and evaluated source, F1 picks the configuration with the highest mean of per-source mean F1 on the other three sources, and set error the one with the lowest mean relative change against the list interface at the lowest setting; ties keep the earlier configuration in the order list-lowest, regions-lowest, list-default, regions-default. Intervals are paired bootstrap intervals over the images of the evaluated source.
 
-\paragraph{Reproducing the tables.} The code and all requests and responses are at \url{https://github.com/shijunzhe/vlm-set-reporting}, together with the labels whose licences allow redistribution (DocLayNet, ScreenSpot-Pro, ScreenSpot-v2, GroundCUA, ScreenParse, PixMo-Count). The labels of DOTA v1.0, SKU-110K and FSC-147 are not redistributed: the repository stores a placeholder for each value, naming the official file and the window, scale and rounding applied, and \texttt{thirdparty/tp.py} rebuilds the files from the official downloads, writing a file only when its SHA-256 digest matches the file we scored against. \texttt{bash reproduce.sh -{}-sources <dir>} performs this rebuild, sets the paths, runs \texttt{stageB/analysis/run\_all.sh}, which recomputes the data of every table and figure in Section~\ref{sec:results}, and writes the LaTeX tables and figures; without \texttt{-{}-sources} it recomputes the analyses that do not score against those three label sets and keeps the shipped outputs of the others. No step calls a model. The synthetic dense images are regenerated with \texttt{python3 -I stageB/code/scp\_generate.py -{}-num\_images 50 -{}-min\_shapes 120 -{}-max\_shapes 200 -{}-min\_radius 9 -{}-max\_radius 16 -{}-seed 2026}, which reproduces all 50 images byte for byte.
+\paragraph{Detection prompts.} Prompts below are verbatim; line breaks inside long lines are added for display. The detection sources used one system prompt per image, assembled from a task sentence, a coordinate contract, an output contract and a schema example generated from the region registry; the user message carried the registry as JSON. For the list interface on a DocLayNet page the system prompt was:
+
+{\footnotesize
+\begin{verbatim}
+You are performing visual set reporting. This is a document page. Find every layout
+element and label it with exactly one of: Caption, Footnote, Formula, List-item,
+Page-footer, Page-header, Picture, Section-header, Table, Text, Title. Each text
+block, list item, section header, page header, page footer, footnote, caption,
+table, picture, formula and title is one element. A coordinate registry of regions
+is given as public metadata: a region is an area to inspect, not a pre-detected
+object, and it may contain zero, one, or several matching instances. Scan the image
+systematically, region by region in registry order, and check every region before
+you finish; do not stop early. Do not invent objects to reach an expected number.
+Keep distinct nearby instances distinct.
+
+Each object has x1, y1, x2, y2: the left, top, right and bottom edges of its
+axis-aligned bounding box, normalized to the FULL IMAGE (native = image size times
+value), with 0 <= x1 < x2 <= 1 and 0 <= y1 < y2 <= 1. Give four decimal places. Each
+object also has label, one of the allowed labels exactly as written.
+
+Output contract: return exactly one JSON object with status and objects. objects is
+a single list of all matching objects in the whole image, listed in registry scan
+order. status is found when you have completed your inspection of every region,
+empty when the image contains no matching object, and unknown when you could not
+complete it (include all recovered objects). No region rows, total count, prose,
+code fence or explanation.
+
+Example of the schema only, not an answer for the current image:
+{"status":"found","objects":[{"x1":0.3078,"y1":0.1259,"x2":0.3478,"y2":0.1659,"label
+":"Caption"},{"x1":0.4173,"y1":0.0366,"x2":0.4573,"y2":0.0766,"label":"Caption"},{"x
+1":0.0829,"y1":0.3129,"x2":0.1229,"y2":0.3529,"label":"Caption"}]}
+\end{verbatim}
+}
+
+\noindent The regions interface replaces the output contract and the schema example by:
+
+{\footnotesize
+\begin{verbatim}
+Output contract: return exactly one JSON object per registered region, one object
+per line (NDJSON), in registry order, covering EVERY region in the registry. Each
+object has region_id, status and objects. status is empty, found, or unknown. Use
+empty only when you judge that no matching object center is in the region. Use found
+when you have completed your best inspection and report all matching objects whose
+center is in that region. Use unknown when you cannot complete the judgment; partial
+recovered objects may be included. Report an object only in the region containing
+its center. No surrounding list, prose, code fence, total count or explanation.
+
+Example of the schema only, not an answer for the current image:
+{"region_id":"R001","status":"empty","objects":[]}
+{"region_id":"R002","status":"found","objects":[{"x1":0.3078,"y1":0.1259,"x2":0.3478
+,"y2":0.1659,"label":"Caption"},{"x1":0.4173,"y1":0.0366,"x2":0.4573,"y2":0.0766,"la
+bel":"Caption"}]}
+{"region_id":"R003","status":"unknown","objects":[]}
+{"region_id":"R005","status":"found","objects":[{"x1":0.0829,"y1":0.3129,"x2":0.1229
+,"y2":0.3529,"label":"Caption"}]}
+\end{verbatim}
+}
+
+\noindent The user message, for both interfaces, was (registry abridged):
+
+{\footnotesize
+\begin{verbatim}
+Inspect the image using the region registry in the following payload. Follow the
+output contract exactly.
+
+{"image_width": 1025, "image_height": 1025, "coordinate_contract":
+"full_image_normalized_half_open_v1", "ordered_registry": [{"region_id": "R001",
+"x0": 0, "y0": 0, "width": 256, "height": 256}, ..., {"region_id": "R016", ...}],
+"allowed_labels": [...]}
+\end{verbatim}
+}
+
+\noindent The task sentence for the other sources: SKU-110K, ``Find every individual product on the shelves in the image: each separately visible package or item, including partly visible ones.''; DOTA, ``This is an aerial image. Find every object of the following categories: <categories>. Give each object its category exactly as written.''; FSC-147, ``The first image is a reference crop showing one instance of the target object. Find every instance of this object in the second image (the scene), including the instance the reference was cropped from.''. Point tasks (FSC-147) use the coordinate contract ``Each object has x and y, the coordinates of its center normalized to the FULL IMAGE: native\_x = image\_width*x, native\_y = image\_height*y, both at least 0 and strictly below 1. Give four decimal places.'', and the FSC-147 user message is preceded by ``The first image is the reference crop; the second image is the scene.''
+
+\paragraph{Click prompts.} The first click of two-stage zoom used the system prompt
+
+{\footnotesize
+\begin{verbatim}
+You are a computer-use agent. Given a screenshot and an instruction, return the
+point to click to carry out the instruction. Coordinates are integers on a 0 to 1000
+grid of the FULL IMAGE: 0 is the left (or top) edge and 1000 the right (or bottom)
+edge, whatever the pixel size of the image. Never give pixel coordinates.
+
+Output contract: one JSON object {"x": ..., "y": ...}; if the target is not visible,
+{"status": "not_found"}. No prose, no code fence.
+\end{verbatim}
+}
+
+\noindent with the user message \texttt{Platform: macos. Instruction: "open options of terminal in android studio". Return the click point.} (platform and instruction of the item). For Sonnet 5.5 the coordinate sentences read ``Coordinates are pixel coordinates of the FULL IMAGE exactly as you see it: x from 0 at its left edge to its width at the right edge, y from 0 at its top edge to its height at the bottom edge. Pixel sizes are given in the request.'', and the user message begins with the image size (for example \texttt{Pixel sizes: image 1429x804.}); the crop prompt changes in the same way. The click in the crop used
+
+{\footnotesize
+\begin{verbatim}
+You are a computer-use agent. The image is a zoomed crop of a larger screenshot, at
+native resolution. Given an instruction, return the point to click inside THIS crop.
+Coordinates are integers on a 0 to 1000 grid of the CROP: 0 is the left (or top)
+edge and 1000 the right (or bottom) edge, whatever the pixel size of the image.
+Never give pixel coordinates. If the target element is not inside this crop, say so.
+
+Output contract: one JSON object {"x": ..., "y": ...} or {"status": "not_in_crop"}.
+No prose, no code fence.
+\end{verbatim}
+}
+
+\noindent with \texttt{Platform: macos. Instruction: "open options of terminal in android studio". Return the click point in this crop.} The scorer's request (Algorithm~\ref{alg:clicks}, lines 5 and 6) used
+
+{\footnotesize
+\begin{verbatim}
+You are checking a click proposed by a computer-use agent. The image is a zoomed
+crop of a screenshot at native resolution; the red circle with a cross marks the
+proposed click. Judge whether clicking at the center of the marker would hit the UI
+element the instruction refers to. Do not propose another point.
+
+Output contract: one JSON object {"decision": "correct" or "uncertain" or "wrong",
+"p_hit": a number from 0 to 1}, where p_hit is your probability that clicking at the
+center of the marker hits the intended element. Give your best estimate even when
+unsure. No prose, no code fence.
+\end{verbatim}
+}
+
+\noindent with \texttt{Platform: macos. Instruction: "open options of terminal in android studio". Is the marked click correct?} The comparison (Algorithm~\ref{alg:clicks}, lines 10 to 12) used
+
+{\footnotesize
+\begin{verbatim}
+You are comparing two fixed predictions for the original visual task: a click on a
+screenshot of a computer application.
+
+Each candidate has an immutable ID and is marked on the images with its ID label.
+View "overview" is the full screenshot, downscaled, with both candidates marked.
+View "crop_<ID>" is a native-resolution crop around that candidate, with the
+candidate marked. Candidate source or model names are not provided.
+
+Compare the candidates using the actual task requirements:
+- the requested element or control;
+- the exact text, state, or attribute when specified;
+- the requested relation and its anchor or reference frame (panel, toolbar,
+neighbouring label);
+- whether the exact candidate point is inside the intended target element.
+
+Inspect the information that distinguishes the candidates. Do not merely decide
+whether both regions contain a control. Do not rewrite any coordinates or invent a
+new candidate. Cite only supplied view IDs.
+
+Output contract: one JSON object {"preferred_id": one of the supplied candidate IDs
+or "undecided", "discriminating_requirement": "identity" or "text" or "state" or
+"relation" or "geometry" or "none", "evidence_view_ids": a list of supplied view
+IDs}. No prose, no code fence.
+\end{verbatim}
+}
+
+\noindent with the user message
+
+{\footnotesize
+\begin{verbatim}
+Original task (platform macos): "open options of terminal in android studio"
+Candidate IDs: C85E5 (red), C10D4 (blue).
+Views in order: overview, crop_C85E5, crop_C10D4.
+Which candidate satisfies the original task? Follow the output contract exactly.
+\end{verbatim}
+}
+
+\paragraph{Reproducing the tables.} The code and all requests and responses are at \url{https://github.com/shijunzhe/vlm-set-reporting}, together with the labels whose licences allow redistribution (DocLayNet, ScreenSpot-Pro, ScreenSpot-v2, GroundCUA, ScreenParse, PixMo-Count). The labels of DOTA v1.0, SKU-110K and FSC-147 are not redistributed: the repository stores a placeholder for each value, naming the official file and the window, scale and rounding applied, and \path{thirdparty/tp.py} rebuilds the files from the official downloads, writing a file only when its SHA-256 digest matches the file we scored against. \verb|bash reproduce.sh --sources <dir>| performs this rebuild, sets the paths, runs \path{stageB/analysis/run_all.sh}, which recomputes the data of every table and figure in Section~\ref{sec:results}, and writes the LaTeX tables and figures; without \path{--sources} it recomputes the analyses that do not score against those three label sets and keeps the shipped outputs of the others. No step calls a model. The synthetic dense images are regenerated, byte for byte, with
+{\small
+\begin{verbatim}
+python3 -I stageB/code/scp_generate.py --num_images 50 --min_shapes 120 \
+        --max_shapes 200 --min_radius 9 --max_radius 16 --seed 2026
+\end{verbatim}
+}

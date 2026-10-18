@@ -1,0 +1,70 @@
+\providecommand\fsrref[1]{\ifdefined\hypersetup\ref*{#1}\else\ref{#1}\fi}%
+\definecolor{fsrInk}{HTML}{2B2B2B}%
+\definecolor{fsrLine}{HTML}{4D4D4D}%
+\definecolor{fsrMuted}{HTML}{6E6E6E}%
+\definecolor{fsrRule}{HTML}{BDBDBD}%
+\definecolor{fsrObj}{HTML}{F3F3F3}%
+\definecolor{fsrBlue}{HTML}{1F5A96}%
+\definecolor{fsrBlueTint}{HTML}{EAF1F8}%
+\definecolor{fsrJudge}{HTML}{5E4B8B}%
+\definecolor{fsrDetect}{HTML}{B85C00}%
+\definecolor{fsrFail}{HTML}{A61C1C}%
+\def\fsrB{\fontsize{9pt}{10.8pt}\selectfont}\def\fsrS{\fontsize{8pt}{9.5pt}\selectfont}\def\fsrO{\fontsize{9pt}{10.5pt}\selectfont}%
+\begin{tikzpicture}[
+  font=\sffamily, text=fsrInk,
+  obj/.style={draw=fsrLine, fill=fsrObj, line width=0.6pt, rounded corners=2pt, align=center, font=\sffamily\fsrO, minimum height=1.05cm, text width=2.1cm, inner sep=3.5pt},
+  arr/.style={-{Stealth[length=2.2mm, width=1.7mm]}, line width=0.8pt, fsrLine},
+  op/.style={font=\sffamily\fsrS\bfseries, text=fsrBlue, above=2pt, inner sep=0pt, align=center},
+  card/.style={draw=fsrBlue, fill=fsrBlueTint, line width=0.6pt, rounded corners=2pt, align=left, font=\sffamily\fsrB, inner sep=4pt, anchor=north},
+  fail/.style={font=\sffamily\fsrB, text=fsrFail, align=center, below=2pt, inner sep=0pt},
+  lane/.style={font=\sffamily\fsrB\bfseries, text=fsrMuted, rotate=90, align=center},
+  band/.style={line width=0.8pt, fsrMuted},
+  blab/.style={font=\sffamily\fsrB\bfseries, text=fsrMuted, anchor=north, inner sep=2pt, below=1pt},
+  side/.style={draw=fsrRule, fill=white, line width=0.6pt, align=left, font=\sffamily\fsrB, inner xsep=8pt, inner ysep=4pt}]
+% ================= lane 1: any task (Algorithm 1)
+\node[obj] (x) at (0,0) {image, task,\\budget};
+\node[obj] (h) at (4,0) {responses};
+\node[obj] (z) at (8,0) {records,\\stated counts};
+\node[obj] (s) at (12,0) {set};
+\node[obj, text width=2.4cm] (y) at (16,0) {answer\\{\fsrS count, set or click}};
+\draw[arr] (x) -- node[op]{call} (h);
+\draw[arr] (h) -- node[op]{decode} (z);
+\draw[arr] (z) -- node[op]{construct} (s);
+\draw[arr] (s) -- node[op]{read out} (y);
+\def\fsrcard#1#2#3{\parbox[t][2.6cm][t]{3.6cm}{\raggedright\hyphenpenalty=10000 {\bfseries\color{fsrBlue}#1}\\[2pt]#2\\[2pt]{\itshape\color{fsrMuted}#3}}}
+\node[card] (c1) at (2,-0.75) {\fsrcard{Request and view}{list-first request; regions or list per model; two-stage zoom}{Prop.~\fsrref{prop:coverage}: rescue rate $\phi$}};
+\node[card] (c2) at (6,-0.75) {\fsrcard{Decode and recover}{aliases mapped in code; \textcolor{fsrDetect}{degeneracy flags}; one follow-up}{}};
+\node[card] (c3) at (10,-0.75) {\fsrcard{Construct}{set error, over-reporting tasks: keep what all three calls report}{delete iff $p_1{<}1/2$ at equal costs; averaging separate (Props.~\fsrref{prop:identity} to \fsrref{prop:geometry})}};
+\node[card] (c4) at (14,-0.75) {\fsrcard{Read out}{count the list; the stated count only if the list is flagged}{Prop.~\fsrref{prop:readout}: gain $\le$ readout gap}};
+% ================= lane 2: GUI grounding (Algorithm 2), same columns
+\def\gy{-4.7}
+\node[obj] (g0) at (0,\gy) {screenshot,\\instruction};
+\node[obj] (g1) at (4,\gy) {3 zoomed\\points};
+\node[obj] (g2) at (8,\gy) {candidates};
+\node[obj] (g3) at (12,\gy) {representatives\\{\fsrS one per cluster}};
+\node[obj, text width=2.4cm] (g4) at (16,\gy) {one point\\(none:\ miss)};
+\draw[arr] (g0) -- node[op]{call} (g1);
+\draw[arr] (g1) -- node[op]{decode} (g2);
+\draw[arr] (g2) -- node[op]{construct} (g3);
+\draw[arr] (g3) -- node[op]{read out} (g4);
+\def\fsrgcard#1#2{\parbox[t][2.05cm][t]{3.6cm}{\raggedright\hyphenpenalty=10000 #1\\[2pt]{\color{fsrFail}#2}}}
+\node[card] (e1) at (2,\gy-0.75) {\fsrgcard{two-stage zoom by GPT-6.1, Sonnet 5.5 and Gemini 3.8}{$F$: no correct candidate}};
+\node[card] (e2) at (6,\gy-0.75) {\fsrgcard{register each point with its model and call}{}};
+\node[card] (e3) at (10,\gy-0.75) {\fsrgcard{cluster within $\delta$; keep each cluster's best-scored point}{$L$: correct candidate, no correct representative}};
+\node[card] (e4) at (14,\gy-0.75) {\fsrgcard{one cluster: its point; \textcolor{fsrDetect}{alarm}: pairwise comparison}{$W$: correct representative not chosen}};
+% lane labels and separator
+\draw[fsrRule, line width=0.6pt] ($(x.west|-0,-3.75)+(-0.7,0)$) -- ($(y.east|-0,-3.75)$);
+\node[lane] at ($(x.west)+(-0.45,-1.7)$) {any task\\(Alg.~\fsrref{alg:pipeline})};
+\node[lane] at ($(g0.west)+(-0.45,-1.05)$) {GUI grounding\\(Alg.~\fsrref{alg:clicks})};
+% ================= seeing / reporting, shared by both lanes
+\coordinate (bandY) at (0,-8.15);
+\draw[band] ($(c1.west|-bandY)+(0,0.15)$) -- ($(c1.west|-bandY)$) -- ($(c1.east|-bandY)$) -- ++(0,0.15);
+\draw[band] ($(c2.west|-bandY)+(0,0.15)$) -- ($(c2.west|-bandY)$) -- ($(c4.east|-bandY)$) -- ++(0,0.15);
+\node[blab] at ($(c1.west|-bandY)!0.5!(c1.east|-bandY)$) {SEEING: coverage ($F$)};
+\node[blab] at ($(c2.west|-bandY)!0.5!(c4.east|-bandY)$) {REPORTING: what is delivered from what the calls contain ($L$, $W$)};
+% ================= judge and detect
+\node[side, anchor=north west] (j) at ($(x.west|-0,-8.9)$) {\parbox[t][1.45cm][t]{8.1cm}{\raggedright\hyphenpenalty=10000 {\bfseries\color{fsrJudge}Judge} {\color{fsrMuted}(optional labels, Step 7)}: shipped defaults need no target labels; with at least 3 labelled images, switch only if another configuration wins. Outputs alone cannot certify (Prop.~\fsrref{prop:nocert}).}};
+\fill[fsrJudge] (j.north west) rectangle ($(j.south west)+(0.1,0)$);
+\node[side, anchor=north east] (d) at ($(y.east|-0,-8.9)$) {\parbox[t][1.45cm][t]{8.1cm}{\raggedright\hyphenpenalty=10000 {\bfseries\color{fsrDetect}Detect} {\color{fsrMuted}(no labels, Steps 2 and 8)}: degeneracy flags mark broken lists; disagreement with a second model raises an alarm (Prop.~\fsrref{prop:alarm}), which triggers the comparison.}};
+\fill[fsrDetect] (d.north west) rectangle ($(d.south west)+(0.1,0)$);
+\end{tikzpicture}%

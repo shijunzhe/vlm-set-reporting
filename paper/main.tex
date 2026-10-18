@@ -1,10 +1,12 @@
+\pdfoutput=1
 \documentclass[11pt]{article}
 \usepackage[preprint]{acl}
 \input{preamble}
-\hypersetup{pdftitle={From Seeing to Reporting: A Theory of Reliable Visual Set Generation},pdfauthor={Junzhe Shi, Yuan Gan, Shida Jiang}}
+\hypersetup{pdftitle={From Seeing to Reporting: A Theory of Reliable Visual Set Generation in Vision-Language Models},pdfauthor={Junzhe Shi, Yuan Gan, Shida Jiang},pdfsubject={Theory and inference-time procedures for reliable visual reports from vision-language models},pdfkeywords={vision-language models, VLMs, visual reporting, object counting, object detection, document layout analysis, screen parsing, GUI grounding, ScreenSpot-Pro, self-consistency, multi-model ensembles}}
 \title{\papertitle}
 
-\author{Junzhe Shi\thanks{Corresponding author.} \\
+\iflatexml\let\And\and\fi
+\author{Junzhe Shi\thanks{Corresponding author: Junzhe Shi.} \\
   Systems Engineering \\
   University of California, Berkeley \\
   Berkeley, CA, USA \\
@@ -37,6 +39,7 @@
 
 \appendix
 \onecolumn
+\counterwithin{table}{section}
 \input{appendix/A_proofs}
 \input{appendix/B_tables}
 \input{appendix/C_registry}

@@ -1,4 +1,4 @@
-# From Seeing to Reporting: A Theory of Reliable Visual Set Generation
+# FSR (From Seeing to Reporting): A Theory of Reliable Visual Set Generation in Vision-Language Models
 
 Code, every model request and response, and the labels we may redistribute, for the paper by Junzhe Shi, Yuan Gan and Shida Jiang (arXiv link to be added). Labels of DOTA v1.0, SKU-110K and FSC-147 are rebuilt from the official downloads by `thirdparty/tp.py` (see `thirdparty/SOURCES.md`). The paper PDF is in `paper/FSR_arxiv.pdf`.
 
@@ -21,7 +21,7 @@ It derives defaults for each problem and tests them in 67,364 calls on 1,746 ima
 | Over-reporting tasks (detection, layout, screen parsing) | Keep a record only if all three calls report it, and fuse coordinates | Delete records for count objectives |
 | You want an alarm for wrong outputs | Use disagreement with a second model | Treat agreement as correctness |
 | Several models are available | Use cross-model disagreement as an alarm; choose cross-model confirmation from the menu with a few labels or a family-level ranking | An equal-weight vote of all models on points, screens, clicks or counts when one model is strongest (worse or not significantly different there; it helped on DOTA and SKU-110K) |
-| A click must be right and the budget covers the several-model tier's worst case | Algorithm 2: three models' zoomed clicks as candidates, the scorer's hit score per candidate, a two-order comparison only on items where the candidates disagree | Spend the budget on repeated calls of one model without measuring their rescue rate; read agreement among models as proof that an answer is right |
+| Higher GUI-grounding (click) accuracy is worth the several-model tier's planned worst case (15 calls per item, technical retries excluded) | Algorithm 2: three models' zoomed clicks as candidates, the scorer's hit score per candidate, a two-order comparison only on items where the candidates disagree | Spend the budget on repeated calls of one model without measuring their rescue rate; read agreement among models as proof that an answer is right |
 
 The shipped configuration (Algorithms 1 and 2 and Table 4 of the paper) is `config/default_pipeline.json`; it includes the per-model single-call configuration for F1 on detection sources (`set_f1_configuration`) and the click tier (`click_tier`). The degeneracy flags are in `stageB/code/degen.py`. The readout rule is Step 6 of the method (Section 5 of the paper):
 - use the stated counts when the list is flagged and stated counts exist;
@@ -98,7 +98,7 @@ Labels from DOTA v1.0, SKU-110K and FSC-147 are not in this repository (see [Dat
 
 Panel (b) of Figure 1 needs one ScreenSpot-Pro screenshot, which is not redistributed. Without it, the shipped figure is kept.
 
-To build the paper, run `cd paper && latexmk -pdf main.tex`.
+To build the paper, run `cd paper && latexmk -pdf main.tex`. Figure 2 is drawn in TikZ (`paper/figures/fig_chain_body.tex`); the HTML version of the paper uses a rendered copy, which is refreshed after the build by `cd paper && pdflatex -output-directory=figures -jobname=fig_chain figures/fig_chain_standalone.tex && pdftoppm -png -r 300 -singlefile figures/fig_chain.pdf figures/fig_chain`.
 
 ## Where each result comes from
 
@@ -166,9 +166,11 @@ The matching request files hold the prompt, the image reference and the metadata
 
 ## Citation
 
+GitHub reads `CITATION.cff` for the "Cite this repository" button; the same entry in BibTeX:
+
 ```bibtex
 @misc{shi2026seeing,
-  title  = {From Seeing to Reporting: A Theory of Reliable Visual Set Generation},
+  title  = {From Seeing to Reporting: A Theory of Reliable Visual Set Generation in Vision-Language Models},
   author = {Shi, Junzhe and Gan, Yuan and Jiang, Shida},
   year   = {2026},
   note   = {arXiv preprint, identifier to be added}

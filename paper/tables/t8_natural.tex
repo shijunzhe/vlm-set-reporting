@@ -1,13 +1,15 @@
-\begin{table*}[tp]\centering\small\setlength{\tabcolsep}{4pt}
-\caption{Readout on aerial and document images with several classes: 30 DOTA windows (71 objects and 3.3 classes per image on average) and 50 DocLayNet pages (25 elements, 5.0 classes); one call per image and arm, lowest setting unless stated, 16k cap. Per-type count error; paired image bootstrap. Difficult DOTA objects and objects less than half inside the window are not targets, so records on them are counted like any other record, for every readout alike. \emph{List recall}: share of true objects matched by a record centre inside a true box of the same class (list-first arm). \emph{Readout gap}: mean per-type difference between the stated count and the list count of the same count-first response, which bounds how much switching readouts can change the error. \emph{Same response}: stated count $\to$ list count of the count-first response. \emph{Protocol}: readout of the list-first response (list count, or the stated count if the list is flagged) against the stated count of the count-first response; the Gemini default row is the shipped configuration.}\label{tab:natural}
-\resizebox{\textwidth}{!}{\begin{tabular}{@{}llcccccc@{}}\toprule
-Images & Model & List recall & Readout gap & Same response & Change & Protocol readout & Change vs.\ stated count \\\midrule
-DOTA & GPT-6.1 & 88\% & 2.2 & 40.5 $\to$ 40.8 & $+$0.7\% [$-$5.0, 4.5] & 40.7 & $+$0.4\% [$-$17.7, 16.4] \\
-DOTA & Sonnet 5.5 & 68\% & 7.4 & 45.8 $\to$ 39.7 & $-$13.5\% [$-$34.7, $-$0.6] & 38.6 & $-$15.7\% [$-$38.2, 7.7] \\
-DOTA & Gemini 3.8 & 26\% & 44.2 & 33.2 $\to$ 63.9 & $+$92.4\% [54.2, 145.0] & 39.2 & $+$18.0\% [$-$13.4, 61.2] \\
-DOTA & Gemini 3.8, default & & & & & 23.9 & $-$28.2\% [$-$48.6, 0.1] \\
-DocLayNet & GPT-6.1 & 87\% & 0.1 & 4.9 $\to$ 4.9 & $+$0.4\% [$-$1.6, 2.2] & 4.8 & $-$2.4\% [$-$12.4, 4.5] \\
-DocLayNet & Sonnet 5.5 & 83\% & 3.1 & 8.6 $\to$ 6.9 & $-$19.9\% [$-$32.5, $-$10.1] & 6.8 & $-$20.1\% [$-$36.7, 3.3] \\
-DocLayNet & Gemini 3.8 & 68\% & 5.3 & 9.4 $\to$ 11.2 & $+$19.2\% [1.6, 41.0] & 8.6 & $-$7.9\% [$-$24.7, 10.6] \\
-DocLayNet & Gemini 3.8, default & & & & & 7.0 & $-$25.8\% [$-$42.5, $-$8.8] \\
-\bottomrule\end{tabular}}\end{table*}
+\begin{table*}[tp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Readout on aerial and document images with several classes: 30 DOTA windows (71 objects and 3.3 classes per image on average) and 50 DocLayNet pages (25 elements, 5.0 classes); one call per image and arm, lowest setting unless stated, 16k cap. Per-type count error, lower is better; paired image bootstrap 95\% intervals. Difficult DOTA objects and objects less than half inside the window are not targets, so records on them are counted like any other record, for every readout alike. \emph{List recall}: share of true objects matched by a record centre inside a true box of the same class (list-first arm). \emph{Readout gap}: mean per-type difference between the stated count and the list count of the same count-first response, which bounds how much switching readouts can change the error. \emph{Same response}: stated count $\to$ list count of the count-first response. \emph{Full method}: readout of the list-first response (list count, or the stated count if the list is flagged) against the stated count of the count-first response; the Gemini 3.8 default row is the shipped configuration. \textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: it excludes 0 in the unfavourable direction.}\label{tab:natural}
+\begin{tabular}{@{}llrrrrrr@{}}\toprule
+& & & & \multicolumn{2}{c}{Same response} & \multicolumn{2}{c}{Full method} \\\cmidrule(lr){5-6}\cmidrule(l){7-8}
+Images & Model & \begin{tabular}[b]{@{}c@{}}List\\recall (\%)\end{tabular} & \begin{tabular}[b]{@{}c@{}}Readout\\gap\end{tabular} & Error & Change, \% [95\% CI] & Error & Change, \% [95\% CI] \\\midrule
+DOTA & GPT-6.1 & 88 & 2.2 & 40.5 $\to$ 40.8 & $+$0.7 [$-$5.0, 4.5] & 40.7 & $+$0.4 [$-$17.7, 16.4] \\
+ & Sonnet 5.5 & 68 & 7.4 & 45.8 $\to$ 39.7 & {\bfseries\boldmath $-$13.5 [$-$34.7, $-$0.6]} & 38.6 & $-$15.7 [$-$38.2, 7.7] \\
+ & Gemini 3.8 & 26 & 44.2 & 33.2 $\to$ 63.9 & \underline{$+$92.4 [54.2, 145.0]} & 39.2 & $+$18.0 [$-$13.4, 61.2] \\
+ & Gemini 3.8, default & n/a & n/a & n/a & n/a & 23.9 & $-$28.2 [$-$48.6, 0.1] \\
+\midrule
+DocLayNet & GPT-6.1 & 87 & 0.1 & 4.9 $\to$ 4.9 & $+$0.4 [$-$1.6, 2.2] & 4.8 & $-$2.4 [$-$12.4, 4.5] \\
+ & Sonnet 5.5 & 83 & 3.1 & 8.6 $\to$ 6.9 & {\bfseries\boldmath $-$19.9 [$-$32.5, $-$10.1]} & 6.8 & $-$20.1 [$-$36.7, 3.3] \\
+ & Gemini 3.8 & 68 & 5.3 & 9.4 $\to$ 11.2 & \underline{$+$19.2 [1.6, 41.0]} & 8.6 & $-$7.9 [$-$24.7, 10.6] \\
+ & Gemini 3.8, default & n/a & n/a & n/a & n/a & 7.0 & {\bfseries\boldmath $-$25.8 [$-$42.5, $-$8.8]} \\
+\bottomrule\end{tabular}\end{table*}

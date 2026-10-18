@@ -1,0 +1,21 @@
+\begin{table}[H]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Click alarms at matched acceptance coverage (260 items; data of Table~\ref{tab:alarm} and Figure~\ref{fig:alarm}; point estimates without intervals). Rows are the acceptance coverages that the same-model and the cross-model alarm both reach on the grid of $\delta$; miss rates are those of the acted-on items, lower is better.}\label{tab:alarm_matched}
+\begin{tabular}{@{}llrrr@{}}\toprule
+Model & Points & \begin{tabular}[b]{@{}c@{}}Acceptance\\coverage (\%)\end{tabular} & \begin{tabular}[b]{@{}c@{}}Miss rate,\\same model (\%)\end{tabular} & \begin{tabular}[b]{@{}c@{}}Miss rate,\\cross-model (\%)\end{tabular} \\\midrule
+GPT-6.1 & unzoomed & 93.1 & 7.0 & 5.8 \\
+ & after zoom & 90.4 & 3.8 & 2.9 \\
+ &  & 91.7 & 3.8 & 3.4 \\
+ &  & 93.1 & 3.7 & 3.7 \\
+\midrule
+Sonnet 5.5 & unzoomed & 87.7 & 10.5 & 10.1 \\
+ &  & 88.5 & 11.3 & 10.6 \\
+ &  & 89.2 & 12.1 & 11.2 \\
+ & after zoom & \multicolumn{3}{l}{the two curves do not overlap} \\
+\midrule
+Gemini 3.8 & unzoomed & 78.1 & 19.2 & 16.5 \\
+ &  & 83.7 & 20.5 & 18.8 \\
+ &  & 89.2 & 21.9 & 20.7 \\
+ & after zoom & 87.3 & 5.3 & 3.8 \\
+ &  & 88.6 & 5.5 & 4.5 \\
+ &  & 90.0 & 5.7 & 5.1 \\
+\bottomrule\end{tabular}\end{table}

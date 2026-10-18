@@ -1,20 +1,21 @@
-\begin{table}[h]\centering\small\setlength{\tabcolsep}{4pt}
-\caption{Same-response readout across datasets (count-first prompts, lowest setting, one call; data of Figure~\ref{fig:density}). List count without and with the declared alias map; paired image bootstrap (a separate run from Table~\ref{tab:readout}, so shared rows can differ in the last digit of an interval).}\label{tab:density}
-\resizebox{\textwidth}{!}{\begin{tabular}{@{}lclllccc@{}}\toprule
-Dataset & Objects & Error & Model & $n$ & Stated & List count (unmapped) & List count (alias map) \\\midrule
-PixMo-Count & 6.0 & total & GPT-6.1 & 100 & 0.16 & 0.15, $-$6.3\% [$-$23.1, 0.0] & same \\
- &  &  & Sonnet 5.5 & 100 & 0.17 & 0.14, $-$17.6\% [$-$38.5, 0.0] & same \\
- &  &  & Gemini 3.8 & 100 & 0.33 & 0.27, $-$18.2\% [$-$37.5, 0.0] & same \\
+\begin{table}[H]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Same-response readout across datasets (count-first prompts, lowest setting, one call; data of Figure~\ref{fig:density}). Count error of the stated count and of the list count in the same response, without and with the declared alias map (lower is better; total error for one-class datasets, per-type error otherwise). Change: relative change from the stated count to the list count, with its paired image-bootstrap 95\% interval; this is a separate run from Table~\ref{tab:readout}, so shared rows can differ in the last digit of an interval, and the two list-count columns use separate draws. \textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: it excludes 0 in the unfavourable direction. Under each dataset: the error measure and the mean number of objects per image.}\label{tab:density}
+\begin{tabular}{@{}llrrrrrrrr@{}}\toprule
+& & & & \multicolumn{3}{c}{Raw list count} & \multicolumn{3}{c}{Mapped list count} \\\cmidrule(lr){5-7}\cmidrule(l){8-10}
+Dataset & Model & $n$ & Stated & Error & Change (\%) & 95\% CI & Error & Change (\%) & 95\% CI \\\midrule
+\begin{tabular}[t]{@{}l@{}}PixMo-Count\\total, 6.0 obj.\end{tabular} & GPT-6.1 & 100 & 0.16 & 0.15 & $-$6.3 & [$-$23.1, 0.0] & \multicolumn{3}{c}{not applicable (one class)} \\
+ & Sonnet 5.5 & 100 & 0.17 & 0.14 & $-$17.6 & [$-$38.5, 0.0] & \multicolumn{3}{c}{not applicable (one class)} \\
+ & Gemini 3.8 & 100 & 0.33 & 0.27 & $-$18.2 & [$-$37.5, 0.0] & \multicolumn{3}{c}{not applicable (one class)} \\
 \midrule
-FSC-147 & 43.8 & total & GPT-6.1 & 100 & 2.73 & 2.70, $-$1.1\% [$-$8.5, 8.8] & same \\
- &  &  & Sonnet 5.5 & 100 & 9.24 & 8.85, $-$4.2\% [$-$11.9, 2.1] & same \\
- &  &  & Gemini 3.8 & 100 & 6.87 & 3.93, $-$42.8\% [$-$65.7, $-$17.4] & same \\
+\begin{tabular}[t]{@{}l@{}}FSC-147\\total, 43.8 obj.\end{tabular} & GPT-6.1 & 100 & 2.73 & 2.70 & $-$1.1 & [$-$8.5, 8.8] & \multicolumn{3}{c}{not applicable (one class)} \\
+ & Sonnet 5.5 & 100 & 9.24 & 8.85 & $-$4.2 & [$-$11.9, 2.1] & \multicolumn{3}{c}{not applicable (one class)} \\
+ & Gemini 3.8 & 100 & 6.87 & 3.93 & {\bfseries\boldmath $-$42.8} & [$-$65.7, $-$17.4] & \multicolumn{3}{c}{not applicable (one class)} \\
 \midrule
-SCP & 47.6 & per type & GPT-6.1 & 100 & 0.59 & 0.33, $-$44.1\% [$-$60.8, $-$18.6] & 0.33, $-$44.1\% [$-$61.1, $-$19.0] \\
- &  &  & Sonnet 5.5 & 100 & 4.52 & 0.07, $-$98.5\% [$-$99.6, $-$96.9] & 0.07, $-$98.5\% [$-$99.6, $-$96.9] \\
- &  &  & Gemini 3.8 & 100 & 5.92 & 17.25, $+$191.4\% [145.8, 239.3] & 17.25, $+$191.4\% [146.5, 234.5] \\
+\begin{tabular}[t]{@{}l@{}}SCP\\per type, 47.6 obj.\end{tabular} & GPT-6.1 & 100 & 0.59 & 0.33 & {\bfseries\boldmath $-$44.1} & [$-$60.8, $-$18.6] & 0.33 & {\bfseries\boldmath $-$44.1} & [$-$61.1, $-$19.0] \\
+ & Sonnet 5.5 & 100 & 4.52 & 0.07 & {\bfseries\boldmath $-$98.5} & [$-$99.6, $-$96.9] & 0.07 & {\bfseries\boldmath $-$98.5} & [$-$99.6, $-$96.9] \\
+ & Gemini 3.8 & 100 & 5.92 & 17.25 & \underline{$+$191.4} & [145.8, 239.3] & 17.25 & \underline{$+$191.4} & [146.5, 234.5] \\
 \midrule
-SCP-dense & 164.3 & per type & GPT-6.1 & 50 & 10.84 & 2.64, $-$75.6\% [$-$83.0, $-$65.9] & 2.64, $-$75.6\% [$-$83.0, $-$65.7] \\
- &  &  & Sonnet 5.5 & 50 & 35.02 & 7.80, $-$77.7\% [$-$91.5, $-$58.4] & 5.42, $-$84.5\% [$-$97.6, $-$65.9] \\
- &  &  & Gemini 3.8 & 50 & 45.68 & 129.04, $+$182.5\% [163.4, 202.0] & 129.04, $+$182.5\% [163.2, 202.4] \\
-\bottomrule\end{tabular}}\end{table}
+\begin{tabular}[t]{@{}l@{}}SCP-dense\\per type, 164.3 obj.\end{tabular} & GPT-6.1 & 50 & 10.84 & 2.64 & {\bfseries\boldmath $-$75.6} & [$-$83.0, $-$65.9] & 2.64 & {\bfseries\boldmath $-$75.6} & [$-$83.0, $-$65.7] \\
+ & Sonnet 5.5 & 50 & 35.02 & 7.80 & {\bfseries\boldmath $-$77.7} & [$-$91.5, $-$58.4] & 5.42 & {\bfseries\boldmath $-$84.5} & [$-$97.6, $-$65.9] \\
+ & Gemini 3.8 & 50 & 45.68 & 129.04 & \underline{$+$182.5} & [163.4, 202.0] & 129.04 & \underline{$+$182.5} & [163.2, 202.4] \\
+\bottomrule\end{tabular}\end{table}

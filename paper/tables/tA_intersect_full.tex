@@ -1,7 +1,9 @@
-\begin{longtable}{@{}lllcccccc@{}}
-\caption{Selection and geometry terms for every base/partner pair (per image, reduction of $E$; positive is better). $\Delta c$: deleted scored records; $\Delta r$: matches lost.}\label{tab:intersect_full}\\\toprule
+{\footnotesize\setlength{\tabcolsep}{4pt}\begin{longtable}{@{}lllrrrrrr@{}}
+\caption{Selection and geometry terms for every base/partner pair (60 images per source, one call each; data of Table~\ref{tab:intersect}). $\Delta c$: deleted scored records per image; $\Delta r$: matches lost per image; $p_1=\Delta r/\Delta c$, the marginal matching rate of the deleted records. Selection, geometry and total are per-image reductions of $E$ (positive is better); selection plus geometry equals the total on every row (Propositions~\ref{prop:identity} and \ref{prop:geometry}).}\ltlabel{tab:intersect_full}\\\toprule
 Source & Base & Partner & $\Delta c$ & $\Delta r$ & $p_1$ & Selection & Geometry & Total \\\midrule\endfirsthead
-\toprule Source & Base & Partner & $\Delta c$ & $\Delta r$ & $p_1$ & Selection & Geometry & Total \\\midrule\endhead
+\multicolumn{9}{@{}l}{\emph{Table~\ref{tab:intersect_full}, continued}}\\\toprule Source & Base & Partner & $\Delta c$ & $\Delta r$ & $p_1$ & Selection & Geometry & Total \\\midrule\endhead
+\midrule\multicolumn{9}{r}{\emph{continued on the next page}}\\\endfoot
+\bottomrule\endlastfoot
 DocLayNet & GPT-6.1 & same model & 0.92 & 0.48 & 0.527 & $-$0.05 & $-$0.30 & $-$0.35 \\
 DocLayNet & GPT-6.1 & Sonnet 5.5 & 2.63 & 0.92 & 0.348 & 0.80 & $-$1.10 & $-$0.30 \\
 DocLayNet & GPT-6.1 & Gemini 3.8 & 8.08 & 5.15 & 0.637 & $-$2.22 & 0.43 & $-$1.78 \\
@@ -61,4 +63,4 @@ ScreenParse & Sonnet 5.5 & Gemini 3.8 & 2.83 & 1.42 & 0.500 & 0.00 & $-$0.37 & $
 ScreenParse & Gemini 3.8 & same model & 2.17 & 0.98 & 0.454 & 0.20 & 0.00 & 0.20 \\
 ScreenParse & Gemini 3.8 & GPT-6.1 & 1.57 & 0.30 & 0.192 & 0.97 & 0.47 & 1.43 \\
 ScreenParse & Gemini 3.8 & Sonnet 5.5 & 3.38 & 0.93 & 0.276 & 1.52 & 0.87 & 2.38 \\
-\bottomrule\end{longtable}
+\end{longtable}\ltlabelafter{tab:intersect_full}}

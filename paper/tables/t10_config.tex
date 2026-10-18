@@ -1,19 +1,20 @@
-\begin{table}[t]
-\centering\footnotesize\setlength{\tabcolsep}{2pt}
-\caption{Single-call configuration chosen on the other three detection sources and applied to the fourth (F1, primary scoring). Reference: list interface at the lowest setting (low); reg.: regions interface; def.: default setting. Change in F1 points with 95\% paired bootstrap interval over images. Macro F1 42.1 (reference) and 49.1 (chosen); the best configuration per cell in hindsight gives 51.7. The shipped configuration (Table~\ref{tab:defaults}) is chosen by the same rule on all four sources (Table~\ref{tab:config_menu}).}\label{tab:config}
-\begin{tabular}{@{}llll@{}}\toprule
-Source & Model & Chosen & Change [95\% CI] \\\midrule
-DocLayNet & GPT-6.1 & reg., low & $+1.5$ $[-2.6, +6.0]$ \\
-DocLayNet & Sonnet 5.5 & reg., def. & $-6.5$ $[-10.4, -3.1]$$^-$ \\
-DocLayNet & Gemini 3.8 & list, def. & $+14.4$ $[+6.6, +22.5]$$^+$ \\
-DOTA & GPT-6.1 & reg., low & $-1.7$ $[-5.3, +1.7]$ \\
-DOTA & Sonnet 5.5 & reg., def. & $+3.1$ $[-1.8, +7.4]$ \\
-DOTA & Gemini 3.8 & reg., def. & $+4.9$ $[-0.5, +10.9]$ \\
-FSC-147 & GPT-6.1 & reg., low & $+9.6$ $[+2.2, +17.6]$$^+$ \\
-FSC-147 & Sonnet 5.5 & reg., def. & $+19.0$ $[+12.3, +26.0]$$^+$ \\
-FSC-147 & Gemini 3.8 & reg., def. & $+22.6$ $[+14.3, +31.4]$$^+$ \\
-SKU-110K & GPT-6.1 & reg., low & $+0.4$ $[-0.5, +1.4]$ \\
-SKU-110K & Sonnet 5.5 & list, def. & $+13.2$ $[+8.9, +17.8]$$^+$ \\
-SKU-110K & Gemini 3.8 & list, def. & $+2.9$ $[-2.2, +8.1]$ \\
+\begin{table*}[tp]
+\centering\footnotesize\setlength{\tabcolsep}{5pt}
+\caption{Single-call configuration chosen on the other three detection sources and applied to the fourth. F1 at the primary scoring of Table~\ref{tab:contract} (boxes: same class, IoU $\ge0.75$; FSC-147: point tolerance), in \%. Reference: list interface at the lowest setting. Change: chosen minus reference, in F1 points, with a 95\% paired bootstrap interval over images. \textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: it excludes 0 in the unfavourable direction. Macro F1, the mean over the 12 cells: 42.1 (reference) and 49.1 (chosen); the best configuration of each cell chosen with its own labels gives 51.7. The shipped configuration (Table~\ref{tab:defaults}) is chosen by the same rule on all four sources (Table~\ref{tab:config_menu}).}\label{tab:config}
+\begin{tabular}{@{}llllrr@{}}\toprule
+& & \multicolumn{2}{c}{Chosen} & & \\\cmidrule(lr){3-4}
+Source & Model & Interface & Setting & Change & 95\% CI \\\midrule
+DocLayNet & GPT-6.1 & regions & lowest & $+$1.5 & [$-$2.6, 6.0] \\
+DocLayNet & Sonnet 5.5 & regions & default & \underline{$-$6.5} & [$-$10.4, $-$3.1] \\
+DocLayNet & Gemini 3.8 & list & default & {\bfseries\boldmath $+$14.4} & [6.6, 22.5] \\
+DOTA & GPT-6.1 & regions & lowest & $-$1.7 & [$-$5.3, 1.7] \\
+DOTA & Sonnet 5.5 & regions & default & $+$3.1 & [$-$1.8, 7.4] \\
+DOTA & Gemini 3.8 & regions & default & $+$4.9 & [$-$0.5, 10.9] \\
+FSC-147 & GPT-6.1 & regions & lowest & {\bfseries\boldmath $+$9.6} & [2.2, 17.6] \\
+FSC-147 & Sonnet 5.5 & regions & default & {\bfseries\boldmath $+$19.0} & [12.3, 26.0] \\
+FSC-147 & Gemini 3.8 & regions & default & {\bfseries\boldmath $+$22.6} & [14.3, 31.4] \\
+SKU-110K & GPT-6.1 & regions & lowest & $+$0.4 & [$-$0.5, 1.4] \\
+SKU-110K & Sonnet 5.5 & list & default & {\bfseries\boldmath $+$13.2} & [8.9, 17.8] \\
+SKU-110K & Gemini 3.8 & list & default & $+$2.9 & [$-$2.2, 8.1] \\
 \bottomrule\end{tabular}
-\end{table}
+\end{table*}

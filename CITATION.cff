@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, the stored model responses or the method, please cite the paper."
+title: "FSR (From Seeing to Reporting): code, prompts and stored model responses"
+type: software
+authors:
+  - family-names: Shi
+    given-names: Junzhe
+    email: junzhe@berkeley.edu
+    affiliation: "University of California, Berkeley"
+  - family-names: Gan
+    given-names: Yuan
+    affiliation: "Quotr AI"
+  - family-names: Jiang
+    given-names: Shida
+    affiliation: "University of California, Berkeley"
+repository-code: "https://github.com/shijunzhe/vlm-set-reporting"
+license: MIT
+keywords:
+  - vision-language models
+  - visual reporting
+  - object counting
+  - object detection
+  - document layout analysis
+  - screen parsing
+  - GUI grounding
+  - ScreenSpot-Pro
+preferred-citation:
+  type: article
+  title: "From Seeing to Reporting: A Theory of Reliable Visual Set Generation in Vision-Language Models"
+  authors:
+    - family-names: Shi
+      given-names: Junzhe
+    - family-names: Gan
+      given-names: Yuan
+    - family-names: Jiang
+      given-names: Shida
+  year: 2026
+  notes: "arXiv preprint; identifier to be added"

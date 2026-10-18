@@ -1,11 +1,12 @@
 \section{Full Tables}\label{app:tables}
 
-All tables in this appendix are written by \texttt{paper/make\_tables.py} from the outputs of \texttt{stageB/analysis/run\_all.sh}, which recomputes them from saved responses and labels without model calls. The same numbers are available in machine-readable form in the JSON files of \texttt{stageB/analysis/out/} and in \texttt{stageB/analysis/out/main\_tables.md}. The click and configuration tables (Tables~\ref{tab:choose}, \ref{tab:config} and \ref{tab:config_menu}) are written by \texttt{stageB/analysis/accfirst/make\_accuracy\_tables.py}.
+All tables in this appendix are written by \path{paper/make_tables.py} and \path{stageB/analysis/accfirst/make_accuracy_tables.py} from the outputs of \path{stageB/analysis/run_all.sh}, which recomputes them from saved responses and labels without model calls. The same numbers are available in machine-readable form in the JSON files of \path{stageB/analysis/out/}. The click and configuration tables (Tables~\ref{tab:choose}, \ref{tab:config} and \ref{tab:config_menu}) are written by \path{stageB/analysis/accfirst/make_accuracy_tables.py}.
 
 \input{tables/tA_density}
 
-{\small\setlength{\tabcolsep}{4pt}
-\input{tables/tA_intersect_full}}
+\input{tables/tA_intersect_full}
+
+\input{tables/tA_alarm_matched}
 
 \input{tables/tA_transfer_full}
 

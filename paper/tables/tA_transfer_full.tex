@@ -1,80 +1,86 @@
-{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{@{}llllllccc@{}}
-\caption{Leave-one-source-out transfer, every cell. Construction names: unan3 / maj3 / union3 = three same-model calls kept by unanimity / majority / union; x2\_inter, x2\_union = two-model intersection or union with the named partner; x3\_maj = three-model majority; \_fus = fused coordinates, \_del = deletion only. Interval: paired 95\% bootstrap of the change. Cost per image counts every call.}\label{tab:transfer_full}\\\toprule
-Pool & Loss & Source & Model & Default applied & Single $\to$ default & 95\% CI & Recall & Cost/img \\\midrule\endfirsthead
-\toprule Pool & Loss & Source & Model & Default applied & Single $\to$ default & 95\% CI & Recall & Cost/img \\\midrule\endhead
-same & E & DocLayNet & GPT-6.1 & unan3\_fus & 8.57 $\to$ 9.15 & [$-$0.35, 1.65] & 0.677 & \$0.0323 \\
-same & E & DocLayNet & Sonnet 5.5 & unan3\_fus & 13.77 $\to$ 12.33 & [$-$2.25, $-$0.70] & 0.571 & \$0.0384 \\
-same & E & DocLayNet & Gemini 3.8 & unan3\_fus & 11.83 $\to$ 12.18 & [$-$0.63, 1.42] & 0.230 & \$0.0132 \\
-same & E & DOTA & GPT-6.1 & unan3\_fus & 45.00 $\to$ 34.98 & [$-$16.73, $-$4.97] & 0.464 & \$0.0785 \\
-same & E & DOTA & Sonnet 5.5 & unan3\_fus & 37.87 $\to$ 31.95 & [$-$8.70, $-$3.77] & 0.321 & \$0.0472 \\
-same & E & DOTA & Gemini 3.8 & unan3\_fus & 40.98 $\to$ 30.80 & [$-$16.38, $-$5.38] & 0.258 & \$0.0178 \\
-same & E & FSC-147 & GPT-6.1 & unan3\_fus & 30.12 $\to$ 30.90 & [$-$0.10, 1.78] & 0.637 & \$0.0334 \\
-same & E & FSC-147 & Sonnet 5.5 & unan3\_fus & 48.32 $\to$ 51.73 & [2.07, 4.83] & 0.292 & \$0.0187 \\
-same & E & FSC-147 & Gemini 3.8 & unan3\_fus & 52.05 $\to$ 54.63 & [0.42, 5.42] & 0.189 & \$0.0097 \\
-same & E & SKU-110K & GPT-6.1 & unan3\_fus & 198.35 $\to$ 148.32 & [$-$58.67, $-$41.80] & 0.529 & \$0.2121 \\
-same & E & SKU-110K & Sonnet 5.5 & unan3\_fus & 217.30 $\to$ 148.67 & [$-$80.43, $-$57.82] & 0.084 & \$0.1258 \\
-same & E & SKU-110K & Gemini 3.8 & unan3\_fus & 150.97 $\to$ 136.48 & [$-$23.90, $-$6.18] & 0.192 & \$0.0584 \\
-same & E & GroundCUA & GPT-6.1 & unan3\_fus & 92.58 $\to$ 89.25 & [$-$7.40, 0.50] & 0.492 & \$0.0920 \\
-same & E & GroundCUA & Sonnet 5.5 & unan3\_fus & 44.15 $\to$ 43.67 & [$-$3.13, 2.43] & 0.680 & \$0.0999 \\
-same & E & GroundCUA & Gemini 3.8 & unan3\_fus & 121.75 $\to$ 95.58 & [$-$34.90, $-$17.95] & 0.144 & \$0.0438 \\
-same & E & ScreenParse & GPT-6.1 & unan3\_fus & 16.23 $\to$ 15.78 & [$-$0.83, $-$0.10] & 0.597 & \$0.0292 \\
-same & E & ScreenParse & Sonnet 5.5 & unan3\_fus & 13.27 $\to$ 12.97 & [$-$0.75, 0.17] & 0.597 & \$0.0318 \\
-same & E & ScreenParse & Gemini 3.8 & unan3\_fus & 16.02 $\to$ 15.53 & [$-$1.28, 0.20] & 0.477 & \$0.0109 \\
+{\footnotesize\setlength{\tabcolsep}{4pt}\begin{longtable}{@{}ll>{\raggedright\arraybackslash}p{4.2cm}rrrrr@{}}
+\caption{Leave-one-source-out transfer, every cell (data of Table~\ref{tab:transfer}). Default applied: the construction chosen on the other five sources; ``averaged'' means the coordinates of the kept records are averaged over the calls that report them. Single and Default: loss of one call of the model and of the default applied. 95\% CI: paired image bootstrap of the change, default minus single (negative is better for $E$, positive for F1). \textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: it excludes 0 in the unfavourable direction. Recall (\%) and cost per image (\$, every call counted) are those of the default applied.}\ltlabel{tab:transfer_full}\\\toprule
+Source & Model & Default applied & Single & Default & 95\% CI & Recall & Cost \\\midrule\endfirsthead
+\multicolumn{8}{@{}l}{\emph{Table~\ref{tab:transfer_full}, continued}}\\\toprule Source & Model & Default applied & Single & Default & 95\% CI & Recall & Cost \\\midrule\endhead
+\midrule\multicolumn{8}{r}{\emph{continued on the next page}}\\\endfoot
+\bottomrule\endlastfoot
+\multicolumn{8}{@{}l}{\emph{Same-model constructions only; set error $E$ per image (lower is better)}} \\
+\quad DocLayNet & GPT-6.1 & unanimity of 3 calls, averaged & 8.57 & 9.15 & [$-$0.35, 1.65] & 67.7 & 0.0323 \\
+\quad DocLayNet & Sonnet 5.5 & unanimity of 3 calls, averaged & 13.77 & 12.33 & {\bfseries\boldmath [$-$2.25, $-$0.70]} & 57.1 & 0.0384 \\
+\quad DocLayNet & Gemini 3.8 & unanimity of 3 calls, averaged & 11.83 & 12.18 & [$-$0.63, 1.42] & 23.0 & 0.0132 \\
+\quad DOTA & GPT-6.1 & unanimity of 3 calls, averaged & 45.00 & 34.98 & {\bfseries\boldmath [$-$16.73, $-$4.97]} & 46.4 & 0.0785 \\
+\quad DOTA & Sonnet 5.5 & unanimity of 3 calls, averaged & 37.87 & 31.95 & {\bfseries\boldmath [$-$8.70, $-$3.77]} & 32.1 & 0.0472 \\
+\quad DOTA & Gemini 3.8 & unanimity of 3 calls, averaged & 40.98 & 30.80 & {\bfseries\boldmath [$-$16.38, $-$5.38]} & 25.8 & 0.0178 \\
+\quad FSC-147 & GPT-6.1 & unanimity of 3 calls, averaged & 30.12 & 30.90 & [$-$0.10, 1.78] & 63.7 & 0.0334 \\
+\quad FSC-147 & Sonnet 5.5 & unanimity of 3 calls, averaged & 48.32 & 51.73 & \underline{[2.07, 4.83]} & 29.2 & 0.0187 \\
+\quad FSC-147 & Gemini 3.8 & unanimity of 3 calls, averaged & 52.05 & 54.63 & \underline{[0.42, 5.42]} & 18.9 & 0.0097 \\
+\quad SKU-110K & GPT-6.1 & unanimity of 3 calls, averaged & 198.35 & 148.32 & {\bfseries\boldmath [$-$58.67, $-$41.80]} & 52.9 & 0.2121 \\
+\quad SKU-110K & Sonnet 5.5 & unanimity of 3 calls, averaged & 217.30 & 148.67 & {\bfseries\boldmath [$-$80.43, $-$57.82]} & 8.4 & 0.1258 \\
+\quad SKU-110K & Gemini 3.8 & unanimity of 3 calls, averaged & 150.97 & 136.48 & {\bfseries\boldmath [$-$23.90, $-$6.18]} & 19.2 & 0.0584 \\
+\quad GroundCUA & GPT-6.1 & unanimity of 3 calls, averaged & 92.58 & 89.25 & [$-$7.40, 0.50] & 49.2 & 0.0920 \\
+\quad GroundCUA & Sonnet 5.5 & unanimity of 3 calls, averaged & 44.15 & 43.67 & [$-$3.13, 2.43] & 68.0 & 0.0999 \\
+\quad GroundCUA & Gemini 3.8 & unanimity of 3 calls, averaged & 121.75 & 95.58 & {\bfseries\boldmath [$-$34.90, $-$17.95]} & 14.4 & 0.0438 \\
+\quad ScreenParse & GPT-6.1 & unanimity of 3 calls, averaged & 16.23 & 15.78 & {\bfseries\boldmath [$-$0.83, $-$0.10]} & 59.7 & 0.0292 \\
+\quad ScreenParse & Sonnet 5.5 & unanimity of 3 calls, averaged & 13.27 & 12.97 & [$-$0.75, 0.17] & 59.7 & 0.0318 \\
+\quad ScreenParse & Gemini 3.8 & unanimity of 3 calls, averaged & 16.02 & 15.53 & [$-$1.28, 0.20] & 47.7 & 0.0109 \\
 \midrule
-same & F1 & DocLayNet & GPT-6.1 & union3 & 0.710 $\to$ 0.686 & [$-$0.049, $-$0.003] & 0.708 & \$0.0323 \\
-same & F1 & DocLayNet & Sonnet 5.5 & union3 & 0.573 $\to$ 0.569 & [$-$0.021, 0.013] & 0.629 & \$0.0384 \\
-same & F1 & DocLayNet & Gemini 3.8 & union3 & 0.384 $\to$ 0.459 & [0.028, 0.129] & 0.484 & \$0.0132 \\
-same & F1 & DOTA & GPT-6.1 & union3 & 0.395 $\to$ 0.389 & [$-$0.024, 0.012] & 0.509 & \$0.0785 \\
-same & F1 & DOTA & Sonnet 5.5 & union3 & 0.334 $\to$ 0.329 & [$-$0.022, 0.014] & 0.376 & \$0.0472 \\
-same & F1 & DOTA & Gemini 3.8 & union3 & 0.312 $\to$ 0.319 & [$-$0.025, 0.044] & 0.361 & \$0.0178 \\
-same & F1 & FSC-147 & GPT-6.1 & maj3\_fus & 0.707 $\to$ 0.695 & [$-$0.044, 0.008] & 0.670 & \$0.0334 \\
-same & F1 & FSC-147 & Sonnet 5.5 & maj3\_fus & 0.452 $\to$ 0.425 & [$-$0.046, $-$0.008] & 0.355 & \$0.0187 \\
-same & F1 & FSC-147 & Gemini 3.8 & maj3\_fus & 0.273 $\to$ 0.277 & [$-$0.034, 0.042] & 0.245 & \$0.0097 \\
-same & F1 & SKU-110K & GPT-6.1 & union3 & 0.437 $\to$ 0.402 & [$-$0.046, $-$0.024] & 0.541 & \$0.2121 \\
-same & F1 & SKU-110K & Sonnet 5.5 & union3 & 0.128 $\to$ 0.130 & [$-$0.007, 0.011] & 0.157 & \$0.1258 \\
-same & F1 & SKU-110K & Gemini 3.8 & union3 & 0.354 $\to$ 0.402 & [0.022, 0.080] & 0.390 & \$0.0584 \\
-same & F1 & GroundCUA & GPT-6.1 & union3 & 0.483 $\to$ 0.462 & [$-$0.032, $-$0.010] & 0.527 & \$0.0920 \\
-same & F1 & GroundCUA & Sonnet 5.5 & union3 & 0.717 $\to$ 0.730 & [$-$0.002, 0.029] & 0.745 & \$0.0999 \\
-same & F1 & GroundCUA & Gemini 3.8 & union3 & 0.256 $\to$ 0.286 & [$-$0.004, 0.067] & 0.374 & \$0.0438 \\
-same & F1 & ScreenParse & GPT-6.1 & union3 & 0.564 $\to$ 0.566 & [$-$0.004, 0.009] & 0.618 & \$0.0292 \\
-same & F1 & ScreenParse & Sonnet 5.5 & union3 & 0.615 $\to$ 0.615 & [$-$0.009, 0.010] & 0.629 & \$0.0318 \\
-same & F1 & ScreenParse & Gemini 3.8 & union3 & 0.536 $\to$ 0.547 & [$-$0.007, 0.031] & 0.588 & \$0.0109 \\
+\multicolumn{8}{@{}l}{\emph{Same-model constructions only; F1 in \% (higher is better)}} \\
+\quad DocLayNet & GPT-6.1 & union of 3 calls & 71.0 & 68.6 & \underline{[$-$4.9, $-$0.3]} & 70.8 & 0.0323 \\
+\quad DocLayNet & Sonnet 5.5 & union of 3 calls & 57.3 & 56.9 & [$-$2.1, 1.4] & 62.9 & 0.0384 \\
+\quad DocLayNet & Gemini 3.8 & union of 3 calls & 38.4 & 45.9 & {\bfseries\boldmath [2.8, 12.9]} & 48.4 & 0.0132 \\
+\quad DOTA & GPT-6.1 & union of 3 calls & 39.5 & 38.9 & [$-$2.4, 1.2] & 50.9 & 0.0785 \\
+\quad DOTA & Sonnet 5.5 & union of 3 calls & 33.4 & 32.9 & [$-$2.2, 1.4] & 37.6 & 0.0472 \\
+\quad DOTA & Gemini 3.8 & union of 3 calls & 31.2 & 31.9 & [$-$2.5, 4.4] & 36.1 & 0.0178 \\
+\quad FSC-147 & GPT-6.1 & majority of 3 calls, averaged & 70.7 & 69.5 & [$-$4.4, 0.8] & 67.0 & 0.0334 \\
+\quad FSC-147 & Sonnet 5.5 & majority of 3 calls, averaged & 45.2 & 42.5 & \underline{[$-$4.6, $-$0.8]} & 35.5 & 0.0187 \\
+\quad FSC-147 & Gemini 3.8 & majority of 3 calls, averaged & 27.3 & 27.7 & [$-$3.4, 4.2] & 24.5 & 0.0097 \\
+\quad SKU-110K & GPT-6.1 & union of 3 calls & 43.7 & 40.2 & \underline{[$-$4.7, $-$2.4]} & 54.1 & 0.2121 \\
+\quad SKU-110K & Sonnet 5.5 & union of 3 calls & 12.8 & 13.0 & [$-$0.7, 1.1] & 15.7 & 0.1258 \\
+\quad SKU-110K & Gemini 3.8 & union of 3 calls & 35.4 & 40.2 & {\bfseries\boldmath [2.2, 8.0]} & 39.0 & 0.0584 \\
+\quad GroundCUA & GPT-6.1 & union of 3 calls & 48.3 & 46.2 & \underline{[$-$3.2, $-$1.0]} & 52.7 & 0.0920 \\
+\quad GroundCUA & Sonnet 5.5 & union of 3 calls & 71.7 & 73.0 & [$-$0.2, 2.9] & 74.5 & 0.0999 \\
+\quad GroundCUA & Gemini 3.8 & union of 3 calls & 25.6 & 28.6 & [$-$0.4, 6.7] & 37.4 & 0.0438 \\
+\quad ScreenParse & GPT-6.1 & union of 3 calls & 56.4 & 56.6 & [$-$0.4, 0.9] & 61.8 & 0.0292 \\
+\quad ScreenParse & Sonnet 5.5 & union of 3 calls & 61.5 & 61.5 & [$-$0.9, 1.0] & 62.9 & 0.0318 \\
+\quad ScreenParse & Gemini 3.8 & union of 3 calls & 53.6 & 54.7 & [$-$0.7, 3.1] & 58.8 & 0.0109 \\
 \midrule
-any & E & DocLayNet & GPT-6.1 & x2\_inter\_fus w/ Sonnet & 8.57 $\to$ 8.87 & [$-$1.23, 1.77] & 0.651 & \$0.0236 \\
-any & E & DocLayNet & Sonnet 5.5 & x2\_inter\_fus w/ GPT & 13.77 $\to$ 8.87 & [$-$6.63, $-$3.37] & 0.651 & \$0.0236 \\
-any & E & DocLayNet & Gemini 3.8 & x2\_inter\_fus w/ GPT & 11.83 $\to$ 10.35 & [$-$2.67, $-$0.35] & 0.357 & \$0.0151 \\
-any & E & DOTA & GPT-6.1 & x3\_maj\_fus & 45.00 $\to$ 31.43 & [$-$21.90, $-$7.27] & 0.410 & \$0.0481 \\
-any & E & DOTA & Sonnet 5.5 & x3\_maj\_fus & 37.87 $\to$ 31.47 & [$-$10.40, $-$3.15] & 0.409 & \$0.0481 \\
-any & E & DOTA & Gemini 3.8 & x3\_maj\_fus & 40.98 $\to$ 31.85 & [$-$13.83, $-$5.02] & 0.401 & \$0.0481 \\
-any & E & FSC-147 & GPT-6.1 & x2\_inter\_fus w/ Sonnet & 30.12 $\to$ 47.62 & [11.28, 24.48] & 0.356 & \$0.0175 \\
-any & E & FSC-147 & Sonnet 5.5 & x2\_inter\_fus w/ GPT & 48.32 $\to$ 47.62 & [$-$2.28, 0.75] & 0.356 & \$0.0175 \\
-any & E & FSC-147 & Gemini 3.8 & x2\_inter\_fus w/ GPT & 52.05 $\to$ 51.77 & [$-$0.80, 0.08] & 0.234 & \$0.0142 \\
-any & E & SKU-110K & GPT-6.1 & x3\_maj\_fus & 198.35 $\to$ 138.55 & [$-$72.30, $-$47.70] & 0.382 & \$0.1353 \\
-any & E & SKU-110K & Sonnet 5.5 & x3\_maj\_fus & 217.30 $\to$ 139.43 & [$-$92.02, $-$64.67] & 0.379 & \$0.1353 \\
-any & E & SKU-110K & Gemini 3.8 & x3\_maj\_fus & 150.97 $\to$ 139.13 & [$-$17.20, $-$6.78] & 0.379 & \$0.1353 \\
-any & E & GroundCUA & GPT-6.1 & x3\_maj\_fus & 92.58 $\to$ 68.75 & [$-$29.70, $-$18.27] & 0.557 & \$0.0787 \\
-any & E & GroundCUA & Sonnet 5.5 & x3\_maj\_fus & 44.15 $\to$ 67.02 & [17.92, 27.90] & 0.569 & \$0.0787 \\
-any & E & GroundCUA & Gemini 3.8 & x3\_maj\_fus & 121.75 $\to$ 71.03 & [$-$59.05, $-$42.70] & 0.543 & \$0.0787 \\
-any & E & ScreenParse & GPT-6.1 & x3\_maj\_fus & 16.23 $\to$ 14.02 & [$-$3.18, $-$1.28] & 0.613 & \$0.0241 \\
-any & E & ScreenParse & Sonnet 5.5 & x3\_maj\_fus & 13.27 $\to$ 13.82 & [$-$0.58, 1.70] & 0.617 & \$0.0241 \\
-any & E & ScreenParse & Gemini 3.8 & x3\_maj\_fus & 16.02 $\to$ 14.02 & [$-$2.85, $-$1.28] & 0.613 & \$0.0241 \\
+\multicolumn{8}{@{}l}{\emph{Any construction, including cross-model ones; set error $E$ per image (lower is better)}} \\
+\quad DocLayNet & GPT-6.1 & intersection with Sonnet 5.5, averaged & 8.57 & 8.87 & [$-$1.23, 1.77] & 65.1 & 0.0236 \\
+\quad DocLayNet & Sonnet 5.5 & intersection with GPT-6.1, averaged & 13.77 & 8.87 & {\bfseries\boldmath [$-$6.63, $-$3.37]} & 65.1 & 0.0236 \\
+\quad DocLayNet & Gemini 3.8 & intersection with GPT-6.1, averaged & 11.83 & 10.35 & {\bfseries\boldmath [$-$2.67, $-$0.35]} & 35.7 & 0.0151 \\
+\quad DOTA & GPT-6.1 & majority of 3 models, averaged & 45.00 & 31.43 & {\bfseries\boldmath [$-$21.90, $-$7.27]} & 41.0 & 0.0481 \\
+\quad DOTA & Sonnet 5.5 & majority of 3 models, averaged & 37.87 & 31.47 & {\bfseries\boldmath [$-$10.40, $-$3.15]} & 40.9 & 0.0481 \\
+\quad DOTA & Gemini 3.8 & majority of 3 models, averaged & 40.98 & 31.85 & {\bfseries\boldmath [$-$13.83, $-$5.02]} & 40.1 & 0.0481 \\
+\quad FSC-147 & GPT-6.1 & intersection with Sonnet 5.5, averaged & 30.12 & 47.62 & \underline{[11.28, 24.48]} & 35.6 & 0.0175 \\
+\quad FSC-147 & Sonnet 5.5 & intersection with GPT-6.1, averaged & 48.32 & 47.62 & [$-$2.28, 0.75] & 35.6 & 0.0175 \\
+\quad FSC-147 & Gemini 3.8 & intersection with GPT-6.1, averaged & 52.05 & 51.77 & [$-$0.80, 0.08] & 23.4 & 0.0142 \\
+\quad SKU-110K & GPT-6.1 & majority of 3 models, averaged & 198.35 & 138.55 & {\bfseries\boldmath [$-$72.30, $-$47.70]} & 38.2 & 0.1353 \\
+\quad SKU-110K & Sonnet 5.5 & majority of 3 models, averaged & 217.30 & 139.43 & {\bfseries\boldmath [$-$92.02, $-$64.67]} & 37.9 & 0.1353 \\
+\quad SKU-110K & Gemini 3.8 & majority of 3 models, averaged & 150.97 & 139.13 & {\bfseries\boldmath [$-$17.20, $-$6.78]} & 37.9 & 0.1353 \\
+\quad GroundCUA & GPT-6.1 & majority of 3 models, averaged & 92.58 & 68.75 & {\bfseries\boldmath [$-$29.70, $-$18.27]} & 55.7 & 0.0787 \\
+\quad GroundCUA & Sonnet 5.5 & majority of 3 models, averaged & 44.15 & 67.02 & \underline{[17.92, 27.90]} & 56.9 & 0.0787 \\
+\quad GroundCUA & Gemini 3.8 & majority of 3 models, averaged & 121.75 & 71.03 & {\bfseries\boldmath [$-$59.05, $-$42.70]} & 54.3 & 0.0787 \\
+\quad ScreenParse & GPT-6.1 & majority of 3 models, averaged & 16.23 & 14.02 & {\bfseries\boldmath [$-$3.18, $-$1.28]} & 61.3 & 0.0241 \\
+\quad ScreenParse & Sonnet 5.5 & majority of 3 models, averaged & 13.27 & 13.82 & [$-$0.58, 1.70] & 61.7 & 0.0241 \\
+\quad ScreenParse & Gemini 3.8 & majority of 3 models, averaged & 16.02 & 14.02 & {\bfseries\boldmath [$-$2.85, $-$1.28]} & 61.3 & 0.0241 \\
 \midrule
-any & F1 & DocLayNet & GPT-6.1 & x2\_union w/ Sonnet & 0.710 $\to$ 0.660 & [$-$0.101, 0.001] & 0.728 & \$0.0236 \\
-any & F1 & DocLayNet & Sonnet 5.5 & x2\_union w/ GPT & 0.573 $\to$ 0.660 & [0.056, 0.120] & 0.728 & \$0.0236 \\
-any & F1 & DocLayNet & Gemini 3.8 & x2\_union w/ GPT & 0.384 $\to$ 0.674 & [0.215, 0.368] & 0.736 & \$0.0151 \\
-any & F1 & DOTA & GPT-6.1 & x2\_union w/ Sonnet & 0.395 $\to$ 0.369 & [$-$0.052, 0.003] & 0.491 & \$0.0419 \\
-any & F1 & DOTA & Sonnet 5.5 & x2\_union w/ GPT & 0.334 $\to$ 0.369 & [$-$0.025, 0.095] & 0.491 & \$0.0419 \\
-any & F1 & DOTA & Gemini 3.8 & x2\_union w/ GPT & 0.312 $\to$ 0.366 & [0.001, 0.107] & 0.488 & \$0.0324 \\
-any & F1 & FSC-147 & GPT-6.1 & x3\_maj\_fus & 0.707 $\to$ 0.458 & [$-$0.328, $-$0.173] & 0.390 & \$0.0207 \\
-any & F1 & FSC-147 & Sonnet 5.5 & x3\_maj\_fus & 0.452 $\to$ 0.457 & [$-$0.023, 0.034] & 0.388 & \$0.0207 \\
-any & F1 & FSC-147 & Gemini 3.8 & x3\_maj\_fus & 0.273 $\to$ 0.458 & [0.121, 0.252] & 0.390 & \$0.0207 \\
-any & F1 & SKU-110K & GPT-6.1 & x2\_union w/ Sonnet & 0.437 $\to$ 0.339 & [$-$0.116, $-$0.079] & 0.461 & \$0.1155 \\
-any & F1 & SKU-110K & Sonnet 5.5 & x2\_union w/ GPT & 0.128 $\to$ 0.339 & [0.181, 0.244] & 0.461 & \$0.1155 \\
-any & F1 & SKU-110K & Gemini 3.8 & x2\_union w/ GPT & 0.354 $\to$ 0.429 & [0.035, 0.121] & 0.518 & \$0.0898 \\
-any & F1 & GroundCUA & GPT-6.1 & x2\_union w/ Sonnet & 0.483 $\to$ 0.597 & [0.091, 0.137] & 0.701 & \$0.0640 \\
-any & F1 & GroundCUA & Sonnet 5.5 & x2\_union w/ GPT & 0.717 $\to$ 0.597 & [$-$0.143, $-$0.098] & 0.701 & \$0.0640 \\
-any & F1 & GroundCUA & Gemini 3.8 & x2\_union w/ GPT & 0.256 $\to$ 0.412 & [0.112, 0.205] & 0.503 & \$0.0454 \\
-any & F1 & ScreenParse & GPT-6.1 & x3\_maj\_fus & 0.564 $\to$ 0.596 & [0.011, 0.055] & 0.613 & \$0.0241 \\
-any & F1 & ScreenParse & Sonnet 5.5 & x3\_maj\_fus & 0.615 $\to$ 0.601 & [$-$0.041, 0.013] & 0.617 & \$0.0241 \\
-any & F1 & ScreenParse & Gemini 3.8 & x3\_maj\_fus & 0.536 $\to$ 0.596 & [0.040, 0.084] & 0.613 & \$0.0241 \\
-\bottomrule\end{longtable}}
+\multicolumn{8}{@{}l}{\emph{Any construction, including cross-model ones; F1 in \% (higher is better)}} \\
+\quad DocLayNet & GPT-6.1 & union with Sonnet 5.5 & 71.0 & 66.0 & [$-$10.1, 0.1] & 72.8 & 0.0236 \\
+\quad DocLayNet & Sonnet 5.5 & union with GPT-6.1 & 57.3 & 66.0 & {\bfseries\boldmath [5.6, 12.0]} & 72.8 & 0.0236 \\
+\quad DocLayNet & Gemini 3.8 & union with GPT-6.1 & 38.4 & 67.4 & {\bfseries\boldmath [21.5, 36.8]} & 73.6 & 0.0151 \\
+\quad DOTA & GPT-6.1 & union with Sonnet 5.5 & 39.5 & 36.9 & [$-$5.2, 0.3] & 49.1 & 0.0419 \\
+\quad DOTA & Sonnet 5.5 & union with GPT-6.1 & 33.4 & 36.9 & [$-$2.5, 9.5] & 49.1 & 0.0419 \\
+\quad DOTA & Gemini 3.8 & union with GPT-6.1 & 31.2 & 36.6 & {\bfseries\boldmath [0.1, 10.7]} & 48.8 & 0.0324 \\
+\quad FSC-147 & GPT-6.1 & majority of 3 models, averaged & 70.7 & 45.8 & \underline{[$-$32.8, $-$17.3]} & 39.0 & 0.0207 \\
+\quad FSC-147 & Sonnet 5.5 & majority of 3 models, averaged & 45.2 & 45.7 & [$-$2.3, 3.4] & 38.8 & 0.0207 \\
+\quad FSC-147 & Gemini 3.8 & majority of 3 models, averaged & 27.3 & 45.8 & {\bfseries\boldmath [12.1, 25.2]} & 39.0 & 0.0207 \\
+\quad SKU-110K & GPT-6.1 & union with Sonnet 5.5 & 43.7 & 33.9 & \underline{[$-$11.6, $-$7.9]} & 46.1 & 0.1155 \\
+\quad SKU-110K & Sonnet 5.5 & union with GPT-6.1 & 12.8 & 33.9 & {\bfseries\boldmath [18.1, 24.4]} & 46.1 & 0.1155 \\
+\quad SKU-110K & Gemini 3.8 & union with GPT-6.1 & 35.4 & 42.9 & {\bfseries\boldmath [3.5, 12.1]} & 51.8 & 0.0898 \\
+\quad GroundCUA & GPT-6.1 & union with Sonnet 5.5 & 48.3 & 59.7 & {\bfseries\boldmath [9.1, 13.7]} & 70.1 & 0.0640 \\
+\quad GroundCUA & Sonnet 5.5 & union with GPT-6.1 & 71.7 & 59.7 & \underline{[$-$14.3, $-$9.8]} & 70.1 & 0.0640 \\
+\quad GroundCUA & Gemini 3.8 & union with GPT-6.1 & 25.6 & 41.2 & {\bfseries\boldmath [11.2, 20.5]} & 50.3 & 0.0454 \\
+\quad ScreenParse & GPT-6.1 & majority of 3 models, averaged & 56.4 & 59.6 & {\bfseries\boldmath [1.1, 5.5]} & 61.3 & 0.0241 \\
+\quad ScreenParse & Sonnet 5.5 & majority of 3 models, averaged & 61.5 & 60.1 & [$-$4.1, 1.3] & 61.7 & 0.0241 \\
+\quad ScreenParse & Gemini 3.8 & majority of 3 models, averaged & 53.6 & 59.6 & {\bfseries\boldmath [4.0, 8.4]} & 61.3 & 0.0241 \\
+\end{longtable}\ltlabelafter{tab:transfer_full}}

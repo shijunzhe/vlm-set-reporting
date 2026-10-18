@@ -1,29 +1,35 @@
 \begin{table*}[tp]
-\centering\small\setlength{\tabcolsep}{3pt}
-\caption{Choosing one click among several calls, on 600 ScreenSpot-Pro items that share no item or screenshot with the 260 click items of the GUI experiment. Every item is in the denominator; a flow that returns no point counts as a miss, which happened only in single-model flows (column No point). Calls and cost: what the flow needs per item, at list prices. Lower block: paired comparisons, as the difference in miss rate in percentage points with a 95\% paired bootstrap interval over screenshots, items repaired and broken, and the exact McNemar $p$ (Holm-adjusted over the two comparisons marked $\dagger$). Tier: GPT-6.1 and Sonnet 5.5 default, Gemini 3.8 lowest; all lowest: all three at the lowest setting. Cluster vote: the largest cluster of points within $\delta$ wins, ties go to the earliest source (GPT-6.1, Sonnet 5.5, Gemini 3.8), no scorer.}\label{tab:choose}
+\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Choosing one click among several calls, on 600 ScreenSpot-Pro items that share no item or screenshot with the 260 click items of the GUI experiment. (a) Every flow, with every item in the denominator; a flow that returns no point counts as a miss, which happened only in single-model flows (column No point). Calls and cost: what the flow needs per item, every attempt counted, at list prices. The three-model flows use GPT-6.1 and Sonnet 5.5 at the default setting and Gemini 3.8 at the lowest, unless marked ``all lowest''. Cluster vote: the largest cluster of points within $\delta$ wins, ties go to the earliest model (GPT-6.1, Sonnet 5.5, Gemini 3.8), and the earliest point of the winning cluster is returned; computed from the stored calls, no scorer. (b) Paired comparisons: $\Delta$ is the miss rate of the first flow minus that of the second, in percentage points (negative favours the first), with a 95\% paired bootstrap interval over screenshots, items repaired and broken by the first flow, and the exact McNemar $p$ (Holm-adjusted over the two comparisons marked $\dagger$). \textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; \underline{underlined}: it excludes 0 in the unfavourable direction.}\label{tab:choose}
 \begin{tabular}{@{}lrrrrr@{}}\toprule
-Flow & Misses & No point & Miss rate & Calls & Cost / item \\\midrule
-GPT-6.1, lowest, two-stage zoom & 86 & 4 & 14.33\% & 1.99 & \$0.0080 \\
-Sonnet 5.5, lowest, two-stage zoom & 104 & 15 & 17.33\% & 1.98 & \$0.0056 \\
-Gemini 3.8, lowest, two-stage zoom & 88 & 0 & 14.67\% & 2.00 & \$0.0054 \\
-Sonnet 5.5, default, two-stage zoom & 80 & 0 & 13.33\% & 2.00 & \$0.0066 \\
-GPT-6.1, default, two-stage zoom (reference) & 82 & 2 & 13.67\% & 2.00 & \$0.0085 \\
-GPT-6.1, three default zooms, cluster vote & 76 & 1 & 12.67\% & 5.99 & \$0.0255 \\
-Crop-first baseline, GUI-Lens style (ours) & 69 & 0 & 11.50\% & 2.00 & \$0.0117 \\
-Three models, tier; cluster vote & 74 & 0 & 12.33\% & 6.00 & \$0.0205 \\
-Three models, all lowest; scorer's score & 66 & 0 & 11.00\% & 8.94 & \$0.0244 \\
-Three models, all lowest; score and comparison & 61 & 0 & 10.17\% & 9.42 & \$0.0261 \\
-Three models, tier; scorer's score & 61 & 0 & 10.17\% & 8.99 & \$0.0257 \\
-Three models, tier; score and comparison (Alg.~\ref{alg:clicks}) & 56 & 0 & 9.33\% & 9.45 & \$0.0273 \\
-\midrule
-Comparison & Difference & 95\% interval & Repaired / broken & \multicolumn{2}{r}{$p$} \\\midrule
-Tier (Alg.~\ref{alg:clicks}) vs GPT-6.1 default zoom & $-4.33$ & $[-6.33, -2.33]$ & 34 / 8 & \multicolumn{2}{r}{$7\times10^{-5}$} \\
-Tier (Alg.~\ref{alg:clicks}) vs GPT-6.1 $\times$3$\dagger$ & $-3.33$ & $[-5.17, -1.50]$ & 27 / 7 & \multicolumn{2}{r}{0.002} \\
-Tier (Alg.~\ref{alg:clicks}) vs crop-first baseline$\dagger$ & $-2.17$ & $[-4.17, 0.00]$ & 27 / 14 & \multicolumn{2}{r}{0.060} \\
-Tier (Alg.~\ref{alg:clicks}) vs three-model vote & $-3.00$ & $[-4.67, -1.50]$ & 22 / 4 & \multicolumn{2}{r}{$5\times10^{-4}$} \\
-Tier (Alg.~\ref{alg:clicks}) vs tier with the score only & $-0.83$ & $[-2.00, 0.17]$ & 8 / 3 & \multicolumn{2}{r}{0.227} \\
-All lowest, score and comparison vs score only & $-0.83$ & $[-2.00, 0.33]$ & 9 / 4 & \multicolumn{2}{r}{0.267} \\
-GPT-6.1 default zoom vs GPT-6.1 lowest zoom & $-0.67$ & $[-2.67, 1.33]$ & 19 / 15 & \multicolumn{2}{r}{0.608} \\
-Sonnet 5.5 default zoom vs Sonnet 5.5 lowest zoom & $-4.00$ & $[-6.17, -1.83]$ & 34 / 10 & \multicolumn{2}{r}{$4\times10^{-4}$} \\
+\multicolumn{6}{@{}l}{\emph{(a) Flows}} \\
+Flow & Misses & No point & Miss rate (\%) & Calls & Cost / item (\$) \\\midrule
+GPT-6.1 zoom, lowest & 86 & 4 & 14.33 & 1.99 & 0.0081 \\
+Sonnet 5.5 zoom, lowest & 104 & 15 & 17.33 & 1.98 & 0.0057 \\
+Gemini 3.8 zoom, lowest & 88 & 0 & 14.67 & 2.00 & 0.0054 \\
+Sonnet 5.5 zoom, default & 80 & 0 & 13.33 & 2.00 & 0.0066 \\
+GPT-6.1 zoom, default & 82 & 2 & 13.67 & 2.00 & 0.0085 \\
+GPT-6.1 zoom $\times$3, default; cluster vote & 76 & 1 & 12.67 & 5.99 & 0.0255 \\
+Crop-first, GUI-Lens style (our implementation) & 69 & 0 & 11.50 & 2.00 & 0.0117 \\
+Three models; cluster vote & 74 & 0 & 12.33 & 6.00 & 0.0205 \\
+Three models, all lowest; score & 66 & 0 & 11.00 & 8.94 & 0.0244 \\
+Three models, all lowest; score and comparison & 61 & 0 & 10.17 & 9.42 & 0.0261 \\
+Three models; score & 61 & 0 & 10.17 & 8.99 & 0.0257 \\
+GUI-grounding tier (Alg.~\ref{alg:clicks}): three models; score and comparison & 56 & 0 & 9.33 & 9.45 & 0.0273 \\
+\bottomrule\end{tabular}
+
+\medskip
+
+\begin{tabular}{@{}lrrrr@{}}\toprule
+\multicolumn{5}{@{}l}{\emph{(b) Paired comparisons}} \\
+First flow vs.\ second flow & $\Delta$ (pp) & 95\% interval & Repaired / broken & $p$ \\\midrule
+GUI-grounding tier vs.\ GPT-6.1 zoom, default & {\bfseries\boldmath $-$4.33} & [$-$6.33, $-$2.33] & 34 / 8 & $7\times10^{-5}$ \\
+GUI-grounding tier vs.\ GPT-6.1 zoom $\times$3, vote$^\dagger$ & {\bfseries\boldmath $-$3.33} & [$-$5.17, $-$1.50] & 27 / 7 & 0.002 \\
+GUI-grounding tier vs.\ crop-first baseline$^\dagger$ & $-$2.17 & [$-$4.17, 0.00] & 27 / 14 & 0.060 \\
+GUI-grounding tier vs.\ three models, cluster vote & {\bfseries\boldmath $-$3.00} & [$-$4.67, $-$1.50] & 22 / 4 & $5\times10^{-4}$ \\
+GUI-grounding tier vs.\ three models, score & $-$0.83 & [$-$2.00, 0.17] & 8 / 3 & 0.227 \\
+All lowest, score and comparison vs.\ all lowest, score & $-$0.83 & [$-$2.00, 0.33] & 9 / 4 & 0.267 \\
+GPT-6.1 zoom, default vs.\ GPT-6.1 zoom, lowest & $-$0.67 & [$-$2.67, 1.33] & 19 / 15 & 0.608 \\
+Sonnet 5.5 zoom, default vs.\ Sonnet 5.5 zoom, lowest & {\bfseries\boldmath $-$4.00} & [$-$6.17, $-$1.83] & 34 / 10 & $4\times10^{-4}$ \\
 \bottomrule\end{tabular}
 \end{table*}

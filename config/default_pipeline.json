@@ -150,7 +150,7 @@
   },
   "click_tier": {
     "_about": "Algorithm 2 of the paper (clicks from several models). Implemented by gui/code/decision.py (c_rule, configuration 'D'); requests are built by gui/code/conf_stages.py.",
-    "run_if": "the per-item budget covers the worst case: 15 calls besides technical retries (3 first clicks, 3 zooms, 3 scores, at most 6 comparisons); otherwise one model's two-stage zoom",
+    "run_if": "the per-item budget covers the planned worst case: 15 planned calls, technical retries excluded (3 first clicks, 3 zooms, 3 scores, at most 6 comparisons); otherwise one model's two-stage zoom",
     "generators": {
       "gpt61": "default",
       "sonnet55": "default",

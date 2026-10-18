@@ -11,10 +11,14 @@
 \usepackage{multirow}
 \usepackage{xcolor}
 \usepackage{tikz}
-\usetikzlibrary{positioning,arrows.meta,fit}
+\usetikzlibrary{positioning,arrows.meta,fit,decorations.pathreplacing,calc,backgrounds}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage{framed}
+\usepackage{float}
+\usepackage{latexml}
+\newcommand{\ltlabel}[1]{\iflatexml\else\label{#1}\fi}
+\newcommand{\ltlabelafter}[1]{\iflatexml\label{#1}\fi}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}{Proposition}
@@ -24,11 +28,11 @@
 \newtheorem{definition}{Definition}
 \newtheorem{example}{Example}
 
-\newcommand{\papertitle}{From Seeing to Reporting:\\A Theory of Reliable Visual Set Generation}
+\newcommand{\papertitle}{From Seeing to Reporting: A Theory of Reliable\\Visual Set Generation in Vision-Language Models}
 \newcommand{\cfp}{c_{\mathrm{FP}}}
 \newcommand{\cfn}{c_{\mathrm{FN}}}
 \newcommand{\SA}{\mathcal{S}_A}
-\newcommand{\src}[1]{\textsf{\small[#1]}}
+\newcommand{\src}[1]{\mbox{\textsf{\footnotesize\color{black!60}[#1]}}}
 \renewcommand{\topfraction}{0.9}
 \renewcommand{\dbltopfraction}{0.9}
 \renewcommand{\textfraction}{0.07}

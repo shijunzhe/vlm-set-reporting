@@ -58,37 +58,53 @@ print(json.dumps(dep, indent=1))
 cmp = {}
 for x in [ev['H1']] + ev['H1b'] + ev['H2'] + ev['H3']: cmp[(x['base'], x['flow'])] = x
 for x in vt['paired']: cmp[(x['base'].replace('vote-3-models', 'vote-3'), x['flow'].replace('vote-3-models', 'vote-3'))] = x
-fmt_ci = lambda c: f'$[{c[0]:.2f}, {c[1]:.2f}]$'
-NAME = [('GPT-min-zoom', 'GPT-6.1, lowest, two-stage zoom'), ('Sonnet-min-zoom', 'Sonnet 5.5, lowest, two-stage zoom'), ('Gemini-min-zoom', 'Gemini 3.8, lowest, two-stage zoom'),
-        ('Sonnet-default-zoom', 'Sonnet 5.5, default, two-stage zoom'), ('GPT-default-zoom', 'GPT-6.1, default, two-stage zoom (reference)'),
-        ('GPTx3', 'GPT-6.1, three default zooms, cluster vote'), ('GLF', 'Crop-first baseline, GUI-Lens style (ours)'), ('vote-3', 'Three models, tier; cluster vote'),
-        ('M-S', "Three models, all lowest; scorer's score"), ('M-C', 'Three models, all lowest; score and comparison'),
-        ('D-S', "Three models, tier; scorer's score"), ('D-C', 'Three models, tier; score and comparison (Alg.~\\ref{alg:clicks})')]
+from decimal import Decimal, ROUND_HALF_UP
+usd4 = lambda x: str(Decimal(str(x)).quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP))
+fmt_ci = lambda c: '[' + ', '.join(f'{v:.2f}'.replace('-', '$-$') for v in c) + ']'
+def mark(t, c, lower_better=True):
+    good = c[1] < 0 if lower_better else c[0] > 0; bad = c[0] > 0 if lower_better else c[1] < 0
+    return ('{\\bfseries\\boldmath ' + t + '}') if good else (('\\underline{' + t + '}') if bad else t)
+SIGNOTE = (r'\textbf{Bold}: the paired 95\% interval excludes 0 in the favourable direction; '
+           r'\underline{underlined}: it excludes 0 in the unfavourable direction.')
+NAME = [('GPT-min-zoom', 'GPT-6.1 zoom, lowest'), ('Sonnet-min-zoom', 'Sonnet 5.5 zoom, lowest'), ('Gemini-min-zoom', 'Gemini 3.8 zoom, lowest'),
+        ('Sonnet-default-zoom', 'Sonnet 5.5 zoom, default'), ('GPT-default-zoom', 'GPT-6.1 zoom, default'),
+        ('GPTx3', 'GPT-6.1 zoom $\\times$3, default; cluster vote'), ('GLF', 'Crop-first, GUI-Lens style (our implementation)'), ('vote-3', 'Three models; cluster vote'),
+        ('M-S', 'Three models, all lowest; score'), ('M-C', 'Three models, all lowest; score and comparison'),
+        ('D-S', 'Three models; score'), ('D-C', 'GUI-grounding tier (Alg.~\\ref{alg:clicks}): three models; score and comparison')]
+NM = {'D-C': 'GUI-grounding tier', 'GPT-default-zoom': 'GPT-6.1 zoom, default', 'GPTx3': 'GPT-6.1 zoom $\\times$3, vote', 'GLF': 'crop-first baseline',
+      'vote-3': 'three models, cluster vote', 'D-S': 'three models, score', 'M-C': 'All lowest, score and comparison', 'M-S': 'all lowest, score',
+      'GPT-min-zoom': 'GPT-6.1 zoom, lowest', 'Sonnet-default-zoom': 'Sonnet 5.5 zoom, default', 'Sonnet-min-zoom': 'Sonnet 5.5 zoom, lowest'}
 sing = json.load(open(HERE / 'conf_singles_conf_v1.json'))
 err = {k: v['errors'] for k, v in sing.items()}; nopt = {k: v['no_point'] for k, v in sing.items()}
 for k, v in ev['flows'].items(): assert err[k] == v['errors'] and nopt[k] == v['no_output'], k
 err['vote-3'], nopt['vote-3'] = vt['vote']['errors'], vt['vote']['no_output']
 assert err['Sonnet-min-zoom'] == ev['flows']['Sonnet-default-zoom']['errors'] + cmp[('Sonnet-min-zoom', 'Sonnet-default-zoom')]['fixed'] - cmp[('Sonnet-min-zoom', 'Sonnet-default-zoom')]['broken']
-L = [r'\begin{table*}[tp]', r'\centering\small\setlength{\tabcolsep}{3pt}',
-     r'\caption{Choosing one click among several calls, on 600 ScreenSpot-Pro items that share no item or screenshot with the 260 click items of the GUI experiment. Every item is in the denominator; a flow that returns no point counts as a miss, which happened only in single-model flows (column No point). Calls and cost: what the flow needs per item, at list prices. Lower block: paired comparisons, as the difference in miss rate in percentage points with a 95\% paired bootstrap interval over screenshots, items repaired and broken, and the exact McNemar $p$ (Holm-adjusted over the two comparisons marked $\dagger$). Tier: GPT-6.1 and Sonnet 5.5 default, Gemini 3.8 lowest; all lowest: all three at the lowest setting. Cluster vote: the largest cluster of points within $\delta$ wins, ties go to the earliest source (GPT-6.1, Sonnet 5.5, Gemini 3.8), no scorer.}\label{tab:choose}',
+L = [r'\begin{table*}[tp]', r'\centering\footnotesize\setlength{\tabcolsep}{4pt}',
+     r'\caption{Choosing one click among several calls, on 600 ScreenSpot-Pro items that share no item or screenshot with the 260 click items of the GUI experiment. '
+     r'(a) Every flow, with every item in the denominator; a flow that returns no point counts as a miss, which happened only in single-model flows (column No point). Calls and cost: what the flow needs per item, every attempt counted, at list prices. '
+     r"The three-model flows use GPT-6.1 and Sonnet 5.5 at the default setting and Gemini 3.8 at the lowest, unless marked ``all lowest''. "
+     r'Cluster vote: the largest cluster of points within $\delta$ wins, ties go to the earliest model (GPT-6.1, Sonnet 5.5, Gemini 3.8), and the earliest point of the winning cluster is returned; computed from the stored calls, no scorer. '
+     r'(b) Paired comparisons: $\Delta$ is the miss rate of the first flow minus that of the second, in percentage points (negative favours the first), with a 95\% paired bootstrap interval over screenshots, items repaired and broken by the first flow, and the exact McNemar $p$ (Holm-adjusted over the two comparisons marked $\dagger$). ' + SIGNOTE + r'}\label{tab:choose}',
      r'\begin{tabular}{@{}lrrrrr@{}}\toprule',
-     r'Flow & Misses & No point & Miss rate & Calls & Cost / item \\\midrule']
+     r'\multicolumn{6}{@{}l}{\emph{(a) Flows}} \\',
+     r'Flow & Misses & No point & Miss rate (\%) & Calls & Cost / item (\$) \\\midrule']
 for k, nm in NAME:
     d = dep[k]
-    L.append(f'{nm} & {err[k]} & {nopt[k]} & {100 * err[k] / 600:.2f}\\% & {d["calls_per_item"]:.2f} & \\${d["usd_per_item"]:.4f} \\\\')
-L += [r'\midrule', r'Comparison & Difference & 95\% interval & Repaired / broken & \multicolumn{2}{r}{$p$} \\\midrule']
-COMP = {'D-C': [('GPT-default-zoom', '', ''), ('GPTx3', '', '$\\dagger$'), ('GLF', '', '$\\dagger$'), ('vote-3', '', ''), ('D-S', '', '')],
-        'M-C': [('M-S', '', '')], 'GPT-default-zoom': [('GPT-min-zoom', '', '')], 'Sonnet-default-zoom': [('Sonnet-min-zoom', '', '')]}
-SHORT = {'GPT-default-zoom': 'GPT-6.1 default zoom', 'GPTx3': 'GPT-6.1 $\\times$3', 'GLF': 'crop-first baseline', 'vote-3': 'three-model vote', 'D-S': "tier with the score only",
-         'M-S': "score only", 'GPT-min-zoom': 'GPT-6.1 lowest zoom', 'Sonnet-min-zoom': 'Sonnet 5.5 lowest zoom'}
-FLOWN = {'D-C': 'Tier (Alg.~\\ref{alg:clicks})', 'M-C': 'All lowest, score and comparison', 'GPT-default-zoom': 'GPT-6.1 default zoom', 'Sonnet-default-zoom': 'Sonnet 5.5 default zoom'}
+    L.append(f'{nm} & {err[k]} & {nopt[k]} & {100 * err[k] / 600:.2f} & {d["calls_per_item"]:.2f} & {usd4(d["usd_per_item"])} \\\\')
+L += [r'\bottomrule\end{tabular}', '', r'\medskip', '',
+      r'\begin{tabular}{@{}lrrrr@{}}\toprule', r'\multicolumn{5}{@{}l}{\emph{(b) Paired comparisons}} \\',
+      r'First flow vs.\ second flow & $\Delta$ (pp) & 95\% interval & Repaired / broken & $p$ \\\midrule']
+COMP = {'D-C': [('GPT-default-zoom', ''), ('GPTx3', '$^\\dagger$'), ('GLF', '$^\\dagger$'), ('vote-3', ''), ('D-S', '')],
+        'M-C': [('M-S', '')], 'GPT-default-zoom': [('GPT-min-zoom', '')], 'Sonnet-default-zoom': [('Sonnet-min-zoom', '')]}
 for fl in ('D-C', 'M-C', 'GPT-default-zoom', 'Sonnet-default-zoom'):
-    for base, _, mark in COMP[fl]:
+    for base, dg in COMP[fl]:
         x = cmp[(base, fl)]; p = x.get('p_holm', x['p_exact'])
         if p < 0.001:
             mant, ex = f'{p:.0e}'.split('e'); ps = f'${mant}\\times10^{{{int(ex)}}}$'
         else: ps = f'{p:.3f}'
-        L.append(f'{FLOWN[fl]} vs {SHORT[base]}{mark} & ${x["diff_pp"]:+.2f}$ & {fmt_ci(x["ci95"])} & {x["fixed"]} / {x["broken"]} & \\multicolumn{{2}}{{r}}{{{ps}}} \\\\')
+        dpp = f'{x["diff_pp"]:+.2f}'.replace('-', '$-$').replace('+', '$+$')
+        lc = lambda t: t[0].lower() + t[1:] if t.startswith(('Three', 'Crop')) else t
+        L.append(f'{NM[fl]} vs.\\ {lc(NM[base])}{dg} & {mark(dpp, x["ci95"])} & {fmt_ci(x["ci95"])} & {x["fixed"]} / {x["broken"]} & {ps} \\\\')
 L += [r'\bottomrule\end{tabular}', r'\end{table*}']
 open(TEX / 't9_choose.tex', 'w').write('\n'.join(L) + '\n')
 
@@ -96,32 +112,35 @@ open(TEX / 't9_choose.tex', 'w').write('\n'.join(L) + '\n')
 lo = json.load(open(AN / 'out/e3_loso_config.json'))
 MN = {'gpt61': 'GPT-6.1', 'sonnet55': 'Sonnet 5.5', 'gem38': 'Gemini 3.8'}
 DN = {'doclaynet': 'DocLayNet', 'dota': 'DOTA', 'fsc147': 'FSC-147', 'sku110k': 'SKU-110K'}
-CN = {'L-min': 'list, low', 'R-min': 'regions, low', 'L-default': 'list, def.', 'R-default': 'regions, def.'}
+CN = {'L-min': 'list, lowest', 'R-min': 'regions, lowest', 'L-default': 'list, default', 'R-default': 'regions, default'}
 s = lo['summary']['per_model_F1']; sE = lo['summary']['per_model_E']
 mm = lo['menu_means']; DSS = sorted(DN); CANDS = ['L-min', 'R-min', 'L-default', 'R-default']
 allpick = {m: max(CANDS, key=lambda c: (np.mean([mm[f'{d}|{m}|{c}']['F1'] for d in DSS]), -CANDS.index(c))) for m in MN}
 same = sum(r['chosen'] == allpick[r['model']] for r in lo['cells']['per_model_F1'])
-
-L = [r'\begin{table}[t]', r'\centering\footnotesize\setlength{\tabcolsep}{2pt}',
-     (r'\caption{Single-call configuration chosen on the other three detection sources and applied to the fourth (F1, primary scoring). '
-      r'Reference: list interface at the lowest setting (low); reg.: regions interface; def.: default setting. Change in F1 points with 95\% paired bootstrap interval over images. '
-      f'Macro F1 {100 * s["macro_ref"]:.1f} (reference) and {100 * s["macro_chosen"]:.1f} (chosen); the best configuration per cell in hindsight gives {100 * s["macro_hindsight"]:.1f}. '
+sgn = lambda v: f'{v:+.1f}'.replace('-', '$-$').replace('+', '$+$')
+L = [r'\begin{table*}[tp]', r'\centering\footnotesize\setlength{\tabcolsep}{5pt}',
+     (r'\caption{Single-call configuration chosen on the other three detection sources and applied to the fourth. F1 at the primary scoring of Table~\ref{tab:contract} (boxes: same class, IoU $\ge0.75$; FSC-147: point tolerance), in \%. '
+      r'Reference: list interface at the lowest setting. Change: chosen minus reference, in F1 points, with a 95\% paired bootstrap interval over images. ' + SIGNOTE + ' '
+      f'Macro F1, the mean over the 12 cells: {100 * s["macro_ref"]:.1f} (reference) and {100 * s["macro_chosen"]:.1f} (chosen); the best configuration of each cell chosen with its own labels gives {100 * s["macro_hindsight"]:.1f}. '
       f'The shipped configuration (Table~\\ref{{tab:defaults}}) is chosen by the same rule on all four sources (Table~\\ref{{tab:config_menu}}).' + r'}\label{tab:config}'),
-     r'\begin{tabular}{@{}llll@{}}\toprule', r'Source & Model & Chosen & Change [95\% CI] \\\midrule']
+     r'\begin{tabular}{@{}llllrr@{}}\toprule', r'& & \multicolumn{2}{c}{Chosen} & & \\\cmidrule(lr){3-4}', r'Source & Model & Interface & Setting & Change & 95\% CI \\\midrule']
 for r in lo['cells']['per_model_F1']:
-    mark = {'better': '$^+$', 'worse': '$^-$', 'ns': ''}[r['result']]
-    L.append(f'{DN[r["source"]]} & {MN[r["model"]]} & {CN[r["chosen"]].replace("regions", "reg.")} & ${100 * r["diff"]:+.1f}$ $[{100 * r["ci95"][0]:+.1f}, {100 * r["ci95"][1]:+.1f}]${mark} \\\\')
-L += [r'\bottomrule\end{tabular}', r'\end{table}']
+    c = [100 * r['ci95'][0], 100 * r['ci95'][1]]
+    t = sgn(100 * r['diff']); t = {'better': '{\\bfseries\\boldmath ' + t + '}', 'worse': '\\underline{' + t + '}', 'ns': t}[r['result']]
+    cs = '[' + ', '.join(f'{v:.1f}'.replace('-', '$-$') for v in c) + ']'
+    iface, sett = CN[r['chosen']].split(', ')
+    L.append(f'{DN[r["source"]]} & {MN[r["model"]]} & {iface} & {sett} & {t} & {cs} \\\\')
+L += [r'\bottomrule\end{tabular}', r'\end{table*}']
 open(TEX / 't10_config.tex', 'w').write('\n'.join(L) + '\n')
 # supplementary: the four fixed configurations, macro over the four sources
-L = [r'\begin{table}[h]', r'\centering\small',
-     r'\caption{The four fixed single-call configurations on the four detection sources (first repetition; mean over sources of per-source mean F1 at the primary scoring, and mean cost per image at list prices). low: lowest setting; def.: default setting. The shipped F1 configuration per model is the highest F1 of its column (bold); for Gemini 3.8 the two default-setting configurations differ by 0.15 points.}\label{tab:config_menu}',
-     r'\begin{tabular}{@{}lrrrrrr@{}}\toprule', r' & \multicolumn{2}{c}{GPT-6.1} & \multicolumn{2}{c}{Sonnet 5.5} & \multicolumn{2}{c}{Gemini 3.8} \\', r'Configuration & F1 & Cost & F1 & Cost & F1 & Cost \\\midrule']
+L = [r'\begin{table}[H]', r'\centering\footnotesize\setlength{\tabcolsep}{4pt}',
+     r'\caption{The four fixed single-call configurations on the four detection sources: F1 (\%, primary scoring of Table~\ref{tab:contract}), the mean over sources of the per-source mean F1 of the first of the three stored calls, and cost per image (\$, list prices). The shipped F1 configuration of each model is the highest F1 of its column (bold); for Gemini 3.8 the two default-setting configurations differ by less than 0.2 points.}\label{tab:config_menu}',
+     r'\begin{tabular}{@{}lrrrrrr@{}}\toprule', r' & \multicolumn{2}{c}{GPT-6.1} & \multicolumn{2}{c}{Sonnet 5.5} & \multicolumn{2}{c}{Gemini 3.8} \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(l){6-7}', r'Configuration & F1 & Cost & F1 & Cost & F1 & Cost \\\midrule']
 for c in CANDS:
     row = [CN[c]]
     for m in MN:
         f1 = round(100 * np.mean([mm[f'{d}|{m}|{c}']['F1'] for d in DSS]) + 1e-9, 1); co = np.mean([mm[f'{d}|{m}|{c}']['cost'] for d in DSS])
-        row += [(f'\\textbf{{{f1:.1f}}}' if allpick[m] == c else f'{f1:.1f}'), f'\\${co:.4f}']
+        row += [(f'\\textbf{{{f1:.1f}}}' if allpick[m] == c else f'{f1:.1f}'), f'{co:.4f}']
     L.append(' & '.join(row) + r' \\')
 L += [r'\bottomrule\end{tabular}', r'\end{table}']
 open(TEX / 'tA_config_menu.tex', 'w').write('\n'.join(L) + '\n')
